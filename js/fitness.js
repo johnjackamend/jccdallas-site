@@ -98,7 +98,7 @@
         var t = T[+c.getAttribute('data-i')];
         var bio = (t.bio || '').replace(/<\/?(p|br|div)[^>]*>/g, '\n').replace(/<[^>]+>/g, '').replace(/\n{2,}/g, '\n\n').trim();
         dialog('<h3>' + E(t.name) + '</h3><div class="meta">' + E([t.availability, t.days].filter(Boolean).join(' · ').replace(/<[^>]+>/g, '') || 'Certified personal trainer') + '</div>' +
-          (t.photo ? '<img src="' + E(t.photo) + '" alt="" style="width:120px;height:120px;object-fit:cover;object-position:center;border-radius:16px;float:right;margin:0 0 12px 16px">' : '') +
+          (t.photo ? '<img src="' + E(t.photo) + '" alt="" style="width:120px;height:120px;object-fit:cover;object-position:50% 18%;border-radius:16px;float:right;margin:0 0 12px 16px">' : '') +
           bio.split('\n\n').map(function (p) { return '<p style="margin-bottom:10px">' + E(p) + '</p>'; }).join('') +
           '<div class="acts" style="clear:both"><a class="btn" href="https://jccdallas.formstack.com/forms/fitness_and_wellness_services">Request a session with ' + E(t.name.split(' ')[0]) + '</a></div>');
       });
