@@ -1,0 +1,4 @@
+/* Find a Course: type chips re-filter both the calendar and the list */
+(function(){var chips=document.getElementById('trainType');if(!chips||!window.jdPrograms)return;
+chips.addEventListener('click',function(e){var b=e.target.closest('[data-type]');if(!b)return;chips.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b)});
+var t=b.getAttribute('data-type');document.querySelectorAll('[data-programs]').forEach(function(el){if(!/cat:emerg/.test(el.getAttribute('data-programs')))return;el.setAttribute('data-programs','cat:emerg'+(t?';sub:'+t:''));window.jdPrograms.mount(el)})})})();

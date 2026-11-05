@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /staff-portal/
+Disallow: /data/
+
+Sitemap: https://www.jccdallas.org/sitemap.xml

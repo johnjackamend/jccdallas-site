@@ -1,0 +1,17 @@
+/* J Dallas design tokens. Values match the approved homepage. Every component reads from here. */
+:root{
+  --purple:#400186; --purple-dark:#2B015E; --purple-mid:#6B41B5; --purple-tint:#f2ecfa; --purple-wash:#faf8fd;
+  --pink:#d40058; --pink-dark:#a80046; --pink-tint:#fde8ef;
+  --amber-tint:#fff4e0; --amber-text:#6b4300; --amber-line:#f0c56a;
+  --green-tint:#e6f6ec; --green-text:#0f5a2e;
+  --ink:#000; --ink-soft:#3f3a47; --ink-mute:#6f6878;
+  --paper:#fff; --paper-soft:#f7f5fa; --grey:#f4f3f6; --line:#e4e0ea; --line-soft:#efecf3;
+  --display:'Geologica','Montserrat',sans-serif;
+  --body:'Montserrat',system-ui,-apple-system,sans-serif;
+  --maxw:1200px; --pad:24px; --nav-h:80px; --util-h:42px;
+  --r-card:18px; --r-soft:12px; --r-pill:999px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --shadow-card:0 14px 44px rgba(43,1,94,.10),0 2px 8px rgba(0,0,0,.05);
+}
+@media (max-width:760px){:root{--pad:18px}}
+@media (max-width:480px){:root{--pad:14px}}

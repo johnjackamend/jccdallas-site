@@ -1,0 +1,12 @@
+{
+  "alerts": [
+    {
+      "id": "reopening-2026-09",
+      "level": "warning",
+      "title": "Reopening Update",
+      "message": "Please allow extra time when traveling to campus. The Sports & Fitness parking lot and entrance are closed; park in Lots A, B, or C and enter through the Main J Entrance.",
+      "start": "2026-09-20",
+      "end": "2026-10-05"
+    }
+  ]
+}

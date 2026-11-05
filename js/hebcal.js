@@ -1,0 +1,8 @@
+/* Upcoming Jewish holidays + Shabbat times for Dallas via Hebcal (free, no key). */
+(function(){var el=document.getElementById('hebcal');if(!el)return;var E=window.jdEsc||String;
+var url='https://www.hebcal.com/hebcal?v=1&cfg=json&maj=on&min=off&mod=off&nx=off&year=now&month=x&ss=off&mf=off&c=on&geo=zip&zip=75230&M=on&s=off&d=off';
+fetch(url).then(function(r){return r.json()}).then(function(d){var today=new Date().toISOString().slice(0,10);
+var items=(d.items||[]).filter(function(i){return i.date.slice(0,10)>=today}).filter(function(i){return i.category==='holiday'||i.category==='candles'});
+var seen={},out=[];items.forEach(function(i){var k=i.title.replace(/\s*\d+(st|nd|rd|th)?.*$/,'').replace(/\(.*\)/,'').trim();if(i.category==='candles'){if(out.length&&out[0].c)return;out.unshift({c:1,t:'Shabbat candle lighting',d:i.date,m:i.title,h:''});return}if(seen[k])return;seen[k]=1;out.push({t:i.title,d:i.date.slice(0,10),m:i.memo||'',h:i.hebrew||''})});
+out=out.slice(0,6);el.innerHTML=out.map(function(o){var dt=new Date(o.d);var ds=o.c?dt.toLocaleString('en-US',{weekday:'long',month:'long',day:'numeric',hour:'numeric',minute:'2-digit'}):dt.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
+return '<article class="pcard"><div class="in"><h3>'+E(o.t)+'</h3><div class="meta"><span>'+E(ds)+'</span>'+(o.h?'<span>'+E(o.h)+'</span>':'')+'</div>'+(o.m?'<p>'+E(o.m)+'</p>':'')+'</div></article>'}).join('')||'<div class="pempty">No upcoming holidays found.</div>'}).catch(function(){el.innerHTML='<div class="pempty">Holiday dates are temporarily unavailable. <a href="https://www.hebcal.com/holidays/">See the full calendar on Hebcal</a>.</div>'})})();

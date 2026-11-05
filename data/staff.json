@@ -1,0 +1,401 @@
+[
+ {
+  "name": "Todd Polikoff",
+  "title": "Chief Executive Officer",
+  "email": "tpolikoff@jccdallas.org",
+  "phone": "214-239-7101",
+  "dept": "Administration"
+ },
+ {
+  "name": "Alisha Washington",
+  "title": "Executive Administrative Assistant to the CEO",
+  "email": "awashington@jccdallas.org",
+  "phone": "214-239-7102",
+  "dept": "Administration"
+ },
+ {
+  "name": "Carol Agronin",
+  "title": "Associate Director & Chief Financial Officer",
+  "email": "cagronin@jccdallas.org",
+  "phone": "214-239-7109",
+  "dept": "Administration"
+ },
+ {
+  "name": "Daniel Taylor",
+  "title": "Chief Operating Officer",
+  "email": "dtaylor@jccdallas.org",
+  "phone": "214-239-7127",
+  "dept": "Administration"
+ },
+ {
+  "name": "Tara Sutker Ohayon",
+  "title": "Chief Impact Officer",
+  "email": "tohayon@jccdallas.org",
+  "phone": "214-239-7157",
+  "dept": "Administration"
+ },
+ {
+  "name": "Shannon Burbine",
+  "title": "Human Resources Manager",
+  "email": "sburbine@jccdallas.org",
+  "phone": "214-239-7124",
+  "dept": "Administration"
+ },
+ {
+  "name": "Tanya Johnson",
+  "title": "Business Director",
+  "email": "tjohnson@jccdallas.org",
+  "phone": "214-239-7147",
+  "dept": "Administration"
+ },
+ {
+  "name": "Sam Neckar",
+  "title": "Director of Emergency Services",
+  "email": "sneckar@jccdallas.org",
+  "phone": "214-239-7114",
+  "dept": "Administration"
+ },
+ {
+  "name": "Dave Stanton",
+  "title": "System Administrator",
+  "email": "dstanton@jccdallas.org",
+  "phone": "214-239-7162",
+  "dept": "Administration"
+ },
+ {
+  "name": "Courtney Massey",
+  "title": "Senior Director of Business Systems",
+  "email": "cmassey@jccdallas.org",
+  "phone": "214-239-7144",
+  "dept": "Administration"
+ },
+ {
+  "name": "Jerry Campbell",
+  "title": "Payroll Administrator",
+  "email": "jcampbell@jccdallas.org",
+  "phone": "214-239-7159",
+  "dept": "Accounting"
+ },
+ {
+  "name": "Yvette Cavazos",
+  "title": "General Ledger Accountant",
+  "email": "ycavazos@jccdallas.org",
+  "phone": "214-239-7105",
+  "dept": "Accounting"
+ },
+ {
+  "name": "Robin Davlin",
+  "title": "Accounts Payable",
+  "email": "rdavlin@jccdallas.org",
+  "phone": "214-239-7106",
+  "dept": "Accounting"
+ },
+ {
+  "name": "Michelle Ditzenberger",
+  "title": "Accounts Receivable",
+  "email": "mditzenberger@jccdallas.org",
+  "phone": "214-239-7107",
+  "dept": "Accounting"
+ },
+ {
+  "name": "Kirsten Howard",
+  "title": "Controller",
+  "email": "khoward@jccdallas.org",
+  "phone": "214-239-7142",
+  "dept": "Accounting"
+ },
+ {
+  "name": "Carter Haigh",
+  "title": "Assistant Aquatics Director",
+  "email": "chaigh@jccdallas.org",
+  "phone": "214-239-7198",
+  "dept": "Aquatics"
+ },
+ {
+  "name": "Ethan Herdman",
+  "title": "Aquatics Director",
+  "email": "eherdman@jccdallas.org",
+  "phone": "214-239-7197",
+  "dept": "Aquatics"
+ },
+ {
+  "name": "Jenny Ingram",
+  "title": "LKSA Billing Specialist",
+  "email": "jingram@jccdallas.org",
+  "phone": "214-239-7196",
+  "dept": "Aquatics"
+ },
+ {
+  "name": "Lia Oberstar-Brown",
+  "title": "LKSA Managing Director",
+  "email": "lbrown@jccdallas.org",
+  "phone": "214-239-7196",
+  "dept": "Aquatics"
+ },
+ {
+  "name": "Matt Anich",
+  "title": "Camp Operations Manager",
+  "email": "manich@jccdallas.org",
+  "phone": "214-239-7133",
+  "dept": "Camp Services"
+ },
+ {
+  "name": "Laura Seymour",
+  "title": "Camp Director Emeritus / Jewish Experiential Learning Director",
+  "email": "lseymour@jccdallas.org",
+  "phone": "214-239-7110",
+  "dept": "Camp Services"
+ },
+ {
+  "name": "Laura Pope",
+  "title": "Chief Development Officer",
+  "email": "lpope@jccdallas.org",
+  "phone": "214-239-7103",
+  "dept": "Development / Special Events"
+ },
+ {
+  "name": "Katie Donati",
+  "title": "Development Administrative Assistant",
+  "email": "kdonati@jccdallas.org",
+  "phone": "214-239-7136",
+  "dept": "Development / Special Events"
+ },
+ {
+  "name": "Karli Mizrahi",
+  "title": "Director of Special Events",
+  "email": "kward@jccdallas.org",
+  "phone": "214-239-7172",
+  "dept": "Development / Special Events"
+ },
+ {
+  "name": "Lauren Chapman Kidd",
+  "title": "Director of Programming and Impact",
+  "email": "lchapman@jccdallas.org",
+  "phone": "214-361-7994",
+  "dept": "Development / Special Events"
+ },
+ {
+  "name": "Mindy Samples",
+  "title": "Early Childhood Director",
+  "email": "msamples@jccdallas.org",
+  "phone": "214-239-7132",
+  "dept": "Early Childhood"
+ },
+ {
+  "name": "Sam Lopez",
+  "title": "Early Childhood Administrative Assistant",
+  "email": "slopez@jccdallas.org",
+  "phone": "214-239-7117",
+  "dept": "Early Childhood"
+ },
+ {
+  "name": "Susan Blaine",
+  "title": "Early Childhood Administrative Assistant - Records and Licensing Compliance",
+  "email": "sblaine@jccdallas.org",
+  "phone": "214-239-7117",
+  "dept": "Early Childhood"
+ },
+ {
+  "name": "Suzi McCarthy",
+  "title": "Dance Instructor",
+  "email": "smccarthy@jccdallas.org",
+  "phone": "214-239-7179",
+  "dept": "Early Childhood"
+ },
+ {
+  "name": "Robert Butler",
+  "title": "Director of Building & Grounds",
+  "email": "rbutler@jccdallas.org",
+  "phone": "214-239-7167",
+  "dept": "Facilities"
+ },
+ {
+  "name": "Kay Hale",
+  "title": "Facilities Business Manager & Senior Department Office Associate",
+  "email": "khale@jccdallas.org",
+  "phone": "214-239-7166",
+  "dept": "Facilities"
+ },
+ {
+  "name": "Joey Ohayon",
+  "title": "Food Service Director",
+  "email": "johayon@jccdallas.org",
+  "phone": "214-239-7131",
+  "dept": "Food Services"
+ },
+ {
+  "name": "Abby Tarlo",
+  "title": "Gymnastics Director",
+  "email": "atarlo@jccdallas.org",
+  "phone": "214-239-7178",
+  "dept": "Gymnastics"
+ },
+ {
+  "name": "Emily Shoelzel",
+  "title": "Associate Gymnastics Director",
+  "email": "ekramer@jccdallas.org",
+  "phone": "214-239-7187",
+  "dept": "Gymnastics"
+ },
+ {
+  "name": "Sierra Black",
+  "title": "Gymnastics Coordinator",
+  "email": "sblack@jccdallas.org",
+  "phone": "214-239-7190",
+  "dept": "Gymnastics"
+ },
+ {
+  "name": "Debbie Weinstein",
+  "title": "Gymnastics Team Director",
+  "email": "dweinstein@jccdallas.org",
+  "phone": "214-239-7190",
+  "dept": "Gymnastics"
+ },
+ {
+  "name": "Amy Biesman",
+  "title": "Jewish Living Associate",
+  "email": "abiesman@jccdallas.org",
+  "phone": "214-239-7182",
+  "dept": "Jewish Living"
+ },
+ {
+  "name": "Rachelle Weiss Crane",
+  "title": "Director of Jewish Living & Israel Engagement",
+  "email": "rweisscrane@jccdallas.org",
+  "phone": "214-239-7128",
+  "dept": "Jewish Living"
+ },
+ {
+  "name": "Elizabeth Bodzy",
+  "title": "Project Manager",
+  "email": "ebodzy@jccdallas.org",
+  "phone": "214-293-7143",
+  "dept": "Marketing & Communications"
+ },
+ {
+  "name": "Jake Wertheim",
+  "title": "Digital Marketing Manager",
+  "email": "jwertheim@jccdallas.org",
+  "phone": "214-239-7123",
+  "dept": "Marketing & Communications"
+ },
+ {
+  "name": "Hayley Blecher",
+  "title": "Member Engagement Manager",
+  "email": "hblecher@jccdallas.org",
+  "phone": "214-239-7113",
+  "dept": "Membership"
+ },
+ {
+  "name": "Catalina Cruz",
+  "title": "Membership & Fitness Benefits Coordinator",
+  "email": "ccruz@jccdallas.org",
+  "phone": "214-239-7112",
+  "dept": "Membership"
+ },
+ {
+  "name": "Marty McNiel",
+  "title": "Member Experience Associate Manager",
+  "email": "mmcniel@jccdallas.org",
+  "phone": "214-239-7138",
+  "dept": "Membership"
+ },
+ {
+  "name": "Bren Rapp",
+  "title": "Director of Member Experience",
+  "email": "brapp@jccdallas.org",
+  "phone": "214-239-7138",
+  "dept": "Membership"
+ },
+ {
+  "name": "Welcome Desk",
+  "title": "Membership",
+  "email": "membership@jccdallas.org",
+  "phone": "214-239-7104",
+  "dept": "Membership"
+ },
+ {
+  "name": "Alise Robinson",
+  "title": "Director, J Performing Arts",
+  "email": "arobinson@jccdallas.org",
+  "phone": "214-239-7140",
+  "dept": "Performing Arts"
+ },
+ {
+  "name": "Val Donosky",
+  "title": "Senior Adult Program Manager",
+  "email": "vdonosky@jccdallas.org",
+  "phone": "214-739-7115",
+  "dept": "Senior Programs"
+ },
+ {
+  "name": "Sharon Cane",
+  "title": "Senior Adult Program Associate",
+  "email": "scane@jccdallas.org",
+  "phone": "214-239-7183",
+  "dept": "Senior Programs"
+ },
+ {
+  "name": "Shan Charles",
+  "title": "Fitness Director",
+  "email": "scharles@jccdallas.org",
+  "phone": "214-239-7155",
+  "dept": "Sports & Fitness"
+ },
+ {
+  "name": "Josh Goldstein",
+  "title": "Sr. Director – Sports & Recreation",
+  "email": "jgoldstein@jccdallas.org",
+  "phone": "214-239-7145",
+  "dept": "Sports & Fitness"
+ },
+ {
+  "name": "Nathan Hayes",
+  "title": "Sports Coordinator",
+  "email": "nhayes@jccdallas.org",
+  "phone": "214-239-7129",
+  "dept": "Sports & Fitness"
+ },
+ {
+  "name": "Kelsey Mantel",
+  "title": "Fitness Floor Manager",
+  "email": "kmantel@jccdallas.org",
+  "phone": "214-239-7191",
+  "dept": "Sports & Fitness"
+ },
+ {
+  "name": "Terri Arends",
+  "title": "Group Fitness & Wellness Director",
+  "email": "tarends@jccdallas.org",
+  "phone": "214-239-7137",
+  "dept": "Sports & Fitness"
+ },
+ {
+  "name": "James Watkins",
+  "title": "Head Sports Coach",
+  "email": "jwatkins@jccdallas.org",
+  "phone": "214-239-7146",
+  "dept": "Sports & Fitness"
+ },
+ {
+  "name": "Josh Bloomfield",
+  "title": "Recreational Sports Director",
+  "email": "jbloomfield@jccdallas.org",
+  "phone": "214-239-4965",
+  "dept": "Sports & Fitness"
+ },
+ {
+  "name": "Polo Cruz",
+  "title": "Assistant Tennis Director",
+  "email": "pcruz@jccdallas.org",
+  "phone": "214-239-7181",
+  "dept": "Racquet Sports"
+ },
+ {
+  "name": "Curtis Reese",
+  "title": "Racquet Sports Program Manager",
+  "email": "creese@jccdallas.org",
+  "phone": "972-896-1533",
+  "dept": "Racquet Sports"
+ }
+]

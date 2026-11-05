@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wellth Week | Aaron Family JCC of Dallas</title>
+<meta name="description" content="Wellth Week at The J in Dallas: a week of wellness programs, classes, and events from the Lieberman Family Wellness Center.">
+<link rel="canonical" href="https://www.jccdallas.org/wellth-week">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aaron Family JCC of Dallas">
+<meta property="og:title" content="Wellth Week | Aaron Family JCC of Dallas">
+<meta property="og:description" content="Wellth Week at The J in Dallas: a week of wellness programs, classes, and events from the Lieberman Family Wellness Center.">
+<meta property="og:image" content="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/66562104d323549dd2c24210_pexels-bertellifotografia-3856027.jpg">
+<meta property="og:url" content="https://www.jccdallas.org/wellth-week">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/667b6fdf465ffd6d0d976206_JCC_logo_gray.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/components.css">
+
+<!-- Google tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-01LR1B814B"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-01LR1B814B');</script>
+</head>
+<body class="dept sub wellth-week">
+<a class="skip-link" href="#main">Skip to main content</a>
+<!-- ============================================================
+     J DALLAS — SITE NAVIGATION  v3
+     One Webflow HTML Embed. Place as the first element in the Body.
+     All styles scoped to #jdnav. Content lives in JD_NAV at the bottom.
+     ============================================================ -->
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap');
+
+/* Reset is wrapped in :where() so it carries ZERO specificity and can never
+   out-rank the component's own class rules. (v1 used #jdnav * — id-level
+   specificity — which silently zeroed every padding in the nav.) */
+:where(#jdnav) *,:where(#jdnav) *::before,:where(#jdnav) *::after{box-sizing:border-box}
+:where(#jdnav) p,:where(#jdnav) h3,:where(#jdnav) h4,:where(#jdnav) ul,:where(#jdnav) li,
+:where(#jdnav) form,:where(#jdnav) button,:where(#jdnav) input,:where(#jdnav) div,
+:where(#jdnav) span,:where(#jdnav) a,:where(#jdnav) img{margin:0;padding:0;border:0}
+
+#jdnav{
+  --pp:#400080; --pp-d:#2d005c; --pp-w:#faf8fd; --pk:#d40058;
+  --ink:#211d29; --ink-2:#453f52; --ink-3:#6f6880; --line:#e9e4f1; --wh:#fff;
+  --disp:"Clash Display",sans-serif; --body:"Montserrat",system-ui,-apple-system,sans-serif;
+  --gut:clamp(20px,3.2vw,56px); --max:1720px;
+  --bar:80px; --util:42px; --ease:cubic-bezier(.22,.61,.36,1);
+  position:fixed; top:0; left:0; right:0; z-index:9990;
+  font-family:var(--body); color:var(--ink); -webkit-font-smoothing:antialiased;
+}
+:where(#jdnav) a{text-decoration:none;color:inherit}
+:where(#jdnav) button{font:inherit;color:inherit;background:none;cursor:pointer}
+:where(#jdnav) ul{list-style:none}
+#jdnav :focus-visible{outline:2px solid var(--pk);outline-offset:3px}
+:where(#jdnav) svg{display:block;flex:none}
+
+/* ---------- utility bar (right-aligned) ---------- */
+.jdn-util{background:var(--pp);color:#fff;height:var(--util);overflow:hidden;
+  transition:height .28s var(--ease),opacity .18s linear}
+.jdn-util-in{max-width:var(--max);margin:0 auto;padding:0 var(--gut);height:var(--util);
+  display:flex;align-items:center;justify-content:flex-end;gap:30px;
+  font-size:13px;font-weight:500;letter-spacing:.005em}
+.jdn-util a{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.86);
+  transition:color .18s;white-space:nowrap}
+.jdn-util a:hover{color:#fff}
+.jdn-util svg{opacity:.7}
+.jdn-now{display:flex;align-items:center;gap:10px;padding:7px 16px;border-radius:999px;
+  background:rgba(255,255,255,.13);color:#fff!important;font-weight:600;font-size:12.5px}
+.jdn-now:hover{background:rgba(255,255,255,.2)}
+.jdn-dot{width:7px;height:7px;border-radius:50%;background:var(--pk);flex:none;
+  box-shadow:0 0 0 0 rgba(212,0,88,.75);animation:jdnPulse 2s infinite}
+@keyframes jdnPulse{70%{box-shadow:0 0 0 8px rgba(212,0,88,0)}100%{box-shadow:0 0 0 0 rgba(212,0,88,0)}}
+
+/* ---------- main bar ---------- */
+.jdn-bar{background:var(--wh);border-bottom:1px solid var(--line);transition:box-shadow .25s var(--ease)}
+.jdn-bar-in{max-width:var(--max);margin:0 auto;padding:0 var(--gut);height:var(--bar);
+  display:flex;align-items:center;gap:28px;transition:height .28s var(--ease)}
+.jdn-logo{flex:none;display:flex;align-items:center}
+.jdn-logo img{height:46px;width:auto;max-width:230px;object-fit:contain;display:block}
+
+.jdn-search{position:relative;flex:0 0 268px;transition:flex-basis .3s var(--ease)}
+.jdn-search input{width:100%;height:44px;border:1px solid #ddd6ea;border-radius:3px;
+  padding:0 44px 0 16px;font-family:var(--body);font-size:13.5px;font-weight:500;
+  color:var(--ink);background:var(--wh);transition:border-color .2s,box-shadow .2s}
+.jdn-search input::placeholder{color:#948da4;font-weight:400}
+.jdn-search input:focus{outline:none;border-color:var(--pp);box-shadow:0 0 0 3px rgba(64,0,128,.08)}
+.jdn-search button{position:absolute;right:5px;top:5px;width:34px;height:34px;
+  display:grid;place-items:center;color:var(--pk)}
+
+/* ---------- primary links ---------- */
+.jdn-main{display:flex;align-items:center;gap:2px;margin-left:auto}
+.jdn-item{position:relative}
+.jdn-trig{position:relative;display:flex;align-items:center;gap:6px;padding:11px 15px;
+  font-size:14px;font-weight:500;letter-spacing:.005em;color:var(--ink-2);
+  white-space:nowrap;transition:color .18s}
+.jdn-trig .jdn-car{opacity:.45;transition:transform .26s var(--ease),opacity .2s}
+.jdn-trig:hover{color:var(--pp)}
+.jdn-item.is-open .jdn-trig{color:var(--pp);font-weight:600}
+.jdn-item.is-open .jdn-car{transform:rotate(180deg);opacity:.9}
+.jdn-trig::after{content:"";position:absolute;left:15px;right:15px;bottom:1px;height:2px;
+  background:var(--pk);transform:scaleX(0);transform-origin:left;transition:transform .28s var(--ease)}
+.jdn-item.is-open .jdn-trig::after{transform:scaleX(1)}
+
+/* ---------- CTAs ---------- */
+.jdn-cta{display:flex;align-items:center;gap:22px;margin-left:20px;flex:none}
+.jdn-join{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--pp);
+  padding-bottom:3px;border-bottom:1.5px solid var(--pp);transition:gap .22s var(--ease)}
+.jdn-join:hover{gap:13px}
+.jdn-donate{display:inline-flex;align-items:center;font-family:var(--body);font-weight:700;
+  font-size:13px;letter-spacing:.05em;text-transform:uppercase;background:var(--pp);color:#fff;
+  padding:12px 22px;border-radius:999px;transition:background .22s var(--ease)}
+.jdn-donate::before{display:none}
+.jdn-donate:hover{background:var(--pp-d)}
+
+
+/* ---------- mega panel ---------- */
+.jdn-panel{position:absolute;top:100%;left:0;right:0;background:var(--wh);
+  border-top:1px solid var(--line);box-shadow:0 26px 46px -22px rgba(30,0,60,.26);
+  clip-path:inset(0 0 100% 0);opacity:0;pointer-events:none;
+  transition:clip-path .36s var(--ease),opacity .18s linear}
+#jdnav.is-open .jdn-panel{clip-path:inset(0 0 0 0);opacity:1;pointer-events:auto}
+.jdn-pane{display:none}
+.jdn-pane.is-active{display:block}
+.jdn-pane-in{max-width:var(--max);margin:0 auto;padding:0;
+  display:grid;grid-template-columns:minmax(300px,25%) minmax(0,1fr) minmax(232px,19%);gap:0}
+
+/* featured rail — the only place Clash Display and caps appear */
+.jdn-feat{position:relative;overflow:hidden;background:var(--pp);min-height:344px}
+.jdn-card{position:absolute;inset:0;display:flex;flex-direction:column;align-items:flex-start;
+  justify-content:flex-end;padding:44px 40px;opacity:0;
+  transition:opacity .5s var(--ease);background-size:cover;background-position:center}
+.jdn-card.is-on{opacity:1}
+.jdn-card::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(205deg,rgba(64,0,128,.62) 0%,rgba(45,0,92,.9) 52%,rgba(12,0,26,.96) 100%)}
+.jdn-card.t-pink::after{background:linear-gradient(205deg,rgba(212,0,88,.6) 0%,rgba(64,0,128,.92) 58%,rgba(18,0,36,.96) 100%)}
+.jdn-card.t-ink::after{background:linear-gradient(205deg,rgba(20,18,24,.7) 0%,rgba(32,0,66,.92) 52%,rgba(64,0,128,.9) 100%)}
+.jdn-geo{position:absolute;inset:0;z-index:1;opacity:.34}
+.jdn-geo i{position:absolute;display:block}
+.jdn-geo i:nth-child(1){width:158px;height:158px;background:var(--pk);top:-42px;right:-46px}
+.jdn-geo i:nth-child(2){width:100px;height:100px;border:2px solid rgba(255,255,255,.45);top:66px;right:60px}
+.jdn-geo i:nth-child(3){width:200px;height:200px;background:rgba(255,255,255,.07);bottom:-64px;left:-58px}
+.jdn-card-body{position:relative;z-index:2;display:flex;flex-direction:column;align-items:flex-start;color:#fff}
+.jdn-eyebrow{font-family:var(--body);font-size:10.5px;font-weight:700;letter-spacing:.17em;
+  text-transform:uppercase;opacity:.8;margin-bottom:14px}
+.jdn-card h3{font-family:var(--disp);font-weight:600;font-size:32px;line-height:1.06;
+  letter-spacing:.01em;text-transform:uppercase;margin-bottom:14px}
+.jdn-card p{font-size:13.5px;font-weight:400;line-height:1.6;opacity:.85;max-width:30ch;margin-bottom:24px}
+.jdn-card-cta{display:inline-flex;align-items:center;gap:9px;font-size:12.5px;font-weight:600;
+  letter-spacing:.06em;text-transform:uppercase;padding-bottom:6px;
+  border-bottom:2px solid var(--pk);transition:gap .22s var(--ease)}
+.jdn-card:hover .jdn-card-cta{gap:15px}
+.jdn-dots{position:absolute;left:40px;bottom:24px;z-index:3;display:flex;gap:8px}
+.jdn-dots button{width:24px;height:3px;background:rgba(255,255,255,.3);transition:background .2s}
+.jdn-dots button[aria-current="true"]{background:var(--pk)}
+
+/* link columns */
+.jdn-cols{padding:46px 56px 46px 60px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:34px 48px;align-content:center}
+.jdn-grp h4{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--pk);padding-bottom:12px;margin-bottom:12px;border-bottom:1px solid var(--line)}
+.jdn-grp a{display:flex;align-items:center;gap:9px;padding:8px 0;font-size:14.5px;font-weight:500;
+  color:var(--ink-2);transition:color .18s,transform .26s var(--ease)}
+.jdn-grp a:hover{color:var(--pp);transform:translateX(4px)}
+.jdn-ext{opacity:.35}
+.jdn-tag{padding:3px 7px;border-radius:2px;background:var(--pk);color:#fff;
+  font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.jdn-tag.alt{background:transparent;color:var(--pp);box-shadow:inset 0 0 0 1px rgba(64,0,128,.3)}
+
+/* quick links — bare pink icons, no plates, no hover motion */
+.jdn-quick{padding:46px var(--gut) 46px 44px;border-left:1px solid var(--line);
+  display:flex;flex-direction:column;justify-content:center}
+.jdn-quick h4{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--pp);padding-bottom:12px;margin-bottom:12px;border-bottom:1px solid var(--line)}
+.jdn-quick a{display:flex;align-items:center;gap:13px;padding:9px 0;font-size:14.5px;
+  font-weight:500;color:var(--ink-2);transition:color .18s}
+.jdn-quick a:hover{color:var(--pp)}
+.jdn-quick svg{color:var(--pk)}
+
+/* per-link stagger */
+.jdn-stag{opacity:0}
+#jdnav.is-open .jdn-pane.is-active .jdn-stag{animation:jdnIn .34s var(--ease) both;animation-delay:var(--d,0ms)}
+@keyframes jdnIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+
+.jdn-scrim{position:absolute;top:100%;left:0;right:0;height:100vh;background:rgba(24,0,48,.3);
+  opacity:0;pointer-events:none;transition:opacity .28s;z-index:-1}
+#jdnav.is-open .jdn-scrim{opacity:1}
+
+/* scrolled */
+#jdnav.is-stuck .jdn-util{height:0;opacity:0}
+#jdnav.is-stuck .jdn-bar-in{height:66px}
+#jdnav.is-stuck .jdn-bar{box-shadow:0 6px 20px -14px rgba(30,0,60,.4)}
+
+/* ---------- mobile ---------- */
+.jdn-burger{display:none;width:44px;height:44px;margin-left:auto;place-items:center;color:var(--pp)}
+.jdn-burger i{display:block;width:22px;height:2px;background:currentColor;position:relative;transition:.28s var(--ease)}
+.jdn-burger i::before,.jdn-burger i::after{content:"";position:absolute;left:0;width:22px;height:2px;
+  background:currentColor;transition:.28s var(--ease)}
+.jdn-burger i::before{top:-7px}.jdn-burger i::after{top:7px}
+#jdnav.m-open .jdn-burger i{background:transparent}
+#jdnav.m-open .jdn-burger i::before{top:0;transform:rotate(45deg)}
+#jdnav.m-open .jdn-burger i::after{top:0;transform:rotate(-45deg)}
+.jdn-mob{display:none}
+
+/* Below 1560 the field yields to an icon; clicking it takes over the bar.
+   Keeps the row from ever overflowing between the desktop and mobile layouts. */
+@media (max-width:1560px){
+  .jdn-search{flex:0 0 46px}
+  .jdn-search input{width:46px;padding:0;opacity:0;pointer-events:none;
+    transition:opacity .18s linear,width .3s var(--ease)}
+  #jdnav.is-search .jdn-search{flex:1 1 auto}
+  #jdnav.is-search .jdn-search input{width:100%;padding:0 46px 0 16px;opacity:1;pointer-events:auto}
+  #jdnav.is-search .jdn-main{display:none}
+}
+@media (max-width:1460px){
+  .jdn-util-in{gap:22px;font-size:12.5px}
+}
+@media (max-width:1400px){
+  .jdn-trig{padding:11px;font-size:13.5px}
+  .jdn-bar-in{gap:20px}
+  .jdn-cta{gap:16px;margin-left:14px}
+  .jdn-donate{padding:11px 18px;font-size:12.5px}
+}
+@media (max-width:1300px){
+  .jdn-bar-in{gap:18px}
+  .jdn-logo img{height:40px}
+  .jdn-trig{padding:11px 9px}
+}
+@media (max-width:1180px){
+  #jdnav{--bar:68px}
+  .jdn-util,.jdn-main,.jdn-cta,.jdn-search,.jdn-panel{display:none!important}
+  .jdn-burger{display:grid}
+  .jdn-logo img{height:38px}
+  .jdn-mob{display:block;position:fixed;top:var(--bar);left:0;right:0;bottom:0;background:var(--wh);
+    opacity:0;transform:translateY(-8px);pointer-events:none;overflow-y:auto;
+    -webkit-overflow-scrolling:touch;padding-bottom:110px;
+    transition:opacity .24s var(--ease),transform .28s var(--ease)}
+  #jdnav.m-open .jdn-mob{opacity:1;transform:none;pointer-events:auto}
+}
+.jdn-msearch{padding:20px var(--gut) 10px}
+.jdn-msearch input{width:100%;height:46px;border:1px solid #ddd6ea;border-radius:3px;
+  padding:0 16px;font-family:var(--body);font-size:14.5px}
+.jdn-macc{border-bottom:1px solid var(--line)}
+.jdn-macc>button{width:100%;display:flex;align-items:center;gap:10px;
+  padding:18px var(--gut);font-size:16px;font-weight:600;text-align:left}
+.jdn-macc>button .jdn-car{margin-left:auto;opacity:.45;transition:transform .28s var(--ease)}
+.jdn-macc.is-on>button{color:var(--pp)}
+.jdn-macc.is-on>button .jdn-car{transform:rotate(180deg)}
+.jdn-mbody{max-height:0;overflow:hidden;transition:max-height .38s var(--ease)}
+.jdn-mbody-in{padding:0 var(--gut) 24px}
+.jdn-mbody h4{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--pk);margin:18px 0 6px}
+.jdn-mbody a{display:flex;align-items:center;gap:11px;padding:10px 0;font-size:15px;
+  font-weight:500;color:var(--ink-2)}
+.jdn-mbody svg{color:var(--pk)}
+.jdn-mfeat{position:relative;overflow:hidden;background:var(--pp);color:#fff;
+  padding:26px 24px;margin-top:20px;min-height:158px;
+  display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end}
+.jdn-mfeat h3{font-family:var(--disp);font-weight:600;font-size:22px;line-height:1.08;
+  text-transform:uppercase;position:relative;z-index:2;margin-bottom:12px}
+.jdn-mfeat .jdn-eyebrow,.jdn-mfeat .jdn-card-cta{position:relative;z-index:2}
+.jdn-mutil{padding:24px var(--gut);background:var(--pp-w);display:flex;flex-wrap:wrap;gap:6px 28px}
+.jdn-mutil a{display:inline-flex;align-items:center;gap:8px;padding:9px 0;font-size:14px;
+  font-weight:600;color:var(--pp)}
+.jdn-mnow{display:flex;align-items:center;gap:10px;margin:0 var(--gut) 4px;padding:12px 16px;
+  background:var(--pp-w);font-size:13px;font-weight:600;color:var(--pp)}
+.jdn-mcta{position:fixed;left:0;right:0;bottom:0;display:flex;gap:12px;padding:16px var(--gut);
+  background:var(--wh);border-top:1px solid var(--line);z-index:5}
+.jdn-mcta a{flex:1;text-align:center;padding:16px 10px;font-size:14.5px;font-weight:600}
+.jdn-mcta .j{border:1.5px solid var(--pp);color:var(--pp)}
+.jdn-mcta .d{background:var(--pp);color:#fff;font-family:var(--disp);font-weight:400;
+  letter-spacing:.13em;text-transform:uppercase}
+@media (min-width:1181px){.jdn-mcta{display:none}}
+
+@media (prefers-reduced-motion:reduce){
+  #jdnav *,#jdnav *::before,#jdnav *::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .jdn-stag{opacity:1}
+}
+</style>
+
+<div id="jdnav" role="banner">
+  <div class="jdn-util"><div class="jdn-util-in" id="jdnUtil"></div></div>
+  <div class="jdn-bar">
+    <div class="jdn-bar-in">
+      <a class="jdn-logo" href="/" aria-label="J Dallas — Aaron Family JCC home" id="jdnLogo"></a>
+      <form class="jdn-search" role="search" id="jdnSearch" onsubmit="return false">
+        <input type="search" name="query" placeholder="Search programs &amp; events" aria-label="Search the site">
+        <button type="submit" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
+        </button>
+      </form>
+      <nav class="jdn-main" id="jdnMain" aria-label="Main"></nav>
+      <div class="jdn-cta" id="jdnCta"></div>
+      <button class="jdn-burger" id="jdnBurger" aria-label="Open menu" aria-expanded="false"><i></i></button>
+    </div>
+  </div>
+  <div class="jdn-panel" id="jdnPanel"></div>
+  <div class="jdn-mob" id="jdnMob"></div>
+  <div class="jdn-scrim"></div>
+</div>
+<div id="jdnavSpacer"></div>
+
+<script>
+(function(){
+/* =========================================================
+   CONFIG — the only part the client edits.
+   badge:"Now"  pink tag beside a link
+   ext:true     external-link arrow
+   feat[]       two or more cards = auto-rotating rail
+   ========================================================= */
+var IMG={
+  fitness :"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/69bc10d17ce1edf712d28139_Screenshot%202026-03-19%20at%2010.05.32%E2%80%AFAM.png",
+  aquatics:"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/69ea0cbbd978c15b8dd5398e_CO_MarApr20_CoverStory2.jpg",
+  tennis  :"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a0c889a4938e8ab0341fe13_Tennis%20Carousel%202026%20(500%20x%20500%20px).png",
+  arts    :"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/67c9f199b30f515ed4cff9d2_JPAS.jpg",
+  early   :"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/67065b98f24f41e818e28802_JCC_day1-148.jpg",
+  swim    :"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/675068f08a511f687bd43268_JCC_day1-177-(2).jpg",
+  mahj    :"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/67e5c3dde15f747fd87aa2b8_mahj.jpg"
+};
+
+var JD_NAV = {
+  logo:"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6abc09e8e1ec2fcae76b7422_The%20J-AFJCCD%20Logo_Royal%20Purple.png",
+  join:{label:"Join", href:"/membership"},
+  donate:{label:"Donate Now", href:"/donate"},
+  utility:[
+    {label:"Discover Programs", href:"/events", icon:"grid"},
+    {label:"Hours", href:"/about#hours", icon:"clock"},
+    {label:"J Gourmet", href:"/jgourmet"},
+    {label:"Gift Shop", href:"https://shop.jccdallas.org/"},
+    {label:"About Us", href:"/about"},
+    {label:"Blog", href:"/j-collective"},
+    {label:"Annual Campaign", href:"/annual-campaign"},
+    {label:"Member Login", href:"https://jewishcommunitycenterofdallas2.my.site.com/#/app/dashboard", icon:"user"}
+  ],
+  now:{label:"Bookfest + Film Fest are on now", href:"/bookfest"},
+
+  menus:[
+    { label:"Fitness", href:"/fitness",
+      groups:[
+        {title:"Move & train", items:[
+          {label:"Fitness Center", href:"/fitness"},
+          {label:"Group Fitness Classes", href:"/fitness/group-fitness"},
+          {label:"Personal Training", href:"/fitness/personal-training"},
+          {label:"Training Services", href:"/training-services"},
+          {label:"Wellness", href:"/wellness"}
+        ]},
+        {title:"Pools & sports", items:[
+          {label:"Aquatics", href:"/aquatics"},
+          {label:"Swim Lessons", href:"/aquatics/lksa"},
+          {label:"Swim Team", href:"/aquatics/swim-teams"},
+          {label:"Adult Sports", href:"/adult-sports"},
+          {label:"Youth Sports", href:"/youth-sports"}
+        ]}
+      ],
+      quick:[
+        {label:"Fitness Overview", href:"/fitness", icon:"grid"},
+        {label:"Class Schedule", href:"/fitness/group-fitness#schedule", icon:"cal"},
+        {label:"Membership Options", href:"/membership", icon:"star"},
+        {label:"Book a Tour", href:"https://calendly.com/jccdallas", icon:"pin"}
+      ],
+      feat:[
+        {eyebrow:"Sports & Fitness", title:"Become a fitness center member", text:"Two pools, a full weight floor, courts, and 60+ classes a week; one membership.", cta:"See membership", href:"/membership", image:IMG.fitness},
+        {eyebrow:"In the water", title:"Aquatics, all year round", text:"Lap swim, water fitness, and lessons from first splash to stroke work.", cta:"See the pool schedule", href:"/aquatics", tone:"t-pink", image:IMG.aquatics}
+      ]},
+
+    { label:"Kids & Family", href:"/youth-sports",
+      groups:[
+        {title:"Learn & grow", items:[
+          {label:"J Nurture", href:"https://gecc.jccdallas.org"},
+          {label:"Early Childhood (GECC)", href:"https://gecc.jccdallas.org"},
+          {label:"Club J After School", href:"/club-j"},
+          {label:"Camps", href:"https://www.jdallascamps.org"},
+          {label:"J Performing Arts", href:"/arts/performing-arts"}
+        ]},
+        {title:"Play & connect", items:[
+          {label:"Youth Sports", href:"/youth-sports"},
+          {label:"Gymnastics Sensory Sessions", href:"/youth-sports/sensory-sessions", badge:"New"},
+          {label:"Swim Lessons", href:"/aquatics/lksa"},
+          {label:"Swim Team", href:"/aquatics/swim-teams"},
+          {label:"Teens & Maccabi", href:"/jcc-maccabi-games"},
+          {label:"Birthday Parties", href:"/special-events/birthday-parties"},
+          {label:"Family Programs", href:"/events?aud=family"},
+          {label:"Jborhood Families", href:"https://www.jborhood.org", ext:true}
+        ]}
+      ],
+      quick:[
+        {label:"Kids & Family Overview", href:"/events?aud=kids", icon:"grid"},
+        {label:"Enroll in Early Childhood", href:"https://gecc.jccdallas.org", icon:"star"},
+        {label:"Register for Camp", href:"https://www.jdallascamps.org", icon:"cal"},
+        {label:"Schedule a Tour", href:"https://calendly.com/jccdallas", icon:"pin"}
+      ],
+      feat:[
+        {eyebrow:"Registration open", title:"J Dallas camps 2026", text:"Big adventures, new skills, and lifelong friendships. Save your child's spot.", cta:"Register today", href:"https://www.jdallascamps.org", tone:"t-pink", image:IMG.swim},
+        {eyebrow:"#bestschoolfamilyever", title:"GECC open house", text:"Come see early childhood learning through play, in person.", cta:"Reserve your visit", href:"https://gecc.jccdallas.org", image:IMG.early}
+      ]},
+
+    { label:"Arts & Culture", href:"/arts/performing-arts",
+      groups:[
+        {title:"On stage", items:[
+          {label:"J Performing Arts", href:"/arts/performing-arts"},
+          {label:"Productions", href:"/arts/productions"},
+          {label:"Aladdin JR.", href:"/arts/aladdin", badge:"New"},
+          {label:"Theater Classes", href:"/arts/classes-workshops"}
+        ]},
+        {title:"See & make", items:[
+          {label:"J Visual Arts", href:"/arts/visual-arts"},
+          {label:"J Creative Arts", href:"/arts/classes-workshops"},
+          {label:"Culinary Arts", href:"/jgourmet"},
+          {label:"Gallery & Exhibits", href:"/arts/visual-arts"},
+          {label:"Adult Art Classes", href:"/events?cat=active"}
+        ]},
+        {title:"Festivals", items:[
+          {label:"Bookfest", href:"/bookfest", badge:"Now"},
+          {label:"Film Fest", href:"/film-festival", badge:"Now"}
+        ]}
+      ],
+      quick:[
+        {label:"Arts & Culture Overview", href:"/arts/performing-arts", icon:"grid"},
+        {label:"Buy Tickets", href:"/events?type=Event", icon:"star"},
+        {label:"Season Calendar", href:"/events?pillar=arts", icon:"cal"},
+        {label:"Gallery Hours", href:"/about#hours", icon:"clock"}
+      ],
+      feat:[
+        {eyebrow:"Spring 2027 production", title:"Disney's Aladdin JR.", text:"Sign up before November 15 to receive 10% off registration. Open to ages 7 to 18.", cta:"Find your magic", href:"/arts/aladdin", tone:"t-pink", image:IMG.arts},
+        {eyebrow:"Happening now", title:"Bookfest 2026", text:"Two weeks of authors, conversation, and a very good book table.", cta:"See the lineup", href:"/bookfest", tone:"t-pink"},
+        {eyebrow:"Happening now", title:"J Film Fest", text:"Screenings, filmmaker talks, and opening night at The J.", cta:"View screenings", href:"/film-festival", tone:"t-ink"},
+        {eyebrow:"On stage", title:"J Performing Arts", text:"A full season of productions, plus classes for every age on our stage.", cta:"See the season", href:"/arts/performing-arts", image:IMG.arts}
+      ]},
+
+    { label:"Jewish Life", href:"/jewish-life",
+      groups:[
+        {title:"Jewish living", items:[
+          {label:"Jewish Living", href:"/jewish-life"},
+          {label:"Holidays at The J", href:"/jewish-holidays"},
+          {label:"Israel & Community", href:"/israel-independence-day-at-the-j"}
+        ]},
+        {title:"Community", items:[
+          {label:"Adults & Seniors", href:"/seniors"},
+          {label:"Jborhood", href:"https://www.jborhood.org", ext:true},
+          {label:"Interfaith", href:"https://www.jborhood.org", ext:true},
+          {label:"LGBTQ", href:"https://www.jborhood.org", ext:true}
+        ]}
+      ],
+      quick:[
+        {label:"Jewish Life Overview", href:"/jewish-life", icon:"grid"},
+        {label:"Annual Campaign", href:"/annual-campaign", icon:"star"},
+        {label:"Volunteer", href:"/contact", icon:"user"},
+        {label:"About The J", href:"/about", icon:"pin"}
+      ],
+      feat:[
+        {eyebrow:"2026 Annual Campaign", title:"Every gift keeps the doors open", text:"Scholarships, senior programs, and security, funded by this community.", cta:"Give to the campaign", href:"/annual-campaign"}
+      ]},
+
+    { label:"Racquet Sports", href:"/racquet-sports/",
+      groups:[
+        {title:"Play", items:[
+          {label:"Tennis", href:"/racquet-sports/tennis/"},
+          {label:"Pickleball", href:"/racquet-sports/pickleball/"},
+          {label:"Junior Tennis", href:"/racquet-sports/junior-tennis/"},
+          {label:"Court Reservations", href:"/racquet-sports/court-reservations/"}
+        ]},
+        {title:"Improve & compete", items:[
+          {label:"Open Drills Calendar", href:"/racquet-sports/tennis/#drills"},
+          {label:"Private Lessons & Groups", href:"/racquet-sports/private-lessons/"},
+          {label:"Leagues & Events", href:"/racquet-sports/leagues-events/"},
+          {label:"Meet Our Pros", href:"/racquet-sports/pros/"}
+        ]}
+      ],
+      quick:[
+        {label:"Racquet Sports Overview", href:"/racquet-sports/", icon:"grid"},
+        {label:"Reserve a Court", href:"/racquet-sports/court-reservations/", icon:"cal"},
+        {label:"Pro Shop Hours", href:"/racquet-sports/tennis/#proshop", icon:"clock"},
+        {label:"Racquet Sports FAQ", href:"/racquet-sports/faq/", icon:"star"}
+      ],
+      feat:[
+        {eyebrow:"Racquet Sports", title:"Play. Improve. Compete. Connect.", text:"Tennis and pickleball at the Zahler Funk Tennis Facility. Reserve a court, join a league, or work with a pro.", cta:"Explore Racquet Sports", href:"/racquet-sports/", tone:"t-ink", image:IMG.tennis}
+      ]},
+
+    { label:"Events", href:"/events",
+      groups:[
+        {title:"This fall at The J", items:[
+          {label:"Members-Only Cyber Sale", href:"/cyber", badge:"Nov 30"},
+          {label:"Sukkah Village", href:"/jewish-holidays", badge:"Fall", alt:true},
+          {label:"Bubbie's Table", href:"/bubbies", badge:"Fall", alt:true},
+          {label:"Bookfest", href:"/bookfest", badge:"Now"},
+          {label:"Film Fest", href:"/film-festival", badge:"Now"}
+        ]},
+        {title:"Signature events", items:[
+          {label:"All Events Calendar", href:"/events?view=cal"},
+          {label:"Golf Tournament", href:"/special-events/golf-tournament"},
+          {label:"Annual Meeting", href:"/annual-meeting"},
+          {label:"Matzoh Ball", href:"/special-events/matzoh-ball"}
+        ]},
+        {title:"J Mahj", items:[
+          {label:"Open & Supervised Play", href:"/j-mahj/play"},
+          {label:"Lessons & MahjON! Series", href:"/j-mahj/lessons"},
+          {label:"Theme Nights & Private Parties", href:"/j-mahj/theme-nights"},
+          {label:"Mah Jongg Tournament", href:"/special-events/j-mahj"}
+        ]},
+        {title:"Host with us", items:[
+          {label:"Room Rentals", href:"/special-events/room-rentals"},
+          {label:"Birthday Parties", href:"/special-events/birthday-parties"},
+          {label:"Corporate & Community", href:"/training-services/group-training"},
+          {label:"J Gourmet Catering", href:"/jgourmet"}
+        ]}
+      ],
+      quick:[
+        {label:"Full Calendar", href:"/events?view=cal", icon:"cal"},
+        {label:"The Mahj Room", href:"/j-mahj", icon:"pin"},
+        {label:"Request a Rental", href:"/special-events/room-rentals", icon:"pin"},
+        {label:"Facility Hours", href:"/about#hours", icon:"clock"}
+      ],
+      feat:[
+        {eyebrow:"Fall at The J", title:"Sukkah Village is back", text:"A week of gathering, food, and family under the sukkah.", cta:"See fall events", href:"/jewish-holidays", tone:"t-pink"},
+        {eyebrow:"J Mahj", title:"A room built for the game", text:"Automatic tables, scheduled play, lessons, and tournaments, all under one roof.", cta:"Explore J Mahj", href:"/j-mahj", tone:"t-ink", image:IMG.mahj},
+        {eyebrow:"Save the date", title:"Golf tournament 2026", text:"A full day at the course, benefiting J Dallas programs.", cta:"Sponsor or play", href:"/special-events/golf-tournament"}
+      ]}
+  ]
+};
+
+/* ---------------- icons ---------------- */
+var S='xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"';
+var ICO={
+  grid:'<path d="M4 6h16M4 12h16M4 18h16"/>',
+  cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+  clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  user:'<circle cx="12" cy="8" r="3.6"/><path d="M4.5 20.5c0-3.9 3.4-5.8 7.5-5.8s7.5 1.9 7.5 5.8"/>',
+  star:'<path d="M12 3.4l2.7 5.5 6 .9-4.3 4.2 1 6-5.4-2.8-5.4 2.8 1-6L3.3 9.8l6-.9z"/>',
+  pin:'<path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/>'
+};
+function ic(n,z){return n&&ICO[n]?'<svg width="'+(z||17)+'" height="'+(z||17)+'" '+S+'>'+ICO[n]+'</svg>':'';}
+var CAR='<svg class="jdn-car" width="10" height="10" '+S+'><path d="M5 8.5l7 7 7-7"/></svg>';
+var ARR='<svg width="14" height="14" '+S+'><path d="M4 12h15M13 6l6 6-6 6"/></svg>';
+var EXT='<svg class="jdn-ext" width="12" height="12" '+S+'><path d="M9 5h10v10M19 5L7 17"/></svg>';
+
+var $=function(i){return document.getElementById(i);};
+var esc=function(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');};
+
+/* ---------------- build ---------------- */
+var root=$('jdnav');
+
+$('jdnLogo').innerHTML='<img src="'+JD_NAV.logo+'" alt="J Dallas — Aaron Family JCC">';
+
+var u='';
+JD_NAV.utility.forEach(function(x){u+='<a href="'+esc(x.href)+'">'+ic(x.icon,15)+esc(x.label)+'</a>';});
+if(JD_NAV.now){u+='<a class="jdn-now" href="'+esc(JD_NAV.now.href)+'"><span class="jdn-dot"></span>'+esc(JD_NAV.now.label)+'</a>';}
+$('jdnUtil').innerHTML=u;
+
+$('jdnCta').innerHTML=
+  '<a class="jdn-join" href="'+esc(JD_NAV.join.href)+'">'+esc(JD_NAV.join.label)+ARR+'</a>'+
+  '<a class="jdn-donate" href="'+esc(JD_NAV.donate.href)+'">'+esc(JD_NAV.donate.label)+'</a>';
+
+var mainH='', paneH='', mobH='<div class="jdn-msearch"><form onsubmit="return false"><input type="search" placeholder="Search programs &amp; events" aria-label="Search the site"></form></div>';
+if(JD_NAV.now){mobH+='<a class="jdn-mnow" href="'+esc(JD_NAV.now.href)+'"><span class="jdn-dot"></span>'+esc(JD_NAV.now.label)+'</a>';}
+
+JD_NAV.menus.forEach(function(m,i){
+  mainH+='<div class="jdn-item"><a class="jdn-trig" href="'+esc(m.href)+'" id="jdnT'+i+'" '+
+    'aria-expanded="false" aria-controls="jdnP'+i+'">'+esc(m.label)+CAR+'</a></div>';
+
+  /* one running counter across the pane so links reveal in reading order */
+  var d=80, step=17;
+  var cols='';
+  m.groups.forEach(function(g){
+    cols+='<div class="jdn-grp"><h4 class="jdn-stag" style="--d:'+d+'ms">'+esc(g.title)+'</h4><ul>';
+    d+=step;
+    g.items.forEach(function(it){
+      cols+='<li class="jdn-stag" style="--d:'+d+'ms"><a href="'+esc(it.href)+'"'+(it.ext?' target="_blank" rel="noopener"':'')+'>'+
+        esc(it.label)+(it.badge?'<span class="jdn-tag'+(it.alt?' alt':'')+'">'+esc(it.badge)+'</span>':'')+(it.ext?EXT:'')+'</a></li>';
+      d+=step;
+    });
+    cols+='</ul></div>';
+  });
+  var qk='<div class="jdn-quick"><h4 class="jdn-stag" style="--d:'+d+'ms">Quick links</h4>';
+  d+=step;
+  m.quick.forEach(function(q){
+    qk+='<a class="jdn-stag" style="--d:'+d+'ms" href="'+esc(q.href)+'">'+ic(q.icon,17)+esc(q.label)+'</a>';
+    d+=step;
+  });
+  qk+='</div>';
+
+  var fh='';
+  m.feat.forEach(function(f,k){
+    fh+='<a class="jdn-card '+(f.tone||'')+(k===0?' is-on':'')+'" href="'+esc(f.href)+'"'+
+      (f.image?' style="background-image:url(\''+f.image+'\')"':'')+'>'+
+      '<div class="jdn-geo"><i></i><i></i><i></i></div>'+
+      '<div class="jdn-card-body"><span class="jdn-eyebrow">'+esc(f.eyebrow)+'</span>'+
+      '<h3>'+esc(f.title)+'</h3><p>'+esc(f.text)+'</p>'+
+      '<span class="jdn-card-cta">'+esc(f.cta)+ARR+'</span></div></a>';
+  });
+  if(m.feat.length>1){
+    fh+='<div class="jdn-dots">';
+    m.feat.forEach(function(f,k){fh+='<button type="button" aria-label="Show '+esc(f.title)+'" aria-current="'+(k===0)+'" data-k="'+k+'"></button>';});
+    fh+='</div>';
+  }
+
+  paneH+='<div class="jdn-pane" id="jdnP'+i+'" role="region" aria-labelledby="jdnT'+i+'">'+
+    '<div class="jdn-pane-in"><div class="jdn-feat jdn-stag" style="--d:0ms">'+fh+'</div>'+
+    '<div class="jdn-cols">'+cols+'</div>'+qk+'</div></div>';
+
+  var mb='';
+  m.groups.forEach(function(g){
+    mb+='<h4>'+esc(g.title)+'</h4>';
+    g.items.forEach(function(it){
+      mb+='<a href="'+esc(it.href)+'"'+(it.ext?' target="_blank" rel="noopener"':'')+'>'+esc(it.label)+
+        (it.badge?'<span class="jdn-tag'+(it.alt?' alt':'')+'">'+esc(it.badge)+'</span>':'')+(it.ext?EXT:'')+'</a>';
+    });
+  });
+  mb+='<h4>Quick links</h4>';
+  m.quick.forEach(function(q){mb+='<a href="'+esc(q.href)+'">'+ic(q.icon,16)+esc(q.label)+'</a>';});
+  var f0=m.feat[0];
+  mb+='<a class="jdn-mfeat '+(f0.tone||'')+'" href="'+esc(f0.href)+'"><div class="jdn-geo"><i></i><i></i><i></i></div>'+
+    '<span class="jdn-eyebrow">'+esc(f0.eyebrow)+'</span><h3>'+esc(f0.title)+'</h3>'+
+    '<span class="jdn-card-cta">'+esc(f0.cta)+ARR+'</span></a>';
+
+  mobH+='<div class="jdn-macc"><button type="button" aria-expanded="false">'+esc(m.label)+CAR+'</button>'+
+    '<div class="jdn-mbody"><div class="jdn-mbody-in">'+mb+'</div></div></div>';
+});
+
+mobH+='<div class="jdn-mutil">';
+JD_NAV.utility.forEach(function(x){mobH+='<a href="'+esc(x.href)+'">'+ic(x.icon,15)+esc(x.label)+'</a>';});
+mobH+='</div><div class="jdn-mcta"><a class="j" href="'+esc(JD_NAV.join.href)+'">'+esc(JD_NAV.join.label)+'</a>'+
+  '<a class="d" href="'+esc(JD_NAV.donate.href)+'">'+esc(JD_NAV.donate.label)+'</a></div>';
+
+$('jdnMain').innerHTML=mainH;
+$('jdnPanel').innerHTML=paneH;
+$('jdnMob').innerHTML=mobH;
+
+/* ---------------- behaviour ---------------- */
+var trigs=[].slice.call(root.querySelectorAll('.jdn-trig'));
+var panes=[].slice.call(root.querySelectorAll('.jdn-pane'));
+var openT,closeT,railT,cur=-1,lock=0;
+var hoverable=window.matchMedia('(hover:hover) and (pointer:fine)');
+var reduce=window.matchMedia('(prefers-reduced-motion:reduce)');
+
+function show(i){
+  clearTimeout(closeT);
+  if(cur===i)return;
+  cur=i; root.classList.add('is-open');
+  trigs.forEach(function(t,k){
+    t.setAttribute('aria-expanded',k===i);
+    t.parentNode.classList.toggle('is-open',k===i);
+  });
+  panes.forEach(function(p,k){p.classList.toggle('is-active',k===i);});
+  rail(i);
+}
+function hide(){
+  cur=-1; root.classList.remove('is-open');
+  trigs.forEach(function(t){t.setAttribute('aria-expanded','false');t.parentNode.classList.remove('is-open');});
+  clearInterval(railT);
+}
+function setCard(pane,k){
+  var cs=pane.querySelectorAll('.jdn-card'),ds=pane.querySelectorAll('.jdn-dots button');
+  [].forEach.call(cs,function(c,n){c.classList.toggle('is-on',n===k);});
+  [].forEach.call(ds,function(b,n){b.setAttribute('aria-current',n===k);});
+}
+function rail(i){
+  clearInterval(railT);
+  var pane=panes[i],n=pane.querySelectorAll('.jdn-card').length;
+  if(n<2||reduce.matches)return;
+  var k=0; setCard(pane,0);
+  railT=setInterval(function(){k=(k+1)%n;setCard(pane,k);},4600);
+}
+root.addEventListener('click',function(e){
+  if(!e.target.closest)return;
+  var b=e.target.closest('.jdn-dots button'); if(!b)return;
+  e.preventDefault(); clearInterval(railT); setCard(b.closest('.jdn-pane'),+b.dataset.k);
+});
+
+trigs.forEach(function(t,i){
+  t.addEventListener('mouseenter',function(){
+    if(!hoverable.matches)return;
+    clearTimeout(openT); openT=setTimeout(function(){show(i);},100);
+  });
+  t.addEventListener('focus',function(){if(Date.now()<lock)return;show(i);});
+  t.addEventListener('click',function(e){
+    if(hoverable.matches)return;
+    e.preventDefault(); cur===i?hide():show(i);
+  });
+  t.addEventListener('keydown',function(e){
+    if(e.key==='ArrowDown'){e.preventDefault();show(i);
+      var a=panes[i].querySelector('.jdn-grp a'); if(a)a.focus();}
+    if(e.key==='ArrowRight'&&trigs[i+1]){e.preventDefault();trigs[i+1].focus();}
+    if(e.key==='ArrowLeft'&&trigs[i-1]){e.preventDefault();trigs[i-1].focus();}
+  });
+});
+root.addEventListener('mouseleave',function(){
+  if(!hoverable.matches)return;
+  clearTimeout(openT); closeT=setTimeout(hide,170);
+});
+root.addEventListener('mouseenter',function(){clearTimeout(closeT);});
+root.addEventListener('focusout',function(){
+  if(cur<0)return;
+  setTimeout(function(){if(!root.contains(document.activeElement))hide();},0);
+});
+document.addEventListener('keydown',function(e){
+  if(e.key!=='Escape')return;
+  if(cur>-1){var t=trigs[cur];lock=Date.now()+450;hide();t&&t.focus();}
+  if(root.classList.contains('m-open'))closeMob();
+});
+document.addEventListener('click',function(e){if(cur>-1&&!root.contains(e.target))hide();});
+
+/* collapsed search */
+var sf=$('jdnSearch'), si=sf.querySelector('input');
+sf.querySelector('button').addEventListener('click',function(e){
+  if(window.innerWidth>1560)return;
+  if(!root.classList.contains('is-search')){e.preventDefault();root.classList.add('is-search');si.focus();}
+});
+si.addEventListener('blur',function(){if(!si.value)root.classList.remove('is-search');});
+si.addEventListener('keydown',function(e){if(e.key==='Escape'){si.value='';si.blur();}});
+
+/* mobile */
+var burger=$('jdnBurger');
+function closeMob(){root.classList.remove('m-open');burger.setAttribute('aria-expanded','false');
+  document.documentElement.style.overflow='';}
+burger.addEventListener('click',function(){
+  var on=root.classList.toggle('m-open');
+  burger.setAttribute('aria-expanded',on);
+  burger.setAttribute('aria-label',on?'Close menu':'Open menu');
+  document.documentElement.style.overflow=on?'hidden':'';
+});
+[].forEach.call($('jdnMob').querySelectorAll('.jdn-macc>button'),function(b){
+  b.addEventListener('click',function(){
+    var acc=b.parentNode,body=acc.querySelector('.jdn-mbody'),on=!acc.classList.contains('is-on');
+    [].forEach.call($('jdnMob').querySelectorAll('.jdn-macc'),function(a){
+      a.classList.remove('is-on');
+      a.querySelector('.jdn-mbody').style.maxHeight='';
+      a.querySelector('button').setAttribute('aria-expanded','false');
+    });
+    if(on){acc.classList.add('is-on');body.style.maxHeight=body.firstElementChild.scrollHeight+'px';
+      b.setAttribute('aria-expanded','true');}
+  });
+});
+
+/* sticky spacer + scrolled state */
+function sizeSpacer(){$('jdnavSpacer').style.height=root.getBoundingClientRect().height+'px';}
+function onScroll(){root.classList.toggle('is-stuck',window.scrollY>90);}
+window.addEventListener('scroll',onScroll,{passive:true});
+window.addEventListener('resize',sizeSpacer);
+sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
+})();
+</script>
+
+<!-- Campus alert banner. Content comes from /data/alerts.json (see js/site.js). Empty when no active alert. -->
+<div id="jd-alert" class="jd-alert" role="region" aria-label="Campus alert" hidden></div>
+
+<main id="main" tabindex="-1">
+<section class="dhero compact no-img">
+  <!-- hero photo slot -->
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/wellness">Wellness</a><span aria-hidden="true">/</span><span>Wellth Week</span></nav>
+    <h1>Wellth Week</h1>
+    <p class="lede">One week a year, the Wellness Center takes over the campus: pop-up classes, workshops, screenings, and events built around the idea that wellness plus health equals wellth.</p>
+  </div>
+</section>
+<section class="sec" id="events">
+  <div class="wrap">
+<div class="sec-head"><div><h2>Wellth Week Programs</h2></div></div><div data-programs="cat:fitness;type:Event" data-limit="6" data-more="/events?cat=fitness" data-empty="Wellth Week dates and programs post about a month ahead."></div>
+  </div>
+</section>
+<section class="sec soft" id="about">
+  <div class="wrap">
+<div class="split"><div><div class="prose"><h2 style="margin-bottom:18px">Wellness + Health = Wellth</h2><p>The J Wellth program features Wake Up &amp; Get Wellthy, Get Up &amp; Get J Moving, Wellth Week, and health and wellness resources for the whole community.</p></div></div><div><div class="aside"><h4>Related</h4><div class="related"><a href="/wellness">Wellness</a><a href="/fitness/group-fitness">Group Fitness</a><a href="/wellness/recovery-suite">Recovery Suite</a></div></div></div></div>
+  </div>
+</section>
+<section class="ctaband">
+  <div class="wrap"><div><h2>Get Wellthy</h2><p>Explore the Wellness Center year-round.</p></div><div class="acts"><a class="btn on-dark" href="/wellness">Wellness</a></div></div>
+</section>
+
+</main>
+<nav class="quick" aria-label="Quick actions">
+  <a href="/about#hours"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Hours</a>
+  <a href="https://www.google.com/maps?daddr=Aaron+Family+Jewish+Community+Center,+7900+Northaven+Rd,+Dallas,+TX+75230"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Directions</a>
+  <a class="hot" href="/events"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Programs</a>
+  <a href="tel:2147392737"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Call</a>
+</nav>
+
+<!-- Site-wide "What Are You Looking for at The J?" band. Data: /data/programs.json via /js/search.js -->
+<section class="sec findband" id="find">
+  <div class="wrap">
+    <div class="find-head">
+      <h2 id="searchTitle">What Are You Looking for at The J?</h2>
+      <p class="lede">Ask in plain language, pick a quick filter, or open the calendar. Every program and event at The J is in here.</p>
+    </div>
+    <div class="search" id="search">
+      <form id="searchForm" role="search" aria-labelledby="searchTitle">
+        <label class="field" for="q">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <span class="sr">Search programs and events</span>
+          <input id="q" name="q" type="search" autocomplete="off" placeholder="Try “gymnastics for my 6-year-old” or “something for my parents”">
+        </label>
+        <button class="go" type="submit">Search</button>
+      </form>
+      <div class="chips" aria-label="Popular searches">
+        <span class="lbl">Popular:</span>
+        <button type="button" class="chip" data-q="programs for kids">Kids Programs</button>
+        <button type="button" class="chip" data-q="group fitness classes">Group Fitness</button>
+        <button type="button" class="chip" data-q="programs for seniors">Seniors</button>
+        <button type="button" class="chip" data-q="what's happening this weekend">This Weekend</button>
+        
+      </div>
+      <div class="frow">
+        <label class="fsel">For
+          <select id="fAud">
+            <option value="">Anyone</option>
+            <option value="ec">Little Ones (0–5)</option>
+            <option value="kids">Kids</option>
+            <option value="teens">Teens</option>
+            <option value="adults">Adults</option>
+            <option value="seniors">Seniors</option>
+            <option value="family">The Whole Family</option>
+          </select>
+        </label>
+        <label class="fsel">When
+          <select id="fWhen">
+            <option value="">Any Time</option>
+            <option value="today">Today</option>
+            <option value="weekend">This Weekend</option>
+            <option value="week">This Week</option>
+            <option value="month">This Month</option>
+          </select>
+        </label>
+        <span class="fgrow"></span>
+        <a class="calbtn" href="/events?view=cal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          View Calendar
+        </a>
+      </div>
+      <div class="today-line" aria-label="Today at The J">
+        <span class="tl-fact" id="hoursPill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span id="hoursText">Today&rsquo;s hours</span></span>
+        <span class="tl-fact" id="poolPill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 17c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0M2 12c2 1.5 4 1.5 6 0s4-1.5 6 0 4 1.5 6 0"/><path d="M7 12V5a2 2 0 0 1 4 0M13 12V5a2 2 0 0 1 4 0"/></svg><span id="poolText">Pool hours</span></span>
+        <a class="fact-link" id="poolLink" href="/about#hours">All hours</a>
+      </div>
+    </div>
+  </div>
+<div class="results" id="results" hidden aria-live="polite">
+  <div class="results-inner" id="resultsInner"></div>
+</section>
+
+<!-- Ported verbatim from approved homepage. Hours will move to /data/hours.json in the template pass. -->
+<footer class="sitefoot">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <img class="foot-logo" src="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6abc0a07ea4909af291c6491_The%20J-AFJCCD%20Logo_White.png" alt="Aaron Family Jewish Community Center of Dallas">
+      <p class="foot-mission">The Aaron Family Jewish Community Center of Dallas brings the community together by providing state-of-the-art facilities and exceptional programs in an inclusive environment defined by Jewish values and culture.</p>
+      <ul class="foot-contact">
+        <li><img src="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6740a217d76dbd0416e6b43e_597177.png" alt="" aria-hidden="true"><a href="tel:2147392737">(214) 739-2737</a></li>
+        <li><img src="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6740a24a6a8cfda0a433b85d_locash.png" alt="" aria-hidden="true"><a href="https://www.google.com/maps/search/?api=1&query=7900+Northaven+Rd,+Dallas,+TX+75230" target="_blank" rel="noopener">7900 Northaven Rd, Dallas, TX 75230</a></li>
+      </ul><div class="foot-map"><iframe title="Map to the Aaron Family JCC, 7900 Northaven Rd, Dallas" src="https://www.google.com/maps?q=Aaron+Family+Jewish+Community+Center,+7900+Northaven+Rd,+Dallas,+TX+75230&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><a class="foot-map-link" href="https://www.google.com/maps/place/Aaron+Family+Jewish+Community+Center,+7900+Northaven+Rd,+Dallas,+TX+75230">Get directions</a></div>
+    </div>
+    <div class="foot-col">
+      <h3>More Resources</h3>
+      <ul class="foot-links"><li><a href="/">Home</a></li><li><a href="/staff-directory">Staff directory</a></li><li><a href="https://shop.jccdallas.org/">The J Merch Store</a></li><li><a href="/jgourmet">Catering</a></li><li><a href="https://www.indeed.com/cmp/Jewish-Community-Center-of-Dallas/jobs">Job opportunities</a></li><li><a href="/jewish-holidays">Jewish holidays</a></li><li><a href="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a2824463f55bd6c0460ae97_Room%20Rental%20Terms.pdf">Room rental policy</a></li><li><a href="/about">Refund policy</a></li><li><a href="/terms-conditions">Terms &amp; conditions</a></li><li><a href="/privacy-policy">Privacy policy</a></li><li><a href="/staff-portal/">Staff portal</a></li></ul>
+      <a class="foot-donate" href="/donate">Donate now</a>
+    </div>
+    <div class="foot-col">
+      <h3>Building Hours</h3>
+      <div class="hrs"><h4>Sports &amp; Fitness Facility / Fitness Entrance</h4><dl><div><dt>Monday &ndash; Thursday</dt><dd>5 am &ndash; 9 pm</dd></div><div><dt>Friday</dt><dd>5 am &ndash; 6 pm</dd></div><div><dt>Saturday &amp; Sunday</dt><dd>7 am &ndash; 6 pm</dd></div></dl></div>
+      <div class="hrs"><h4>Main Lobby / Front Entrance</h4><dl><div><dt>Monday &ndash; Thursday</dt><dd>7:30 am &ndash; 9 pm</dd></div><div><dt>Friday</dt><dd>7:30 am &ndash; 6 pm</dd></div><div><dt>Saturday</dt><dd>7 am &ndash; 3 pm</dd></div><div><dt>Sunday</dt><dd>7 am &ndash; 6 pm</dd></div></dl></div>
+      <div class="hrs"><h4>Executive offices</h4><dl><div><dt>Monday &ndash; Thursday</dt><dd>7:30 am &ndash; 6 pm</dd></div><div><dt>Friday</dt><dd>7:30 am &ndash; 6 pm</dd></div><div><dt>Saturday</dt><dd>Closed</dd></div><div><dt>Sunday</dt><dd>Closed</dd></div></dl></div>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <div class="foot-partners">
+      <img src="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/670e91d3b429f981b54dccb0_jewish20federation20logo20-20white-2-250x67.png" alt="Jewish Federation of Greater Dallas">
+      <img src="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/670e91747831abd32d91804f_lo.png" alt="Candid Transparency">
+      <img src="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/670e918251749ae911f8ec0c_logo.png" alt="Charity Navigator">
+    </div>
+    <p class="foot-copy">&copy; 2026 J Dallas. All rights reserved.</p>
+  </div>
+</footer>
+
+<script defer src="/js/site.js"></script>
+<script defer src="/js/programs.js"></script>
+<script defer src="/js/search.js"></script>
+
+<!-- accessiBe -->
+<script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init(); }; h.appendChild(s); })(); </script>
+<!-- Banterly chat -->
+<script src="https://app.banterlyai.com/static/chatbot/js/chatbubble.js" data-id="def283f3-6a4a-4112-b0f2-f3778a965494" data-domain="https://app.banterlyai.com" data-position="right"></script>
+</body>
+</html>

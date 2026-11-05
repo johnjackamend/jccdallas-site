@@ -1,0 +1,864 @@
+{
+ "month": "2026-10",
+ "title": "October 2026 Seniors Calendar",
+ "pdf": "/assets/seniors/calendar-2026-10.pdf",
+ "note": "Events on this calendar are open to Total J and Senior Social members. Health insurance memberships (Silver Sneakers, etc.) do not include senior programming. Membership of any kind is not required for the lunch program. Programs marked with a fee incur an additional charge.",
+ "contacts": [
+  {
+   "name": "Sharon Cane",
+   "phone": "214-239-7183",
+   "email": "scane@jccdallas.org"
+  },
+  {
+   "name": "Val Donosky",
+   "phone": "214-239-7115",
+   "email": "vdonosky@jccdallas.org"
+  },
+  {
+   "name": "Kay Hale",
+   "phone": "214-239-7166",
+   "email": "khale@jccdallas.org"
+  }
+ ],
+ "descriptions": {
+  "Jews in the South with Beri Schwitzer": "Southern Jewish history: origin stories and immigration, the Civil War and influential Jewish Southerners, assimilation, and civil rights. Thursdays at 1 PM.",
+  "Trip to Downtown McKinney": "Enjoy historic downtown McKinney: boutiques, local shops, and restaurants. $15 includes transportation; lunch and shopping on your own. Contact Sharon or Val to sign up.",
+  "Arboretum Trip": "Fall at the Dallas Arboretum. Pumpkin Village theme: Harvest Hues through the lens of Basquiat, Rothko, Bourgeois, Mondrian, Escher, and Pollock. 1:15 to 4:30/5 PM. Bring or buy lunch. $30 for entry and transportation. Contact Sharon or Val to sign up.",
+  "Lunch": "Hot kosher meals for all ages 60+, JCC membership not required. Suggested donation $4.",
+  "Silver Fit": "Strength training using light hand weights.",
+  "NIA": "Dance fitness for mind, body, and soul.",
+  "Line Dancing": "Learn new and classic line dances. All levels welcome.",
+  "Exercise with Ernesto": "Strong heart, strong muscles, big smiles. Chair cardio and strength at its best.",
+  "Balance Fitness": "Improve strength and balance and prevent falls. Now in the dance studio.",
+  "Chair Yoga": "Increase flexibility and body awareness.",
+  "Strength and Stretch": "Strength and cardio using light hand weights and resistance bands."
+ },
+ "events": [
+  {
+   "date": "2026-10-01",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-01",
+   "time": "11:00 AM",
+   "title": "Balance Fitness",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-01",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-01",
+   "time": "1:00 PM",
+   "title": "Jews in the South with Beri Schwitzer",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-02",
+   "time": "9:00 AM",
+   "title": "Bridge",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-02",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-02",
+   "time": "9:30 AM",
+   "title": "Book Club: \"Little Wartime Library\"",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-02",
+   "time": "10:00 AM",
+   "title": "Vaccinations",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-02",
+   "time": "11:00 AM",
+   "title": "Chair Yoga",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-02",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-02",
+   "time": "1:00 PM",
+   "title": "Benefits by Kaela",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-05",
+   "time": "9:30 AM",
+   "title": "Sewing/Knitting",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-05",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-05",
+   "time": "11:00 AM",
+   "title": "Silver Fit",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-05",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-05",
+   "time": "1:00 PM",
+   "title": "Kaluki/Mahjong",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-06",
+   "time": "10:00 AM",
+   "title": "Spanish",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-06",
+   "time": "11:00 AM",
+   "title": "Line Dancing",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-06",
+   "time": "11:00 AM",
+   "title": "NIA",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-06",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-06",
+   "time": "1:00 PM",
+   "title": "Canasta",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-06",
+   "time": "1:00 PM",
+   "title": "Chair Volleyball",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-06",
+   "time": "1:00 PM",
+   "title": "Rabbi Wolk",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-07",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-07",
+   "time": "10:30 AM",
+   "title": "Therapy Dogs",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-07",
+   "time": "11:00 AM",
+   "title": "Exercise with Ernesto",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-07",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-07",
+   "time": "1:00 PM",
+   "title": "Canasta",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-07",
+   "time": "1:00 PM",
+   "title": "Torah with Laura",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-08",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-08",
+   "time": "11:00 AM",
+   "title": "Balance Fitness",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-08",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-08",
+   "time": "1:00 PM",
+   "title": "Jews in the South with Beri Schwitzer",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-09",
+   "time": "9:00 AM",
+   "title": "Bridge",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-09",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-09",
+   "time": "11:00 AM",
+   "title": "Chair Yoga",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-09",
+   "time": "12:00 PM",
+   "title": "Lunch and Senior Follies performance",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-12",
+   "time": "9:30 AM",
+   "title": "Sewing/Knitting",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-12",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-12",
+   "time": "10:00 AM",
+   "title": "Trip to Downtown McKinney",
+   "cat": "social",
+   "fee": true
+  },
+  {
+   "date": "2026-10-12",
+   "time": "11:00 AM",
+   "title": "Silver Fit",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-12",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-12",
+   "time": "1:00 PM",
+   "title": "Kaluki/Mahjong",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-13",
+   "time": "9:30 AM",
+   "title": "Senior Board Meeting",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-13",
+   "time": "10:00 AM",
+   "title": "Yiddish",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-13",
+   "time": "11:00 AM",
+   "title": "Line Dancing",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-13",
+   "time": "11:00 AM",
+   "title": "NIA",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-13",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-13",
+   "time": "1:00 PM",
+   "title": "Canasta",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-13",
+   "time": "1:00 PM",
+   "title": "Chair Volleyball",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-14",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-14",
+   "time": "10:30 AM",
+   "title": "Therapy Dogs",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-14",
+   "time": "11:00 AM",
+   "title": "Exercise with Ernesto",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-14",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-14",
+   "time": "1:00 PM",
+   "title": "Canasta",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-14",
+   "time": "1:00 PM",
+   "title": "Torah with Laura",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-15",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-15",
+   "time": "11:00 AM",
+   "title": "Balance Fitness",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-15",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-15",
+   "time": "1:00 PM",
+   "title": "Jews in the South with Beri Schwitzer",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-16",
+   "time": "9:00 AM",
+   "title": "Bridge",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-16",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-16",
+   "time": "11:00 AM",
+   "title": "Chair Yoga",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-16",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-19",
+   "time": "9:30 AM",
+   "title": "Sewing/Knitting",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-19",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-19",
+   "time": "11:00 AM",
+   "title": "Silver Fit",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-19",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-19",
+   "time": "1:00 PM",
+   "title": "Kaluki/Mahjong",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-20",
+   "time": "10:00 AM",
+   "title": "Spanish",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-20",
+   "time": "11:00 AM",
+   "title": "Line Dancing",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-20",
+   "time": "11:00 AM",
+   "title": "NIA",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-20",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-20",
+   "time": "1:00 PM",
+   "title": "Canasta",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-20",
+   "time": "1:00 PM",
+   "title": "Chair Volleyball",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-21",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-21",
+   "time": "10:30 AM",
+   "title": "Therapy Dogs",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-21",
+   "time": "11:00 AM",
+   "title": "Exercise with Ernesto",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-21",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-21",
+   "time": "1:00 PM",
+   "title": "Canasta",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-21",
+   "time": "1:00 PM",
+   "title": "Torah with Laura",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-22",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-22",
+   "time": "11:00 AM",
+   "title": "Balance Fitness",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-22",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-22",
+   "time": "1:00 PM",
+   "title": "Jews in the South with Beri Schwitzer",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-23",
+   "time": "9:00 AM",
+   "title": "Bridge",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-23",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-23",
+   "time": "11:00 AM",
+   "title": "Chair Yoga",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-23",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-23",
+   "time": "1:00 PM",
+   "title": "Karaoke",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-26",
+   "time": "9:30 AM",
+   "title": "Sewing/Knitting",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-26",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-26",
+   "time": "11:00 AM",
+   "title": "Silver Fit",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-26",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-26",
+   "time": "1:00 PM",
+   "title": "Kaluki/Mahjong",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-26",
+   "time": "1:00 PM",
+   "title": "Bingo with Renee",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-27",
+   "time": "10:00 AM",
+   "title": "Yiddish",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-27",
+   "time": "11:00 AM",
+   "title": "Line Dancing",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-27",
+   "time": "11:00 AM",
+   "title": "NIA",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-27",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-27",
+   "time": "1:00 PM",
+   "title": "Canasta",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-27",
+   "time": "1:00 PM",
+   "title": "Chair Volleyball",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-28",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-28",
+   "time": "10:30 AM",
+   "title": "Therapy Dogs",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-28",
+   "time": "11:00 AM",
+   "title": "Exercise with Ernesto",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-28",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-28",
+   "time": "1:00 PM",
+   "title": "Canasta",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-28",
+   "time": "1:00 PM",
+   "title": "Torah with Laura",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-29",
+   "time": "10:00 AM",
+   "title": "Art Technique",
+   "cat": "education",
+   "fee": true
+  },
+  {
+   "date": "2026-10-29",
+   "time": "11:00 AM",
+   "title": "Balance Fitness",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-29",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-29",
+   "time": "1:00 PM",
+   "title": "Jews in the South with Beri Schwitzer",
+   "cat": "education",
+   "fee": false
+  },
+  {
+   "date": "2026-10-29",
+   "time": "1:15 PM",
+   "title": "Arboretum Trip",
+   "cat": "social",
+   "fee": true
+  },
+  {
+   "date": "2026-10-30",
+   "time": "9:00 AM",
+   "title": "Bridge",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-30",
+   "time": "9:30 AM",
+   "title": "Rummikub",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-30",
+   "time": "11:00 AM",
+   "title": "Chair Yoga",
+   "cat": "wellness",
+   "fee": false
+  },
+  {
+   "date": "2026-10-30",
+   "time": "12:00 PM",
+   "title": "Lunch",
+   "cat": "social",
+   "fee": false
+  },
+  {
+   "date": "2026-10-30",
+   "time": "1:00 PM",
+   "title": "Annual Enrollment with Renee",
+   "cat": "education",
+   "fee": false
+  }
+ ]
+}

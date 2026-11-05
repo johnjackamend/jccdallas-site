@@ -1,0 +1,110 @@
+[
+ {
+  "name": "Basic",
+  "slug": "basic",
+  "party_name": null,
+  "party_type": "Basic",
+  "price": "$375",
+  "guest_count": "Up to 30 Kids",
+  "availability": "<p>Saturdays &amp; Sundays</p>",
+  "description": "<p>A simple celebration with reserved space and a party host to support your day.</p>",
+  "view_policies": null,
+  "faq": null
+ },
+ {
+  "name": "Dance",
+  "slug": "dance",
+  "party_name": null,
+  "party_type": "Dance",
+  "price": "$535",
+  "guest_count": "20 Kids",
+  "availability": "<p>Saturdays &amp; Sundays</p>",
+  "description": "<p>Instructor-led dance fun with music, games, and celebration time.</p>",
+  "view_policies": null,
+  "faq": null
+ },
+ {
+  "name": "Gymnastics",
+  "slug": "gymnastics",
+  "party_name": null,
+  "party_type": "Gymnastics",
+  "price": "$465",
+  "guest_count": "Up to 16 Kids < 4 Up to 20 Kids > 4",
+  "availability": "<p>Saturdays Only</p>",
+  "description": "<p>Quick stretch, then activities including trampoline, rope, rings, and floor games. You will have the gymnastics area reserved for your party. Includes up to 16 children ages 4 and under or 20 children ages 5 and older. Additional coaches: <strong>$75 each</strong></p><p>‍</p>",
+  "view_policies": null,
+  "faq": null
+ },
+ {
+  "name": "Indoor Pool",
+  "slug": "indoor-pool",
+  "party_name": "Pool",
+  "party_type": "Indoor Pool",
+  "price": "$485",
+  "guest_count": "25 People (Adults & Kids)",
+  "availability": "<p>Saturdays @ 3:30pm - 5:30pm</p>",
+  "description": "<p>All-weather swim party option with a reserved celebration space.Includes up to 25 guests (adults &amp; kids). Additional lifeguards: <strong>$80 each</strong></p><p>‍</p>",
+  "view_policies": null,
+  "faq": null
+ },
+ {
+  "name": "J Ninja Warrior",
+  "slug": "j-ninja-warrior",
+  "party_name": null,
+  "party_type": "J Ninja Warrior",
+  "price": "$565",
+  "guest_count": "Up to 20 Kids",
+  "availability": "<p>Saturdays &amp; Sundays</p>",
+  "description": "<p>Obstacle course fun on Naturescape. Includes up to 20 children. Additional coaches: <strong>$75 each</strong></p><p>‍</p><p>‍</p>",
+  "view_policies": null,
+  "faq": null
+ },
+ {
+  "name": "Musical Storytelling",
+  "slug": "musical-storytelling",
+  "party_name": null,
+  "party_type": "Musical Storytelling",
+  "price": "$535",
+  "guest_count": "25 Kids",
+  "availability": "<p>Saturdays &amp; Sundays</p>",
+  "description": "<p>Interactive stories, music, and movement for an engaging celebration.</p>",
+  "view_policies": null,
+  "faq": null
+ },
+ {
+  "name": "Naturescape",
+  "slug": "naturescape",
+  "party_name": null,
+  "party_type": "Naturescape",
+  "price": "$375",
+  "guest_count": "No Limit",
+  "availability": "<p>Saturdays &amp; Sundays</p>",
+  "description": "<p>Outdoor celebration space with room to roam and play.</p>",
+  "view_policies": null,
+  "faq": null
+ },
+ {
+  "name": "Outdoor Pool",
+  "slug": "outdoor-pool",
+  "party_name": "Pool",
+  "party_type": "Outdoor Pool",
+  "price": "$585",
+  "guest_count": "25 People (Adults & Kids)",
+  "availability": "<p>Seasonal | May 1st - Labor Day Weekend<br>Saturdays &amp; Sundays Between 10am - 5pm</p>",
+  "description": "<p>Make a splash with reserved party space and supervised swim time. 20 Towels Included. Includes up to 25 guests (adults &amp; kids). Additional lifeguards: <strong>$80 each</strong></p><p>‍</p>",
+  "view_policies": null,
+  "faq": null
+ },
+ {
+  "name": "Sports",
+  "slug": "sports",
+  "party_name": null,
+  "party_type": "Sports",
+  "price": "$575",
+  "guest_count": "Up to 20 Kids",
+  "availability": "<p>Saturdays &amp; Sundays</p>",
+  "description": "<p>Choose from Basketball, Soccer, Tennis, Pickleball, or T-Ball. Includes up to 20 children. Additional coaches: <strong>$75 each</strong></p><p>‍</p>",
+  "view_policies": null,
+  "faq": null
+ }
+]

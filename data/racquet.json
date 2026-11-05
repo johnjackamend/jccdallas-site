@@ -1,0 +1,534 @@
+{
+ "_help": "Racquet Sports micro-site data. Edit this file to update the Open Drills calendar, Community Play calendar, rotating event cards, and pro bios. Dates are YYYY-MM-DD. Day numbers: 0=Sunday, 1=Monday ... 6=Saturday. Expired events disappear automatically. Each weekly item may carry startsOn/endsOn (YYYY-MM-DD) so seasons can overlap; seasonStart only changes the header label.",
+ "whatsapp": "https://chat.whatsapp.com/BKa1DYilqV73LJAO4sKzbe",
+ "register": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports",
+ "registerJuniors": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Youth%20Tennis",
+ "drills": {
+  "title": "Open Tennis Drills",
+  "season": "Winter 2027",
+  "start": "2026-09-01",
+  "end": "2027-02-14",
+  "note": "Winter drills run December 1, 2026 to February 14, 2027. Register for the level that matches how you play today.",
+  "fallbackLink": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+  "skip": [],
+  "weekly": [
+   {
+    "day": 6,
+    "time": "8:30 AM",
+    "title": "Level 3.5 Drill",
+    "coach": "John Gervasio",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//tennis%20drill?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+    "endsOn": "2026-11-30"
+   },
+   {
+    "day": 6,
+    "time": "8:30 AM",
+    "title": "Level 4.0 Drill",
+    "coach": "James McAvoy",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//tennis%20drill?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+    "endsOn": "2026-11-30"
+   },
+   {
+    "day": 6,
+    "time": "10:00 AM",
+    "title": "Level 2.5 Drill",
+    "coach": "Curtis Reese",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//tennis%20drill?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+    "endsOn": "2026-11-30"
+   },
+   {
+    "day": 0,
+    "time": "8:30 AM",
+    "title": "Level 3.5 Drill",
+    "coach": "Curtis Reese",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//tennis%20drill?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+    "endsOn": "2026-11-30"
+   },
+   {
+    "day": 0,
+    "time": "8:30 AM",
+    "title": "Level 4.0 Drill",
+    "coach": "James McAvoy",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//tennis%20drill?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+    "endsOn": "2026-11-30"
+   },
+   {
+    "day": 0,
+    "time": "10:00 AM",
+    "title": "Level 3.0 Drill",
+    "coach": "Curtis Reese",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//tennis%20drill?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+    "endsOn": "2026-11-30"
+   },
+   {
+    "day": 1,
+    "time": "5:30 PM",
+    "until": "6:30 PM",
+    "title": "Adult Beginner Tennis",
+    "coach": "Polo Cruz",
+    "startsOn": "2026-12-07",
+    "endsOn": "2027-02-08",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003680"
+   },
+   {
+    "day": 1,
+    "time": "6:30 PM",
+    "until": "8:00 PM",
+    "title": "Fast Paced Adults, Level 4.5+",
+    "coach": "Neil Kenner",
+    "startsOn": "2026-12-07",
+    "endsOn": "2027-02-08",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003577"
+   },
+   {
+    "day": 2,
+    "time": "10:00 AM",
+    "until": "11:30 AM",
+    "title": "Fast Paced Adults, Level 4.0+",
+    "coach": "Neil Kenner",
+    "startsOn": "2026-12-01",
+    "endsOn": "2027-02-09",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003578"
+   },
+   {
+    "day": 3,
+    "time": "9:30 AM",
+    "until": "10:30 AM",
+    "title": "All Level Cardio Tennis",
+    "coach": "Cameron Vose",
+    "startsOn": "2026-12-02",
+    "endsOn": "2027-02-10",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003681"
+   },
+   {
+    "day": 3,
+    "time": "10:30 AM",
+    "until": "11:30 AM",
+    "title": "Adult Beginner Tennis",
+    "coach": "Mike Kelly",
+    "startsOn": "2026-12-02",
+    "endsOn": "2027-02-10",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003682"
+   },
+   {
+    "day": 3,
+    "time": "6:00 PM",
+    "until": "7:00 PM",
+    "title": "Fast Paced Competitive Games and Strategy, Levels 2.5 to 3.0",
+    "coach": "Curtis Reese",
+    "startsOn": "2026-12-02",
+    "endsOn": "2027-02-10",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003683"
+   },
+   {
+    "day": 3,
+    "time": "7:00 PM",
+    "until": "8:30 PM",
+    "title": "Fast Paced Competitive Games and Strategy, Level 3.5",
+    "coach": "Curtis Reese",
+    "startsOn": "2026-12-02",
+    "endsOn": "2027-02-10",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003684"
+   },
+   {
+    "day": 4,
+    "time": "9:30 AM",
+    "until": "11:00 AM",
+    "title": "The Tennis Lab",
+    "coach": "Neil Kenner",
+    "startsOn": "2026-12-03",
+    "endsOn": "2027-02-11",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003685"
+   },
+   {
+    "day": 5,
+    "time": "9:00 AM",
+    "until": "10:30 AM",
+    "title": "Ladies Only Competitive Games and Strategy, Levels 2.5 to 3.0",
+    "coach": "Curtis Reese",
+    "startsOn": "2026-12-04",
+    "endsOn": "2027-02-12",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003686"
+   },
+   {
+    "day": 5,
+    "time": "10:30 AM",
+    "until": "12:00 PM",
+    "title": "Ladies Only Competitive Games and Strategy, Level 3.5",
+    "coach": "Mike Kelly",
+    "startsOn": "2026-12-04",
+    "endsOn": "2027-02-12",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003687"
+   },
+   {
+    "day": 6,
+    "time": "8:30 AM",
+    "until": "10:00 AM",
+    "title": "Coed Level 3.5 Drill",
+    "coach": "John Gervasio",
+    "startsOn": "2026-12-05",
+    "endsOn": "2027-02-13",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003586"
+   },
+   {
+    "day": 6,
+    "time": "8:30 AM",
+    "until": "10:00 AM",
+    "title": "Coed Level 4.0 Drill",
+    "coach": "James McAvoy",
+    "startsOn": "2026-12-05",
+    "endsOn": "2027-02-13",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003587"
+   },
+   {
+    "day": 6,
+    "time": "10:00 AM",
+    "until": "11:30 AM",
+    "title": "Coed Level 2.5 Drill",
+    "coach": "Curtis Reese",
+    "startsOn": "2026-12-05",
+    "endsOn": "2027-02-13",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003589"
+   },
+   {
+    "day": 6,
+    "time": "10:00 AM",
+    "until": "11:30 AM",
+    "title": "Fast Paced Advanced Adults",
+    "coach": "Neil Kenner",
+    "startsOn": "2026-12-05",
+    "endsOn": "2027-02-13",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003590"
+   },
+   {
+    "day": 0,
+    "time": "8:30 AM",
+    "until": "10:00 AM",
+    "title": "Coed Level 3.5 Drill",
+    "coach": "Curtis Reese",
+    "startsOn": "2026-12-06",
+    "endsOn": "2027-02-14",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003591"
+   },
+   {
+    "day": 0,
+    "time": "8:30 AM",
+    "until": "10:00 AM",
+    "title": "Coed Level 4.0 Drill",
+    "coach": "James McAvoy",
+    "startsOn": "2026-12-06",
+    "endsOn": "2027-02-14",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003592"
+   },
+   {
+    "day": 0,
+    "time": "10:00 AM",
+    "until": "11:30 AM",
+    "title": "Coed Level 3.0 Drill",
+    "coach": "Curtis Reese",
+    "startsOn": "2026-12-06",
+    "endsOn": "2027-02-14",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003593"
+   }
+  ],
+  "price": "$25 members · $35 non-members",
+  "seasonStart": "2026-12-01"
+ },
+ "communityPlay": {
+  "title": "Community Play Pickleball",
+  "season": "Fall 2026",
+  "start": "2026-09-08",
+  "end": "2026-12-31",
+  "ages": "Ages 18+",
+  "price": "Included with membership · $10 for non-members · advance registration required",
+  "desc": "During designated Community Play times, pickleball courts are set up and available for players to come out, mix in, and play with others.",
+  "fallbackLink": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//community%20play",
+  "skip": [],
+  "weekly": [
+   {
+    "day": 2,
+    "time": "4:00 to 6:45 PM",
+    "where": "Donsky Gym (indoor)"
+   },
+   {
+    "day": 4,
+    "time": "4:00 to 6:45 PM",
+    "where": "Donsky Gym (indoor)"
+   },
+   {
+    "day": 5,
+    "time": "8:00 to 11:00 AM",
+    "where": "Donsky Gym (indoor)"
+   },
+   {
+    "day": 6,
+    "time": "2:00 to 6:00 PM",
+    "where": "Donsky Gym (indoor)"
+   },
+   {
+    "day": 0,
+    "time": "8:00 to 11:00 AM",
+    "where": "Zahler Funk Tennis Facility (outdoor)"
+   }
+  ],
+  "sessionLinks": {}
+ },
+ "events": [
+  {
+   "id": "fall-pickleball-social-2026",
+   "sport": "Pickleball",
+   "title": "TGI Thursday Pickleball: Throughout the Decades Mixer",
+   "date": "2026-10-29",
+   "time": "6:30 to 8:30 PM",
+   "where": "Zahler Funk Tennis Facility",
+   "desc": "All levels welcome! Enjoy rotating courts, music, friendly competition, and the chance to dress in your favorite decade.",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f44c1b00465f41a3f2_Adult%20Racquet%20Sports%20-%20Fall%20Pickleball%20Social.png",
+   "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Pickleball%20Misc",
+   "cta": "Register"
+  },
+  {
+   "id": "thursday-night-socials",
+   "sport": "Pickleball",
+   "title": "Thursday Night Pickleball Socials",
+   "recurring": "Select Thursdays",
+   "time": "Evenings",
+   "where": "Zahler Funk Tennis Facility",
+   "desc": "Our Thursday night pickleball socials bring the community together for a fun evening of pickleball, rotating formats, and a little friendly competition. Themes and formats change throughout the year.",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f44c1b00465f41a3f2_Adult%20Racquet%20Sports%20-%20Fall%20Pickleball%20Social.png",
+   "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Pickleball%20Misc",
+   "cta": "View Upcoming Events"
+  },
+  {
+   "id": "tcd-kickoff-clinic-2026",
+   "sport": "Tennis",
+   "title": "TCD Fall League Kickoff Clinic",
+   "date": "2026-08-27",
+   "time": "Thursday evening",
+   "where": "Zahler Funk Tennis Facility",
+   "desc": "A fast-paced preseason clinic to sharpen doubles strategy, positioning, and match play before the TCD season.",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4572c69976c855f5c_Adult%20Racquet%20Sports%20-%20TCD%20Fall%20League%20Kickoff%20Clinic.png",
+   "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports",
+   "cta": "Register"
+  },
+  {
+   "id": "fall-sunday-mixer-2026",
+   "sport": "Tennis",
+   "title": "Fall Sunday Morning Tennis Mixer",
+   "date": "2026-10-11",
+   "time": "Sunday morning",
+   "where": "Zahler Funk Tennis Facility",
+   "desc": "Social doubles, upbeat music, mimosas, light refreshments, and plenty of time to connect with friends.",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4f31942aee0948c7a_Adult%20Racquet%20Sports%20-%20Fall%20Sunday%20Morning%20Tennis%20Mixer.png",
+   "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports",
+   "cta": "Register"
+  },
+  {
+   "id": "neon-nights-j-after-dark",
+   "sport": "Pickleball",
+   "title": "Neon Nights Pickleball at J After Dark",
+   "recurring": "J After Dark",
+   "time": "",
+   "where": "Aaron Family JCC",
+   "desc": "Glow-in-the-dark pickleball as part of J After Dark. Details and tickets on The J After Dark schedule.",
+   "img": "/assets/racquet-sports/event-j-after-dark.jpg",
+   "link": "https://jafterdark27.eventive.org/schedule/6ad9301c362b6f2ba5c91f5f",
+   "cta": "Details & Tickets"
+  }
+ ],
+ "pros": [
+  {
+   "slug": "neil-kenner",
+   "name": "Neil Kenner",
+   "title": "Director of Racquet Sports / Tennis Professional",
+   "sports": [
+    "Tennis"
+   ],
+   "photo": "/assets/racquet-sports/pros/neil-kenner.jpg",
+   "email": "nkenner@jccdallas.org",
+   "about": "Neil brings more than 20 years of coaching experience to The J, with a background competing at both the collegiate and professional levels. He has coached players at every stage of the game, from recreational and developing players to collegiate and professional athletes. As Racquet Sports Director, Neil is passionate about creating a welcoming community where players can improve, compete, and connect.",
+   "style": "Neil brings energy, positivity, and purpose to the court. His coaching focuses on movement, consistency, smart decision-making, and realistic point situations. He challenges players to improve while keeping the experience encouraging, competitive, and enjoyable.",
+   "credentials": [
+    "USTA High Performance Coach",
+    "RSPA Elite Tennis Professional",
+    "ITPA Certified Tennis Performance Trainer",
+    "Former No. 1-ranked Texas junior",
+    "Collegiate All-American",
+    "Former SMU Women's Tennis Assistant Coach"
+   ]
+  },
+  {
+   "slug": "polo-cruz",
+   "name": "Polo Cruz",
+   "title": "Adult Tennis Program Manager / Tennis Professional",
+   "sports": [
+    "Tennis"
+   ],
+   "photo": "/assets/racquet-sports/pros/polo-cruz.jpg",
+   "about": "Polo has coached tennis at the JCC for 28 years and is a certified USPTR Professional. His lifelong connection to tennis began as a junior player in Texas before competing at Hillcrest High School and Lindenwood University. His coaching experience includes Fair Oaks Tennis Center and Lakehill Preparatory School, where he led the boys' team to a State Doubles Championship and third-place state finish.",
+   "style": "Polo focuses on building strong fundamentals through proper form, technique, and repetition. He works especially well with beginners and players rebuilding or refining their game, helping each player develop greater confidence, consistency, and a deeper understanding of tennis.",
+   "credentials": [
+    "USPTR Professional",
+    "28 years coaching at the JCC",
+    "Hillcrest High School and Lindenwood University",
+    "State Doubles Championship coach",
+    "Extensive beginner and fundamentals development"
+   ]
+  },
+  {
+   "slug": "curtis-reese",
+   "name": "Curtis Reese",
+   "title": "Pickleball Program Manager / Pickleball & Tennis Professional",
+   "sports": [
+    "Pickleball",
+    "Tennis"
+   ],
+   "photo": "/assets/racquet-sports/pros/curtis-reese.jpg",
+   "email": "creese@jccdallas.org",
+   "about": "Curtis brings extensive tennis and pickleball experience to The J. A former collegiate tennis player with a degree in Kinesiology, he began his professional coaching career at the JCC before coaching at Brookhaven and Las Colinas Country Clubs. Curtis began playing pickleball in 2018 and has since coached at T Bar M and served as Pickleball Director at Greenhill.",
+   "style": "Curtis brings his experience across both tennis and pickleball to every player he works with. His goal is to help players strengthen their game, build confidence, and enjoy their time on the court, whether they are developing their tennis skills or taking their pickleball game to the next level.",
+   "credentials": [
+    "Collegiate tennis at the NJCAA and Division II levels",
+    "Degree in Kinesiology",
+    "Tennis and Pickleball Coach",
+    "Former Pickleball Director at Greenhill",
+    "Pickleball podcast host"
+   ]
+  },
+  {
+   "slug": "cameron-vose",
+   "name": "Cameron Vose",
+   "title": "Youth Tennis Program Manager / Tennis & Pickleball Professional",
+   "sports": [
+    "Tennis",
+    "Pickleball"
+   ],
+   "photo": "/assets/racquet-sports/pros/cameron-vose.jpg",
+   "email": "cvose@jccdallas.org",
+   "about": "Cameron brings 16 years of tennis coaching and five years of pickleball coaching experience to The J, along with experience coaching padel. He played four years of collegiate tennis and earned a bachelor's degree in English with a minor in Coaching from Hardin-Simmons University. His career has included serving as a Director of Racquet Sports in Maui and Director of Pickleball in Nantucket.",
+   "style": "Cameron brings positivity and high energy to every session. He believes attitude and work ethic play a major role in success and enjoys setting goals with athletes and helping them reach them. His coaching emphasizes strong technique, mental toughness, and creating confident competitors on and off the court.",
+   "credentials": [
+    "Four-year collegiate tennis player",
+    "16 years tennis coaching",
+    "5 years pickleball coaching",
+    "Padel experience",
+    "Former Racquet Sports Director",
+    "Former Pickleball Director",
+    "Youth development focus"
+   ]
+  },
+  {
+   "slug": "james-mcavoy",
+   "name": "James McAvoy",
+   "title": "Tennis Professional",
+   "sports": [
+    "Tennis"
+   ],
+   "photo": "/assets/racquet-sports/pros/james-mcavoy.jpg",
+   "about": "James brings collegiate playing experience and more than 15 years of coaching to The J. He played Division I tennis at Creighton University and achieved an ITF ranking of No. 361 in the U.S. Since beginning his coaching career in 2010, James has worked with players across ages and skill levels, helping each player continue progressing through their own tennis journey.",
+   "style": "James is passionate about introducing players to tennis and helping them develop at every age and skill level. His approach meets players where they are while building the skills, confidence, and understanding they need to continue progressing.",
+   "credentials": [
+    "PTR Certified",
+    "Division I Tennis, Creighton University",
+    "ITF U.S. Ranking No. 361",
+    "Coaching since 2010"
+   ]
+  },
+  {
+   "slug": "john-gervasio",
+   "name": "John Gervasio",
+   "title": "Tennis Professional",
+   "sports": [
+    "Tennis"
+   ],
+   "photo": "/assets/racquet-sports/pros/john-gervasio.jpg",
+   "about": "John brings 31 years of experience as a tennis teaching professional, including 12 years at the JCC. His career has taken him across Florida, Indiana, and Texas, giving him decades of experience teaching and developing players. John is an RSPA Elite Professional and brings a seasoned, professional approach to instruction and player development.",
+   "style": "With more than three decades of teaching experience, John brings a knowledgeable and experienced approach to the court, helping players strengthen their skills and continue developing their game.",
+   "credentials": [
+    "RSPA Elite Professional",
+    "PTR-P",
+    "USRSA",
+    "31 years as a tennis teaching professional",
+    "12 years at the JCC"
+   ]
+  },
+  {
+   "slug": "michael-kelly",
+   "name": "Michael Kelly",
+   "title": "Tennis & Pickleball Professional",
+   "sports": [
+    "Tennis",
+    "Pickleball"
+   ],
+   "photo": "/assets/racquet-sports/pros/michael-kelly.jpg",
+   "about": "Michael is a longtime tennis and pickleball player who brings his passion for both sports to his role as a Racquet Sports Instructor at The J. A lifelong Dallas resident, he is committed to helping strengthen The J's Racquet Sports program and creating an engaging, inviting, and enjoyable experience for players of every level.",
+   "style": "Michael wants players to enjoy being on the court while continuing to improve their game. His approach is welcoming and encouraging, with a focus on creating an environment where players of all levels feel comfortable learning, playing, and becoming part of the Racquet Sports community.",
+   "credentials": [
+    "Longtime tennis and pickleball player",
+    "Lifelong Dallas resident",
+    "Married 32 years with two daughters and a granddaughter",
+    "Classic car enthusiast"
+   ]
+  }
+ ],
+ "staff": [
+  {
+   "slug": "sarah-montgomery",
+   "name": "Sarah Montgomery",
+   "title": "Tennis Pro Shop Manager",
+   "photo": "/assets/racquet-sports/pros/sarah-montgomery.jpg",
+   "email": "smontgomery@jccdallas.org",
+   "phone": "(214) 239-7154",
+   "about": ""
+  }
+ ],
+ "register_drills": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+ "register_community": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//community%20play",
+ "pbDrills": {
+  "title": "Pickleball Open Drills",
+  "season": "Winter 2027",
+  "start": "2026-10-31",
+  "end": "2027-02-14",
+  "note": "Winter drills run December 5, 2026 to February 13, 2027. Register for the drill that matches your level.",
+  "fallbackLink": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Pickleball%20Drills",
+  "skip": [],
+  "weekly": [
+   {
+    "day": 6,
+    "time": "8:30 AM",
+    "title": "Beginner/Intermediate Drill",
+    "coach": "Curtis Reese",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Pickleball%20Drills",
+    "endsOn": "2026-11-30"
+   },
+   {
+    "day": 1,
+    "time": "6:30 PM",
+    "title": "Matchplay Drill",
+    "coach": "",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003595",
+    "endsOn": "2026-11-30"
+   },
+   {
+    "day": 1,
+    "time": "6:30 PM",
+    "until": "8:00 PM",
+    "title": "Pickleball Match Play Clinic",
+    "coach": "Mike Kelly",
+    "startsOn": "2026-12-07",
+    "endsOn": "2027-02-08",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003595"
+   },
+   {
+    "day": 6,
+    "time": "8:30 AM",
+    "until": "10:00 AM",
+    "title": "Beginner/Intermediate Pickleball Drill",
+    "coach": "Curtis Reese",
+    "startsOn": "2026-12-05",
+    "endsOn": "2027-02-13",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003597"
+   }
+  ],
+  "seasonStart": "2026-12-05"
+ }
+}

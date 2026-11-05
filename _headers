@@ -1,0 +1,6 @@
+/staff-portal/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
+/data/staff-portal.enc.json
+  Cache-Control: no-store

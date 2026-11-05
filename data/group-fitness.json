@@ -1,0 +1,1337 @@
+{
+ "season": "Summer 2026",
+ "note": "Levels: 1 = gentle / beginner, 2 = moderate, 3 = high intensity",
+ "classes": [
+  {
+   "name": "Aqua Yoga",
+   "category": "Aqua Fitness",
+   "desc": "Gentle Yoga poses performed in a warm water pool to improve balance, flexibility, and relaxation.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Master Swim",
+   "category": "Aqua Fitness",
+   "desc": "A coached swim workout designed to build endurance, technique and speed.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Hydro Hustle",
+   "category": "Aqua Fitness",
+   "desc": "High energy aquatic cardio using water resistance for a full body workout.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Aqua HIIT The Water",
+   "category": "Aqua Fitness",
+   "desc": "A high-intensity interval training class in the pool to torch calories with less joint impact.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Aqua Groove",
+   "category": "Aqua Fitness",
+   "desc": "Dance-inspired water fitness set to music for a fun, full body water workout.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "J Box Fit",
+   "category": "Performance Training",
+   "desc": "A high-energy boxing inspired equipment-based workout combining punches, footwork, and conditioning for a full body sweat session.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Peak Performance",
+   "category": "Performance Training",
+   "desc": "A high intensity training class designed to maximize strength, speed, and endurance for total athletic conditioning.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "TRX",
+   "category": "Performance Training",
+   "desc": "Suspension training that uses your body weight to develop strength, balance and core stability.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Studio Cycle",
+   "category": "Performance Training",
+   "desc": "Indoor cycling rides through climbs, sprints, and intervals to boost endurance and burn calories.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Speedflex",
+   "category": "Performance Training",
+   "desc": "Fast paced strength and cardio circuits using dynamic resistance equipment.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Zumba",
+   "category": "Dance Fitness",
+   "desc": "Latin inspired dance fitness party combining fun, rhythms and heart pumping cardio.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "NIA Dance",
+   "category": "Dance Fitness",
+   "desc": "A fusion of dance, martial arts and mindfulness that encourages expressive movement and joy.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "La Blast Dance",
+   "category": "Dance Fitness",
+   "desc": "Ballroom based dance fitness using easy-to-follow patterns and upbeat music-minus a dance partner.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Dance Sweat & Move",
+   "category": "Dance Fitness",
+   "desc": "A high energy dance class that fuses choreography, cardio and fun.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Classic Step",
+   "category": "Dance Fitness",
+   "desc": "Step aerobics mixed with strength training for a complete cardio and toning session.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Boom Silver Sneakers",
+   "category": "Dance Fitness",
+   "desc": "Low impact strength, cardio, and balance work tailored for active aging adults.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Flow Yoga",
+   "category": "Yoga Inspired",
+   "desc": "A dynamic yoga class linking breath to movement for strength, flexibility, and calmness.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Mindfulness Yoga",
+   "category": "Yoga Inspired",
+   "desc": "Gentle poses blended with breath and meditation to foster awareness and peace.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Hatha Yoga Stretch",
+   "category": "Yoga Inspired",
+   "desc": "Classic yoga postures and deep stretching to improve flexibility and posture.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Prop Yoga",
+   "category": "Yoga Inspired",
+   "desc": "Yoga with blocks and straps to enhance alignment and support.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Gentle Yoga & Sound",
+   "category": "Yoga Inspired",
+   "desc": "A deep stretch and meditation experience using soothing sound vibrations to promote deep stretch and relaxation.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "J Barre",
+   "category": "Yoga Inspired",
+   "desc": "Ballet and Core inspired workout focusing on small, controlled movements to sculpt and tone.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Tai Chi",
+   "category": "Yoga Inspired",
+   "desc": "A flowing, low-impact martial arts promote balance, coordination and inner calm.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Core Balance Yoga",
+   "category": "Yoga Inspired",
+   "desc": "A yoga practice that targets core strength and stability while improving balance, posture, and body awareness.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Deep Stretch & Breath Yoga",
+   "category": "Yoga Inspired",
+   "desc": "A soothing blend of deep stretching and restorative poses for recovery and renewal.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Power Flow Yoga",
+   "category": "Yoga Inspired",
+   "desc": "An energizing yoga flow building strength, flexibility, and stamina.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Pilates Barre Fusion",
+   "category": "Yoga Inspired",
+   "desc": "A fusion of Pilates core work and barre toning to strengthen and stabilize.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Mat Pilates",
+   "category": "Yoga Inspired",
+   "desc": "A core-focused mat workout improving posture, strength and flexibility.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Deep Stretch & Restore",
+   "category": "Yoga Inspired",
+   "desc": "A soothing blend of deep stretching and restorative poses for recovery and renewal.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Sweat & Steel",
+   "category": "Core Control",
+   "desc": "A fierce combination of strength training and sweat-drenched cardio.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "J Fit Boot Camp",
+   "category": "Core Control",
+   "desc": "High Intensity training designed to challenge your strength, agility and grit.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Strength Defined",
+   "category": "Core Control",
+   "desc": "A focused strength training class using weights, sand bells, kettlebells, paired with balance challenges to build functional strength and a sculpted physique.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Barbells Reps & Sets",
+   "category": "Core Control",
+   "desc": "Classic barbell training targeting all major muscle groups with structured reps and sets.",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "name": "Strong Nation Cardio Strength",
+   "category": "Core Control",
+   "desc": "Body weight and plyometric intervals synced to music for full-body strength and cardio.",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "name": "Squad Fit",
+   "category": "Core Control",
+   "desc": "Team based strength and cardio training that build power, motivation and community.",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  }
+ ],
+ "schedule": [
+  {
+   "day": "sun",
+   "time": "7:15 am",
+   "class": "Master Swim",
+   "instructor": "Chris",
+   "location": "Indoor Pool",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "8:30 am",
+   "class": "Aqua HIIT The Water",
+   "instructor": "Debbie",
+   "location": "Outdoor Pool",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "9:00 am",
+   "class": "TRX",
+   "instructor": "Grace",
+   "location": "TRX Area",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "9:15 am",
+   "class": "Zumba",
+   "instructor": "David",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "9:30 am",
+   "class": "Studio Cycle",
+   "instructor": "Terri",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "10:15 am",
+   "class": "Speedflex",
+   "instructor": "Grace",
+   "location": "Speedflex Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "10:30 am",
+   "class": "Gentle Yoga & Sound",
+   "instructor": "Marketa",
+   "location": "Dance Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "10:30 am",
+   "class": "Strong Nation Cardio Strength",
+   "instructor": "David",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "10:30 am",
+   "class": "Flow Yoga",
+   "instructor": "Renee",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sun",
+   "time": "1:00 pm",
+   "class": "Hatha Yoga Stretch",
+   "instructor": "Terry",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "6:00 am",
+   "class": "Studio Cycle",
+   "instructor": "Jason",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "8:10 am",
+   "class": "Hydro Hustle",
+   "instructor": "Laura",
+   "location": "Outdoor Pool",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "8:30 am",
+   "class": "Speedflex",
+   "instructor": "Jennifer",
+   "location": "Speedflex Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "8:45 am",
+   "class": "NIA Dance",
+   "instructor": "Brenda",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "9:15 am",
+   "class": "J Barre",
+   "instructor": "Gina",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "10:15 am",
+   "class": "Flow Yoga",
+   "instructor": "Renee",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "11:05 am",
+   "class": "Aqua Yoga",
+   "instructor": "Tanya",
+   "location": "Warm Water Pool",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "1:00 pm",
+   "class": "Tai Chi",
+   "instructor": "Vivica",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "1:00 pm",
+   "class": "Prop Yoga",
+   "instructor": "Debbi",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "5:30 pm",
+   "class": "Sweat & Steel",
+   "instructor": "Christy",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "6:00 pm",
+   "class": "Studio Cycle",
+   "instructor": "Barbara",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "6:30 pm",
+   "class": "Dance Sweat & Move",
+   "instructor": "Diana",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "mon",
+   "time": "6:50 pm",
+   "class": "Stretch Express",
+   "instructor": "Barbara",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "6:00 am",
+   "class": "Master Swim",
+   "instructor": "Chris",
+   "location": "Indoor Pool",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "6:00 am",
+   "class": "J Fit Boot Camp",
+   "instructor": "Christi",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "8:10 am",
+   "class": "Aqua HIIT The Water",
+   "instructor": "Melanie",
+   "location": "Outdoor Pool",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "8:15 am",
+   "class": "Flow Yoga",
+   "instructor": "Jennifer",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "9:15 am",
+   "class": "Sculpt Lab",
+   "instructor": "Terri",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "9:30 am",
+   "class": "Mindfulness Yoga",
+   "instructor": "Debbi",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "10:45 am",
+   "class": "Mat Pilates Edge",
+   "instructor": "Natalie",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "12:05 pm",
+   "class": "Aqua Yoga",
+   "instructor": "Nancy",
+   "location": "Warm Water Pool",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "1:00 pm",
+   "class": "Hatha Yoga Stretch",
+   "instructor": "Terry",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "1:00 pm",
+   "class": "La Blast Dance",
+   "instructor": "Dusty",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "3:00 pm",
+   "class": "JFS Private Class",
+   "instructor": "",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "5:30 pm",
+   "class": "Pilates Barre Fusion",
+   "instructor": "Lynn",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "6:00 pm",
+   "class": "J Box Fit",
+   "instructor": "Erick",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "6:45 pm",
+   "class": "Power Flow",
+   "instructor": "Adam",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "7:10 pm",
+   "class": "Aqua HIIT The Water",
+   "instructor": "Debbie",
+   "location": "Outdoor Pool",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "tue",
+   "time": "8:00 pm",
+   "class": "Hatha Yoga Stretch",
+   "instructor": "Terry",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "6:00 am",
+   "class": "Studio Cycle",
+   "instructor": "Christi",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "8:00 am",
+   "class": "Barbells Reps & Sets",
+   "instructor": "Cindy",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "8:10 am",
+   "class": "Hydro Hustle",
+   "instructor": "Marilyn",
+   "location": "Outdoor Pool",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "8:15 am",
+   "class": "Mat Pilates",
+   "instructor": "Debbie",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "8:30 am",
+   "class": "Speedflex",
+   "instructor": "Jennifer",
+   "location": "Speedflex Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "9:15 am",
+   "class": "Studio Cycle",
+   "instructor": "Barbara",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "9:15 am",
+   "class": "J Barre",
+   "instructor": "Marco",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "9:15 am",
+   "class": "Sweat & Steel",
+   "instructor": "Christy",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "10:10 am",
+   "class": "La Blast Dance",
+   "instructor": "Dusty",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "10:15 am",
+   "class": "Stretch & Restore Yoga",
+   "instructor": "Marco",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "11:05 am",
+   "class": "Aqua Yoga",
+   "instructor": "Tanya",
+   "location": "Warm Water Pool",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "1:00 pm",
+   "class": "Core Balance Yoga",
+   "instructor": "Debbi",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "5:30 pm",
+   "class": "Speedflex",
+   "instructor": "Diana",
+   "location": "Speedflex Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "5:30 pm",
+   "class": "Pilates Prop Fusion",
+   "instructor": "Lynn",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "5:30 pm",
+   "class": "Peak Performance",
+   "instructor": "Barbara",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "6:00 pm",
+   "class": "Studio Cycle",
+   "instructor": "Jason",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "wed",
+   "time": "6:30 pm",
+   "class": "Dance Sweat & Move",
+   "instructor": "Diana",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "6:00 am",
+   "class": "Speedflex",
+   "instructor": "Christi",
+   "location": "Speedflex Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "8:10 am",
+   "class": "Aqua HIIT The Water",
+   "instructor": "Cyndi",
+   "location": "Outdoor Pool",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "9:15 am",
+   "class": "Sculpt Lab",
+   "instructor": "Jennifer",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "9:30 am",
+   "class": "Mindfulness Yoga",
+   "instructor": "Debbi",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "1:00 pm",
+   "class": "Boom Silver Sneakers",
+   "instructor": "Stephanie",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "1:05 pm",
+   "class": "Stretch & Restore Yoga",
+   "instructor": "Renee",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "3:00 pm",
+   "class": "JFS Private Class",
+   "instructor": "",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "5:30 pm",
+   "class": "TRX",
+   "instructor": "Christi",
+   "location": "TRX Area",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "5:30 pm",
+   "class": "Power Flow",
+   "instructor": "Tanya",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "7:10 pm",
+   "class": "Aqua HIIT The Water",
+   "instructor": "Marilyn",
+   "location": "Outdoor Pool",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "thu",
+   "time": "8:00 pm",
+   "class": "Hatha Yoga Stretch",
+   "instructor": "Terry",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "6:00 am",
+   "class": "Master Swim",
+   "instructor": "Chris",
+   "location": "Indoor Pool",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "6:00 am",
+   "class": "Studio Cycle",
+   "instructor": "Jennifer",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "8:10 am",
+   "class": "Hydro Hustle",
+   "instructor": "Debbie",
+   "location": "Outdoor Pool",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "8:15 am",
+   "class": "Mat Pilates",
+   "instructor": "Lynn",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "8:15 am",
+   "class": "Classic Step",
+   "instructor": "Cindy",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "8:30 am",
+   "class": "Speedflex",
+   "instructor": "Melanie",
+   "location": "Speedflex Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "9:15 am",
+   "class": "Studio Cycle",
+   "instructor": "Jennifer",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "9:15 am",
+   "class": "Dance Sweat & Move",
+   "instructor": "Gina",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "10:15 am",
+   "class": "Fun Friday Flow Yoga",
+   "instructor": "Renee",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "11:30 am",
+   "class": "Deep Stretch & Restore",
+   "instructor": "Renee",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "1:00 pm",
+   "class": "Mat Pilates Edge",
+   "instructor": "Natalie",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "fri",
+   "time": "1:00 pm",
+   "class": "Boom Silver Sneakers",
+   "instructor": "Cindy",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "8:10 am",
+   "class": "Hydro Hustle",
+   "instructor": "Laura",
+   "location": "Outdoor Pool",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "8:15 am",
+   "class": "Classic Step",
+   "instructor": "Christy",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "9:10 am",
+   "class": "Aqua HIIT The Water",
+   "instructor": "Francine",
+   "location": "Outdoor Pool",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "9:30 am",
+   "class": "Studio Cycle",
+   "instructor": "Simone",
+   "location": "Spin Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "9:30 am",
+   "class": "Squad Fit",
+   "instructor": "Barbara",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "10:30 am",
+   "class": "Flow Yoga",
+   "instructor": "Tanya",
+   "location": "Mind Body Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "11:00 am",
+   "class": "Dance Sweat & Move",
+   "instructor": "Jesus",
+   "location": "Group Fitness Studio",
+   "levels": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "11:45 am",
+   "class": "Yoga Stretch & Breath",
+   "instructor": "Tanya",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "day": "sat",
+   "time": "1:00 pm",
+   "class": "Deep Stretch & Restore Yoga",
+   "instructor": "Tanya",
+   "location": "Mind Body Studio",
+   "levels": [
+    "1",
+    "2",
+    "3"
+   ]
+  }
+ ]
+}

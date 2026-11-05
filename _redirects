@@ -1,0 +1,164 @@
+# jccdallas.org redirects (go-live 2026-11-05). Rules match top to bottom; first hit wins.
+# Netlify serves an existing file before a plain rule; "301!" forces the redirect even when a file exists.
+
+# --- Temporary: /donate goes to the Annual Campaign page (page file kept; drop the ! to restore /donate) ---
+/donate  /annual-campaign  301!
+
+# --- Gift shop → Shopify ---
+/gift-shop  https://shop.jccdallas.org/  301
+/gift-shop/*  https://shop.jccdallas.org/  301
+/the-source-gift-shop  https://shop.jccdallas.org/  301
+/source-gift-shop  https://shop.jccdallas.org/  301
+/sourcepayment  https://shop.jccdallas.org/  301
+
+# --- Migrated from Webflow (exported 2026-09-29), targets made relative / updated to new pages ---
+/teens  /jcc-maccabi-games  301
+/teens/future-leaders-in-business  /  301
+/jewish-life/j-on-wheels  /jewish-life  301
+/doing-jewish-at-the-j  /jewish-life  301
+/senior-expo-2024  /seniors  301
+/sports  /adult-sports  301
+/join  /membership  301
+/program-login  /membership  301
+/blog  /j-collective  301
+/entry  https://jccdallas.formstack.com/forms/program_participate_checkin  301
+/guys&dolls  /arts/aladdin  301
+/special-events/film-festival  /film-festival  301
+/reserve-pool-gym  /aquatics  301
+/special-events/bookfest  /bookfest  301
+/register  https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//?programCode=PROG-002026  301
+/jpasblog  /arts/aladdin  301
+/holiday-hours  /closures  301
+/filmmaker  /film-festival  301
+/arts/productions-draft  /arts/aladdin  301
+/playbillads  /arts/aladdin  301
+/jnurture  https://gecc.jccdallas.org  301
+/lksa  /aquatics/lksa  301
+/lksaregistration  https://jccdallas.formstack.com/forms/lksa_registration_form  301
+/lifeguard  /aquatics/lifeguarding  301
+/resource-library  /arts/aladdin#resources  301
+/wp-content/uploads/2021/02/Bagel-run-map-2014.2015.2016.2017.2018.2019.2020.pdf  https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/67a686739fcd3f531d9941c7_Bagel%20run%20map%202014%20-%202025.pdf  301
+/regionalconference  https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/67a68788056b2064fa207048_J%20Regional%20Conference%201-min.pdf  301
+/regionalconference-2  /  301
+/starquest  /arts/productions  301
+/fitness-wellness  /fitness  301
+/bubbies-table  /bubbies  301
+/jpas  /arts/performing-arts  301
+/jpasjr  /arts/jpas-jr  301
+/sandbox-events  /events  301
+/sandbox-calendar  /events  301
+/programs/open-play  /events  301
+/bdne  /special-events/best-date-night-ever  301
+/message-from-our-ceo-courage-to-lead  /j-collective/honoring-esther-with-the-courage-to-lead  301
+/intranet  /staff-portal/  301
+/staffportal  /staff-portal/  301
+/staff  /staff-portal/  301
+/alice  /arts/productions  301
+/membership-beta  /membership  301
+/membership-old  /membership  301
+/alumni  /next50  301
+/gecc  https://gecc.jccdallas.org  301
+/GECC  https://gecc.jccdallas.org  301
+/anshai  /j-early-childhood-center  301
+
+# --- Seasonal programming pages → seasons site ---
+/fall  https://seasons.jccdallas.org  301
+/fall-at-the-j  https://seasons.jccdallas.org  301
+/fall-programming  https://seasons.jccdallas.org  301
+/winter-programming  https://seasons.jccdallas.org  301
+/spring-programming  https://seasons.jccdallas.org  301
+/spring-at-the-j  https://seasons.jccdallas.org  301
+/summer  https://seasons.jccdallas.org  301
+/summer-at-the-j  https://seasons.jccdallas.org  301
+/summer-at-the-j-old  https://seasons.jccdallas.org  301
+
+# --- Old ?tab= deep links → new sub-pages ---
+/adult-sports  tab=BASKETBALL  /adult-sports/basketball  301
+/adult-sports  tab=GYMNASTICS  /adult-sports/gymnastics  301
+/adult-sports  tab=CORNHOLE  /adult-sports/cornhole  301
+/adult-sports  tab=TENNIS  /racquet-sports/tennis  301
+/adult-sports  tab=PICKLEBALL  /racquet-sports/pickleball  301
+/youth-sports  tab=TENNIS  /racquet-sports/junior-tennis  301
+/fitness  tab=PERSONAL  /fitness/personal-training  301
+/fitness  tab=GROUP  /fitness/group-fitness  301
+/fitness  tab=TRAIN  /fitness/small-group-training  301
+/aquatics  tab=SWIM  /aquatics/swim-teams  301
+/aquatics  tab=LG  /aquatics/lifeguarding  301
+/goldberg-early-childhood-center  tab=NURTURE  https://gecc.jccdallas.org  301
+
+# --- Retired / merged pages ---
+/october-member-appreciation-month  /membership  301
+/cyber-monday  /cyber  301
+/cybermonday  /cyber  301
+/j-renovations  /next50  301
+/community-connect  /tycher-library  301
+/community-connect-1  /tycher-library  301
+/arts/productions-live  /arts/productions  301
+/stop  /membership  301
+/search  /events  301
+/events-old  /events  301
+/events-template  /events  301
+/events-calendar  /events  301
+/arts/willy-wonka-old  /arts/aladdin  301
+/arts/willy-wonka  /arts/aladdin  301
+/arts/guys-and-dolls  /arts/aladdin  301
+/wonka  /arts/aladdin  301
+/aladdin  /arts/aladdin  301
+/aladdinjr  /arts/aladdin  301
+/sensory-sessions  /youth-sports/sensory-sessions  301
+/gymnastics-sensory-sessions  /youth-sports/sensory-sessions  301
+/sensory  /youth-sports/sensory-sessions  301
+
+# --- Webflow system / sandbox pages that were in the old sitemap ---
+/sandbox  /  301
+/sandbox/*  /  301
+/sandboz  /  301
+/v2  /  301
+/test-nav  /  301
+/program-template  /events  301
+/checkout  /  301
+/paypal-checkout  /  301
+/order-confirmation  /  301
+
+# --- Old CMS event pages: named first, then wildcard ---
+/events/bookfest  /bookfest  301
+/events/film-festival  /film-festival  301
+/events/jewish-film-festival  /film-festival  301
+/events/comedy-at-the-j  /comedy-at-the-j  301
+/events/golf-tournament  /special-events/golf-tournament  301
+/events/senior-adult-programs  /seniors  301
+/events/senior-expo  /senior-expo  301
+/events/jays-rays-swim-team  /aquatics/swim-teams  301
+/events/masters-swim---intro-class  /aquatics/adult-swim  301
+/events/sukkah-village  /jewish-holidays  301
+/events/*  /events  301
+/programs/club-j-break-program  /club-j/school-days-off  301
+/programs/*  /club-j/school-days-off  301
+/blog/*  /j-collective  301
+/j-collective/*  /j-collective  301
+
+# --- Goldberg ECC lives on its own site ---
+/goldberg-early-childhood-center  https://gecc.jccdallas.org  301
+/goldberg-early-childhood-center/*  https://gecc.jccdallas.org  301
+
+# --- Training Services micro-site slugs ---
+/training-services/aquatics-training  /training-services/lifeguarding  301
+/training-services/babysitter-training  /training-services/babysitting  301
+/training-services/group-corporate  /training-services/group-training  301
+
+# --- Racquet Sports micro-site (Oct 2026) ---
+/adult-sports/tennis  /racquet-sports/tennis  301
+/adult-sports/pickleball  /racquet-sports/pickleball  301
+/youth-sports/tennis  /racquet-sports/junior-tennis  301
+/youth-sports/pickleball  /racquet-sports/pickleball  301
+/tennis  /racquet-sports/tennis  301
+/pickleball  /racquet-sports/pickleball  301
+/raquet-sports  /racquet-sports  301
+/raquet-sports/*  /racquet-sports/:splat  301
+/racket-sports  /racquet-sports  301
+/racket-sports/*  /racquet-sports/:splat  301
+
+# --- J Mahj pop-in (build 27) ---
+/pop-in-mahj  /j-mahj/pop-in  301
+/popin  /j-mahj/pop-in  301
+/j-mahj/popin  /j-mahj/pop-in  301
