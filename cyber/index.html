@@ -591,7 +591,9 @@ $('jdnCta').innerHTML=
   '<a class="jdn-donate" href="'+esc(JD_NAV.donate.href)+'">'+esc(JD_NAV.donate.label)+'</a>';
 
 var mainH='', paneH='', mobH='<div class="jdn-msearch"><form onsubmit="return false"><input type="search" placeholder="Search programs &amp; events" aria-label="Search the site"></form></div>';
-if(JD_NAV.now){mobH+='<a class="jdn-mnow" href="'+esc(JD_NAV.now.href)+'"><span class="jdn-dot"></span>'+esc(JD_NAV.now.label)+'</a>';}
+/* mobile: Member Login takes the pill slot; the "on now" pill is desktop-only */
+var mLogin=JD_NAV.utility.filter(function(x){return x.label==="Member Login";})[0];
+if(mLogin){mobH+='<a class="jdn-mnow" href="'+esc(mLogin.href)+'" target="_blank" rel="noopener">'+ic("user",16)+esc(mLogin.label)+'</a>';}
 
 JD_NAV.menus.forEach(function(m,i){
   mainH+='<div class="jdn-item"><a class="jdn-trig" href="'+esc(m.href)+'" id="jdnT'+i+'" '+
@@ -657,7 +659,7 @@ JD_NAV.menus.forEach(function(m,i){
 });
 
 mobH+='<div class="jdn-mutil">';
-JD_NAV.utility.forEach(function(x){mobH+='<a href="'+esc(x.href)+'">'+ic(x.icon,15)+esc(x.label)+'</a>';});
+JD_NAV.utility.forEach(function(x){if(x.label==="Member Login")return;mobH+='<a href="'+esc(x.href)+'">'+ic(x.icon,15)+esc(x.label)+'</a>';});
 mobH+='</div><div class="jdn-mcta"><a class="j" href="'+esc(JD_NAV.join.href)+'">'+esc(JD_NAV.join.label)+'</a>'+
   '<a class="d" href="'+esc(JD_NAV.donate.href)+'">'+esc(JD_NAV.donate.label)+'</a></div>';
 
