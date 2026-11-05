@@ -327,7 +327,7 @@ var IMG={
 var JD_NAV = {
   logo:"https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6abc09e8e1ec2fcae76b7422_The%20J-AFJCCD%20Logo_Royal%20Purple.png",
   join:{label:"Join", href:"/membership"},
-  donate:{label:"Donate Now", href:"/donate"},
+  donate:{label:"Donate Now", href:"https://annualcampaign.jccdallas.org/campaign/843902/donate"},
   utility:[
     {label:"Discover Programs", href:"/events", icon:"grid"},
     {label:"Hours", href:"/about#hours", icon:"clock"},
@@ -753,13 +753,19 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
 <style>
 .ac-give{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
 .ac-give chariot-button{display:inline-block;min-height:44px}
+.ac-rasp.btn{background:#D62598;border-color:#D62598}.ac-rasp.btn:hover{background:#b81d80;border-color:#b81d80}
+.ac-band{background:#D62598}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ac-video{position:relative;aspect-ratio:16/9;border-radius:var(--r-card);overflow:hidden;background:#000;max-width:960px;margin:26px auto 0}
+.ac-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .ac-num{font-family:var(--display);font-weight:700;color:var(--purple);font-size:clamp(44px,7vw,84px);line-height:1;letter-spacing:-.02em}
-.ac-kicker{font-family:var(--display);font-weight:700;text-transform:uppercase;color:var(--pink);font-size:clamp(26px,3.4vw,40px);line-height:1.1}
+.ac-kicker{font-family:var(--display);font-weight:700;text-transform:uppercase;color:#D62598;font-size:clamp(26px,3.4vw,40px);line-height:1.1}
 .ac-bepart{font-family:var(--display);font-weight:700;font-size:clamp(28px,4vw,46px);letter-spacing:.02em;text-transform:uppercase;line-height:1}
-.ac-bepart .p{color:var(--purple)}.ac-bepart .k{color:var(--pink)}.ac-bepart .t{color:#1aa6d6}
+.ac-bepart .be{color:#D62598}.ac-bepart .part{color:#AD1AAC}.ac-bepart .of{color:#F8485E}.ac-bepart .it{color:#05C3DD}
+.ac-bepart .dot{display:inline-block;width:.18em;height:.18em;background:#D62598;vertical-align:baseline;margin-left:.06em}
 .ac-helps{list-style:none;margin:0;padding:0;display:grid;gap:14px}
 .ac-helps li{display:flex;gap:12px;align-items:flex-start;font-weight:700;font-size:18px;text-transform:uppercase;letter-spacing:.02em}
-.ac-helps li::before{content:"";flex:none;width:12px;height:12px;background:var(--pink);margin-top:7px}
+.ac-helps li::before{content:"";flex:none;width:12px;height:12px;background:#D62598;margin-top:7px}
 .ac-gallery{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch}
 .ac-gallery img{flex:0 0 min(78vw,520px);aspect-ratio:4/3;object-fit:cover;border-radius:var(--r-card);scroll-snap-align:start}
 .ac-contact{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
@@ -773,7 +779,7 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span>Annual Campaign</span></nav>
     <h1>2026 Annual Campaign</h1>
     <p class="lede">At a time when connection, belonging, community, and Jewish life matter deeply, your gift can go twice as far.</p>
-    <div class="acts ac-give"><a class="btn pink" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
+    <div class="acts ac-give"><a class="btn pink ac-rasp" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
   </div>
 </section>
 <section class="sec" id="match">
@@ -782,8 +788,8 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
     <p style="margin-top:22px;font-weight:600">Our Goal:</p>
     <p class="ac-num">$1,000,000</p>
     <p class="lede" style="margin:18px auto 0">Every new gift to the 2026 Annual Campaign, and every increase above your 2025 gift, will be matched dollar for dollar, up to $275,000.</p>
-    <p class="ac-bepart" style="margin-top:26px"><span class="p">Be</span> <span class="k">Part</span> <span class="p">of</span> <span class="t">It.</span></p>
-    <div class="ac-give" style="justify-content:center;margin-top:26px"><a class="btn pink" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
+    <p class="ac-bepart" style="margin-top:26px"><span class="be">Be</span> <span class="part">Part</span> <span class="of">of</span> <span class="it">It</span><span class="dot" aria-hidden="true"></span><span class="sr-only">.</span></p>
+    <div class="ac-give" style="justify-content:center;margin-top:26px"><a class="btn pink ac-rasp" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
   </div>
 </section>
 <section class="sec soft" id="challenge">
@@ -791,6 +797,13 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
     <h2>Mark's Challenge Gets Us Closer.</h2>
     <p class="lede" style="margin:16px auto 0">It will take <strong>all of us</strong> to get there. He stepped up for our J community. Now it's our turn.</p>
     <img src="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6abad1c83b564271a13a140a_TFG-Logo_Onyx%2BRasp.png" alt="Together Feels Good" style="width:min(320px,70%);margin:28px auto 0">
+  </div>
+</section>
+<section class="sec" id="you-belong-here">
+  <div class="wrap" style="text-align:center">
+    <h2>You Belong Here</h2>
+    <p class="lede" style="margin:14px auto 0;max-width:720px">See what your gift makes possible at The J.</p>
+    <div class="ac-video"><iframe src="https://www.youtube-nocookie.com/embed/xg751FWIdBU?rel=0" title="You Belong Here: The J Dallas 2026 Annual Campaign" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
   </div>
 </section>
 <section class="sec" id="helps">
@@ -806,7 +819,7 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
           <li>Extend Jewish Life Across Our Community</li>
           <li>Strengthen The J for the Next Generation</li>
         </ul>
-        <div class="ac-give" style="margin-top:28px"><a class="btn pink" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
+        <div class="ac-give" style="margin-top:28px"><a class="btn pink ac-rasp" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
       </div>
       <div><div class="aside ac-check"><h4>To Give With Personal Check</h4><ul><li>Make check payable to: JCC Dallas</li><li>In the memo line, please write: "Annual Campaign"</li><li>Mail to: JCC Dallas, Annual Campaign, 7900 Northaven Road, Dallas, TX 75230</li></ul></div></div>
     </div>
@@ -823,8 +836,8 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
     </div>
   </div>
 </section>
-<section class="ctaband pink">
-  <div class="wrap"><div><h2>Be Part of It</h2><p>Your gift, matched dollar for dollar.</p></div><div class="acts ac-give"><a class="btn on-dark" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div></div>
+<section class="ctaband pink ac-band">
+  <div class="wrap"><div><h2>Be Part of It</h2><p>Your gift, matched dollar for dollar.</p></div><div class="acts ac-give"><a class="btn ac-rasp" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div></div>
 </section>
 
 </main>
@@ -911,7 +924,7 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
     <div class="foot-col">
       <h3>More Resources</h3>
       <ul class="foot-links"><li><a href="/">Home</a></li><li><a href="/staff-directory">Staff directory</a></li><li><a href="https://shop.jccdallas.org/">The J Merch Store</a></li><li><a href="/jgourmet">Catering</a></li><li><a href="https://www.indeed.com/cmp/Jewish-Community-Center-of-Dallas/jobs">Job opportunities</a></li><li><a href="/jewish-holidays">Jewish holidays</a></li><li><a href="https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a2824463f55bd6c0460ae97_Room%20Rental%20Terms.pdf">Room rental policy</a></li><li><a href="/about">Refund policy</a></li><li><a href="/terms-conditions">Terms &amp; conditions</a></li><li><a href="/privacy-policy">Privacy policy</a></li><li><a href="/staff-portal/">Staff portal</a></li></ul>
-      <a class="foot-donate" href="/donate">Donate now</a>
+      <a class="foot-donate" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate now</a>
     </div>
     <div class="foot-col">
       <h3>Building Hours</h3>
