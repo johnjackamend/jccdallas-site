@@ -165,6 +165,17 @@ p{margin:0}
 .stat b{display:block;font-family:var(--display);font-size:46px;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
 .stat span{font-size:15px;color:rgba(255,255,255,.85)}
 @media (max-width:720px){.about .band::before{background:rgba(43,1,94,.85)}.stats{gap:24px}.stat b{font-size:36px}}
+.about .acts{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.btn.play{display:inline-flex;align-items:center;gap:10px;background:transparent;color:#fff;border-color:rgba(255,255,255,.7)}
+.btn.play:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.btn.play .ic{width:30px;height:30px;border-radius:50%;background:var(--pink);display:inline-grid;place-items:center;flex:none}
+.btn.play .ic::after{content:"";border-style:solid;border-width:6px 0 6px 10px;border-color:transparent transparent transparent #fff;margin-left:2px}
+.vlb{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(20,0,46,.86)}
+.vlb.open{display:flex}
+.vlb .box{position:relative;width:min(1080px,100%);aspect-ratio:16/9;background:#000;border-radius:var(--r-card,16px);overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.vlb iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vlb .x{position:absolute;top:-46px;right:0;background:none;border:0;color:#fff;font:700 15px/1 var(--body);letter-spacing:.05em;text-transform:uppercase;cursor:pointer;padding:10px}
+@media (max-width:720px){.vlb .x{top:auto;bottom:-44px}}
 
 /* ---------- membership ---------- */
 .member-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:24px;align-items:stretch}
@@ -1361,7 +1372,7 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
         <div class="stat"><b data-count="4">4</b><span>pools, indoor and outdoor</span></div>
         <div class="stat"><b data-count="100" data-prefix="0–" data-suffix="+">0–100+</b><span>ages we serve</span></div>
       </div>
-      <a class="btn on-dark" href="/about">About The J</a>
+      <div class="acts"><a class="btn on-dark" href="/about">About The J</a><button type="button" class="btn play" id="ybhOpen" aria-haspopup="dialog" aria-controls="ybh"><span class="ic" aria-hidden="true"></span>Watch: You Belong Here</button></div>
     </div>
   </div>
 </section>
@@ -2336,5 +2347,19 @@ railInit(document.getElementById("lifeTrack"));
 <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init(); }; h.appendChild(s); })(); </script>
 <!-- Banterly chat -->
 <script src="https://app.banterlyai.com/static/chatbot/js/chatbubble.js" data-id="def283f3-6a4a-4112-b0f2-f3778a965494" data-domain="https://app.banterlyai.com" data-position="right"></script>
+<div class="vlb" id="ybh" role="dialog" aria-modal="true" aria-label="You Belong Here video" hidden>
+  <div class="box"><button type="button" class="x" id="ybhClose">Close ✕</button><iframe id="ybhFrame" title="You Belong Here" src="about:blank" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+</div>
+<script>
+(function(){
+  var lb=document.getElementById("ybh"),fr=document.getElementById("ybhFrame"),op=document.getElementById("ybhOpen"),cl=document.getElementById("ybhClose"),last;
+  var SRC="https://www.youtube-nocookie.com/embed/xg751FWIdBU?autoplay=1&rel=0";
+  function open(){last=document.activeElement;lb.hidden=false;lb.classList.add("open");fr.src=SRC;document.body.style.overflow="hidden";cl.focus();}
+  function close(){lb.classList.remove("open");lb.hidden=true;fr.src="about:blank";document.body.style.overflow="";if(last&&last.focus)last.focus();}
+  op.addEventListener("click",open);cl.addEventListener("click",close);
+  lb.addEventListener("click",function(e){if(e.target===lb)close();});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape"&&lb.classList.contains("open"))close();});
+})();
+</script>
 </body>
 </html>
