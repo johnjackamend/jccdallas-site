@@ -1,28 +1,174 @@
 {
- "month": "2026-10",
- "title": "October 2026 Hot Kosher Meals",
- "pdf": "/assets/seniors/lunch-menu-2026-10.pdf",
+ "month": "2026-11",
+ "title": "November 2026 Hot Kosher Meals",
+ "pdf": "/assets/seniors/lunch-menu-2026-11.pdf",
  "note": "For everyone age 60+, JCC membership not required. Complete, nutritious lunch served daily for a suggested donation of $4 (subsidized by the JCC and Dallas Area Agency on Aging).",
  "days": {
-  "2026-10-01": [
+  "2026-11-02": [
    "Orange Juice",
-   "Roast Beef Sandwich",
-   "Lettuce/Tomato/Onion",
-   "Coleslaw/Pickle",
-   "Potato Chips",
+   "Mushroom/Barley Soup",
+   "Chicken a la King",
+   "Rice",
+   "Vegetable Medley",
    "Bread",
-   "Peanut Butter Cookie"
+   "Macaroons"
   ],
-  "2026-10-02": [
+  "2026-11-03": [
+   "Orange Juice",
+   "Bagel",
+   "Lox",
+   "Cream Cheese",
+   "Lettuce/Tomato/Cucumber",
+   "Onions",
+   "Peach Cobbler"
+  ],
+  "2026-11-04": [
+   "Orange Juice",
+   "Vegetable Soup",
+   "Salmon",
+   "Roast Sweet Potato",
+   "Zucchini",
+   "Bread",
+   "Fresh Fruit"
+  ],
+  "2026-11-05": [
+   "Orange Juice",
+   "Reuben Sandwich",
+   "Sauerkraut",
+   "Pickle",
+   "Red Cabbage Salad",
+   "Potato Chips",
+   "Cookie"
+  ],
+  "2026-11-06": [
    "Orange Juice",
    "Matzo Ball Soup",
-   "Salisbury Steak",
-   "Mashed Potato",
-   "Vegetable Medley",
+   "Pot Roast",
+   "Potato Wedges",
+   "Butternut Squash",
    "Challah",
-   "Orange Pound Cake"
+   "Mandelbrot"
   ],
-  "2026-10-05": [
+  "2026-11-09": [
+   "Orange Juice",
+   "Cauliflower Soup",
+   "Lasagna",
+   "Broccoli",
+   "Garlic Roll",
+   "Blondie"
+  ],
+  "2026-11-10": [
+   "Orange Juice",
+   "Caesar Salad",
+   "Pizza",
+   "Fresh Vegetables",
+   "Banana Pudding"
+  ],
+  "2026-11-11": [
+   "Orange Juice",
+   "Bean Soup",
+   "Baked Fish",
+   "Roast Potatoes",
+   "Glazed Carrots",
+   "Bread",
+   "Fresh Fruit"
+  ],
+  "2026-11-12": [
+   "Orange Juice",
+   "BBQ Chicken",
+   "Coleslaw",
+   "Peas",
+   "Pickle",
+   "Bread",
+   "Cookie"
+  ],
+  "2026-11-13": [
+   "Orange Juice",
+   "Matzo Ball Soup",
+   "Chicken Marsala",
+   "Pasta",
+   "Green Beans",
+   "Challah",
+   "Apple Pie"
+  ],
+  "2026-11-16": [
+   "Orange Juice",
+   "Three Bean Salad",
+   "Meat Loaf",
+   "Roasted Carrots",
+   "Rice",
+   "Bread",
+   "Stewed Apple"
+  ],
+  "2026-11-17": [
+   "Orange Juice",
+   "Onion Soup",
+   "Eggplant Parmesan",
+   "Yellow Squash",
+   "Garlic Bread",
+   "Biscotti"
+  ],
+  "2026-11-18": [
+   "Orange Juice",
+   "Potato Leek Soup",
+   "Baked Fish",
+   "Couscous",
+   "Spinach/Mushroom",
+   "Bread",
+   "Fresh Fruit"
+  ],
+  "2026-11-19": [
+   "Orange Juice",
+   "Hamburger",
+   "Lettuce/Tomato/Cucumber",
+   "Fries",
+   "Coleslaw",
+   "Pickle",
+   "Bun",
+   "Brownie"
+  ],
+  "2026-11-20": [
+   "Orange Juice",
+   "Matzo Ball Soup",
+   "Roast Chicken",
+   "Roast Potatoes",
+   "Green Peas",
+   "Challah",
+   "Strawberry Shortcake"
+  ],
+  "2026-11-23": [
+   "Orange Juice",
+   "Cucumber/Tomato/Onion Salad",
+   "Fajitas",
+   "Refried Beans/Rice",
+   "Guacamole",
+   "Tortilla",
+   "Cinnamon Sugar Cookie"
+  ],
+  "2026-11-24": [
+   "Orange Juice",
+   "Tomato Soup",
+   "Grilled Cheese",
+   "Side Salad",
+   "Mixed Veggies",
+   "Lemon Pound Cake"
+  ],
+  "2026-11-25": [
+   "Orange Juice",
+   "Butternut Soup",
+   "Turkey/Stuffing",
+   "Mashed Potato/Gravy",
+   "Green Beans",
+   "Roll",
+   "Sweet Potato Pie"
+  ],
+  "2026-11-26": [
+   "JCC closed for Thanksgiving"
+  ],
+  "2026-11-27": [
+   "JCC closed for Thanksgiving"
+  ],
+  "2026-11-30": [
    "Orange Juice",
    "Cucumber Salad",
    "Chicken Pot Pie",
@@ -30,173 +176,6 @@
    "Cauliflower",
    "Bread",
    "Pecan Sandie"
-  ],
-  "2026-10-06": [
-   "Orange Juice",
-   "Minestrone",
-   "Salmon Alfredo",
-   "Roasted Carrots",
-   "Garlic Bread",
-   "Ginger Cookie"
-  ],
-  "2026-10-07": [
-   "Orange Juice",
-   "Mushroom/Barley Soup",
-   "Tilapia",
-   "Stir Fried Veggies",
-   "Roast Potatoes",
-   "Bread",
-   "Fresh Fruit"
-  ],
-  "2026-10-08": [
-   "Orange Juice",
-   "Knockwurst",
-   "French Fries",
-   "Red Cabbage Salad",
-   "Pickle/Sauerkraut",
-   "Bun",
-   "Pineapple Crisp"
-  ],
-  "2026-10-09": [
-   "Orange Juice",
-   "Matzo Ball Soup",
-   "Chicken Cacciatore",
-   "Risotto",
-   "Zucchini",
-   "Challah",
-   "Chocolate Cake"
-  ],
-  "2026-10-12": [
-   "Orange Juice",
-   "Israeli Salad",
-   "Panko Chicken",
-   "Roast Sweet Potato",
-   "Broccoli",
-   "Bread",
-   "Blueberry Pie"
-  ],
-  "2026-10-13": [
-   "Orange Juice",
-   "Vegetable Soup",
-   "Cheese/Spinach Enchilada",
-   "Refried Beans",
-   "Mexican Rice",
-   "Tortilla",
-   "Churro"
-  ],
-  "2026-10-14": [
-   "Orange Juice",
-   "Butternut Squash Soup",
-   "Salmon Croquette",
-   "Orzo",
-   "Roasted Veggies",
-   "Bread",
-   "Melon Medley"
-  ],
-  "2026-10-15": [
-   "Orange Juice",
-   "Chicken Salad",
-   "Potato Chips",
-   "Lettuce/Tomato/Onion",
-   "Pickle",
-   "Bread",
-   "Apple Cake"
-  ],
-  "2026-10-16": [
-   "Orange Juice",
-   "Matzo Ball Soup",
-   "Beef Bourguignon",
-   "New Potatoes",
-   "Green Beans",
-   "Challah",
-   "Mandelbrot"
-  ],
-  "2026-10-19": [
-   "Orange Juice",
-   "Onion Soup",
-   "Bolognaise",
-   "Spaghetti",
-   "Roast Cauliflower",
-   "Garlic Bread",
-   "Baked Apple"
-  ],
-  "2026-10-20": [
-   "Orange Juice",
-   "Green Salad",
-   "Pasta Primavera",
-   "Bread",
-   "Ice Cream Sundae"
-  ],
-  "2026-10-21": [
-   "Orange Juice",
-   "Roast Corn Soup",
-   "Baked Fish",
-   "Orzo",
-   "Mixed Veggies",
-   "Bread",
-   "Fresh Fruit"
-  ],
-  "2026-10-22": [
-   "Orange Juice",
-   "Tuna Salad",
-   "Tomato/Lettuce/Onion",
-   "Pickle",
-   "Potato Chips",
-   "Bread",
-   "Muffin"
-  ],
-  "2026-10-23": [
-   "Orange Juice",
-   "Matzo Ball Soup",
-   "Chicken Piccata",
-   "Potato Anna",
-   "Roasted Beets",
-   "Challah",
-   "Chocolate Mousse"
-  ],
-  "2026-10-26": [
-   "Orange Juice",
-   "Tomato Salad",
-   "Chicken Schnitzel",
-   "Potato Hash",
-   "Broccoli",
-   "Bread",
-   "Chocolate Chip Cookie"
-  ],
-  "2026-10-27": [
-   "Orange Juice",
-   "Broccoli/Cheddar Soup",
-   "Veggie Lasagna",
-   "Side Salad",
-   "Bread",
-   "Rugelach"
-  ],
-  "2026-10-28": [
-   "Orange Juice",
-   "Navy Bean Soup",
-   "Salmon",
-   "Israeli Couscous",
-   "Green Peas",
-   "Bread",
-   "Fresh Fruit"
-  ],
-  "2026-10-29": [
-   "Orange Juice",
-   "Turkey Sandwich",
-   "Lettuce/Onion/Tomato",
-   "Potato Chips",
-   "Coleslaw/Pickle",
-   "Bread",
-   "Fruit Cocktail"
-  ],
-  "2026-10-30": [
-   "Orange Juice",
-   "Matzo Ball Soup",
-   "Brisket",
-   "Basmati Rice",
-   "Yellow Squash",
-   "Challah",
-   "Cup Cakes"
   ]
  }
 }
