@@ -774,6 +774,31 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
 .ac-contact .card{background:#fff;border:1px solid var(--line);border-radius:var(--r-card);padding:22px}
 .ac-contact b{display:block;font-size:18px}.ac-contact small{display:block;color:var(--ink-mute);margin-bottom:8px}
 .ac-check ul{margin:10px 0 0;padding-left:20px}
+/* Annual Campaign thermometer. Amount comes from /data/campaign.json. */
+.ac-thermo{background:#D4CDDA;border-radius:var(--r-card);padding:26px 22px 18px;max-width:380px;margin:26px auto 0}
+.ac-thermo svg{display:block;width:100%;height:auto;max-height:520px;margin:0 auto;overflow:visible;font-family:var(--body)}
+.ac-thermo .ac-outline{fill:none;stroke:#fff;stroke-width:4;stroke-linejoin:round}
+.ac-thermo .ac-wave{fill:#D62598}
+.ac-thermo .ac-wave-b{fill:#B81D80;opacity:.55}
+.ac-thermo .ac-fill{transform:translateY(440px);transition:transform 2.8s cubic-bezier(.22,.61,.36,1)}
+.ac-thermo .ac-wave-a{animation:acWaveA 3.2s linear infinite}
+.ac-thermo .ac-wave-b{animation:acWaveB 4.6s linear infinite}
+@keyframes acWaveA{from{transform:translateX(0)}to{transform:translateX(-100px)}}
+@keyframes acWaveB{from{transform:translateX(-100px)}to{transform:translateX(0)}}
+.ac-thermo .ac-tick{stroke:#fff;stroke-width:2;stroke-linecap:round}
+.ac-thermo .ac-axis{stroke:#fff;stroke-width:2;opacity:.8}
+.ac-thermo .ac-lbl{fill:var(--purple);font-size:13px;font-weight:600}
+.ac-thermo .ac-lbl.major{font-weight:700;font-size:14px}
+.ac-thermo .ac-amt{fill:#fff;font-family:var(--display);font-weight:700;font-size:28px;opacity:0;transition:opacity .7s ease}
+.ac-thermo .ac-amt.low{fill:#D62598}
+.ac-thermo.is-done .ac-amt{opacity:1}
+.ac-live{margin-top:14px;font-weight:600;color:var(--ink-soft)}
+.ac-live small{display:block;font-weight:500;color:var(--ink-mute);margin-top:4px;font-size:13px}
+@media (prefers-reduced-motion:reduce){
+  .ac-thermo .ac-fill{transition:none}
+  .ac-thermo .ac-wave-a,.ac-thermo .ac-wave-b{animation:none}
+  .ac-thermo .ac-amt{transition:none}
+}
 </style>
 <section class="dhero compact">
 <img class="bg" src="https://jdallas-assets.netlify.app/IMG_9015.jpg" alt="" fetchpriority="high">
@@ -789,6 +814,46 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
     <p class="ac-kicker">Mark Cuban's $275K<br>Gift Match Challenge</p>
     <p style="margin-top:22px;font-weight:600">Our Goal:</p>
     <p class="ac-num">$1,000,000</p>
+<div class="ac-thermo" id="acThermo">
+  <svg viewBox="0 0 300 540" role="img" aria-labelledby="acThermoTitle">
+    <title id="acThermoTitle">Annual Campaign progress toward our $1,000,000 goal</title>
+    <defs><clipPath id="acClip"><path d="M90,60 A20,20 0 0 1 130,60 L130,362.92 A70,70 0 1 1 90,362.92 Z"/></clipPath></defs>
+    <line class="ac-axis" x1="200" y1="60" x2="200" y2="500"/>
+        <line class="ac-tick" x1="200" y1="500" x2="218" y2="500"/>
+    <text class="ac-lbl major" x="226" y="505">$0</text>
+    <line class="ac-tick" x1="200" y1="478" x2="210" y2="478"/>
+    <line class="ac-tick" x1="200" y1="456" x2="210" y2="456"/>
+    <line class="ac-tick" x1="200" y1="434" x2="210" y2="434"/>
+    <line class="ac-tick" x1="200" y1="412" x2="210" y2="412"/>
+    <line class="ac-tick" x1="200" y1="390" x2="218" y2="390"/>
+    <text class="ac-lbl major" x="226" y="395">$250K</text>
+    <line class="ac-tick" x1="200" y1="368" x2="210" y2="368"/>
+    <line class="ac-tick" x1="200" y1="346" x2="210" y2="346"/>
+    <line class="ac-tick" x1="200" y1="324" x2="210" y2="324"/>
+    <line class="ac-tick" x1="200" y1="302" x2="210" y2="302"/>
+    <line class="ac-tick" x1="200" y1="280" x2="218" y2="280"/>
+    <text class="ac-lbl major" x="226" y="285">$500K</text>
+    <line class="ac-tick" x1="200" y1="258" x2="210" y2="258"/>
+    <line class="ac-tick" x1="200" y1="236" x2="210" y2="236"/>
+    <line class="ac-tick" x1="200" y1="214" x2="210" y2="214"/>
+    <line class="ac-tick" x1="200" y1="192" x2="210" y2="192"/>
+    <line class="ac-tick" x1="200" y1="170" x2="218" y2="170"/>
+    <text class="ac-lbl major" x="226" y="175">$750K</text>
+    <line class="ac-tick" x1="200" y1="148" x2="210" y2="148"/>
+    <line class="ac-tick" x1="200" y1="126" x2="210" y2="126"/>
+    <line class="ac-tick" x1="200" y1="104" x2="210" y2="104"/>
+    <line class="ac-tick" x1="200" y1="82" x2="210" y2="82"/>
+    <line class="ac-tick" x1="200" y1="60" x2="218" y2="60"/>
+    <text class="ac-lbl major" x="226" y="65">$1M</text>
+    <g clip-path="url(#acClip)"><g class="ac-fill" id="acFill">
+      <path class="ac-wave ac-wave-b" d="M-200,60 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 L700,1100 L-200,1100 Z"/>
+      <path class="ac-wave ac-wave-a" d="M-200,60 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 q25,-8 50,0 q25,8 50,0 L700,1100 L-200,1100 Z"/>
+    </g></g>
+    <path class="ac-outline" d="M90,60 A20,20 0 0 1 130,60 L130,362.92 A70,70 0 1 1 90,362.92 Z"/>
+    <text class="ac-amt" id="acAmt" x="110" y="440" text-anchor="middle"></text>
+  </svg>
+</div>
+<p class="ac-live" id="acLive" aria-live="polite"></p>
     <p class="lede" style="margin:18px auto 0">Every new gift to the 2026 Annual Campaign, and every increase above your 2025 gift, will be matched dollar for dollar, up to $275,000.</p>
     <p class="ac-bepart" style="margin-top:26px"><span class="be">Be</span> <span class="part">Part</span> <span class="of">of</span> <span class="it">It</span><span class="dot" aria-hidden="true"></span><span class="sr-only">.</span></p>
     <div class="ac-give" style="justify-content:center;margin-top:26px"><a class="btn pink ac-rasp" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
@@ -953,6 +1018,39 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
 <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init(); }; h.appendChild(s); })(); </script>
 <!-- Banterly chat -->
 <script src="https://app.banterlyai.com/static/chatbot/js/chatbubble.js" data-id="def283f3-6a4a-4112-b0f2-f3778a965494" data-domain="https://app.banterlyai.com" data-position="right"></script>
+<script>
+/* Annual Campaign thermometer. Reads /data/campaign.json ({goal, raised, updated}) and fills on scroll-into-view. */
+(function(){
+  var box=document.getElementById('acThermo'); if(!box)return;
+  var fill=document.getElementById('acFill'), amt=document.getElementById('acAmt'), live=document.getElementById('acLive');
+  var RANGE=440; /* viewBox px between $0 (y=500) and goal (y=60) */
+  function short(n){
+    if(n>=1e6){var m=n/1e6;return '$'+(m%1?m.toFixed(1):m)+'M';}
+    if(n>=1e3){var k=n/1e3;return '$'+(k%1?k.toFixed(1):k)+'K';}
+    return '$'+n;
+  }
+  function full(n){return '$'+Math.round(n).toLocaleString('en-US');}
+  function fmtDate(s){var d=new Date(s+'T12:00:00');return isNaN(d)?'':d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});}
+  function run(d){
+    var goal=+d.goal||1000000, raised=Math.max(0,+d.raised||0), f=Math.min(1,raised/goal);
+    amt.textContent=short(raised);
+    if(f<0.14)amt.classList.add('low');
+    live.innerHTML=full(raised)+' raised toward our '+full(goal)+' goal'+(d.updated?'<small>Updated '+fmtDate(d.updated)+'</small>':'');
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function go(){
+      fill.style.transform='translateY('+((1-f)*RANGE).toFixed(1)+'px)';
+      setTimeout(function(){box.classList.add('is-done');},reduce?0:2600);
+    }
+    if(reduce||!('IntersectionObserver' in window)){go();return;}
+    var io=new IntersectionObserver(function(es){
+      if(es[0].isIntersecting){io.disconnect();setTimeout(go,150);}
+    },{threshold:.35});
+    io.observe(box);
+  }
+  fetch('/data/campaign.json',{cache:'no-cache'}).then(function(r){return r.json();}).then(run)
+    .catch(function(){run({goal:1000000,raised:0});});
+})();
+</script>
 <script src="https://cdn.givechariot.com/components/chariot-components.umd.js"></script>
 </body>
 </html>
