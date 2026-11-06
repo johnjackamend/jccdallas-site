@@ -775,7 +775,10 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
 .ac-contact b{display:block;font-size:18px}.ac-contact small{display:block;color:var(--ink-mute);margin-bottom:8px}
 .ac-check ul{margin:10px 0 0;padding-left:20px}
 /* Annual Campaign thermometer. Amount comes from /data/campaign.json. */
-.ac-thermo{background:#D4CDDA;border-radius:var(--r-card);padding:26px 22px 18px;max-width:380px;margin:26px auto 0}
+.ac-split{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:56px;align-items:center}
+.ac-col-thermo{display:flex;justify-content:flex-end}
+@media (max-width:860px){.ac-split{grid-template-columns:1fr;gap:36px}.ac-col-thermo{justify-content:center}}
+.ac-thermo{background:#D4CDDA;border-radius:var(--r-card);padding:26px 22px 18px;width:100%;max-width:400px}
 .ac-thermo svg{display:block;width:100%;height:auto;max-height:520px;margin:0 auto;overflow:visible;font-family:var(--body)}
 .ac-thermo .ac-outline{fill:none;stroke:#fff;stroke-width:4;stroke-linejoin:round}
 .ac-thermo .ac-wave{fill:#D62598}
@@ -792,8 +795,6 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
 .ac-thermo .ac-amt{fill:#fff;font-family:var(--display);font-weight:700;font-size:28px;opacity:0;transition:opacity .7s ease}
 .ac-thermo .ac-amt.low{fill:#D62598}
 .ac-thermo.is-done .ac-amt{opacity:1}
-.ac-live{margin-top:14px;font-weight:600;color:var(--ink-soft)}
-.ac-live small{display:block;font-weight:500;color:var(--ink-mute);margin-top:4px;font-size:13px}
 @media (prefers-reduced-motion:reduce){
   .ac-thermo .ac-fill{transition:none}
   .ac-thermo .ac-wave-a,.ac-thermo .ac-wave-b{animation:none}
@@ -810,10 +811,16 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
   </div>
 </section>
 <section class="sec" id="match">
-  <div class="wrap" style="text-align:center;max-width:860px">
+  <div class="wrap ac-split">
+   <div>
     <p class="ac-kicker">Mark Cuban's $275K<br>Gift Match Challenge</p>
     <p style="margin-top:22px;font-weight:600">Our Goal:</p>
     <p class="ac-num">$1,000,000</p>
+    <p class="lede" style="margin:18px 0 0">Every new gift to the 2026 Annual Campaign, and every increase above your 2025 gift, will be matched dollar for dollar, up to $275,000.</p>
+    <p class="ac-bepart" style="margin-top:26px"><span class="be">Be</span> <span class="part">Part</span> <span class="of">of</span> <span class="it">It</span><span class="dot" aria-hidden="true"></span><span class="sr-only">.</span></p>
+    <div class="ac-give" style="margin-top:26px"><a class="btn pink ac-rasp" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
+   </div>
+   <div class="ac-col-thermo">
 <div class="ac-thermo" id="acThermo">
   <svg viewBox="0 0 300 540" role="img" aria-labelledby="acThermoTitle">
     <title id="acThermoTitle">Annual Campaign progress toward our $1,000,000 goal</title>
@@ -853,10 +860,8 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
     <text class="ac-amt" id="acAmt" x="110" y="440" text-anchor="middle"></text>
   </svg>
 </div>
-<p class="ac-live" id="acLive" aria-live="polite"></p>
-    <p class="lede" style="margin:18px auto 0">Every new gift to the 2026 Annual Campaign, and every increase above your 2025 gift, will be matched dollar for dollar, up to $275,000.</p>
-    <p class="ac-bepart" style="margin-top:26px"><span class="be">Be</span> <span class="part">Part</span> <span class="of">of</span> <span class="it">It</span><span class="dot" aria-hidden="true"></span><span class="sr-only">.</span></p>
-    <div class="ac-give" style="justify-content:center;margin-top:26px"><a class="btn pink ac-rasp" href="https://annualcampaign.jccdallas.org/campaign/843902/donate">Donate Now</a><chariot-button cid="live_fde5c7d1abfeb653186c74a4d76b56d7a89d50b579f5d24b180863e6645ef47d"></chariot-button></div>
+<p class="sr-only" id="acLive" aria-live="polite"></p>
+   </div>
   </div>
 </section>
 <section class="sec soft" id="challenge">
@@ -1030,12 +1035,11 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
     return '$'+n;
   }
   function full(n){return '$'+Math.round(n).toLocaleString('en-US');}
-  function fmtDate(s){var d=new Date(s+'T12:00:00');return isNaN(d)?'':d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});}
   function run(d){
     var goal=+d.goal||1000000, raised=Math.max(0,+d.raised||0), f=Math.min(1,raised/goal);
     amt.textContent=short(raised);
     if(f<0.14)amt.classList.add('low');
-    live.innerHTML=full(raised)+' raised toward our '+full(goal)+' goal'+(d.updated?'<small>Updated '+fmtDate(d.updated)+'</small>':'');
+    live.textContent=full(raised)+' raised toward our '+full(goal)+' goal.';
     var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     function go(){
       fill.style.transform='translateY('+((1-f)*RANGE).toFixed(1)+'px)';
