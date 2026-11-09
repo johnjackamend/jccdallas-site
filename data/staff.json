@@ -98,18 +98,11 @@
   "dept": "Accounting"
  },
  {
-  "name": "Kirsten Howard",
+  "name": "Art Garza",
   "title": "Controller",
-  "email": "khoward@jccdallas.org",
+  "email": "agarza@jccdallas.org",
   "phone": "214-239-7142",
   "dept": "Accounting"
- },
- {
-  "name": "Carter Haigh",
-  "title": "Assistant Aquatics Director",
-  "email": "chaigh@jccdallas.org",
-  "phone": "214-239-7198",
-  "dept": "Aquatics"
  },
  {
   "name": "Ethan Herdman",
@@ -119,16 +112,23 @@
   "dept": "Aquatics"
  },
  {
-  "name": "Jenny Ingram",
-  "title": "LKSA Billing Specialist",
-  "email": "jingram@jccdallas.org",
-  "phone": "214-239-7196",
+  "name": "Carter Haigh",
+  "title": "Assistant Aquatics Director",
+  "email": "chaigh@jccdallas.org",
+  "phone": "214-239-7198",
   "dept": "Aquatics"
  },
  {
   "name": "Lia Oberstar-Brown",
   "title": "LKSA Managing Director",
   "email": "lbrown@jccdallas.org",
+  "phone": "214-239-7196",
+  "dept": "Aquatics"
+ },
+ {
+  "name": "Laura Cabrera",
+  "title": "LKSA Associate Director",
+  "email": "lcabrera@jccdallas.org",
   "phone": "214-239-7196",
   "dept": "Aquatics"
  },
@@ -319,6 +319,13 @@
   "title": "Director, J Performing Arts",
   "email": "arobinson@jccdallas.org",
   "phone": "214-239-7140",
+  "dept": "Performing Arts"
+ },
+ {
+  "name": "Skylar Duvall",
+  "title": "JPAS Manager & Arts Specialist",
+  "email": "sduvall@jccdallas.org",
+  "phone": "214-239-7119",
   "dept": "Performing Arts"
  },
  {
