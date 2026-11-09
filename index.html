@@ -315,6 +315,14 @@ p{margin:0}
 .alertbar svg{width:18px;height:18px;flex:0 0 18px}
 .alertbar p{flex:1;margin:0}
 .alertbar strong{font-weight:700}
+.alertbar button.alert-btn{flex:none;width:auto;height:auto;display:inline-block;opacity:1;background:#fff;color:var(--pink);border:0;border-radius:999px;font:700 12px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:9px 16px;white-space:nowrap;cursor:pointer}
+.alertbar button.alert-btn:hover{background:#ffe3ee}
+.amodal{position:fixed;inset:0;z-index:10000;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(20,0,46,.7)}
+.amodal.open{display:flex}
+.amodal .box{position:relative;background:#fff;color:var(--ink);border-radius:var(--r-card,18px);padding:34px 30px 30px;width:min(560px,100%);box-shadow:0 30px 80px rgba(0,0,0,.4)}
+.amodal h2{margin:0 0 14px;font-size:26px}
+.amodal p{margin:0 0 12px;font-size:16px;line-height:1.5}
+.amodal .x{position:absolute;top:10px;right:14px;background:none;border:0;font:700 26px/1 var(--body);color:#777;cursor:pointer}
 .alertbar a{color:inherit;font-weight:700;text-underline-offset:3px}
 .alertbar button{background:none;border:0;color:inherit;cursor:pointer;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;opacity:.75}
 .alertbar button:hover{opacity:1;background:rgba(255,255,255,.18)}
@@ -1203,11 +1211,20 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
 
 
 
-<div class="alertbar" id="alert" role="status" hidden>
+<div class="alertbar" id="alert" role="status" data-until="2026-11-16" hidden>
   <div class="wrap">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg>
-    <p><strong>Parking:</strong> the Sports &amp; Fitness lot is closed today. Use Lots A&ndash;C and the main entrance. <a href="/about#hours">Details</a></p>
+    <p><span aria-hidden="true">📱</span> <strong>Action Required:</strong> Update Your My J App by November 16!</p>
+    <button type="button" class="alert-btn" id="alertMore" aria-haspopup="dialog" aria-controls="appModal">Learn More</button>
     <button type="button" id="alertClose" aria-label="Dismiss alert"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+</div>
+<div class="amodal" id="appModal" role="dialog" aria-modal="true" aria-labelledby="appModalTitle" hidden>
+  <div class="box">
+    <button type="button" class="x" id="appModalClose" aria-label="Close">&times;</button>
+    <h2 id="appModalTitle">Update Your My J App</h2>
+    <p>The old version of the My J App will no longer work.</p>
+    <p>To continue enjoying access to your favorite J features and services, visit the App Store or Google Play Store and update to the latest version by November 16.</p>
+    <p><strong>Don't wait, update today to stay connected!</strong></p>
   </div>
 </div>
 
@@ -1641,10 +1658,21 @@ var LIVE=P.filter(isLive);
 
 /* ---------- alert bar ---------- */
 (function alertBar(){
-  var bar=document.getElementById("alert"), x=document.getElementById("alertClose");
-  if(!bar) return;
-  try{ if(sessionStorage.getItem("jdAlertDismissed")==="1") bar.hidden=true; }catch(e){}
-  if(x) x.addEventListener("click",function(){ bar.hidden=true; try{sessionStorage.setItem("jdAlertDismissed","1");}catch(e){} });
+  var bar=document.getElementById("alert"), x=document.getElementById("alertClose"), more=document.getElementById("alertMore");
+  var modal=document.getElementById("appModal"), mclose=document.getElementById("appModalClose"), last;
+  if(bar){
+    var until=bar.getAttribute("data-until"), today=new Date().toISOString().slice(0,10), key="jdAlertDismissed-myjapp-2026-11";
+    var dismissed=false; try{ dismissed=sessionStorage.getItem(key)==="1"; }catch(e){}
+    if(!dismissed && (!until || today<=until)) bar.hidden=false;
+    if(x) x.addEventListener("click",function(){ bar.hidden=true; try{sessionStorage.setItem(key,"1");}catch(e){} });
+    if(more&&modal){
+      var open=function(){ last=document.activeElement; modal.hidden=false; modal.classList.add("open"); document.body.style.overflow="hidden"; mclose.focus(); };
+      var close=function(){ modal.classList.remove("open"); modal.hidden=true; document.body.style.overflow=""; if(last&&last.focus) last.focus(); };
+      more.addEventListener("click",open); mclose.addEventListener("click",close);
+      modal.addEventListener("click",function(e){ if(e.target===modal) close(); });
+      document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&modal.classList.contains("open")) close(); });
+    }
+  }
 
 /* ---------- scroll reveal + count-up ---------- */
 (function reveal(){
