@@ -89,17 +89,22 @@
       function render() {
         var list = all || !limit ? T : T.slice(0, limit);
         el.innerHTML = '<div class="tgrid">' + list.map(function (t, i) {
-          return '<button type="button" class="tcard" data-i="' + T.indexOf(t) + '"><div class="pic">' + (t.photo ? '<img src="' + E(t.photo) + '" alt="" loading="lazy">' : '<div style="height:100%;display:grid;place-items:center;font:600 42px var(--display);color:var(--purple)">' + E(initials(t.name)) + '</div>') + '</div><div class="in"><b>' + E(t.name) + '</b><small>' + E((t.availability || t.days || 'Personal trainer').replace(/<[^>]+>/g, '')) + '</small></div></button>';
+          return '<button type="button" class="tcard" data-i="' + T.indexOf(t) + '"><div class="pic">' + (t.photo ? '<img src="' + E(t.photo) + '" alt="" loading="lazy">' : '<div style="height:100%;display:grid;place-items:center;font:600 42px var(--display);color:var(--purple)">' + E(initials(t.name)) + '</div>') + '</div><div class="in"><b>' + E(t.name) + '</b><small>Personal Trainer</small></div></button>';
         }).join('') + '</div>' + (!all && limit && T.length > limit ? '<p class="pmore"><button type="button" class="btn ghost" data-all>Meet all ' + T.length + ' trainers</button></p>' : '');
       }
       el.addEventListener('click', function (e) {
         if (e.target.closest('[data-all]')) { all = true; render(); return; }
         var c = e.target.closest('.tcard'); if (!c) return;
         var t = T[+c.getAttribute('data-i')];
-        var bio = (t.bio || '').replace(/<\/?(p|br|div)[^>]*>/g, '\n').replace(/<[^>]+>/g, '').replace(/\n{2,}/g, '\n\n').trim();
-        dialog('<h3>' + E(t.name) + '</h3><div class="meta">' + E([t.availability, t.days].filter(Boolean).join(' · ').replace(/<[^>]+>/g, '') || 'Certified personal trainer') + '</div>' +
+        function clean(h) { /* HTML from the old CMS → plain text lines, entities decoded */
+          var d = document.createElement('div'); d.innerHTML = (h || '').replace(/<li[^>]*>/g, '\n• ').replace(/<\/?(p|br|div|ol|ul|h\d)[^>]*>/g, '\n');
+          return d.textContent.replace(/\u200d/g, '').replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+        }
+        var bio = clean(t.bio), avail = clean(t.availability).split('\n').map(function (l) { return l.trim(); }).filter(Boolean);
+        dialog('<h3>' + E(t.name) + '</h3><div class="meta">Personal Trainer</div>' +
           (t.photo ? '<img src="' + E(t.photo) + '" alt="" style="width:120px;height:120px;object-fit:cover;object-position:50% 18%;border-radius:16px;float:right;margin:0 0 12px 16px">' : '') +
-          bio.split('\n\n').map(function (p) { return '<p style="margin-bottom:10px">' + E(p) + '</p>'; }).join('') +
+          bio.split('\n\n').map(function (p) { return '<p style="margin-bottom:10px;white-space:pre-line">' + E(p) + '</p>'; }).join('') +
+          (avail.length ? '<h4 style="margin:16px 0 6px">Availability</h4><p style="margin-bottom:10px;white-space:pre-line">' + avail.map(E).join('\n') + '</p>' : '') +
           '<div class="acts" style="clear:both"><a class="btn" href="https://calendly.com/scharles-jccdallas/30min">Request a session with ' + E(t.name.split(' ')[0]) + '</a></div>');
       });
       render();

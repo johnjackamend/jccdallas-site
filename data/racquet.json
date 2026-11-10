@@ -8,7 +8,7 @@
   "season": "Winter 2027",
   "start": "2026-09-01",
   "end": "2027-02-14",
-  "note": "Winter drills run December 1, 2026 to February 14, 2027. Register for the level that matches how you play today.",
+  "note": "Winter drills run November 23, 2026 to February 14, 2027. Register for the level that matches how you play today.",
   "fallbackLink": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
   "skip": [],
   "weekly": [
@@ -124,7 +124,7 @@
     "day": 3,
     "time": "7:00 PM",
     "until": "8:30 PM",
-    "title": "Fast Paced Competitive Games and Strategy, Level 3.5",
+    "title": "Fast Paced Competitive Games and Strategy, Levels 3.0 to 3.5",
     "coach": "Curtis Reese",
     "startsOn": "2026-12-02",
     "endsOn": "2027-02-10",
@@ -134,7 +134,7 @@
     "day": 4,
     "time": "9:30 AM",
     "until": "11:00 AM",
-    "title": "The Tennis Lab",
+    "title": "The Tennis Lab, Levels 3.0 to 3.5",
     "coach": "Neil Kenner",
     "startsOn": "2026-12-03",
     "endsOn": "2027-02-11",
@@ -155,7 +155,7 @@
     "time": "10:30 AM",
     "until": "12:00 PM",
     "title": "Ladies Only Competitive Games and Strategy, Level 3.5",
-    "coach": "Mike Kelly",
+    "coach": "Mike Kelly and Neil Kenner",
     "startsOn": "2026-12-04",
     "endsOn": "2027-02-12",
     "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003687"
@@ -229,6 +229,16 @@
     "startsOn": "2026-12-06",
     "endsOn": "2027-02-14",
     "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003593"
+   },
+   {
+    "day": 1,
+    "time": "10:30 AM",
+    "until": "12:00 PM",
+    "title": "Ladies Only Competitive Games and Strategy, Level 3.0",
+    "coach": "Mike Kelly and Neil Kenner",
+    "startsOn": "2026-11-23",
+    "endsOn": "2027-02-08",
+    "link": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003690"
    }
   ],
   "price": "$25 members · $35 non-members",
