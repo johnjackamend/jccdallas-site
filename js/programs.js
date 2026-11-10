@@ -122,6 +122,7 @@
       '<div class="in"><h3>' + E(p.t) + '</h3>' +
       '<div class="meta">' + (p.dates ? '<span>' + I.cal + E(p.dates) + '</span>' : '') + (p.days ? '<span>' + I.clock + E(p.days) + '</span>' : '') + (p.ages ? '<span>' + I.ppl + E(p.ages) + '</span>' : '') + '</div>' +
       (p.desc ? '<p>' + E(p.desc) + '</p>' : '') + sess +
+      (p.sponsors && p.sponsors.length ? '<div class="sponsors"><small>Community Partners</small><div>' + p.sponsors.map(function (u) { return '<img src="' + E(u) + '" alt="" loading="lazy">'; }).join('') + '</div></div>' : '') +
       '<div class="acts">' + reg + (nextDate(p) ? '<button type="button" class="ics" data-ics>' + I.plus + 'Add to calendar</button>' : '') + '</div>' +
       '</div></article>';
   }

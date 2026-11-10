@@ -377,6 +377,10 @@
 .cdir h3{font-family:var(--display);font-size:24px;font-weight:600;margin-bottom:16px}
 .cdir .pcard .in h3{font-family:var(--body);font-size:17px;margin:0}
 .pcard:not(:has(.pic)) p{-webkit-line-clamp:unset;display:block}
+.pcard .sponsors{margin:12px 0 2px}
+.pcard .sponsors small{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-mute);margin-bottom:6px}
+.pcard .sponsors div{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.pcard .sponsors img{height:34px;width:auto;max-width:120px;object-fit:contain}
 
 /* ---------- Micro-site nav (Training Services) ---------- */
 .msnav{background:var(--purple-dark);color:#fff}

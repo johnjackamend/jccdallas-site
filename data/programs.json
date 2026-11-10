@@ -227,15 +227,15 @@
     "adults"
    ],
    "ages": "Adults",
-   "dates": "September 3, 2026",
+   "dates": "March 11, 2027",
    "days": "Thursday evening",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f41f6ae80f653af8ec_Big%20Energy%20-%20Comedy%20at%20the%20J.png",
-   "desc": "Jewish humor has always been about more than the punchline — it's storytelling, timing, and finding the absurd in everyday life. Comedy at The J brings nationally touring talent to Dallas for a night that's sharp, relatable, and laugh-out-loud funny.",
-   "reg": "https://www.jccdallas.org/comedy-at-the-j",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a4665fea04b0e515862511d_E113WDE9.avif",
+   "desc": "Comedy for Peace: bringing people together. No politics. Just laughs. Chase DuRousseau, Erik Angel, and Zara Khan take the stage Thursday, March 11, 2027 at 7:30 PM. $45 general admission includes two drinks and light snacks.",
+   "reg": "https://comedyatthej.eventive.org/schedule/6aaafb3bbe00b709bcf52306",
    "sch": [
     {
      "k": "once",
-     "s": "2026-09-03"
+     "s": "2027-03-11"
     }
    ],
    "sub": []
@@ -4699,7 +4699,10 @@
      "s": "2026-11-02"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
+   ]
   },
   {
    "id": 134,
@@ -4724,6 +4727,9 @@
    ],
    "sub": [
     "basketball"
+   ],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
    ]
   },
   {
@@ -4747,7 +4753,10 @@
      "s": "2026-11-18"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
+   ]
   },
   {
    "id": 136,
@@ -4770,7 +4779,10 @@
      "s": "2026-12-01"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
+   ]
   },
   {
    "id": 137,
@@ -4793,7 +4805,11 @@
      "s": "2026-12-02"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg",
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a6a3cc03b1d01ae34774c4f_custom_thumbnail_big.png"
+   ]
   },
   {
    "id": 138,
@@ -4862,7 +4878,10 @@
      "s": "2027-03-04"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
+   ]
   },
   {
    "id": 141,
@@ -4885,7 +4904,10 @@
      "s": "2027-03-08"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
+   ]
   },
   {
    "id": 142,
@@ -4910,6 +4932,9 @@
    ],
    "sub": [
     "yoga"
+   ],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
    ]
   },
   {
@@ -4935,6 +4960,9 @@
    ],
    "sub": [
     "basketball"
+   ],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688b03fd63bff8dbfd6b52_custom_thumbnail_big.png"
    ]
   },
   {
@@ -4996,7 +5024,10 @@
      "s": "2026-10-25"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688ee7a7d7cab922c33d64_custom_thumbnail_big.png"
+   ]
   },
   {
    "id": 146,
@@ -5047,6 +5078,9 @@
    "sub": [
     "visual-arts",
     "bookfest"
+   ],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
    ]
   },
   {
@@ -5070,7 +5104,13 @@
      "s": "2026-11-10"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg",
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688f0fa2f23aee95f3f9ba_custom_thumbnail_big-3.png",
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688f0f2ce03aadd7daca2e_custom_thumbnail_big-2.png",
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688f0f00efa2a0f3f1111b_custom_thumbnail_big-1.png"
+   ]
   },
   {
    "id": 149,
@@ -5095,6 +5135,9 @@
    ],
    "sub": [
     "bookfest"
+   ],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
    ]
   },
   {
@@ -5118,7 +5161,11 @@
      "s": "2026-12-03"
     }
    ],
-   "sub": []
+   "sub": [],
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg",
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688f23a75abb60c3ddb337_DJHS_full_logo.png.webp"
+   ]
   },
   {
    "id": 131,
