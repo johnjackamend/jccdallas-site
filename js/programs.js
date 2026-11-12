@@ -100,6 +100,30 @@
     clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
     plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>'
   };
+  var dlg;
+  function dialog(html) {
+    if (!dlg) {
+      dlg = document.createElement('dialog'); dlg.className = 'jd-dialog pdlg';
+      dlg.innerHTML = '<div class="in"></div><button class="x" aria-label="Close">&times;</button>';
+      document.body.appendChild(dlg);
+      dlg.querySelector('.x').addEventListener('click', function () { dlg.close(); });
+      dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    }
+    dlg.querySelector('.in').innerHTML = html;
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+  }
+  function detail(p, D) {
+    var sessions = (p.sessions || []).filter(function (s) { return s.reg && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
+    var seen = {}; sessions = sessions.filter(function (s) { if (seen[s.reg + s.label]) return false; seen[s.reg + s.label] = 1; return true; });
+    var reg = p.reg && !p.noBtn ? '<a class="btn' + (p.type === 'Event' ? ' pink' : '') + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (sessions.length === 1 ? '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>' : '');
+    var sess = sessions.length > 1 || (sessions.length === 1 && p.reg && !p.noBtn) ? '<h4>Times &amp; registration</h4><ul class="sessions">' + sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul>' : '';
+    dialog((p.img ? '<div class="pic"><img src="' + E(p.img) + '" alt=""></div>' : '') +
+      '<div class="body"><span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span><h3>' + E(p.t) + '</h3>' +
+      '<div class="meta">' + [p.dates && I.cal + E(p.dates), p.days && I.clock + E(p.days), p.ages && I.ppl + E(p.ages)].filter(Boolean).map(function (m) { return '<span>' + m + '</span>'; }).join('') + '</div>' +
+      (p.desc ? '<p>' + E(p.desc) + '</p>' : '') + sess +
+      '<div class="acts">' + reg + (nextDate(p) ? '<button type="button" class="ics" data-ics>' + I.plus + 'Add to calendar</button>' : '') + '</div></div>');
+    dlg.querySelector('[data-ics]') && dlg.querySelector('[data-ics]').addEventListener('click', function () { ics(p); });
+  }
   function regLabel(p) { return p.btn || p.regLabel || (p.type === 'Event' ? 'Get Tickets' : 'Register'); }
   function card(p, D) {
     var sessions = (p.sessions || []).filter(function (s) { return s.reg && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
@@ -118,10 +142,10 @@
         sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul></details>';
     }
     return '<article class="pcard" data-id="' + p.id + '">' +
-      '<div class="pic">' + (p.img ? '<img src="' + E(p.img) + '" alt="" loading="lazy">' : '') + '<span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span></div>' +
-      '<div class="in"><h3>' + E(p.t) + '</h3>' +
+      '<button type="button" class="pic" data-detail aria-label="Details: ' + E(p.t) + '">' + (p.img ? '<img src="' + E(p.img) + '" alt="" loading="lazy">' : '') + '<span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span></button>' +
+      '<div class="in"><h3><button type="button" class="tlink" data-detail>' + E(p.t) + '</button></h3>' +
       '<div class="meta">' + (p.dates ? '<span>' + I.cal + E(p.dates) + '</span>' : '') + (p.days ? '<span>' + I.clock + E(p.days) + '</span>' : '') + (p.ages ? '<span>' + I.ppl + E(p.ages) + '</span>' : '') + '</div>' +
-      (p.desc ? '<p>' + E(p.desc) + '</p>' : '') + sess +
+      (p.desc ? '<p>' + E(p.desc) + '</p><button type="button" class="more" data-detail hidden>Read more</button>' : '') + sess +
       (p.sponsors && p.sponsors.length ? '<div class="sponsors"><small>Community Partners</small><div>' + p.sponsors.map(function (u) { return '<img src="' + E(u) + '" alt="" loading="lazy">'; }).join('') + '</div></div>' : '') +
       '<div class="acts">' + reg + (nextDate(p) ? '<button type="button" class="ics" data-ics>' + I.plus + 'Add to calendar</button>' : '') + '</div>' +
       '</div></article>';
@@ -137,8 +161,13 @@
     el.innerHTML = '<div class="pgrid' + cols + '">' + shown.map(function (p) { return card(p, D); }).join('') + '</div>' +
       (limit && list.length > limit ? '<p class="pmore"><a class="btn ghost" href="' + E(el.getAttribute('data-more') || '/events') + '">See all ' + list.length + '</a></p>' : '');
     el.addEventListener('click', function (e) {
-      var b = e.target.closest('[data-ics]'); if (b) { var id = +b.closest('.pcard').getAttribute('data-id'); var p = D.P.filter(function (x) { return x.id === id; })[0]; if (p) ics(p); return; }
+      var b = e.target.closest('[data-ics],[data-detail]'); if (!b) return;
+      var id = +b.closest('.pcard').getAttribute('data-id'); var p = D.P.filter(function (x) { return x.id === id; })[0]; if (!p) return;
+      if (b.hasAttribute('data-ics')) ics(p); else detail(p, D);
     });
+    // show "Read more" only where the description is actually clipped
+    var clip = function () { el.querySelectorAll('.pcard .in > p').forEach(function (d) { var m = d.nextElementSibling; if (m && m.classList.contains('more')) m.hidden = d.scrollHeight <= d.clientHeight + 2; }); };
+    clip(); window.addEventListener('resize', clip); window.addEventListener('load', clip);
   }
 
   /* ---- render: calendar ---- */

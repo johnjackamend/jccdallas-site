@@ -430,7 +430,7 @@
     "seniors"
    ],
    "ages": "15+",
-   "dates": "Ongoing — see Adult Swim tab",
+   "dates": "Ongoing, monthly enrollment",
    "days": "Multiple times weekly",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4d815e9e7ae2d2df6_Adult%20Aquatics%20-%20Adult%20Beginner%20Group%20Swim%20Lessons.png",
    "ongoing": true,
@@ -452,7 +452,7 @@
     "seniors"
    ],
    "ages": "15+",
-   "dates": "Ongoing — see Adult Swim tab",
+   "dates": "Ongoing, monthly enrollment",
    "days": "Multiple times weekly",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f420e647d1dc066c5a_Adult%20Aquatics%20-%20Adult%20Intermediate%20%E2%80%93%20Group%20Swim%20Classes.png",
    "ongoing": true,
@@ -496,7 +496,7 @@
     "seniors"
    ],
    "ages": "15+",
-   "dates": "Ongoing — see Adult Swim tab",
+   "dates": "Ongoing, monthly enrollment",
    "days": "Multiple times weekly",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4f31942aee0948c82_Adult%20Aquatics%20-%20Intro%20To%20Masters%20Swim.png",
    "ongoing": true,
@@ -545,11 +545,11 @@
     "teens"
    ],
    "ages": "Youth",
-   "dates": "Ongoing — see Swim Team tab",
+   "dates": "2026-2027 season, began August 25",
    "days": "Multiple practices weekly",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f7b662fa6053b01090_Youth%20Aquatics%20-%20JAYS%20Swim%20Team.png",
    "ongoing": true,
-   "desc": "The J's developmental swim team. Practice schedules, level placement, and current season details are maintained on the aquatics page under the Swim Team tab.",
+   "desc": "The J's developmental prep team for intermediate swimmers: stroke technique, training skills, and race readiness, all while having fun at the pool. Practices Sunday, Tuesday, and Thursday. Tryout required; $110 monthly for members, $140 for non-members.",
    "reg": "https://www.jccdallas.org/aquatics?tab=SWIM#tabs",
    "sch": [],
    "sub": [
@@ -566,11 +566,11 @@
     "teens"
    ],
    "ages": "Youth",
-   "dates": "Ongoing — see Swim Team tab",
+   "dates": "2026-2027 season, began August 25",
    "days": "Multiple practices weekly",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f9479a70f08ad753b3_Youth%20Aquatics%20-%20Rays%20Swim%20Team.png",
    "ongoing": true,
-   "desc": "The J's competitive swim team. Practice schedules, level placement, and current season details are maintained on the aquatics page under the Swim Team tab.",
+   "desc": "The J's competitive year-round USA Swimming club team, with Jets and Jolts practice groups. Five practices a week plus drylands, monthly meets, and regional, state, and national competition. Tryout and J Dallas membership required.",
    "reg": "https://www.jccdallas.org/aquatics?tab=SWIM#tabs",
    "sch": [],
    "sub": [
