@@ -39,7 +39,7 @@
 .fact:last-child{border-right:0;margin-right:0}
 .fact svg{width:26px;height:26px;color:var(--pink);flex:none;margin-top:2px}
 .fact b{display:block;font-size:16px;line-height:1.3}
-.fact span{display:block;font-size:14px;color:var(--ink-mute);margin-top:3px}
+.fact span{display:block;font-size:14.5px;color:var(--ink-soft);margin-top:3px}
 .fact a{color:var(--purple);text-decoration:none;font-weight:600}
 .fact a:hover{text-decoration:underline}
 @media (max-width:760px){.facts .wrap{grid-template-columns:1fr 1fr}.fact{border-right:0;margin-right:0;padding:16px 0;border-bottom:1px solid var(--line-soft)}.fact:nth-last-child(-n+2){border-bottom:0}}
