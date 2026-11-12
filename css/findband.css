@@ -15,12 +15,11 @@
 /* dim photo strip under the search card, fading into the margins */
 .find-strip{position:relative;z-index:1;margin:34px 0 0;height:170px;opacity:.55;transition:opacity .6s ease;
   -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 22%,#000 78%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 22%,#000 78%,transparent 100%)}
-.find-rail{display:flex;width:max-content;animation:findScroll 70s linear infinite}
+.find-rail{display:flex;width:max-content;animation:findScroll 110s linear infinite}
 .find-track{display:flex;gap:14px;padding-right:14px}
 .find-track span{display:block;width:230px;height:170px;border-radius:18px;overflow:hidden;background:var(--purple-tint);flex:none}
 .find-track img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85)}
 @keyframes findScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.findband:hover .find-rail{animation-play-state:paused}
 .findband.no-motion .find-rail{animation:none}
 
 /* results float over the strip, which fades back further */
