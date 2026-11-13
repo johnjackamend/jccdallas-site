@@ -2373,6 +2373,54 @@
    ]
   },
   {
+   "id": 156,
+   "t": "Theme Night: 2027 Same Card. New Luck",
+   "cat": "mahj",
+   "type": "Event",
+   "aud": [
+    "adults"
+   ],
+   "ages": "18+",
+   "dates": "January 14, 2027",
+   "days": "6–9 PM",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b5b78187897008e39d9c5_J%20Mahj%20-%20Theme%20Nights.png",
+   "desc": "Theme Nights in the J Mahj Room, open to members and non-members.",
+   "reg": "https://jmahj.eventive.org/schedule/6a45824cf5dcb6b50a5d5e8d",
+   "sch": [
+    {
+     "k": "once",
+     "s": "2027-01-14"
+    }
+   ],
+   "sub": [
+    "mahj"
+   ]
+  },
+  {
+   "id": 157,
+   "t": "Theme Night: Year of the GOAT: Greatest Of All Tiles",
+   "cat": "mahj",
+   "type": "Event",
+   "aud": [
+    "adults"
+   ],
+   "ages": "18+",
+   "dates": "February 4, 2027",
+   "days": "6–9 PM",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b5b78187897008e39d9c5_J%20Mahj%20-%20Theme%20Nights.png",
+   "desc": "Theme Nights in the J Mahj Room, open to members and non-members.",
+   "reg": "https://jmahj.eventive.org/schedule/6a468b652cbbfac5dce9780c",
+   "sch": [
+    {
+     "k": "once",
+     "s": "2027-02-04"
+    }
+   ],
+   "sub": [
+    "mahj"
+   ]
+  },
+  {
    "id": 60,
    "t": "J Dallas Social Mahj League (Thursdays)",
    "cat": "mahj",
