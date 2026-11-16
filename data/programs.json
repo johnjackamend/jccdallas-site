@@ -3317,7 +3317,7 @@
   },
   {
    "id": 88,
-   "t": "ARC First Aid/CPR/AED Training",
+   "t": "American Red Cross First Aid/CPR/AED Training",
    "cat": "emerg",
    "type": "Program",
    "aud": [
@@ -3326,19 +3326,15 @@
     "seniors"
    ],
    "ages": "Teens and adults",
-   "dates": "August 10, 16 & 23",
+   "dates": "December 1, 2026",
    "days": "Single-day certification courses",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f683afb344e060492b_Emergency%20Training%20-%20ARC%20First%20Aid_CPR_AED%20Training.png",
    "desc": "Be prepared when it matters most. American Red Cross certification courses teach lifesaving First Aid, CPR, and AED skills for adults and children — ideal for parents, caregivers, teachers, coaches, and anyone who wants to respond confidently in an emergency.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002979",
    "sch": [
     {
-     "k": "dates",
-     "list": [
-      "2026-08-10",
-      "2026-08-16",
-      "2026-08-23"
-     ]
+     "k": "once",
+     "s": "2026-12-01"
     }
    ],
    "sub": [
@@ -3347,7 +3343,7 @@
   },
   {
    "id": 89,
-   "t": "ARC Babysitter's Training",
+   "t": "American Red Cross Babysitter's Training",
    "cat": "emerg",
    "type": "Program",
    "aud": [
@@ -3355,18 +3351,15 @@
     "teens"
    ],
    "ages": "Ages 11–16",
-   "dates": "August 23 & 30",
+   "dates": "December 6, 2026",
    "days": "Single-day course",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f64a4e2a873651eb69_Emergency%20Training%20-%20ARC%20Babysitter%E2%80%99s%20Training.png",
    "desc": "Gain the confidence and skills to become a safe, responsible babysitter. This hands-on American Red Cross course teaches essential childcare, safety, first aid basics, and emergency response through interactive activities and real-world scenarios.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003160",
    "sch": [
     {
-     "k": "dates",
-     "list": [
-      "2026-08-23",
-      "2026-08-30"
-     ]
+     "k": "once",
+     "s": "2026-12-06"
     }
    ],
    "sub": [
@@ -3397,6 +3390,29 @@
    "sub": [
     "lifeguarding"
    ]
+  },
+  {
+   "id": 158,
+   "t": "American Red Cross Blood Drive",
+   "cat": "emerg",
+   "type": "Event",
+   "aud": [
+    "adults",
+    "seniors"
+   ],
+   "ages": "Adults",
+   "dates": "Friday, December 18, 2026",
+   "days": "10 AM–4 PM",
+   "img": "",
+   "desc": "Give blood at The J with the American Red Cross. Appointments are encouraged; find the drive and book your time on the Red Cross site.",
+   "reg": "https://www.redcrossblood.org/give.html/find-drive/75230",
+   "sch": [
+    {
+     "k": "once",
+     "s": "2026-12-18"
+    }
+   ],
+   "sub": []
   },
   {
    "id": 91,
