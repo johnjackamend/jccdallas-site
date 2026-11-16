@@ -234,5 +234,5 @@
     });
     els.forEach(function (el) { mount(el, D); });
   });
-  window.jdPrograms = { load: load, matches: matches, parse: parse, card: card, nextDate: nextDate, isPast: isPast, mount: function (el) { load(function (D) { if (D) mount(el, D); }); } };
+  window.jdPrograms = { load: load, matches: matches, parse: parse, card: card, nextDate: nextDate, isPast: isPast, occursOn: occursOn, mount: function (el) { load(function (D) { if (D) mount(el, D); }); } };
 })();

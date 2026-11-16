@@ -31,14 +31,16 @@ head += """<style>
 .wx-paths .area:nth-child(2) .pic{background:linear-gradient(135deg,#400186,#7a4fd0)}
 .wx-paths .area:nth-child(3) .pic{background:linear-gradient(135deg,#05c3dd,#0a7fa8)}
 .wx-paths .area:nth-child(4) .pic{background:linear-gradient(135deg,#f8485e,#ad1aac)}
-.wx-filter{position:sticky;top:0;z-index:4;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:12px 0}
-.wx-filter .wrap{display:flex;flex-direction:column;gap:8px}
-.wx-filter .row{display:flex;gap:8px;flex-wrap:nowrap;align-items:center;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;-webkit-overflow-scrolling:touch}
-.wx-filter .row::-webkit-scrollbar{display:none}
-.wx-filter .chip{white-space:nowrap;flex:none}
-.wx-filter .lbl{font-size:13px;font-weight:700;color:var(--ink-mute);margin-right:4px;min-width:64px}
-.wx-filter .chip.on{background:var(--purple);border-color:var(--purple);color:#fff}
-.wx-filter .chip.on.a{background:var(--pink);border-color:var(--pink)}
+.wx-filter{position:sticky;top:0;z-index:4;background:rgba(255,255,255,.96);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 0 10px}
+.wx-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.wx-search{flex:1 1 320px;display:flex;align-items:center;gap:10px;border:1.5px solid var(--line);border-radius:var(--r-pill);background:#fff;padding:0 16px;height:44px;min-width:0}
+.wx-search svg{width:20px;height:20px;color:var(--purple);flex:none}
+.wx-search input{border:0;outline:0;background:0;font:500 15px var(--body);color:var(--ink);width:100%;min-width:0}
+.wx-search:focus-within{border-color:var(--purple);box-shadow:0 0 0 4px var(--purple-tint)}
+.wx-bar .fsel select{height:44px;padding:0 38px 0 16px}
+.wx-count{display:flex;align-items:center;gap:12px;margin-top:8px;font-size:14px;color:var(--ink-soft)}
+.wx-count .chip{padding:6px 12px;font-size:13px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .wx-cat{padding:34px 0 6px}
 .wx-cat.hide{display:none}
 .wx-cat h3{font-size:24px;margin:0 0 4px}
@@ -53,7 +55,7 @@ head += """<style>
 .pcard .pic.ph .phl{color:#fff;font:700 17px/1.25 var(--display);text-align:center;padding:18px 22px;text-shadow:0 1px 8px rgba(0,0,0,.25)}
 .pcard .pic.ph::after{content:"Photo coming soon";position:absolute;left:12px;bottom:10px;font:600 11px var(--body);color:rgba(255,255,255,.8);letter-spacing:.04em}
 .pcard .pic.ph .tag{z-index:1}
-@media (max-width:720px){.wx-filter{position:static}.wx-paths .area .pic{aspect-ratio:16/6;font-size:34px}}
+@media (max-width:720px){.wx-filter{position:static}.wx-bar .fsel{flex:1 1 30%}.wx-paths .area .pic{aspect-ratio:16/6;font-size:34px}}
 </style>
 """
 nav = nav.replace('<body class="dept dept-aquatics">', '<body class="dept dept-winter">', 1)
@@ -71,8 +73,10 @@ SUB = {"social": "The big nights and signature events of the season.", "bookfest
        "emerg": "READY Academy at The J: American Red Cross courses and the December blood drive."}
 LABEL = {"social": "Big Energy Events", "emerg": "READY Academy (Emergency Training)", "gecc": "GECC Enrichment & Early Childhood", "seniors": "Seniors & Active Adults"}
 
-chips_cat = '<button class="chip on" data-cat="all">All</button>' + "".join(f'<button class="chip" data-cat="{c}">{LABEL.get(c, catLabel[c])}</button>' for c in cats)
-chips_aud = '<button class="chip on a" data-aud="all">Everyone</button><button class="chip" data-aud="kids">Kids</button><button class="chip" data-aud="teens">Teens</button><button class="chip" data-aud="adults">Adults</button><button class="chip" data-aud="seniors">Active Adults</button>'
+cat_opts = '<option value="all">All Categories</option>' + "".join(f'<option value="{c}">{LABEL.get(c, catLabel[c])}</option>' for c in cats)
+aud_opts = '<option value="all">Anyone</option><option value="kids">Kids</option><option value="teens">Teens</option><option value="adults">Adults</option><option value="seniors">Active Adults</option>'
+MON = [("2026-12","December 2026"),("2027-01","January 2027"),("2027-02","February 2027"),("2027-03","March 2027"),("2027-04","April 2027"),("2027-05","May 2027"),("2027-06","June 2027")]
+mon_opts = '<option value="all">All Months</option>' + "".join(f'<option value="{v}">{l}</option>' for v, l in MON)
 sections = "".join(f'<div class="wx-cat" id="cat-{c}" data-cat="{c}"><h3>{LABEL.get(c, catLabel[c])}</h3>' + (f'<p class="sub">{SUB[c]}</p>' if c in SUB else '') +
                    f'<div data-programs="tag:winter;cat:{c}" data-limit="6" data-more="expand" data-empty=""></div></div>' for c in cats)
 
@@ -124,7 +128,13 @@ main = f"""<section class="dhero no-img wx-hero">
   </div>
 </section>
 <section class="sec soft" id="season" style="padding-top:0">
-<div class="wx-filter"><div class="wrap"><div class="row"><span class="lbl">Show</span>{chips_cat}</div><div class="row"><span class="lbl">For</span>{chips_aud}</div></div></div>
+<div class="wx-filter"><div class="wrap">
+  <div class="wx-bar"><label class="wx-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="sr-only">Search winter programs</span><input id="wxQ" type="search" placeholder="Search the season, e.g. swim, Mahj, camp, pickleball" autocomplete="off"></label>
+  <div class="fsel"><label class="sr-only" for="wxCat">Category</label><select id="wxCat">{cat_opts}</select></div>
+  <div class="fsel"><label class="sr-only" for="wxAud">Who it is for</label><select id="wxAud">{aud_opts}</select></div>
+  <div class="fsel"><label class="sr-only" for="wxMon">Month</label><select id="wxMon">{mon_opts}</select></div></div>
+  <div class="wx-count"><span id="wxCount" role="status">Loading the season…</span><button type="button" class="chip" id="wxClear" data-reset hidden>Clear filters</button></div>
+</div></div>
   <div class="wrap" id="seasonList">{sections}
   <p class="pempty" id="seasonEmpty" hidden>Nothing matches that combination yet. <button type="button" class="chip" data-reset>Reset filters</button></p>
   </div>
@@ -142,34 +152,52 @@ main = f"""<section class="dhero no-img wx-hero">
 </section>
 <script>
 (function(){{
-  var cats=document.querySelectorAll('.wx-filter [data-cat]'),auds=document.querySelectorAll('.wx-filter [data-aud]'),secs=document.querySelectorAll('.wx-cat');
-  var cat='all',aud='all';
-  function apply(){{
-    cats.forEach(function(b){{b.classList.toggle('on',b.getAttribute('data-cat')===cat)}});
-    auds.forEach(function(b){{b.classList.toggle('on',b.getAttribute('data-aud')===aud)}});
-    var any=false;
-    secs.forEach(function(s){{
-      var c=s.getAttribute('data-cat'),el=s.querySelector('[data-programs]');
-      var spec='tag:winter;cat:'+c+(aud!=='all'?';aud:'+aud:'');
-      if(el.getAttribute('data-programs')!==spec){{el.setAttribute('data-programs',spec);window.jdPrograms&&window.jdPrograms.mount(el);}}
-      s.classList.toggle('hide',cat!=='all'&&c!==cat);
-    }});
-    // hide sections that rendered empty (after mount settles)
-    setTimeout(function(){{
-      var shown=0;
-      secs.forEach(function(s){{var el=s.querySelector('[data-programs]');var empty=!el.querySelector('.pcard');var c=s.getAttribute('data-cat');var vis=!(cat!=='all'&&c!==cat)&&!empty;s.classList.toggle('hide',!vis);if(vis)shown++;}});
-      document.getElementById('seasonEmpty').hidden=shown>0;
-    }},350);
+  var secs=document.querySelectorAll('.wx-cat'),selCat=document.getElementById('wxCat'),selAud=document.getElementById('wxAud'),selMon=document.getElementById('wxMon'),q=document.getElementById('wxQ'),count=document.getElementById('wxCount'),clear=document.getElementById('wxClear');
+  var D=null,t=null;
+  function norm(x){{return (x||'').toLowerCase();}}
+  function inMonth(p,ym){{
+    if(ym==='all')return true;
+    var y=+ym.slice(0,4),m=+ym.slice(5,7)-1,n=new Date(y,m+1,0).getDate();
+    for(var d=1;d<=n;d++){{if(window.jdPrograms.occursOn(p,new Date(y,m,d)))return true;}}
+    return false;
   }}
-  cats.forEach(function(b){{b.addEventListener('click',function(){{cat=b.getAttribute('data-cat');apply();}});}});
-  auds.forEach(function(b){{b.addEventListener('click',function(){{aud=b.getAttribute('data-aud');apply();}});}});
-  document.addEventListener('click',function(e){{var r=e.target.closest('[data-reset]');if(r){{cat='all';aud='all';apply();}}
-    var g=e.target.closest('[data-go-aud]');if(g&&g.getAttribute('data-go-aud')){{aud=g.getAttribute('data-go-aud');cat='all';apply();}}}});
+  function textMatch(p,s){{if(!s)return true;return norm(p.t+' '+(p.desc||'')+' '+(p.dates||'')+' '+(p.days||'')+' '+(p.ages||'')).indexOf(s)>-1;}}
+  function apply(){{
+    var cat=selCat.value,aud=selAud.value,mon=selMon.value,s=norm(q.value).trim(),active=cat!=='all'||aud!=='all'||mon!=='all'||!!s;
+    clear.hidden=!active;
+    secs.forEach(function(sec){{
+      var c=sec.getAttribute('data-cat'),el=sec.querySelector('[data-programs]');
+      var spec='tag:winter;cat:'+c+(aud!=='all'?';aud:'+aud:'');
+      var lim=(s||mon!=='all'||cat!=='all')?'0':'6';
+      if(el.getAttribute('data-programs')!==spec||el.getAttribute('data-limit')!==lim){{el.setAttribute('data-programs',spec);el.setAttribute('data-limit',lim);window.jdPrograms.mount(el);}}
+    }});
+    clearTimeout(t);t=setTimeout(function(){{
+      var shown=0,total=0;
+      secs.forEach(function(sec){{
+        var c=sec.getAttribute('data-cat'),vis=0;
+        sec.querySelectorAll('.pcard').forEach(function(card){{
+          var p=D&&D.P.filter(function(x){{return x.id===+card.getAttribute('data-id');}})[0];
+          var ok=!!p&&textMatch(p,s)&&inMonth(p,mon);
+          card.hidden=!ok; if(ok)vis++;
+        }});
+        var more=sec.querySelector('.pmore'); if(more)more.hidden=!!(s||mon!=='all');
+        var on=(cat==='all'||c===cat)&&vis>0; sec.classList.toggle('hide',!on); if(on){{shown++;total+=vis;}}
+      }});
+      document.getElementById('seasonEmpty').hidden=shown>0;
+      count.textContent=active?(total+' result'+(total===1?'':'s')+(shown>1?' in '+shown+' categories':'')):'Showing the whole season. Search or filter to narrow it down.';
+    }},380);
+  }}
+  [selCat,selAud,selMon].forEach(function(el){{el.addEventListener('change',apply);}});
+  q.addEventListener('input',function(){{clearTimeout(t);t=setTimeout(apply,200);}});
+  document.addEventListener('click',function(e){{
+    if(e.target.closest('[data-reset]')){{selCat.value='all';selAud.value='all';selMon.value='all';q.value='';apply();}}
+    var g=e.target.closest('[data-go-aud]');if(g&&g.getAttribute('data-go-aud')){{selAud.value=g.getAttribute('data-go-aud');selCat.value='all';apply();}}
+  }});
   var nav=document.getElementById('jdnav'),fbar=document.querySelector('.wx-filter'),tick=false;
   function stickTop(){{tick=false;if(nav&&fbar)fbar.style.top=(window.innerWidth>720?Math.max(0,Math.round(nav.getBoundingClientRect().bottom)):0)+'px';}}
-  function onScroll(){{if(!tick){{tick=true;requestAnimationFrame(stickTop);}}}}
-  window.addEventListener('resize',stickTop);window.addEventListener('scroll',onScroll,{{passive:true}});stickTop();
-  window.addEventListener('load',function(){{setTimeout(apply,400);stickTop();}});
+  window.addEventListener('resize',stickTop);window.addEventListener('scroll',function(){{if(!tick){{tick=true;requestAnimationFrame(stickTop);}}}},{{passive:true}});stickTop();
+  function boot(){{if(!window.jdPrograms)return setTimeout(boot,80);window.jdPrograms.load(function(d){{D=d;apply();}});}}
+  boot();window.addEventListener('load',stickTop);
 }})();
 </script>
 """
