@@ -4,7 +4,7 @@
      <div data-programs="sub:tennis" data-view="calendar"></div>
    Filters (all optional, comma-separated values, sections are ANDed, values ORed):
      cat:  racq-a,racq-y      aud: adults,kids      sub: tennis,pickleball
-     type: Program|Event      pillar: racq
+     type: Program|Event      pillar: racq      tag: winter   id: 12,40
    Data source: /data/programs.json (same file the Events page and site search use). */
 (function () {
   'use strict';
@@ -36,6 +36,8 @@
     if (f.type && f.type.indexOf(p.type) < 0) return false;
     if (f.pillar && f.pillar.indexOf(D.cat2pillar[p.cat]) < 0) return false;
     if (f.id && f.id.indexOf(String(p.id)) < 0) return false;
+    if (f.tag && !(p.tags || []).some(function (t) { return f.tag.indexOf(t) > -1; })) return false;
+    if (p.pre && !f.tag) return false; // staged entries only show where a tag is asked for
     return true;
   }
 
@@ -119,7 +121,7 @@
     var sess = sessions.length > 1 || (sessions.length === 1 && p.reg && !p.noBtn) ? '<h4>Times &amp; registration</h4><ul class="sessions">' + sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul>' : '';
     dialog((p.img ? '<div class="pic"><img src="' + E(p.img) + '" alt=""></div>' : '') +
       '<div class="body"><span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span><h3>' + E(p.t) + '</h3>' +
-      '<div class="meta">' + [p.dates && I.cal + E(p.dates), p.days && I.clock + E(p.days), p.ages && I.ppl + E(p.ages)].filter(Boolean).map(function (m) { return '<span>' + m + '</span>'; }).join('') + '</div>' +
+      '<div class="meta">' + [p.dates && I.cal + E(p.dates), p.days && I.clock + E(p.days), p.loc && I.pin + E(p.loc), p.ages && I.ppl + E(p.ages)].filter(Boolean).map(function (m) { return '<span>' + m + '</span>'; }).join('') + '</div>' +
       (p.desc ? '<p>' + E(p.desc) + '</p>' : '') + sess +
       '<div class="acts">' + reg + (nextDate(p) ? '<button type="button" class="ics" data-ics>' + I.plus + 'Add to calendar</button>' : '') + '</div></div>');
     dlg.querySelector('[data-ics]') && dlg.querySelector('[data-ics]').addEventListener('click', function () { ics(p); });
@@ -142,7 +144,7 @@
         sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul></details>';
     }
     return '<article class="pcard" data-id="' + p.id + '">' +
-      '<button type="button" class="pic" data-detail aria-label="Details: ' + E(p.t) + '">' + (p.img ? '<img src="' + E(p.img) + '" alt="" loading="lazy">' : '') + '<span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span></button>' +
+      '<button type="button" class="pic' + (p.img ? '' : ' ph') + '" data-detail aria-label="Details: ' + E(p.t) + '">' + (p.img ? '<img src="' + E(p.img) + '" alt="" loading="lazy">' : '<span class="phl">' + E(p.t) + '</span>') + '<span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span></button>' +
       '<div class="in"><h3><button type="button" class="tlink" data-detail>' + E(p.t) + '</button></h3>' +
       '<div class="meta">' + (p.dates ? '<span>' + I.cal + E(p.dates) + '</span>' : '') + (p.days ? '<span>' + I.clock + E(p.days) + '</span>' : '') + (p.ages ? '<span>' + I.ppl + E(p.ages) + '</span>' : '') + '</div>' +
       (p.desc ? '<p>' + E(p.desc) + '</p><button type="button" class="more" data-detail hidden>Read more</button>' : '') + sess +
@@ -159,7 +161,8 @@
     }
     var shown = limit ? list.slice(0, limit) : list;
     el.innerHTML = '<div class="pgrid' + cols + '">' + shown.map(function (p) { return card(p, D); }).join('') + '</div>' +
-      (limit && list.length > limit ? '<p class="pmore"><a class="btn ghost" href="' + E(el.getAttribute('data-more') || '/events') + '">See all ' + list.length + '</a></p>' : '');
+      (limit && list.length > limit ? '<p class="pmore">' + (el.getAttribute('data-more') === 'expand' ? '<button type="button" class="btn ghost" data-expand>Show all ' + list.length + '</button>' : '<a class="btn ghost" href="' + E(el.getAttribute('data-more') || '/events') + '">See all ' + list.length + '</a>') + '</p>' : '');
+    var ex = el.querySelector('[data-expand]'); if (ex) ex.addEventListener('click', function () { el.setAttribute('data-limit', '0'); load(function (D) { mount(el, D); }); });
     el.addEventListener('click', function (e) {
       var b = e.target.closest('[data-ics],[data-detail]'); if (!b) return;
       var id = +b.closest('.pcard').getAttribute('data-id'); var p = D.P.filter(function (x) { return x.id === id; })[0]; if (!p) return;
@@ -173,6 +176,7 @@
   /* ---- render: calendar ---- */
   function renderCal(el, list, D) {
     var now = new Date(), y = now.getFullYear(), m = now.getMonth(), sel = null;
+    var start = el.getAttribute('data-month'); if (start && start > iso(now).slice(0, 7)) { y = +start.slice(0, 4); m = +start.slice(5, 7) - 1; }
     var title = el.getAttribute('data-title') || 'Calendar';
     el.innerHTML = '<div class="cal"><div class="head"><button type="button" data-prev aria-label="Previous month"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 5-7 7 7 7"/></svg></button><h3 data-label></h3><button type="button" data-next aria-label="Next month"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m9 5 7 7-7 7"/></svg></button></div>' +
       '<div class="body"><div class="grid" role="grid" aria-label="' + E(title) + '"></div><aside class="panel" aria-live="polite"><h4 data-ptitle>Pick a day</h4><div data-plist><p class="none">Days with a purple or pink mark have something scheduled. Tap one to see details.</p></div></aside></div></div>';
@@ -218,7 +222,7 @@
     if (el.getAttribute('data-view') !== 'calendar') list = list.filter(function (p) { return !isPast(p); }).sort(sortByNext);
     var counter = el.getAttribute('data-count'); if (counter) { var c = document.querySelector(counter); if (c) c.textContent = list.length; }
     var clone = el.cloneNode(false); el.parentNode.replaceChild(clone, el); el = clone; // drop old listeners
-    if (el.getAttribute('data-view') === 'calendar') renderCal(el, list, D); else renderCards(el, list, D);
+    if (el.getAttribute('data-view') === 'calendar') renderCal(el, list.filter(function (p) { return !p.calHide; }), D); else renderCards(el, list, D);
   }
   var els = document.querySelectorAll('[data-programs]');
   var counters = document.querySelectorAll('[data-count-for]');

@@ -52,7 +52,7 @@
     P.load(function (D) {
       if (!D) return;
       var r = whenRange(when);
-      var list = D.P.filter(function (p) { return !P.isPast(p); }).map(function (p) {
+      var list = D.P.filter(function (p) { return !p.pre && !P.isPast(p); }).map(function (p) {
         var s = toks.length ? score(p, toks, D) : 1;
         if (aud && (p.aud || []).indexOf(aud) < 0) s = 0;
         if (qa.length && !(p.aud || []).some(function (a) { return qa.indexOf(a) > -1; })) s = 0;

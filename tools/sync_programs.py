@@ -10,6 +10,8 @@ def splice(path, marker, payload, end):
     j = s.find(end, i); assert j > 0
     s = s[:i] + marker + payload + s[j:]
     open(p, "w", encoding="utf-8").write(s)
-splice("index.html", "var P=", json.dumps(D["P"], ensure_ascii=False), ";\n")
-splice("events/index.html", "var DATA=", json.dumps(D, ensure_ascii=False), ";\n")
-print("synced", len(D["P"]), "programs into index.html and events/index.html")
+# entries flagged "pre": true are staged (e.g. a season page in preview) and stay out of the homepage and /events
+LIVE = dict(D); LIVE["P"] = [p for p in D["P"] if not p.get("pre")]
+splice("index.html", "var P=", json.dumps(LIVE["P"], ensure_ascii=False), ";\n")
+splice("events/index.html", "var DATA=", json.dumps(LIVE, ensure_ascii=False), ";\n")
+print("synced", len(LIVE["P"]), "live programs into index.html and events/index.html;", len(D["P"]) - len(LIVE["P"]), "staged entries held back")
