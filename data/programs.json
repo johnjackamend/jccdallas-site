@@ -518,6 +518,39 @@
    "sub": []
   },
   {
+   "id": 222,
+   "t": "Holiday Market at The J",
+   "cat": "social",
+   "type": "Event",
+   "aud": [
+    "kids",
+    "teens",
+    "adults",
+    "seniors"
+   ],
+   "ages": "All ages",
+   "dates": "Thursday, December 10, 2026",
+   "days": "2:30–9:30 PM · Free, no registration required",
+   "img": "",
+   "desc": "Shop Local. Find Something Special! Get into the holiday spirit and shop unique gifts, jewelry, accessories, kids' toys, home decor, ceramics, personalized gifts, and more from 15+ local vendors in the J Lobby. Free and open to all ages. Stop by, shop small, and celebrate the season at The J!",
+   "reg": "https://www.jccdallas.org/holiday-market",
+   "loc": "J Lobby",
+   "sch": [
+    {
+     "k": "once",
+     "s": "2026-12-10"
+    }
+   ],
+   "sub": [],
+   "tags": [
+    "winter"
+   ],
+   "also": [
+    "holiday"
+   ],
+   "btn": "Event Details"
+  },
+  {
    "id": 161,
    "t": "Vodkas & Latkes",
    "cat": "social",
