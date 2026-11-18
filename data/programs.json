@@ -620,7 +620,7 @@
    "ages": "All ages",
    "dates": "Sunday, May 9, 2027",
    "days": "",
-   "img": "",
+   "img": "https://jdallas-assets.netlify.app/Untitled-1_1.png",
    "desc": "Lace up and rise and shine! The Bagel Run is back: a morning of community, movement, and a well-earned bagel at the finish line. Runners, walkers, and cheering sections all welcome.",
    "reg": "https://www.jccdallas.org/special-events/bagel-run",
    "sch": [
@@ -632,8 +632,7 @@
    "sub": [],
    "tags": [
     "winter"
-   ],
-   "pre": true
+   ]
   },
   {
    "id": 165,
