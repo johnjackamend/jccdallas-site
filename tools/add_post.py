@@ -8,9 +8,12 @@ from datetime import datetime
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(root)
 SITE = "https://www.jccdallas.org"
 title, slug, ymd, category, bodyfile = sys.argv[1:6]
-paras = [p.strip() for p in re.split(r"\n\s*\n", open(bodyfile, encoding="utf-8").read().strip()) if p.strip()]
 e = lambda x: html.escape(x, quote=True)
-body = "".join(f"<p>{e(p).replace(chr(10), '<br>')}</p>" for p in paras)
+if bodyfile.endswith(".html"):  # pre-formatted body (bold subheads, lists); used as-is
+    body = open(bodyfile, encoding="utf-8").read().strip()
+else:
+    paras = [p.strip() for p in re.split(r"\n\s*\n", open(bodyfile, encoding="utf-8").read().strip()) if p.strip()]
+    body = "".join(f"<p>{e(p).replace(chr(10), '<br>')}</p>" for p in paras)
 posts = json.load(open("data/blog.json", encoding="utf-8"))
 assert not any(p["slug"] == slug for p in posts), "slug exists"
 ref = next(p for p in posts if p["category"] == category)
