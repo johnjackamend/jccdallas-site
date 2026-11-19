@@ -343,9 +343,6 @@
    "tags": [
     "winter"
    ],
-   "also": [
-    "social"
-   ],
    "pre": true
   },
   {
@@ -404,9 +401,6 @@
    "sub": [],
    "tags": [
     "winter"
-   ],
-   "also": [
-    "dining"
    ],
    "pre": true,
    "calHide": true
@@ -722,32 +716,6 @@
    "tags": [
     "winter"
    ]
-  },
-  {
-   "id": 165,
-   "t": "Annual Meeting 2027",
-   "cat": "social",
-   "type": "Event",
-   "aud": [
-    "adults"
-   ],
-   "ages": "Adults",
-   "dates": "Wednesday, June 2, 2027",
-   "days": "",
-   "img": "",
-   "desc": "Celebrate a year of community at The J! Join us as we honor the people who make it all happen, look back on an incredible year, and share what's ahead.",
-   "reg": "https://www.jccdallas.org/annual-meeting",
-   "sch": [
-    {
-     "k": "once",
-     "s": "2027-06-02"
-    }
-   ],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "pre": true
   },
   {
    "id": 11,
@@ -1333,34 +1301,6 @@
    ]
   },
   {
-   "id": 28,
-   "t": "Tuesday Business League",
-   "cat": "sport-a",
-   "type": "Program",
-   "aud": [
-    "adults"
-   ],
-   "ages": "18+",
-   "dates": "Current season in session · Next season starts October 6",
-   "days": "Tuesday nights",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4be77e6bcf30b086c_Adults%20Sports%20%26%20Rec%20-%20Tuesday%20Business%20League.png",
-   "desc": "The league that runs Tuesday nights. Built for organized teams looking for serious runs, strong competition, and a fun, high-level basketball experience. A 10-game regular season, playoffs for all teams, certified officials, and online standings and stats.",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014243",
-   "sch": [
-    {
-     "k": "weekly",
-     "s": "2026-10-06",
-     "e": "2026-12-08",
-     "d": [
-      2
-     ]
-    }
-   ],
-   "sub": [
-    "basketball"
-   ]
-  },
-  {
    "id": 105,
    "t": "Monday Night Business League",
    "cat": "sport-a",
@@ -1714,68 +1654,6 @@
     "winter"
    ],
    "loc": "Donsky Gym",
-   "pre": true
-  },
-  {
-   "id": 174,
-   "t": "High Five Soccer Skills",
-   "cat": "sport-y",
-   "type": "Program",
-   "aud": [
-    "kids"
-   ],
-   "ages": "Ages 4–6",
-   "dates": "Thursdays, January 14 – March 11",
-   "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13fa428d7814ac767165_Youth%20Sports%20%26%20Rec%20-%20High%20Five%20Soccer.png",
-   "desc": "Kick, dribble, and score! Young players learn passing, shooting, and ball control through fun drills and games that build skills, confidence, and new friendships. Perfect for first-timers.",
-   "reg": "https://www.jccdallas.org/youth-sports/preschool-sports",
-   "sch": [
-    {
-     "k": "weekly",
-     "s": "2027-01-14",
-     "e": "2027-03-11",
-     "d": [
-      4
-     ]
-    }
-   ],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "loc": "Donsky Gym",
-   "pre": true
-  },
-  {
-   "id": 175,
-   "t": "High Five 4's Basketball Scrimmage",
-   "cat": "sport-y",
-   "type": "Program",
-   "aud": [
-    "kids"
-   ],
-   "ages": "Age 4",
-   "dates": "Sundays, January 17 – February 21",
-   "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13fc5e9b524f222af296_Youth%20Sports%20%26%20Rec%20-%20High%20Five%20Preschool%20Basketball.png",
-   "desc": "Game on, little ballers! Four-year-olds dribble, pass, and shoot their way through skill-building drills and real scrimmages in a fun, encouraging setting.",
-   "reg": "https://www.jccdallas.org/youth-sports/preschool-sports",
-   "sch": [
-    {
-     "k": "weekly",
-     "s": "2027-01-17",
-     "e": "2027-02-21",
-     "d": [
-      0
-     ]
-    }
-   ],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "loc": "Zale Auditorium",
    "pre": true
   },
   {
@@ -2884,36 +2762,8 @@
    "pre": true
   },
   {
-   "id": 184,
-   "t": "Limmud",
-   "cat": "learning",
-   "type": "Event",
-   "aud": [
-    "adults",
-    "seniors",
-    "teens"
-   ],
-   "ages": "Everyone",
-   "dates": "Sunday, April 11, 2027",
-   "days": "",
-   "img": "",
-   "desc": "A day of Jewish learning, ideas, and conversation for everyone. Full lineup coming soon!",
-   "reg": "https://www.jccdallas.org/jewish-life",
-   "sch": [
-    {
-     "k": "once",
-     "s": "2027-04-11"
-    }
-   ],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "pre": true
-  },
-  {
    "id": 185,
-   "t": "Challah Bake",
+   "t": "Community Challah Bake",
    "cat": "learning",
    "type": "Event",
    "aud": [
@@ -2937,7 +2787,10 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "also": [
+    "social"
+   ]
   },
   {
    "id": 47,
@@ -3386,9 +3239,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [
-    "winter"
-   ]
+   "tags": []
   },
   {
    "id": 156,
@@ -3413,9 +3264,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [
-    "winter"
-   ]
+   "tags": []
   },
   {
    "id": 157,
@@ -3440,9 +3289,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [
-    "winter"
-   ]
+   "tags": []
   },
   {
    "id": 197,
@@ -3467,9 +3314,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [
-    "winter"
-   ],
+   "tags": [],
    "pre": true
   },
   {
@@ -3495,9 +3340,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [
-    "winter"
-   ],
+   "tags": [],
    "pre": true
   },
   {
@@ -3523,9 +3366,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [
-    "winter"
-   ],
+   "tags": [],
    "pre": true
   },
   {
@@ -3775,6 +3616,108 @@
     "winter"
    ],
    "loc": "J Mahj Room"
+  },
+  {
+   "id": 234,
+   "t": "J Mahj Theme Nights",
+   "cat": "mahj",
+   "type": "Event",
+   "aud": [
+    "adults"
+   ],
+   "ages": "18+",
+   "dates": "December through May",
+   "days": "Evenings 6–9 PM (Sangria & Mahj: Sunday 1–4 PM)",
+   "img": "/assets/winter/j-mahj-social-league-competitive-league-and-theme-nights.jpg",
+   "desc": "Seven themed nights of tiles, prizes, and good company in the J Mahj Room: Mahj-ukkah, Sangria & Mahj, 2027 Same Card. New Luck, Year of the GOAT, Spring into Mahj, Turn Over a New Tile, and the Mahj Garden Party. Open to members and non-members. Pick your night below.",
+   "reg": "",
+   "sch": [
+    {
+     "k": "dates",
+     "list": [
+      "2026-12-09",
+      "2026-12-20",
+      "2027-01-14",
+      "2027-02-04",
+      "2027-03-18",
+      "2027-04-14",
+      "2027-05-20"
+     ]
+    }
+   ],
+   "sub": [
+    "mahj"
+   ],
+   "sessions": [
+    {
+     "label": "Mahj-ukkah! (December 9, 2026)",
+     "sub": "6–9 PM",
+     "reg": "https://jmahj.eventive.org/schedule/6a3d8e31677fe5a54f11151d",
+     "sch": {
+      "k": "once",
+      "s": "2026-12-09"
+     }
+    },
+    {
+     "label": "Sangria & Mahj! (December 20, 2026)",
+     "sub": "1:00 – 4:00 PM",
+     "reg": "https://jmahj.eventive.org/schedule/6a3d8e95589dafd3a946dcf2",
+     "sch": {
+      "k": "once",
+      "s": "2026-12-20"
+     }
+    },
+    {
+     "label": "2027 Same Card. New Luck (January 14, 2027)",
+     "sub": "6–9 PM",
+     "reg": "https://jmahj.eventive.org/schedule/6a45824cf5dcb6b50a5d5e8d",
+     "sch": {
+      "k": "once",
+      "s": "2027-01-14"
+     }
+    },
+    {
+     "label": "Year of the GOAT: Greatest Of All Tiles (February 4, 2027)",
+     "sub": "6–9 PM",
+     "reg": "https://jmahj.eventive.org/schedule/6a468b652cbbfac5dce9780c",
+     "sch": {
+      "k": "once",
+      "s": "2027-02-04"
+     }
+    },
+    {
+     "label": "Spring into Mahj (March 18, 2027)",
+     "sub": "6–9 PM",
+     "reg": "https://www.jccdallas.org/j-mahj/theme-nights",
+     "sch": {
+      "k": "once",
+      "s": "2027-03-18"
+     }
+    },
+    {
+     "label": "Turn Over a New Tile (April 14, 2027)",
+     "sub": "6–9 PM",
+     "reg": "https://www.jccdallas.org/j-mahj/theme-nights",
+     "sch": {
+      "k": "once",
+      "s": "2027-04-14"
+     }
+    },
+    {
+     "label": "Mahj Garden Party (May 20, 2027)",
+     "sub": "6–9 PM",
+     "reg": "https://www.jccdallas.org/j-mahj/theme-nights",
+     "sch": {
+      "k": "once",
+      "s": "2027-05-20"
+     }
+    }
+   ],
+   "loc": "J Mahj Room",
+   "tags": [
+    "winter"
+   ],
+   "pre": true
   },
   {
    "id": 64,
@@ -4548,33 +4491,6 @@
    "pre": true
   },
   {
-   "id": 204,
-   "t": "School Day Out: MLK Day",
-   "cat": "clubj",
-   "type": "Program",
-   "aud": [
-    "kids"
-   ],
-   "ages": "Grades K–6",
-   "dates": "Monday, January 18, 2027",
-   "days": "9:00 AM–4:00 PM · $100 members, $125 non-members",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f6ed7e6f40e383f10f_Club%20J%20-%20School%20Days%20Off.png",
-   "desc": "No school? No problem! Kids in grades K–6 spend the day swimming, crafting, playing sports, and making memories with friends at The J. Before and after care available.",
-   "reg": "https://www.jccdallas.org/club-j/school-days-off",
-   "sch": [
-    {
-     "k": "once",
-     "s": "2027-01-18"
-    }
-   ],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "loc": "The Lodge",
-   "pre": true
-  },
-  {
    "id": 205,
    "t": "School Day Out: Presidents Day",
    "cat": "clubj",
@@ -4946,9 +4862,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [
-    "winter"
-   ]
+   "tags": []
   },
   {
    "id": 82,
@@ -5535,34 +5449,6 @@
    ]
   },
   {
-   "id": 208,
-   "t": "GECC Enrichment",
-   "cat": "gecc",
-   "type": "Program",
-   "aud": [
-    "kids"
-   ],
-   "ages": "Ages 3–5",
-   "dates": "January 11 – May 13",
-   "days": "Dance Studio, Living Room, Gymnastics Gym, and Donsky Gym",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a847dabbf99e66abe950af5_GECC%20Enrichment%20-%20Sports.png",
-   "desc": "Little learners, big adventures! GECC Enrichment gives our preschoolers (ages 3–5) the chance to dance, tumble, play ball, tell stories, and discover new passions, all right here at The J.",
-   "reg": "https://gecc.jccdallas.org",
-   "sch": [
-    {
-     "k": "span",
-     "s": "2027-01-11",
-     "e": "2027-05-13"
-    }
-   ],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "pre": true,
-   "calHide": true
-  },
-  {
    "id": 33,
    "t": "High Five Sports at the J Monday Preschool Basketball",
    "cat": "sport-y",
@@ -5672,7 +5558,7 @@
    "ages": "Campers and counselors",
    "dates": "Saturday, December 19, 2026",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/camp-camp-chai-reunion.jpg",
    "desc": "Missing summer already? Come back to the woods for the Camp Chai Reunion! Reconnect with your camp friends and counselors, relive the best summer memories, and get a little camp magic in the middle of winter.",
    "reg": "https://www.jdallascamps.org/",
    "sch": [
@@ -5700,7 +5586,7 @@
    "ages": "Families",
    "dates": "Priority Jan 11 · Members Jan 19 · Non-members Jan 25",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/camp-registration.jpg",
    "desc": "Summer 2027 registration opens in waves: priority registration Monday, January 11; members Tuesday, January 19; non-members Monday, January 25.",
    "reg": "https://www.jdallascamps.org/",
    "sch": [
@@ -5732,7 +5618,7 @@
    "ages": "Families",
    "dates": "Sunday, January 24, 2027",
    "days": "1:00–3:00 PM",
-   "img": "",
+   "img": "/assets/winter/camp-open-house.jpg",
    "desc": "Summer is closer than you think! Meet our camp directors, explore every Summer 2027 camp option, and find the perfect fit for your camper. Bring the whole family for camp-themed activities, giveaways, and a sneak peek at the fun, friendships, and memories waiting this summer.",
    "reg": "https://www.jdallascamps.org/",
    "sch": [
@@ -5788,7 +5674,7 @@
    "ages": "Camp Chai alumni and families",
    "dates": "Friday – Sunday, June 25 – 27, 2027",
    "days": "Invitations and registration open around February 12",
-   "img": "",
+   "img": "/assets/winter/camp-camp-chai-50th-reunion.jpg",
    "desc": "50 years of Camp Chai! Calling every camper, counselor, and Camp Chai family to celebrate half a century of friendships, traditions, and summers to remember.",
    "reg": "https://www.jdallascamps.org/campchai50",
    "sch": [
@@ -5909,29 +5795,6 @@
    ]
   },
   {
-   "id": 170,
-   "t": "Basketball Shooting Machine",
-   "cat": "sport-a",
-   "type": "Program",
-   "aud": [
-    "adults",
-    "teens"
-   ],
-   "ages": "Teens and adults",
-   "dates": "Year-round, rent with any court rental",
-   "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a849bc4bbab771d80de124c_Youth%20Sports%20%26%20Rec%20-%20Basketball%20Training%20with%20James.png",
-   "desc": "Stop chasing rebounds and start stacking reps! Our new Basketball Shooting Machine feeds you ball after ball, so you can perfect your form and shoot on repeat. Add it to any court rental.",
-   "reg": "https://www.jccdallas.org/adult-sports/basketball",
-   "sch": [],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "loc": "Donsky Gym",
-   "pre": true
-  },
-  {
    "id": 112,
    "t": "October Member Appreciation Month",
    "cat": "member",
@@ -6001,36 +5864,6 @@
    ],
    "pre": true,
    "calHide": true
-  },
-  {
-   "id": 221,
-   "t": "Red & Dark: A Heart Health Event",
-   "cat": "member",
-   "type": "Event",
-   "aud": [
-    "adults"
-   ],
-   "ages": "21+",
-   "dates": "Thursday, February 18, 2027",
-   "days": "7:00–9:00 PM",
-   "img": "",
-   "desc": "Indulge in something red, dark, and delicious! Celebrate Heart Health Month with red wine and dark chocolate pairings, mingling, and good company. Come for the wine. Stay for the chocolate. Leave with a happy heart.",
-   "reg": "https://www.jccdallas.org/membership",
-   "sch": [
-    {
-     "k": "once",
-     "s": "2027-02-18"
-    }
-   ],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "loc": "Lobby or Fruhman A",
-   "also": [
-    "social"
-   ],
-   "pre": true
   },
   {
    "id": 114,
@@ -6291,8 +6124,8 @@
   },
   {
    "id": 166,
-   "t": "Angela's Coffee House",
-   "cat": "dining",
+   "t": "Angela's Coffee House Grand Opening",
+   "cat": "social",
    "type": "Program",
    "aud": [
     "adults",
@@ -6302,7 +6135,7 @@
    "ages": "Everyone",
    "dates": "Soft opening mid-December; Grand Opening in January",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/big-energy-angelas-coffeehouse-grand-opening.jpg",
    "desc": "Your new favorite spot is brewing! Angela's Coffee House is coming to The J with handcrafted coffee, seasonal sips, and a cozy place to catch up with friends before or after your workout. Grand Opening celebration coming this January.",
    "reg": "",
    "sch": [],
@@ -7216,7 +7049,7 @@
    "ages": "Ages 3 to 13",
    "dates": "Monday, December 7 and Sunday, December 27",
    "days": "Ages 3–7: 10:00–11:30 AM both days · Ages 8–13: 1:00–2:30 PM (Dec 7), 11:45 AM–1:15 PM (Dec 27)",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6abbec48192df1cbe0d8b95a_Gymnastics.png",
+   "img": "/assets/winter/youth-gymnastics-sensory-session.jpg",
    "desc": "Child-led, open-gym-style playtimes designed for neurodivergent children. Parents or caregivers stay with their child as they explore the gym at their own pace. $20 members, $25 non-members.",
    "reg": "https://www.jccdallas.org/youth-sports/sensory-sessions",
    "sessions": [
@@ -7396,34 +7229,6 @@
    "sub": [
     "mahj"
    ]
-  },
-  {
-   "id": 200,
-   "t": "2027 National Mah Jongg League Card",
-   "cat": "mahj",
-   "type": "Program",
-   "aud": [
-    "adults"
-   ],
-   "ages": "Adults",
-   "dates": "Order online through February 14",
-   "days": "$14 regular print, $15 large print",
-   "img": "https://jdallas-assets.netlify.app/JMahj-web-image.png",
-   "desc": "Get your 2027 card and support The J! Order your official National Mah Jongg League card through us and it will be mailed straight to your door in late March or early April. $6 from every card goes back to The J.",
-   "reg": "https://www.jccdallas.org/j-mahj",
-   "sch": [
-    {
-     "k": "span",
-     "s": "2026-12-01",
-     "e": "2027-02-14"
-    }
-   ],
-   "sub": [],
-   "tags": [
-    "winter"
-   ],
-   "pre": true,
-   "calHide": true
   },
   {
    "id": 154,

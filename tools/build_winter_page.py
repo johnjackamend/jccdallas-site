@@ -23,6 +23,13 @@ head = head.replace('<meta name="twitter:card" content="summary_large_image">', 
 head += """<style>
 .wx-hero{background:radial-gradient(60% 90% at 85% 15%,rgba(214,37,152,.5) 0%,rgba(214,37,152,0) 60%),radial-gradient(50% 80% at 10% 100%,rgba(107,65,181,.6) 0%,rgba(107,65,181,0) 60%),var(--purple-dark)}
 .wx-hero .eyebrow{display:inline-block;font:700 12.5px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:var(--r-pill);padding:9px 14px;margin-bottom:18px}
+.wx-promo{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);background:var(--purple-dark);border-radius:var(--r-card);overflow:hidden;text-decoration:none;color:#fff;box-shadow:0 20px 50px rgba(0,0,0,.18)}
+.wx-promo img{width:100%;height:100%;min-height:240px;object-fit:cover;display:block}
+.wx-promo .in{padding:38px 40px;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.wx-promo .kicker{font:700 12.5px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:#f7d08a}
+.wx-promo h2{color:#fff;margin:0;font-size:34px}.wx-promo p{margin:0 0 8px;color:rgba(255,255,255,.85);font-size:16px}
+.wx-promo .btn{align-self:flex-start}.wx-promo:hover .btn{filter:brightness(1.08)}
+@media (max-width:820px){.wx-promo{grid-template-columns:1fr}.wx-promo img{min-height:180px;max-height:220px}.wx-promo .in{padding:26px 24px}.wx-promo h2{font-size:28px}}
 .wx-paths{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media (max-width:1000px){.wx-paths{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.wx-paths{grid-template-columns:1fr}}
@@ -71,17 +78,15 @@ assert set(cats) >= {c for c in present if present[c] > 0}, set(present) - set(c
 SUB = {"social": "The big nights and signature events of the season.", "bookfest": "Margot Rosenberg Pulitzer Dallas Jewish BookFest, winter authors.", "mahj": "Classes, leagues, theme nights, and the 2027 tournament.",
        "fitness": "Fitness events are free unless noted; members register in the My J app.", "learning": "Wednesday courses meet 11:00 AM to 12:30 PM in the Board Room.", "holiday": "Purim, Israel Independence Day, and holiday treats.",
        "emerg": "READY Academy at The J: American Red Cross courses and the December blood drive."}
-LABEL = {"social": "Big Energy Events", "emerg": "READY Academy (Emergency Training)", "gecc": "GECC Enrichment & Early Childhood", "seniors": "Seniors & Active Adults"}
+LABEL = {"social": "Big Energy Events", "emerg": "READY Academy (Emergency Training)", "gecc": "Early Childhood", "seniors": "Seniors & Active Adults"}
 
 cat_opts = '<option value="all">All Categories</option>' + "".join(f'<option value="{c}">{LABEL.get(c, catLabel[c])}</option>' for c in cats)
 aud_opts = '<option value="all">Anyone</option><option value="kids">Kids</option><option value="teens">Teens</option><option value="adults">Adults</option><option value="seniors">Active Adults</option>'
 MON = [("2026-12","December 2026"),("2027-01","January 2027"),("2027-02","February 2027"),("2027-03","March 2027"),("2027-04","April 2027"),("2027-05","May 2027"),("2027-06","June 2027")]
 mon_opts = '<option value="all">All Months</option>' + "".join(f'<option value="{v}">{l}</option>' for v, l in MON)
 sections = "".join(f'<div class="wx-cat" id="cat-{c}" data-cat="{c}"><h3>{LABEL.get(c, catLabel[c])}</h3>' + (f'<p class="sub">{SUB[c]}</p>' if c in SUB else '') +
-                   f'<div data-programs="tag:winter;cat:{c}" data-limit="6" data-more="expand" data-empty=""></div></div>' for c in cats)
+                   f'<div data-programs="tag:winter;cat:{c}" data-limit="{0 if c == "social" else 6}" data-more="expand" data-empty=""></div></div>' for c in cats)
 
-HIGHLIGHTS = [q["id"] for q in W if q["t"] in ("Vodkas & Latkes", "Margot Rosenberg Pulitzer Dallas Jewish BookFest", "2027 Mahj Tournament", "Comedy at The J", "Senior Expo 2027", "Bagel Run 2027", "Annual Meeting 2027", "January Membership Special", "Angela's Coffee House")]
-assert len(HIGHLIGHTS) == 9, HIGHLIGHTS
 
 hol = [("Fri, Dec 4 – Fri, Dec 11", "Hanukkah (Nights 1–8)", "Regular programming"), ("Thu, Dec 24", "Christmas Eve", "5 am to 4 pm"), ("Fri, Dec 25", "Christmas Day", "7 am to 1 pm"),
        ("Thu, Dec 31", "New Year's Eve", "Closes at 6 pm"), ("Fri, Jan 1", "New Year's Day", "10 am to 4 pm"), ("Mon, Jan 18", "Martin Luther King Jr. Day", "Regular hours; no regular programming, School Day Out runs"),
@@ -103,31 +108,16 @@ main = f"""<section class="dhero no-img wx-hero">
     <span class="eyebrow">December 2026 through spring 2027</span>
     <h1>Winter at The J 2026–27</h1>
     <p class="lede">Every program, class, and event at The J this season, in one place. Pick who it is for, open the calendar, or scroll the whole season and register in one click.</p>
-    <div class="acts"><a class="btn pink" href="#season">Explore the Season</a><a class="btn on-dark" href="#calendar">Winter Calendar</a></div>
+    <div class="acts"><a class="btn pink" href="#season">Explore the Season</a><a class="btn on-dark" href="#calendar">Winter Calendar</a><a class="btn on-dark" href="/holidays-at-the-j">Holidays at The J</a></div>
   </div>
 </section>
 <div class="facts" aria-label="Winter at a glance">
   <div class="wrap"><div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><div><b>{n_total} programs and events</b><span>December through June, all in one calendar</span></div></div><div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M15 4.5a3.5 3.5 0 0 1 0 7M17 13.5a6.5 6.5 0 0 1 4.5 6.5"/></svg><div><b>Every age</b><span>Preschool through active adults</span></div></div><div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>Holiday hours</b><span><a href="#holidays">Christmas, New Year's, and more</a></span></div></div><div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg><div><b>Members and non-members</b><span>Most programs open to the whole community</span></div></div></div>
 </div>
-<section class="sec" id="start">
-  <div class="wrap">
-<div class="sec-head"><div><h2>Start Here</h2><p class="lede">Tell us who you are shopping for and we will narrow the season down.</p></div></div>
-<div class="areas wx-paths"><a class="area" href="#season" data-go-aud="kids"><div class="pic">Kids</div><div class="in"><h3>For Kids &amp; Families</h3><p>Club J breaks, gymnastics, swim, youth sports, JPAS, GECC, and camp registration.</p><span class="go">Show kids &amp; family programs</span></div></a><a class="area" href="#season" data-go-aud="adults"><div class="pic">Adults</div><div class="in"><h3>For Adults</h3><p>Fitness, racquet sports, leagues, Jewish learning, J Mahj, BookFest, and the big nights.</p><span class="go">Show adult programs</span></div></a><a class="area" href="#season" data-go-aud="seniors"><div class="pic">55+</div><div class="in"><h3>For Active Adults</h3><p>Senior Expo, Wednesday courses, Masters Swim, Legends League, and more.</p><span class="go">Show active adult programs</span></div></a><a class="area" href="/membership" data-go-aud=""><div class="pic">Join</div><div class="in"><h3>New to The J?</h3><p>Join in January with no registration fee and get February free.</p><span class="go">See the January special</span></div></a></div>
-  </div>
+<section class="sec" id="holidays-promo" style="padding-bottom:0">
+  <div class="wrap"><a class="wx-promo" href="/holidays-at-the-j"><img src="/assets/holidays/header.jpg" alt=""><div class="in"><span class="kicker">Now through January 1</span><h2>Holidays at The J</h2><p>Hanukkah lighting, the Holiday Market, Vodkas &amp; Latkes, the Pancake Breakfast, and holiday hours, all on one page.</p><span class="btn pink">See the Holiday Lineup</span></div></a></div>
 </section>
-<section class="sec soft" id="highlights">
-  <div class="wrap">
-<div class="sec-head"><div><h2>Season Highlights</h2><p class="lede">The nights, celebrations, and traditions the whole community turns out for.</p></div><a class="btn ghost" href="#season">See the full season</a></div>
-<div data-programs="tag:winter;id:{','.join(map(str, HIGHLIGHTS))}" data-empty="Highlights are being finalized."></div>
-  </div>
-</section>
-<section class="sec" id="calendar">
-  <div class="wrap">
-<div class="sec-head"><div><h2>Winter Calendar</h2><p class="lede">Pick a day to see what is on. Purple marks are programs, pink marks are events.</p></div></div>
-<div data-programs="tag:winter" data-view="calendar" data-month="2026-12" data-title="Winter at The J calendar" data-empty="Nothing scheduled here right now."></div>
-  </div>
-</section>
-<section class="sec soft" id="season" style="padding-top:0">
+<section class="sec" id="season">
 <div class="wx-filter"><div class="wrap">
   <div class="wx-bar"><label class="wx-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="sr-only">Search winter programs</span><input id="wxQ" type="search" placeholder="Search the season, e.g. swim, Mahj, camp, pickleball" autocomplete="off"></label>
   <div class="fsel"><label class="sr-only" for="wxCat">Category</label><select id="wxCat">{cat_opts}</select></div>
@@ -137,6 +127,12 @@ main = f"""<section class="dhero no-img wx-hero">
 </div></div>
   <div class="wrap" id="seasonList">{sections}
   <p class="pempty" id="seasonEmpty" hidden>Nothing matches that combination yet. <button type="button" class="chip" data-reset>Reset filters</button></p>
+  </div>
+</section>
+<section class="sec soft" id="calendar">
+  <div class="wrap">
+<div class="sec-head"><div><h2>Winter Calendar</h2><p class="lede">Pick a day to see what is on. Purple marks are programs, pink marks are events.</p></div></div>
+<div data-programs="tag:winter" data-view="calendar" data-month="2026-12" data-title="Winter at The J calendar" data-empty="Nothing scheduled here right now."></div>
   </div>
 </section>
 <section class="sec" id="holidays">
