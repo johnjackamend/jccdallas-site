@@ -6271,27 +6271,6 @@
    "pre": true
   },
   {
-   "id": 117,
-   "t": "Beyond the Books: Author Series at The J",
-   "cat": "bookfest",
-   "type": "Event",
-   "aud": [
-    "adults"
-   ],
-   "ages": "Adults",
-   "dates": "Ongoing",
-   "days": "",
-   "desc": "Go beyond the pages and into the stories behind them. Beyond the Books: Author Series at the J brings acclaimed writers, thought leaders, and compelling storytellers to the J for engaging conversations about their work, ideas, and the experiences that inspire them. ‍ Each event features author presentations, moderated discussions, audience Q&A, and opportunities for book signings. Whether you're a lifelong reader or simply enjoy thoughtful conversation, this series offers inspiring insights and unforgettable literary experiences.",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a1d706ba8261dea34c03b6b_5.jpg",
-   "reg": null,
-   "src": "cms",
-   "ongoing": true,
-   "sch": [],
-   "sub": [
-    "bookfest"
-   ]
-  },
-  {
    "id": 118,
    "t": "Fresh Hot Pizza to Order",
    "cat": "dining",
