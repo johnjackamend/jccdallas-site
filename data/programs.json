@@ -330,7 +330,7 @@
    "ages": "Adults",
    "dates": "Tuesday, March 23, 2027",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/j-holidays-purim-adult-event.jpg",
    "desc": "Masks on, spirits high! Celebrate Purim the grown-up way with a festive night of costumes, revelry, and fun. More details coming soon.",
    "reg": "https://www.jccdallas.org/jewish-life",
    "sch": [
@@ -362,7 +362,7 @@
    "ages": "All ages",
    "dates": "Sunday, May 16, 2027",
    "days": "1:00–4:00 PM",
-   "img": "",
+   "img": "/assets/winter/j-holidays-israel-independence-day.jpg",
    "desc": "Raise the blue and white! Join the whole community for a joyful celebration of Israel's independence. Details coming soon.",
    "reg": "https://www.jccdallas.org/israel-independence-day-at-the-j",
    "sch": [
@@ -391,7 +391,7 @@
    "ages": "Everyone",
    "dates": "Pre-orders open February 22",
    "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a1d71b27b8831cd65d83f07_15.jpg",
+   "img": "/assets/winter/j-holidays-hamantaschen.jpg",
    "desc": "Purim's sweetest tradition, ready when you are! Pre-order J Gourmet's freshly baked hamantaschen for your Purim baskets and celebrations.",
    "reg": "https://www.jccdallas.org/jgourmet",
    "sch": [
@@ -531,7 +531,7 @@
    "ages": "All ages",
    "dates": "Thursday, December 10, 2026",
    "days": "2:30–9:30 PM · Free, no registration required",
-   "img": "",
+   "img": "/assets/holidays/holiday-market.jpg",
    "desc": "Shop Local. Find Something Special! Get into the holiday spirit and shop unique gifts, jewelry, accessories, kids' toys, home decor, ceramics, personalized gifts, and more from 15+ local vendors in the J Lobby. Free and open to all ages. Stop by, shop small, and celebrate the season at The J!",
    "reg": "https://www.jccdallas.org/holiday-market",
    "loc": "J Lobby",
@@ -543,12 +543,100 @@
    ],
    "sub": [],
    "tags": [
-    "winter"
+    "winter",
+    "holidays2026"
    ],
    "also": [
     "holiday"
    ],
    "btn": "Event Details"
+  },
+  {
+   "id": 233,
+   "t": "Annual Pancake Breakfast",
+   "cat": "holiday",
+   "type": "Event",
+   "aud": [
+    "kids",
+    "family",
+    "adults",
+    "seniors"
+   ],
+   "ages": "All ages",
+   "dates": "Friday, December 25, 2026",
+   "days": "10:00–11:30 AM · Children under 3 free",
+   "img": "/assets/holidays/pancake-breakfast.jpg",
+   "desc": "Looking for something to do on December 25? Join us for breakfast with festive pancakes and fun! Also enjoy cold cereal, coffee, hot chocolate, and more. Children under 3 are free.",
+   "reg": "https://pancake.eventive.org/schedule/6aba995cf85a02931765376e",
+   "sch": [
+    {
+     "k": "once",
+     "s": "2026-12-25"
+    }
+   ],
+   "sub": [],
+   "tags": [
+    "holidays2026"
+   ],
+   "btn": "Order Tickets"
+  },
+  {
+   "id": 232,
+   "t": "Hanukkiah Lighting & Superhero Tzedakah Night",
+   "cat": "holiday",
+   "type": "Event",
+   "aud": [
+    "kids",
+    "family",
+    "adults",
+    "seniors"
+   ],
+   "ages": "All ages",
+   "dates": "Tuesday, December 8, 2026",
+   "days": "5:00 PM",
+   "img": "/assets/holidays/hanukkiah.jpg",
+   "desc": "Celebrate Hanukkah with a community Hanukkiah lighting, latkes, and sufganiyot! Dress as your favorite superhero, bring your coins, and support a cause you care about for Superhero Tzedakah Night. In partnership with Chabad of Dallas and Tiferet Israel Congregation.",
+   "reg": "https://2025hanukkah.eventive.org/schedule/6aba8ffc31a7fb293bb504ce",
+   "sch": [
+    {
+     "k": "once",
+     "s": "2026-12-08"
+    }
+   ],
+   "sub": [],
+   "tags": [
+    "holidays2026"
+   ],
+   "btn": "Sign Up Now"
+  },
+  {
+   "id": 231,
+   "t": "GECC Community-Wide Mitzvah Project",
+   "cat": "holiday",
+   "type": "Event",
+   "aud": [
+    "kids",
+    "family",
+    "adults"
+   ],
+   "ages": "Everyone",
+   "dates": "Now through December 4",
+   "days": "Shop the Amazon Wish List",
+   "img": "/assets/holidays/mitzvah-project.jpg",
+   "desc": "Small gifts. Big smiles. GECC is spreading joy to children and families at Children's Health! Help us make a difference by purchasing an item from our Amazon Wish List. Every gift brings a little extra comfort, happiness, and love.",
+   "reg": "https://www.amazon.com/hz/wishlist/ls/GDCVCPUV7VC4?ref_=wl_share",
+   "sch": [
+    {
+     "k": "span",
+     "s": "2026-11-19",
+     "e": "2026-12-04"
+    }
+   ],
+   "sub": [],
+   "tags": [
+    "holidays2026"
+   ],
+   "btn": "Shop the Wish List"
   },
   {
    "id": 161,
@@ -560,9 +648,9 @@
    ],
    "ages": "21+",
    "dates": "Thursday, December 10, 2026",
-   "days": "7:00–10:00 PM",
-   "img": "",
-   "desc": "Shake, stir, and celebrate the Festival of Lights! Vodkas & Latkes is The J's ultimate adults-only (21+) Hanukkah party, with a buzzing martini bar, crispy latkes and sufganiyot, last-minute holiday shopping, and an Ugly Sweater Contest with prizes on the line. $30 members, $36 non-members. Come early for the Holiday Market in the lobby (2:00–10:00 PM), with 15+ vendors and a special Israel Museum Trunk Show, open to the whole community.",
+   "days": "7:30 PM",
+   "img": "/assets/winter/big-energy-vodkas-latkes.jpg",
+   "desc": "Celebrate Hanukkah at the 3rd Annual Vodkas & Latkes: The Ice Lounge! Enjoy festive cocktails, crispy latkes, music, and mingling. Dress in furs, icy blues, and sparkle, and shop the Holiday Market in the lobby. 21+. $30 members, $36 non-members. In partnership with JBorhood and the Jewish Federation of Greater Dallas.",
    "reg": "https://vodkaslatkes.eventive.org/schedule/6a34667817e74af783c241c7",
    "sch": [
     {
@@ -572,7 +660,8 @@
    ],
    "sub": [],
    "tags": [
-    "winter"
+    "winter",
+    "holidays2026"
    ],
    "loc": "Zale Auditorium",
    "pre": true
@@ -588,7 +677,7 @@
    "ages": "Adults",
    "dates": "Sunday, March 7, 2027",
    "days": "Check-in 11:30 AM, play 1:00–5:30 PM",
-   "img": "",
+   "img": "/assets/winter/big-energy-mahj-tournament.jpg",
    "desc": "Crack, bam, dot: it's tournament time! The 4th annual JCC Mah Jongg Tournament brings players together for an afternoon of serious strategy, friendly rivalry, and great prizes. Bring your National Mah Jongg League card and your luckiest tiles.",
    "reg": "https://www.jccdallas.org/special-events/j-mahj",
    "sch": [
@@ -620,7 +709,7 @@
    "ages": "All ages",
    "dates": "Sunday, May 9, 2027",
    "days": "",
-   "img": "https://jdallas-assets.netlify.app/Untitled-1_1.png",
+   "img": "/assets/winter/big-energy-bagel-run-2027.jpg",
    "desc": "Lace up and rise and shine! The Bagel Run is back: a morning of community, movement, and a well-earned bagel at the finish line. Runners, walkers, and cheering sections all welcome.",
    "reg": "https://www.jccdallas.org/special-events/bagel-run",
    "sch": [
@@ -1144,7 +1233,7 @@
    "ages": "Adults",
    "dates": "Sunday, January 24, 2027",
    "days": "9:00 AM–12:00 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4f31942aee0948c7a_Adult%20Racquet%20Sports%20-%20Fall%20Sunday%20Morning%20Tennis%20Mixer.png",
+   "img": "/assets/winter/adult-racquet-sports-winter-team-cup-mixer.jpg",
    "desc": "Who will take home the Cup? Join a team, rally with J pros, and battle it out in a morning of friendly tennis competition. Then celebrate at the Cup presentation with snacks and drinks. $40 members, $50 non-members; limited to 48 players, so grab your spot!",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//tennis?cat1=Racquet%20Sports",
    "sch": [
@@ -1173,7 +1262,7 @@
    "ages": "Adults",
    "dates": "Thursday, February 18, 2027",
    "days": "9:30–11:30 AM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4572c69976c855f5c_Adult%20Racquet%20Sports%20-%20TCD%20Fall%20League%20Kickoff%20Clinic.png",
+   "img": "/assets/winter/adult-racquet-sports-tcd-pre-season-tune-up.jpg",
    "desc": "Get match-ready before TCD season starts! This two-hour tune-up sharpens your doubles movement, positioning, and shot selection, with J pros rotating court to court so you get coaching from the whole team. Finish strong with competitive play. $40 members, $50 non-members.",
    "reg": "https://www.jccdallas.org/racquet-sports/leagues-events",
    "sch": [
@@ -1204,7 +1293,7 @@
    "ages": "All ages",
    "dates": "Year-round, by appointment",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/adult-racquet-sports-private-lessons-private-groups.jpg",
    "desc": "Your game, your goals, your schedule. Book one-on-one time with a J pro, or round up your friends for a private group session built around exactly what you want to work on, in tennis or pickleball.",
    "reg": "https://www.jccdallas.org/racquet-sports/private-lessons",
    "sch": [],
@@ -1282,7 +1371,7 @@
    "ages": "18+",
    "dates": "Mondays, November 30 – April 26",
    "days": "Monday nights",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a847dae651947156a6ee1f8_Adult%20Sports%20-%20Monday%20Business%20League.png",
+   "img": "/assets/winter/adult-sports-rec-monday-business-league.jpg",
    "desc": "Rally the office and represent! The Monday Night Business League is The J's most competitive weeknight run. Bring your coworkers or your crew for a 10-game season and a playoff push where every team has a shot at the title.",
    "reg": "https://www.jccdallas.org/adult-sports/basketball",
    "opens": "October 26",
@@ -1315,7 +1404,7 @@
    "ages": "50+",
    "dates": "Wednesdays, February 10 – May 12",
    "days": "Wednesday nights",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4c5b820f6f4277b83_Adults%20Sports%20%26%20Rec%20-%20Wednesday%20Legends%20League.png",
+   "img": "/assets/winter/adult-sports-rec-wednesday-legends-league.jpg",
    "desc": "Legends never retire! Our 50+ Masters Plus league keeps the competition real at a pace that's just right. Lace up, hit the court, and show them how it's done.",
    "reg": "https://www.jccdallas.org/adult-sports/basketball",
    "opens": "September 9",
@@ -1347,7 +1436,7 @@
    "ages": "40+",
    "dates": "Thursdays, March 4 – July 29",
    "days": "Thursday nights",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f43a5425387a5b9973_Adults%20Sports%20%26%20Rec%20-%20Thursday%20Masters%20League.png",
+   "img": "/assets/winter/adult-sports-rec-thursday-masters-leagu.jpg",
    "desc": "High-level hoops, serious fun, and clutch moments every week. The 40+ Thursday Masters League is one of The J's biggest and most competitive traditions, with a 10-game season, playoffs for all, certified officials, and online stats.",
    "reg": "https://www.jccdallas.org/adult-sports/basketball",
    "opens": "September 3",
@@ -1380,7 +1469,7 @@
    "ages": "30+",
    "dates": "Sundays, November 8 – March 21",
    "days": "Sunday evenings",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4be77e6bcf30b0869_Adults%20Sports%20%26%20Rec%20-%20Sunday%20Mellow%20League.png",
+   "img": "/assets/winter/adult-sports-rec-sunday-mellow-league.jpg",
    "desc": "Still got game? The Sunday Mellow League is real, competitive hoops for players 30+, without the chaos. Enjoy a 10-game season, playoffs for every team, certified officials, and online stats, plus a laid-back vibe that keeps players coming back.",
    "reg": "https://www.jccdallas.org/adult-sports/basketball",
    "opens": "October 14",
@@ -1545,7 +1634,7 @@
    "ages": "Ages 3–6",
    "dates": "Mondays, January 11 – March 8",
    "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13fc5e9b524f222af296_Youth%20Sports%20%26%20Rec%20-%20High%20Five%20Preschool%20Basketball.png",
+   "img": "/assets/winter/youth-sports-rec-high-five-sports-sampler.jpg",
    "desc": "Why pick one sport when you can play them all? Little athletes try basketball, soccer, baseball, football, and more, building coordination, teamwork, and a lifelong love of the game.",
    "reg": "https://www.jccdallas.org/youth-sports/preschool-sports",
    "sch": [
@@ -1576,7 +1665,7 @@
    "ages": "Kids",
    "dates": "Sundays, January 10 – February 7",
    "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13fc5e9b524f222af296_Youth%20Sports%20%26%20Rec%20-%20High%20Five%20Preschool%20Basketball.png",
+   "img": "/assets/winter/youth-sports-rec-high-five-ninja.jpg",
    "desc": "Run, jump, climb, and conquer the course! Our Kids Ninja Warrior classes are packed with obstacles that build strength, balance, agility, and confidence. Come ready to move and unleash your inner Ninja!",
    "reg": "https://www.jccdallas.org/youth-sports/preschool-sports",
    "sch": [
@@ -1607,7 +1696,7 @@
    "ages": "Kids",
    "dates": "Wednesdays, January 13 – March 10",
    "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13fc5e9b524f222af296_Youth%20Sports%20%26%20Rec%20-%20High%20Five%20Preschool%20Basketball.png",
+   "img": "/assets/winter/youth-sports-rec-high-five-ninja.jpg",
    "desc": "Run, jump, climb, and conquer the course! Our Kids Ninja Warrior classes are packed with obstacles that build strength, balance, agility, and confidence. Come ready to move and unleash your inner Ninja!",
    "reg": "https://www.jccdallas.org/youth-sports/preschool-sports",
    "sch": [
@@ -1700,7 +1789,7 @@
    "ages": "Ages 13–17",
    "dates": "January 3 – February 28",
    "days": "Locations vary by sport",
-   "img": "",
+   "img": "/assets/winter/youth-sports-rec-jcc-maccabi-team-dallas-tryouts.jpg",
    "desc": "Go for gold with Team Dallas! Try out for the JCC Maccabi Games and join 3,000 Jewish teen athletes (ages 13–17) from around the world for Olympic-style competition, travel, community service, and friendships that last a lifetime.",
    "reg": "https://www.jccdallas.org/jcc-maccabi-games",
    "sch": [
@@ -2678,7 +2767,7 @@
    "ages": "Adults",
    "dates": "Wednesdays, January 6 – 27",
    "days": "Wednesdays, 11:00 AM–12:30 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f7e1b74334e319adb6_Jewish%20Learning%20-%20Jews%20in%20the%20Neighborhood_%20Tracing%20Dallas%E2%80%99%20Jewish%20Roots.png",
+   "img": "/assets/winter/jewish-learning-essen-n-fressen.jpg",
    "desc": "Why does chicken soup heal the soul? Pull up a chair for a four-week feast of food history! From bagels, brisket, and babka to shakshuka, falafel, and bourekas, discover the stories, traditions, and flavors behind Ashkenazi, Sephardic, and Israeli cuisine.",
    "reg": "https://www.jccdallas.org/jewish-life",
    "sch": [
@@ -2710,7 +2799,7 @@
    "ages": "Adults",
    "dates": "Wednesdays, February 3 – 24",
    "days": "Wednesdays, 11:00 AM–12:30 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a8df8bd2dc0120eb6f4469d_Jewish%20Learning.png",
+   "img": "/assets/winter/jewish-learning-shalom-y-all.jpg",
    "desc": "Grits meet gefilte! Travel from Charleston and Savannah to New Orleans, Memphis, and Dallas to uncover more than 300 years of Southern Jewish history: the pioneers, merchants, congregations, and flavors that shaped the South.",
    "reg": "https://www.jccdallas.org/jewish-life",
    "sch": [
@@ -2742,7 +2831,7 @@
    "ages": "Adults",
    "dates": "Wednesdays, March 10 – 31",
    "days": "Wednesdays, 11:00 AM–12:30 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f78b1a671684e225ee_Jewish%20Learning%20-%20Jewish%20History%20on%20the%20Rocks_%20Gangsters.png",
+   "img": "/assets/winter/jewish-learning-lone-star-jews.jpg",
    "desc": "Everything's bigger in Texas, including our history! Explore the remarkable story of Jewish Texans, from 1800s frontier merchants and the port of Galveston to today's thriving communities across the Lone Star State.",
    "reg": "https://www.jccdallas.org/jewish-life",
    "sch": [
@@ -2774,7 +2863,7 @@
    "ages": "Adults",
    "dates": "Wednesdays from May 5",
    "days": "Wednesdays, 11:00 AM–12:30 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a8df8bd2dc0120eb6f4469d_Jewish%20Learning.png",
+   "img": "/assets/winter/jewish-learning-living-jewish-values.jpg",
    "desc": "Kindness. Patience. Gratitude. Explore the midot, the timeless Jewish values that shape who we are and how we live, and discover how they can bring more meaning to every day.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-013618",
    "sch": [
@@ -2835,7 +2924,7 @@
    "ages": "All ages",
    "dates": "Thursday, February 25, 2027",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/jewish-learning-challah-bake.jpg",
    "desc": "Knead, braid, and bake! Roll up your sleeves for a hands-on challah bake and take home a fresh, golden loaf (and the know-how to make it again).",
    "reg": "https://www.jccdallas.org/jewish-life",
    "sch": [
@@ -2957,7 +3046,7 @@
    "ages": "Members",
    "dates": "December 1 – 31",
    "days": "Fitness Floor",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a9864877383f19816370ee8_Group%20Fitness%20-%20Pink%20Out.png",
+   "img": "/assets/winter/fitness-road-to-1000-pushups.jpg",
    "desc": "1,000 pushups. One month. Are you in? Take on our December pushup challenge and push yourself further, because together feels good. See the fitness staff for details.",
    "reg": "https://www.jccdallas.org/fitness",
    "sch": [
@@ -2987,7 +3076,7 @@
    "ages": "All levels",
    "dates": "Sunday, December 6, 2026",
    "days": "1:00–4:00 PM · Free, register in the My J app",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f61f6ae80f653af993_Fitness%20-%20The%20J%20Reset_%20Glow%20%26%20Flow.png",
+   "img": "/assets/winter/fitness-dance-awareness-celebration.jpg",
    "desc": "Awareness never misses a beat! Our second annual Dance Awareness Celebration is an afternoon of music, movement, and joy for every level, led by our incredible dance fitness instructors. Feel the beat, find your rhythm, and bring your smile!",
    "reg": "https://www.jccdallas.org/fitness",
    "sch": [
@@ -3015,7 +3104,7 @@
    "ages": "Adults",
    "dates": "Thursday, December 10, 2026",
    "days": "7:30 PM · Free, register in the My J app",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7c5c5148da17982259efd3_Fitness%20-%20The%20J%20Spa%20Reset.png",
+   "img": "/assets/winter/fitness-candlelight-yoga-stretch.jpg",
    "desc": "Unwind in the glow. Celebrate National Stretching Day with an evening of deep breathing, mindful movement, and gentle stretching by candlelight with Renee.",
    "reg": "https://www.jccdallas.org/fitness",
    "sch": [
@@ -3043,7 +3132,7 @@
    "ages": "Adults",
    "dates": "Wednesday, February 3, 2027",
    "days": "10:15 AM · Free, registration opens 7 days before in the My J app",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7c5c5148da17982259efd3_Fitness%20-%20The%20J%20Spa%20Reset.png",
+   "img": "/assets/winter/fitness-sound-bowl-self-care.jpg",
    "desc": "Pause the noise and tune into your own rhythm. Let crystal singing bowls wash over you as Marco guides you through gentle stretches and breathwork, a heart-opening reset for Heart Awareness Month.",
    "reg": "https://www.jccdallas.org/fitness",
    "sch": [
@@ -3072,7 +3161,7 @@
    "ages": "Everyone",
    "dates": "Thursday, February 18, 2027",
    "days": "All day",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a9864877383f19816370ee8_Group%20Fitness%20-%20Pink%20Out.png",
+   "img": "/assets/winter/fitness-heart-awareness-day.jpg",
    "desc": "All day. All red. All heart. Wear red to your workout and help us paint The J red for heart health!",
    "reg": "https://www.jccdallas.org/fitness",
    "sch": [
@@ -3366,7 +3455,7 @@
    "ages": "18+",
    "dates": "Thursday, March 18, 2027",
    "days": "6–9 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b5b78187897008e39d9c5_J%20Mahj%20-%20Theme%20Nights.png",
+   "img": "/assets/winter/j-mahj-social-league-competitive-league-and-theme-nights.jpg",
    "desc": "Shake off winter! Every flower hand called or completed wins a prize. Theme Nights in the J Mahj Room, open to members and non-members.",
    "reg": "https://www.jccdallas.org/j-mahj/theme-nights",
    "sch": [
@@ -3394,7 +3483,7 @@
    "ages": "18+",
    "dates": "Wednesday, April 14, 2027",
    "days": "6–9 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b5b78187897008e39d9c5_J%20Mahj%20-%20Theme%20Nights.png",
+   "img": "/assets/winter/j-mahj-social-league-competitive-league-and-theme-nights.jpg",
    "desc": "The new card is here! Embrace the hope, the confusion, and the beautiful chaos together. Theme Nights in the J Mahj Room, open to members and non-members.",
    "reg": "https://www.jccdallas.org/j-mahj/theme-nights",
    "sch": [
@@ -3422,7 +3511,7 @@
    "ages": "18+",
    "dates": "Thursday, May 20, 2027",
    "days": "6–9 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b5b78187897008e39d9c5_J%20Mahj%20-%20Theme%20Nights.png",
+   "img": "/assets/winter/j-mahj-social-league-competitive-league-and-theme-nights.jpg",
    "desc": "Where flower hands bloom into prizes. Good luck, good tiles, and a suspicious amount of joker energy. Theme Nights in the J Mahj Room, open to members and non-members.",
    "reg": "https://www.jccdallas.org/j-mahj/theme-nights",
    "sch": [
@@ -3536,7 +3625,7 @@
    "ages": "18+",
    "dates": "Tuesdays: January 5 – 26 · from February 2 · March 30 – April 20",
    "days": "Four sessions · $170",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b5b78d04bfd0d6067f02f_J%20Mahj%20-%20Get%20Your%20MahjON!%20Beginner%20Class%20Series.png",
+   "img": "/assets/winter/j-mahj-supervised-play-beginner-classes-and-tournament-strategies-play.jpg",
    "desc": "Always wanted to learn Mah Jongg? This is your moment! In just four fun sessions you'll go from \"what's a bam?\" to building hands, reading the card, and playing with confidence. Your new favorite game is waiting.",
    "reg": "https://www.jccdallas.org/j-mahj/lessons",
    "sessions": [
@@ -3615,7 +3704,7 @@
    "ages": "18+",
    "dates": "December 1, December 17 & January 5",
    "days": "1:30–4:00 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b5b795a70f704688da550_J%20Mahj%20-%20Mah%20Jongg%20Supervised%20Play.png",
+   "img": "/assets/winter/j-mahj-supervised-play-beginner-classes-and-tournament-strategies-play.jpg",
    "desc": "Play with confidence! Sit down at the table with an experienced instructor by your side to answer questions, share pro tips, and help you sharpen your strategy, one rack at a time.",
    "reg": "https://www.jccdallas.org/j-mahj/play",
    "sessions": [
@@ -3672,7 +3761,7 @@
    "ages": "Adults",
    "dates": "Tuesday, February 2, 2027",
    "days": "1:30–4:00 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b5b795a70f704688da550_J%20Mahj%20-%20Mah%20Jongg%20Supervised%20Play.png",
+   "img": "/assets/winter/j-mahj-supervised-play-beginner-classes-and-tournament-strategies-play.jpg",
    "desc": "Tournament-ready in one afternoon! Practice tournament-style play with expert guidance and tips to bring your best game to the March 7 Mahj Tournament.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-013967",
    "sch": [
@@ -4442,7 +4531,7 @@
    "ages": "Grades K–6",
    "dates": "Starts Monday, December 21",
    "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f6ed7e6f40e383f10f_Club%20J%20-%20School%20Days%20Off.png",
+   "img": "/assets/winter/club-j-breaktacular.jpg",
    "desc": "School's out, the fun's in! Winter Breaktacular lets kids pick their own adventure each morning (Sports, Creative Arts, Gymnastics, and more), then come together in the afternoon for lunch, swimming, games, and crafts. Sign up for one day or the whole break!",
    "reg": "https://www.jccdallas.org/club-j/breaktaculars",
    "sch": [
@@ -4523,7 +4612,7 @@
    "ages": "Grades K–6",
    "dates": "Starts Monday, March 15",
    "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f6ed7e6f40e383f10f_Club%20J%20-%20School%20Days%20Off.png",
+   "img": "/assets/winter/club-j-breaktacular.jpg",
    "desc": "Spring into break with The J! Breaktacular is back with specialty tracks, swimming, games, and nonstop fun for the whole spring break. Details coming soon.",
    "reg": "https://www.jccdallas.org/club-j/breaktaculars",
    "sch": [
@@ -4550,7 +4639,7 @@
    "ages": "Grades K–6",
    "dates": "Starts Wednesday, April 21",
    "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f6ed7e6f40e383f10f_Club%20J%20-%20School%20Days%20Off.png",
+   "img": "/assets/winter/club-j-passover-break-program.jpg",
    "desc": "Keep the fun going over Passover break! Kids enjoy active, creative days with friends at The J. Details coming soon.",
    "reg": "https://www.jccdallas.org/club-j/breaktaculars",
    "sch": [
@@ -4701,7 +4790,7 @@
    "ages": "Adults",
    "dates": "Friday, December 18, 2026",
    "days": "10:00 AM–4:00 PM",
-   "img": "",
+   "img": "/assets/winter/emergency-training-red-cross-blood-drive.jpg",
    "desc": "Give the gift of life this holiday season! Donate blood, platelets, or plasma at The J's American Red Cross Blood Drive. Open to members and non-members; register through the Red Cross website.",
    "reg": "https://www.redcrossblood.org/give.html/drive-results?zipSponsor=AaronFamilyJCC",
    "sch": [
@@ -4728,7 +4817,7 @@
    "ages": "Ages 7 to 18",
    "dates": "Audition Workshop Jan 7 · Auditions Jan 10 & 17 · Performances Apr 1, 4, 15 & 18",
    "days": "Rehearsals Sundays, January 24 to April 11",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7f35c875d9d5ffcbecbf8b_Youth%20Arts%20%26%20Culture%20-%20Spring%20Production.png",
+   "img": "/assets/winter/youth-arts-and-culture-jpas-spring-production-aladdin.jpg",
    "ongoing": true,
    "desc": "A whole new world is coming to The J! Our JPAS youth spring musical brings the magic of Aladdin to life with two casts, dazzling songs, and plenty of genie-sized fun. Rehearsals begin Sunday, January 24; Magic Carpet Cast performs April 1 and 4, Arabian Nights Cast April 15 and 18. Don't miss your chance to audition, or grab your seats for a show the whole family will love.",
    "reg": "https://www.jccdallas.org/arts/aladdin",
@@ -5672,7 +5761,7 @@
    "ages": "Families",
    "dates": "Begins Tuesday, June 1, 2027",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/camp-orientation.jpg",
    "desc": "Let the summer countdown begin! Camp Orientation gets families ready for an amazing summer at The J.",
    "reg": "https://www.jdallascamps.org/",
    "sch": [
@@ -5896,7 +5985,7 @@
    "ages": "New members",
    "dates": "January 1 – 31",
    "days": "Join online",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a901bc47f6dd44aa468effd_custom_thumbnail_big-5.png",
+   "img": "/assets/winter/membership-january-special.jpg",
    "desc": "New year, new you, new J! Join in January with NO registration fee and get February FREE. From the Fitness Floor, group fitness, and Reformer Pilates to indoor and outdoor pools, courts, and programs for every age, The J is where you start strong, stay active, and stay connected.",
    "reg": "https://www.jccdallas.org/membership",
    "sch": [
@@ -5955,7 +6044,7 @@
    "ages": "Preschool",
    "dates": "Friday, February 5, 2027",
    "days": "Morning",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a901cc9453d88fb5d3cf2b7_custom_thumbnail_big.png",
+   "img": "/assets/winter/gecc-donuts-with-grownups.jpg",
    "desc": "Sprinkles, smiles, and special someones! Our preschoolers share a sweet morning of donuts with their favorite grown-ups.",
    "reg": "https://gecc.jccdallas.org",
    "noBtn": true,
@@ -5981,7 +6070,7 @@
    "ages": "GECC families",
    "dates": "Friday, December 11, 2026",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/gecc-hanukkah-in-pajamikas.jpg",
    "desc": "PJs on, lights up! Gather your family for a joyful Hanukkah celebration filled with music, movement, laughter, and plenty of sparkle. Come ready to shine, celebrate, and share the light!",
    "reg": "https://gecc.jccdallas.org",
    "sch": [
@@ -6007,7 +6096,7 @@
    "ages": "Ages 0–5",
    "dates": "Tuesday, January 5, 2027",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/gecc-preschool-enrollment.jpg",
    "desc": "Where little ones learn, play, and grow! Enrollment opens for the GECC preschool. Save your child's spot in our warm, joyful early childhood community.",
    "reg": "https://gecc.jccdallas.org",
    "sch": [
@@ -6033,7 +6122,7 @@
    "ages": "GECC families",
    "dates": "Thursday, January 21, 2027",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/gecc-tu-b-shevat-family-art-celebration.jpg",
    "desc": "Happy birthday, trees! Celebrate Tu B'Shevat with a hands-on family art experience that turns recycled treasures into beautiful creations. Make, wonder, create, and celebrate our world, one upcycled masterpiece at a time.",
    "reg": "https://gecc.jccdallas.org",
    "sch": [
@@ -6060,7 +6149,7 @@
    "ages": "GECC families",
    "dates": "Thursday, April 15, 2027",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/gecc-family-garden-event.jpg",
    "desc": "Dig in and watch it grow! GECC families get their hands dirty and celebrate spring together in our garden.",
    "reg": "https://gecc.jccdallas.org",
    "sch": [
@@ -6086,7 +6175,7 @@
    "ages": "GECC families",
    "dates": "Friday, May 7, 2027",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/gecc-new-sibling-shabbat.jpg",
    "desc": "A special Shabbat celebrating the newest members of our GECC families, and the proud big brothers and sisters who love them!",
    "reg": "https://gecc.jccdallas.org",
    "sch": [
@@ -6162,7 +6251,7 @@
    "ages": "Active adults",
    "dates": "Tuesday, March 16, 2027",
    "days": "",
-   "img": "",
+   "img": "/assets/winter/big-energy-senior-expo.jpg",
    "desc": "Aging out loud! Dallas's premier senior wellness event celebrates living with energy, confidence, and joy at every age. Explore resources, connect with community partners, and discover what's next, because our seniors aren't slowing down, they're turning it up.",
    "reg": "https://www.jccdallas.org/senior-expo",
    "sch": [
@@ -6919,7 +7008,7 @@
    "ages": "Kids",
    "dates": "January 11 – May 6",
    "days": "Times vary by class",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a847dacd557662d0b887110_Youth%20Gymnastics%20-%20Ages%205%E2%80%936.png",
+   "img": "/assets/winter/youth-gymnastics-winter-spring-gymnastics.jpg",
    "desc": "Flip, tumble, and soar into the new year! Our gymnastics classes build strength, flexibility, and confidence through fundamentals and progressive skills, in a fun, encouraging gym where every gymnast can shine and make friends.",
    "reg": "https://www.jccdallas.org/youth-sports/gymnastics",
    "sch": [
@@ -7116,7 +7205,7 @@
    "dates": "Saturdays, December 5 – February 28",
    "days": "8:30 AM",
    "desc": "Dink, drive, and have a blast! Start your Saturday on the court with a pro-led drill for new and developing players. You'll learn the rules, scoring, positioning, and core strokes, then put it all together in game play.",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a319ea90aba267ac4c95b60_Screenshot%202026-06-16%20at%202.06.02%E2%80%AFPM.png",
+   "img": "/assets/winter/adult-racquet-sports-saturday-beginner-intermediate-pickleball.jpg",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Pickleball%20Drills",
    "ongoing": true,
    "sch": [
@@ -7214,7 +7303,7 @@
    "ages": "Toddlers through middle school",
    "dates": "November 29 – January 10",
    "days": "Dec 27: 1:30–2:30 PM toddlers and preschoolers; 2:45–4:15 PM elementary and middle school",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6932e9c530954305e599b874_692062884e64344187538ad8_Screenshot%25202025-11-21%2520at%25201.59.16%25E2%2580%25AFPM.png",
+   "img": "/assets/winter/youth-gymnastics-open-gym.jpg",
    "desc": "Come play, move, and explore! Open Gym is a chance for kids to tumble, climb, swing, and jump on our equipment at their own pace. No experience or enrollment needed, just bring the energy! A grown-up stays with toddlers and preschoolers.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014418",
    "sch": [
@@ -7243,7 +7332,7 @@
    "ages": "18+",
    "dates": "December 8 – January 19",
    "days": "Monday evenings",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f9b881b329477fbf41_J%20Mahj%20-%20Competitive%20League.png",
+   "img": "/assets/winter/j-mahj-social-league-competitive-league-and-theme-nights.jpg",
    "desc": "Bring your best hands and your competitive spirit! Our Competitive League means six sessions of tournament-scored play, a championship night, and a $100 Visa gift card for the winner. Plus two free scheduled-play sessions, 10% off theme nights, and 15% off the Mahj gift shop.",
    "reg": "https://www.jccdallas.org/j-mahj/leagues",
    "sch": [
@@ -7278,7 +7367,7 @@
    "ages": "Adults",
    "dates": "Winter dates to be announced",
    "days": "Tuesday evenings 6:30–8:30 PM; Thursday afternoons 1:00–3:00 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f706d0385dcf45399d_J%20Mahj%20-%20J%20Dallas%20Social%20Mahj%20League%20Thursday.png",
+   "img": "/assets/winter/j-mahj-social-league-competitive-league-and-theme-nights.jpg",
    "desc": "Good tiles, good friends, good times! The Social League brings together players who love the game for six relaxed sessions with light bites, great drinks, and new friendships. Spots go fast!",
    "reg": "https://www.jccdallas.org/j-mahj/leagues",
    "sch": [],
@@ -7369,7 +7458,7 @@
    "ages": "Ages 8–12",
    "dates": "Starts Wednesday, January 27",
    "days": "Wednesday afternoons · no class November 25",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6aad81c16bae05704bcf501a_Youth%20Arts%20%26%20Culture%20-%20JPAS%20Kitchen%20Explorers.png",
+   "img": "/assets/winter/youth-arts-and-culture-kitchen-explorers.jpg",
    "desc": "Little chefs, big flavors! Kids explore new ingredients, whip up tasty creations, and build kitchen confidence in this hands-on cooking class.",
    "reg": "https://www.jccdallas.org/arts/classes-workshops",
    "sch": [
@@ -7398,7 +7487,7 @@
    "ages": "Adult",
    "dates": "Wednesday, December 9, 2026",
    "days": "12:30–1:30 PM",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6ad67bef1a127bbc651a48bf_Jewish%20Learning%20-%20Jewish%20Music%20Between%20Persecution%20and%20Revival.png",
+   "img": "/assets/winter/jewish-learning-jewish-music.jpg",
    "desc": "Music lost, and music found. Experience a stirring 30-minute piano concert of works rooted in Jewish tradition, then discover the remarkable story of 20th-century Jewish music: its brilliant flourishing, its devastating losses, and its long-awaited revival.",
    "reg": "https://jewishmusic.eventive.org/schedule/6a861f73872fa6594fa49c1e",
    "sch": [
@@ -7410,6 +7499,173 @@
    "tags": [
     "winter"
    ]
+  },
+  {
+   "id": 223,
+   "t": "J Dallas Camps: Camp Chai, Specialty Camps, and Summer at The J",
+   "cat": "camp",
+   "type": "Program",
+   "aud": [
+    "kids",
+    "teens",
+    "family"
+   ],
+   "ages": "Ages 3 to 16",
+   "dates": "Year-round",
+   "days": "",
+   "img": "/assets/winter/camp-orientation.jpg",
+   "ongoing": true,
+   "desc": "Summer camps, day camps, and the Camp Chai tradition, all run by The J. Camp Chai, sports and specialty camps, teen programs, and before and after care, with registration, dates, and pricing on the J Dallas Camps site.",
+   "reg": "https://www.jdallascamps.org/",
+   "btn": "Learn More",
+   "sch": [],
+   "sub": [],
+   "evergreen": true
+  },
+  {
+   "id": 224,
+   "t": "Goldberg Early Childhood Center (GECC)",
+   "cat": "gecc",
+   "type": "Program",
+   "aud": [
+    "ec",
+    "family"
+   ],
+   "ages": "Ages 0 to 5",
+   "dates": "Year-round",
+   "days": "",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a847dabbf99e66abe950af5_GECC%20Enrichment%20-%20Sports.png",
+   "ongoing": true,
+   "desc": "The J's preschool and early childhood center: a warm, play-based Jewish learning community for infants through pre-K, with enrichment, family events, and year-round enrollment information on the GECC site.",
+   "reg": "https://gecc.jccdallas.org",
+   "btn": "Learn More",
+   "sch": [],
+   "sub": [],
+   "evergreen": true
+  },
+  {
+   "id": 225,
+   "t": "Golf Tournament",
+   "cat": "social",
+   "type": "Program",
+   "aud": [
+    "adults"
+   ],
+   "ages": "Adults",
+   "dates": "Year-round",
+   "days": "",
+   "img": "https://jdallas-assets.netlify.app/Untitled-1_2.png",
+   "ongoing": true,
+   "desc": "The Aaron Family JCC's annual golf tournament: a day on the course that supports J programs for all ages. Sponsorships, foursomes, and details on the tournament page.",
+   "reg": "https://www.jccdallas.org/special-events/golf-tournament",
+   "btn": "Learn More",
+   "sch": [],
+   "sub": [],
+   "evergreen": true
+  },
+  {
+   "id": 226,
+   "t": "Matzoh Ball",
+   "cat": "social",
+   "type": "Program",
+   "aud": [
+    "adults"
+   ],
+   "ages": "Adults",
+   "dates": "Year-round",
+   "days": "",
+   "img": "https://jdallas-assets.netlify.app/matzo.png",
+   "ongoing": true,
+   "desc": "The J's signature night out: the annual Matzoh Ball party for Jewish young adults and friends. Dates and tickets on the event page.",
+   "reg": "https://www.jccdallas.org/special-events/matzoh-ball",
+   "btn": "Learn More",
+   "sch": [],
+   "sub": [],
+   "evergreen": true
+  },
+  {
+   "id": 227,
+   "t": "Birthday Parties at The J",
+   "cat": "social",
+   "type": "Program",
+   "aud": [
+    "kids",
+    "family"
+   ],
+   "ages": "Kids",
+   "dates": "Year-round",
+   "days": "",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/685d2fcb4bed6938cac275c4_25.png",
+   "ongoing": true,
+   "desc": "Pool parties, gym parties, gymnastics, sports, and more: The J hosts kids' birthday parties with staff, setup, and space included. Packages and booking on the birthday parties page.",
+   "reg": "https://www.jccdallas.org/special-events/birthday-parties",
+   "btn": "Learn More",
+   "sch": [],
+   "sub": [],
+   "evergreen": true
+  },
+  {
+   "id": 228,
+   "t": "Room and Facility Rentals",
+   "cat": "social",
+   "type": "Program",
+   "aud": [
+    "adults"
+   ],
+   "ages": "Everyone",
+   "dates": "Year-round",
+   "days": "",
+   "img": "https://jdallas-assets.netlify.app/Untitled-1_3.png",
+   "ongoing": true,
+   "desc": "Rent the Zale Auditorium, gyms, fields, courts, and meeting rooms at The J for your event, league, or celebration. Request a rental on the room rentals page.",
+   "reg": "https://www.jccdallas.org/special-events/room-rentals",
+   "btn": "Learn More",
+   "sch": [],
+   "sub": [],
+   "evergreen": true
+  },
+  {
+   "id": 229,
+   "t": "J Gourmet Catering and Cafes",
+   "cat": "dining",
+   "type": "Program",
+   "aud": [
+    "adults",
+    "family"
+   ],
+   "ages": "Everyone",
+   "dates": "Year-round",
+   "days": "",
+   "img": "https://jdallas-assets.netlify.app/Hero-Image.png",
+   "ongoing": true,
+   "desc": "Kosher catering, Margot's Cafe, Jolie's Cafe, and seasonal favorites like latkes and hamantaschen, all from J Gourmet at The J.",
+   "reg": "https://www.jccdallas.org/jgourmet",
+   "btn": "Learn More",
+   "sch": [],
+   "sub": [],
+   "evergreen": true
+  },
+  {
+   "id": 230,
+   "t": "Join The J: Membership",
+   "cat": "member",
+   "type": "Program",
+   "aud": [
+    "adults",
+    "family",
+    "seniors"
+   ],
+   "ages": "Everyone",
+   "dates": "Year-round",
+   "days": "",
+   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a901bc47f6dd44aa468effd_custom_thumbnail_big-5.png",
+   "ongoing": true,
+   "desc": "Fitness floor, group fitness, pools, courts, and member pricing on programs for the whole family. Membership options, rates, and the online join flow.",
+   "reg": "https://www.jccdallas.org/membership",
+   "btn": "Learn More",
+   "sch": [],
+   "sub": [],
+   "evergreen": true
   }
  ]
 }
