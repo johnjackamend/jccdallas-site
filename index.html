@@ -1215,23 +1215,6 @@ sizeSpacer(); onScroll(); setTimeout(sizeSpacer,600);
 
 
 
-<div class="alertbar" id="alert" role="status" data-until="2026-11-16" hidden>
-  <div class="wrap">
-    <p><span aria-hidden="true">📱</span> <strong>Action Required:</strong> Update Your My J App by November 16!</p>
-    <button type="button" class="alert-btn" id="alertMore" aria-haspopup="dialog" aria-controls="appModal">Learn More</button>
-    <button type="button" id="alertClose" aria-label="Dismiss alert"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-  </div>
-</div>
-<div class="amodal" id="appModal" role="dialog" aria-modal="true" aria-labelledby="appModalTitle" hidden>
-  <div class="box">
-    <button type="button" class="x" id="appModalClose" aria-label="Close">&times;</button>
-    <h2 id="appModalTitle">Update Your My J App</h2>
-    <p>The old version of the My J App will no longer work.</p>
-    <p>To continue enjoying access to your favorite J features and services, visit the App Store or Google Play Store and update to the latest version by November 16.</p>
-    <p><strong>Don't wait, update today to stay connected!</strong></p>
-  </div>
-</div>
-
 <main id="main">
 
 <!-- ================= HERO ================= -->
@@ -1660,24 +1643,7 @@ var LIVE=P.filter(isLive);
 
 })();
 
-/* ---------- alert bar ---------- */
-(function alertBar(){
-  var bar=document.getElementById("alert"), x=document.getElementById("alertClose"), more=document.getElementById("alertMore");
-  var modal=document.getElementById("appModal"), mclose=document.getElementById("appModalClose"), last;
-  if(bar){
-    var until=bar.getAttribute("data-until"), today=new Date().toISOString().slice(0,10), key="jdAlertDismissed-myjapp-2026-11";
-    var dismissed=false; try{ dismissed=sessionStorage.getItem(key)==="1"; }catch(e){}
-    if(!dismissed && (!until || today<=until)) bar.hidden=false;
-    if(x) x.addEventListener("click",function(){ bar.hidden=true; try{sessionStorage.setItem(key,"1");}catch(e){} });
-    if(more&&modal){
-      var open=function(){ last=document.activeElement; modal.hidden=false; modal.classList.add("open"); document.body.style.overflow="hidden"; mclose.focus(); };
-      var close=function(){ modal.classList.remove("open"); modal.hidden=true; document.body.style.overflow=""; if(last&&last.focus) last.focus(); };
-      more.addEventListener("click",open); mclose.addEventListener("click",close);
-      modal.addEventListener("click",function(e){ if(e.target===modal) close(); });
-      document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&modal.classList.contains("open")) close(); });
-    }
-  }
-
+(function(){
 /* ---------- scroll reveal + count-up ---------- */
 (function reveal(){
   var reduce=!!(window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches);
@@ -2380,6 +2346,7 @@ railInit(document.getElementById("lifeTrack"));
 <!-- accessiBe -->
 <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init(); }; h.appendChild(s); })(); </script>
 <!-- Banterly chat -->
+<script defer src="/js/notices.js"></script>
 <script defer src="/js/findband.js"></script>
 <script src="https://app.banterlyai.com/static/chatbot/js/chatbubble.js" data-id="def283f3-6a4a-4112-b0f2-f3778a965494" data-domain="https://app.banterlyai.com" data-position="right"></script>
 <div class="vlb" id="ybh" role="dialog" aria-modal="true" aria-label="You Belong Here video" hidden>
