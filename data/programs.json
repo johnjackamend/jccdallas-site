@@ -3535,7 +3535,7 @@
   },
   {
    "id": 63,
-   "t": "Mah Jongg Supervised Play",
+   "t": "Mah Jongg Supervised Play Refresher",
    "cat": "mahj",
    "type": "Program",
    "aud": [
@@ -3543,7 +3543,7 @@
     "seniors"
    ],
    "ages": "18+",
-   "dates": "December 1, December 17 & January 5",
+   "dates": "December 1, January 28 & February 25",
    "days": "1:30–4:00 PM",
    "img": "/assets/winter/j-mahj-supervised-play-beginner-classes-and-tournament-strategies-play.jpg",
    "desc": "Play with confidence! Sit down at the table with an experienced instructor by your side to answer questions, share pro tips, and help you sharpen your strategy, one rack at a time.",
@@ -3558,19 +3558,19 @@
      }
     },
     {
-     "label": "December 17",
-     "reg": "https://jmahj.eventive.org/schedule/6abeb4f3738aba4f4c9d1d5c",
+     "label": "Thursday, January 28",
+     "reg": "https://jmahj.eventive.org/schedule/6af4dc6aaec0aba2f13e11c0",
      "sch": {
       "k": "once",
-      "s": "2026-12-17"
+      "s": "2027-01-28"
      }
     },
     {
-     "label": "Tuesday, January 5",
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-013966",
+     "label": "Thursday, February 25",
+     "reg": "https://jmahj.eventive.org/schedule/6af4dc9f1679bff2b4fcdb76",
      "sch": {
       "k": "once",
-      "s": "2027-01-05"
+      "s": "2027-02-25"
      }
     }
    ],
@@ -3585,8 +3585,8 @@
      "k": "dates",
      "list": [
       "2026-12-01",
-      "2026-12-17",
-      "2027-01-05"
+      "2027-01-28",
+      "2027-02-25"
      ]
     }
    ]
