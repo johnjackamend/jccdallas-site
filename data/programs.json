@@ -348,7 +348,7 @@
   {
    "id": 187,
    "t": "Israel Independence Day Celebration",
-   "cat": "holiday",
+   "cat": "social",
    "type": "Event",
    "aud": [
     "kids",
@@ -368,7 +368,9 @@
      "s": "2027-05-16"
     }
    ],
-   "sub": [],
+   "sub": [
+    "holiday"
+   ],
    "tags": [
     "winter"
    ],
