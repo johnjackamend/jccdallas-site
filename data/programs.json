@@ -6703,45 +6703,61 @@
   },
   {
    "id": 159,
-   "t": "BookFest: Shai Davidai",
+   "t": "American Intellectual Antisemitism",
    "cat": "bookfest",
    "type": "Event",
    "aud": [
     "adults"
    ],
    "ages": "Adults",
-   "dates": "Date to be announced",
-   "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4775bc4c63e8d4ffc_Big%20Energy%20-%20Bookfest.png",
-   "desc": "Another must-see author is joining the BookFest lineup. Stay tuned for details!",
-   "reg": "https://www.jccdallas.org/bookfest",
-   "sch": [],
+   "dates": "January 27, 2027",
+   "days": "7:30 PM",
+   "img": "/assets/bookfest/shai-davidai.png",
+   "desc": "Shai Davidai. American Intellectual Antisemitism: The Anti-Jewish Movement Tearing Through Our Universities tells the remarkable story of how one Columbia Business School professor helped sound the alarm on the rise of antisemitism and support for terrorism on America's most elite campuses, emerging as one of the world's most outspoken voices against anti-Jewish, anti-Israeli, and anti-American extremism.",
+   "reg": "https://2627bookfest.eventive.org/schedule/6aa1c018230d0457942d08d9",
+   "sch": [
+    {
+     "k": "once",
+     "s": "2027-01-27"
+    }
+   ],
    "sub": [],
    "tags": [
     "winter"
    ],
-   "pre": true
+   "src": "cms",
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
+   ]
   },
   {
    "id": 160,
-   "t": "BookFest: David Patterson",
+   "t": "Redemptive Antisemitism",
    "cat": "bookfest",
    "type": "Event",
    "aud": [
     "adults"
    ],
    "ages": "Adults",
-   "dates": "Date to be announced",
-   "days": "",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4775bc4c63e8d4ffc_Big%20Energy%20-%20Bookfest.png",
-   "desc": "Another must-see author is joining the BookFest lineup. Stay tuned for details!",
-   "reg": "https://www.jccdallas.org/bookfest",
-   "sch": [],
+   "dates": "March 24, 2027",
+   "days": "7:30 PM",
+   "img": "/assets/bookfest/david-patterson.png",
+   "desc": "David Patterson. In the wake of the October 7, 2023 attacks a storm of antisemitism spread across the globe. In Redemptive Antisemitism after Ten/Seven, Patterson draws on decades of studying antisemitism to explore the historical background and contemporary narratives that gave rise to this phenomenon. He argues that a new form of antisemitism, steeped in self-righteousness and seen as morally redemptive, has taken hold in public discourse. Just as Hamas framed its violence as holy, so too do some intellectuals and activists treat antisemitic anti-Zionism as a foundation of moral integrity. This book exposes and explains this dangerous transformation and its global implications.",
+   "reg": "https://2627bookfest.eventive.org/schedule/6aa1c4debe172b6eb7567716",
+   "sch": [
+    {
+     "k": "once",
+     "s": "2027-03-24"
+    }
+   ],
    "sub": [],
    "tags": [
     "winter"
    ],
-   "pre": true
+   "src": "cms",
+   "sponsors": [
+    "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a688e8329c234ae0da53b49_JBC_logo_black.jpg"
+   ]
   },
   {
    "id": 143,
