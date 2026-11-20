@@ -234,7 +234,7 @@
    "ages": "Adults",
    "dates": "March 11, 2027",
    "days": "Thursday evening",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a4665fea04b0e515862511d_E113WDE9.avif",
+   "img": "/assets/winter/big-energy-comedy-at-the-j.jpg",
    "desc": "Comedy for Peace: bringing people together. No politics. Just laughs. Chase DuRousseau, Erik Angel, and Zara Khan take the stage Thursday, March 11, 2027 at 7:30 PM. $45 general admission includes two drinks and light snacks.",
    "reg": "https://comedyatthej.eventive.org/schedule/6aaafb3bbe00b709bcf52306",
    "sch": [
@@ -3434,7 +3434,7 @@
    "ages": "18+",
    "dates": "October 12 – November 23",
    "days": "Monday evenings",
-   "img": "/assets/winter/j-mahj-social-league-competitive-league-and-theme-nights.jpg",
+   "img": "/assets/winter/j-mahj-competitive-league.jpg",
    "desc": "Challenge your skills and enjoy spirited competition in the J Dallas Competitive Mahj League. Connect with fellow enthusiasts, sharpen your strategy, and experience the excitement of league play. Championship night is November 23.",
    "reg": "https://jmahj.eventive.org/schedule/6a3d92f075df250b8b0d0985",
    "sch": [
@@ -3467,7 +3467,7 @@
    "ages": "18+",
    "dates": "Tuesdays: January 5 – 26 · from February 2 · March 30 – April 20",
    "days": "Four sessions · $170",
-   "img": "/assets/winter/j-mahj-supervised-play-beginner-classes-and-tournament-strategies-play.jpg",
+   "img": "/assets/winter/j-mahj-beginner-classes.jpg",
    "desc": "Always wanted to learn Mah Jongg? This is your moment! In just four fun sessions you'll go from \"what's a bam?\" to building hands, reading the card, and playing with confidence. Your new favorite game is waiting.",
    "reg": "https://www.jccdallas.org/j-mahj/lessons",
    "sessions": [
@@ -3603,7 +3603,7 @@
    "ages": "Adults",
    "dates": "Tuesday, February 2, 2027",
    "days": "1:30–4:00 PM",
-   "img": "/assets/winter/j-mahj-supervised-play-beginner-classes-and-tournament-strategies-play.jpg",
+   "img": "/assets/winter/j-mahj-tournament-strategy.jpg",
    "desc": "Tournament-ready in one afternoon! Practice tournament-style play with expert guidance and tips to bring your best game to the March 7 Mahj Tournament.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-013967",
    "sch": [
@@ -7152,18 +7152,18 @@
   },
   {
    "id": 152,
-   "t": "J Dallas Competitive Mahj League (Mondays): Winter Session",
+   "t": "J Dallas Competitive Mahj League: Winter Session",
    "cat": "mahj",
    "type": "Program",
    "aud": [
     "adults"
    ],
    "ages": "18+",
-   "dates": "December 8 – January 19",
-   "days": "Monday evenings",
-   "img": "/assets/winter/j-mahj-social-league-competitive-league-and-theme-nights.jpg",
+   "dates": "Winter sessions begin December 8",
+   "days": "Monday evenings, Tuesday evenings & Friday mornings",
+   "img": "/assets/winter/j-mahj-competitive-league.jpg",
    "desc": "Bring your best hands and your competitive spirit! Our Competitive League means six sessions of tournament-scored play, a championship night, and a $100 Visa gift card for the winner. Plus two free scheduled-play sessions, 10% off theme nights, and 15% off the Mahj gift shop.",
-   "reg": "https://www.jccdallas.org/j-mahj/leagues",
+   "reg": null,
    "sch": [
     {
      "k": "dates",
@@ -7183,6 +7183,49 @@
    ],
    "tags": [
     "winter"
+   ],
+   "sessions": [
+    {
+     "label": "Mondays: Winter Session 1",
+     "sub": "Dec 8 – Jan 19",
+     "reg": "https://jmahj.eventive.org/schedule/6acd4a22e3401dd2836d2bd9",
+     "sch": {
+      "k": "dates",
+      "list": [
+       "2026-12-08",
+       "2026-12-15",
+       "2026-12-22",
+       "2026-12-29",
+       "2027-01-05",
+       "2027-01-12",
+       "2027-01-19"
+      ]
+     }
+    },
+    {
+     "label": "Mondays: Winter Session 2",
+     "reg": "https://jmahj.eventive.org/schedule/6b00a8d779d9e679af526ee2",
+     "sch": {
+      "k": "dates",
+      "list": []
+     }
+    },
+    {
+     "label": "Tuesdays",
+     "reg": "https://jmahj.eventive.org/schedule/6ae1080098ef09278aaaee1a",
+     "sch": {
+      "k": "dates",
+      "list": []
+     }
+    },
+    {
+     "label": "Fridays",
+     "reg": "https://jmahj.eventive.org/schedule/6acd4b801bfc053b0c53d8c4",
+     "sch": {
+      "k": "dates",
+      "list": []
+     }
+    }
    ]
   },
   {
