@@ -3,10 +3,10 @@
            until (last day shown, YYYY-MM-DD), pages (array of path prefixes; "/" = homepage only) */
 (function(){
   var NOTICES=[
-    {id:"outdoor-pool-2026-11-30",label:"Aquatics",tone:"blue",until:"2026-11-30",pages:["/","/aquatics"],
+    {id:"outdoor-pool-2026-11-30",label:"Aquatics",tone:"blue",until:"",pages:["/","/aquatics"],
      title:"Outdoor Pool Closure",
-     text:"The outdoor pool will be closed on Monday, November 30, for facility enhancements.",
-     more:"<p>The outdoor pool will be closed on <strong>Monday, November 30</strong>, for facility enhancements.</p><p>Thank you for your patience as we work to improve your experience at The J!</p><p>Questions? Visit the <a href='/aquatics/hours'>Aquatics hours page</a> or ask at the front desk, <a href='tel:2147392737'>(214) 739-2737</a>.</p>"},
+     text:"The outdoor pool will be closed starting Monday, November 30, until facility enhancements are complete.",
+     more:"<p>The outdoor pool will be closed starting <strong>Monday, November 30</strong>, and will remain closed until facility enhancements are complete.</p><p>Thank you for your patience as we work to improve your experience at The J!</p><p>Questions? Visit the <a href='/aquatics/hours'>Aquatics hours page</a> or ask at the front desk, <a href='tel:2147392737'>(214) 739-2737</a>.</p>"},
     {id:"toll-tag-reader-2026-11",label:"Members",tone:"purple",until:"",pages:["/"],
      title:"J Notice: Main Gate Toll Tag Reader",
      text:"The J is replacing the toll tag reader at the main gate. Please display your J Parking Sticker or be ready to present a valid photo ID.",
