@@ -88,16 +88,16 @@ sections = "".join(f'<div class="wx-cat" id="cat-{c}" data-cat="{c}"><h3>{LABEL.
                    f'<div data-programs="tag:winter;cat:{c}" data-limit="{0 if c == "social" else 6}" data-more="expand" data-empty=""></div></div>' for c in cats)
 
 
-hol = [("Fri, Dec 4 – Fri, Dec 11", "Hanukkah (Nights 1–8)", "Regular programming"), ("Thu, Dec 24", "Christmas Eve", "5 am to 4 pm"), ("Fri, Dec 25", "Christmas Day", "7 am to 1 pm"),
-       ("Thu, Dec 31", "New Year's Eve", "Closes at 6 pm"), ("Fri, Jan 1", "New Year's Day", "10 am to 4 pm"), ("Mon, Jan 18", "Martin Luther King Jr. Day", "Regular hours; no regular programming, School Day Out runs"),
+hol = [("Fri, Dec 4 – Fri, Dec 11", "Hanukkah (Nights 1–8)", "Regular programming"), ("Thu, Dec 24", "Christmas Eve", "5:00 AM–4:00 PM"), ("Fri, Dec 25", "Christmas Day", "7:00 AM–1:00 PM"),
+       ("Thu, Dec 31", "New Year's Eve", "Closes at 6:00 PM"), ("Fri, Jan 1", "New Year's Day", "10:00 AM–4:00 PM"), ("Mon, Jan 18", "Martin Luther King Jr. Day", "Regular hours; no regular programming, School Day Out runs"),
        ("Sat, Jan 23", "Tu B'Shevat", "Regular hours"), ("Tue, Mar 23", "Purim", "Regular hours"), ("Wed, Apr 21 – Fri, Apr 23; Tue, Apr 27 – Thu, Apr 29", "Passover", "Regular hours; Business Office closed Apr 22 and Apr 28"),
-       ("Tue, May 4", "Yom HaShoah", "Regular hours"), ("Tue, May 11", "Yom Hazikaron", "Regular hours"), ("Wed, May 12", "Yom HaAtzmaut", "Regular hours"), ("Tue, May 25", "Lag B'Omer", "Regular hours"), ("Mon, May 31", "Memorial Day", "5 am to 6 pm")]
+       ("Tue, May 4", "Yom HaShoah", "Regular hours"), ("Tue, May 11", "Yom Hazikaron", "Regular hours"), ("Wed, May 12", "Yom HaAtzmaut", "Regular hours"), ("Tue, May 25", "Lag B'Omer", "Regular hours"), ("Mon, May 31", "Memorial Day", "5:00 AM–6:00 PM")]
 hol_rows = "".join(f"<tr><td>{d}</td><td>{h}</td><td>{t}</td></tr>" for d, h, t in hol)
 
-dates = [("Dec 1", "Winter begins", "Masters Swim, Open Tennis Drills, Road to 1000 Pushups, First Aid/CPR courses"), ("Dec 10", "Vodkas & Latkes", "Holiday Market in the lobby from 2 pm"),
+dates = [("Nov 30", "Open Tennis Drills begin", "Pro-led drills by level, through Feb 28"), ("Dec 1", "Winter begins", "Masters Swim, Road to 1000 Pushups, First Aid/CPR courses"), ("Dec 10", "Vodkas & Latkes", "Holiday Market in the lobby from 2:00 PM"),
          ("Dec 21", "Winter Breaktacular", "Club J, one day or the whole break"), ("Jan 1–31", "January Membership Special", "No registration fee, February free"),
-         ("Jan 5", "Registration day", "GECC preschool enrollment opens; Beginner Mahj Session 1 starts"), ("Jan 11", "Summer camp priority registration", "Members Jan 19, non-members Jan 25"),
-         ("Jan 24", "All Camps Open House", "1:00 to 3:00 PM, JCC Lobby"), ("Feb 14", "NMJL card deadline", "Order your 2027 Mah Jongg card"), ("Feb 22", "Hamantaschen pre-orders open", "J Gourmet"),
+         ("Jan 5", "GECC enrollment opens", "Preschool enrollment for 2027–28; Beginner Mahj Session 1 starts"), ("Jan 11", "Summer camp priority registration", "Members Jan 19, non-members Jan 25"),
+         ("Jan 24", "All Camps Open House", "1:00–3:00 PM, JCC Lobby"), ("Feb 14", "NMJL card deadline", "Order your 2027 Mah Jongg card"), ("Feb 22", "Hamantaschen pre-orders open", "J Gourmet"),
          ("Mar 7", "2027 Mahj Tournament", "Check-in 11:30 AM"), ("Mar 16", "Senior Expo", "Zale Auditorium"), ("May 9", "Bagel Run 2027", "Runners, walkers, and cheering sections")]
 date_items = "".join(f"<li><b>{d}</b><span>{t}</span><small>{s}</small></li>" for d, t, s in dates)
 
@@ -105,7 +105,7 @@ n_total = len(W)
 main = f"""<section class="dhero no-img wx-hero">
   <div class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span>Winter at The J</span></nav>
-    <span class="eyebrow">December 2026 through spring 2027</span>
+    <span class="eyebrow">December 2026 through June 2027</span>
     <h1>Winter at The J 2026–27</h1>
     <p class="lede">Every program, class, and event at The J this season, in one place. Pick who it is for, open the calendar, or scroll the whole season and register in one click.</p>
     <div class="acts"><a class="btn pink" href="#season">Explore the Season</a><a class="btn on-dark" href="#calendar">Winter Calendar</a><a class="btn on-dark" href="/holidays-at-the-j">Holidays at The J</a></div>

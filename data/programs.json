@@ -643,7 +643,7 @@
    ],
    "ages": "21+",
    "dates": "Thursday, December 10, 2026",
-   "days": "7:30 PM",
+   "days": "7:00–10:00 PM",
    "img": "/assets/winter/big-energy-vodkas-latkes.jpg",
    "desc": "Celebrate Hanukkah at the 3rd Annual Vodkas & Latkes: The Ice Lounge! Enjoy festive cocktails, crispy latkes, music, and mingling. Dress in furs, icy blues, and sparkle, and shop the Holiday Market in the lobby. 21+. $30 members, $36 non-members. In partnership with JBorhood and the Jewish Federation of Greater Dallas.",
    "reg": "https://vodkaslatkes.eventive.org/schedule/6a34667817e74af783c241c7",
@@ -733,7 +733,7 @@
    "days": "Multiple times weekly",
    "img": "/assets/winter/adult-aquatics-adult-beginner-group-swim-lessons.jpg",
    "ongoing": true,
-   "desc": "Build confidence in the water with a supportive class designed for beginning adult swimmers. Learn essential water safety, floating, breathing, kicking, and basic stroke techniques while developing the skills and confidence to swim comfortably at your own pace.",
+   "desc": "Learning to swim is a gift for life, from overcoming a fear of water to advanced stroke work. Build confidence in the water with a supportive class designed for beginning adult swimmers. Learn essential water safety, floating, breathing, kicking, and basic stroke techniques while developing the skills and confidence to swim comfortably at your own pace.",
    "reg": "https://www.jccdallas.org/aquatics",
    "sch": [],
    "sub": [
@@ -758,7 +758,7 @@
    "days": "Multiple times weekly",
    "img": "/assets/winter/adult-aquatics-adult-intermediate-group-swim-classes.jpg",
    "ongoing": true,
-   "desc": "Take your swimming to the next level by refining technique, improving stroke efficiency, and building endurance. This class focuses on the four competitive strokes, side breathing, training equipment, and swim skills that help you become a stronger, more confident swimmer.",
+   "desc": "Learning to swim is a gift for life, from overcoming a fear of water to advanced stroke work. Take your swimming to the next level by refining technique, improving stroke efficiency, and building endurance. This class focuses on the four competitive strokes, side breathing, training equipment, and swim skills that help you become a stronger, more confident swimmer.",
    "reg": "https://www.jccdallas.org/aquatics",
    "sch": [],
    "sub": [
@@ -783,7 +783,7 @@
    "days": "By appointment",
    "img": "/assets/winter/adult-aquatics-private-swim-lessons.jpg",
    "ongoing": true,
-   "desc": "Achieve your personal swimming goals with one-on-one instruction tailored to your experience and ability. Whether you're learning to swim, refining technique, or improving endurance, our experienced instructors provide personalized coaching to help you build confidence and progress faster.",
+   "desc": "Learning to swim is a gift for life, from overcoming a fear of water to advanced stroke work. Achieve your personal swimming goals with one-on-one instruction tailored to your experience and ability. Whether you're learning to swim, refining technique, or improving endurance, our experienced instructors provide personalized coaching to help you build confidence and progress faster.",
    "reg": "https://www.jccdallas.org/aquatics",
    "sch": [],
    "sub": [
@@ -808,7 +808,7 @@
    "days": "Multiple times weekly",
    "img": "/assets/winter/adult-aquatics-masters-swim.jpg",
    "ongoing": true,
-   "desc": "Masters Swim is back and better than ever! Train with purpose, push your pace, and find your people in the lane next to you in our revamped program for adult swimmers.",
+   "desc": "Masters Swim is back and better than ever! Train with purpose. Build confidence. Elevate your swimming at The J. Our revamped program for adult swimmers puts you in the lane next to your people.",
    "reg": "https://www.jccdallas.org/aquatics",
    "sch": [],
    "sub": [
@@ -905,7 +905,7 @@
    ],
    "ages": "Ages 5–7",
    "dates": "January 10 – May 6",
-   "days": "Sundays 1:00 to 2:00 PM; Mon, Tue, Thu 4:30 to 5:30 PM",
+   "days": "Sundays 1:00–2:00 PM; Mon, Tue, Thu 4:30–5:30 PM",
    "img": "/assets/winter/youth-racquet-sports-red-ball.jpg",
    "desc": "Red Ball introduces beginner players to tennis in a fun, supportive environment. Using red balls, smaller courts, and age-appropriate equipment, players build basic strokes, coordination, movement, and racquet control through engaging games and drills.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Youth%20Tennis&cat3=Red%20Ball",
@@ -915,7 +915,10 @@
      "s": "2027-01-10",
      "e": "2027-05-06",
      "d": [
-      0
+      0,
+      1,
+      2,
+      4
      ]
     }
    ],
@@ -936,7 +939,7 @@
    ],
    "ages": "Ages 7–10",
    "dates": "January 10 – May 6",
-   "days": "Sundays 2:00 to 3:00 PM; Tue, Wed, Thu 4:30 to 5:30 PM",
+   "days": "Sundays 2:00–3:00 PM; Tue, Wed, Thu 4:30–5:30 PM",
    "img": "/assets/winter/youth-racquet-sports-orange-ball.jpg",
    "desc": "Orange Ball helps players build consistency and confidence as they move into structured play. Using orange balls and modified courts, players refine strokes, improve movement, learn scoring, and develop match-play skills through drills, games, and competition.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Youth%20Tennis&cat3=Orange%20Ball",
@@ -946,7 +949,10 @@
      "s": "2027-01-10",
      "e": "2027-05-06",
      "d": [
-      0
+      0,
+      2,
+      3,
+      4
      ]
     }
    ],
@@ -968,7 +974,7 @@
    ],
    "ages": "Ages 10–13",
    "dates": "January 10 – May 6",
-   "days": "Sundays 2:00 to 3:30 PM; Mon and Wed 5:30 to 7:00 PM",
+   "days": "Sundays 2:00–3:30 PM; Mon and Wed 5:30–7:00 PM",
    "img": "/assets/winter/youth-racquet-sports-green-ball.jpg",
    "desc": "Green Ball helps players transition to full-court tennis while building consistency and confidence. Using green dot balls, players refine strokes, footwork, strategy, scoring, and point construction through drills, live-ball activities, and match play.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Youth%20Tennis&cat3=Green%20Ball",
@@ -978,7 +984,9 @@
      "s": "2027-01-10",
      "e": "2027-05-06",
      "d": [
-      0
+      0,
+      1,
+      3
      ]
     }
    ],
@@ -1000,7 +1008,7 @@
    ],
    "ages": "Ages 13+",
    "dates": "January 12 – May 4",
-   "days": "Tuesdays 5:30 to 7:00 PM",
+   "days": "Tuesdays 5:30–7:00 PM",
    "img": "/assets/winter/youth-racquet-sports-tournament-ball.jpg",
    "desc": "Tournament Ball challenges experienced junior players through advanced training and competitive play. Using standard yellow balls, players refine strokes, movement, strategy, point construction, and match skills while building consistency, confidence, and mental toughness.",
    "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Youth%20Tennis&cat3=Tournament",
@@ -1073,8 +1081,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003586",
      "sch": {
-      "k": "once",
-      "s": "2026-06-13"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       6
+      ]
      }
     },
     {
@@ -1082,8 +1094,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003587",
      "sch": {
-      "k": "once",
-      "s": "2026-06-13"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       6
+      ]
      }
     },
     {
@@ -1091,8 +1107,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003592",
      "sch": {
-      "k": "once",
-      "s": "2026-06-14"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       0
+      ]
      }
     },
     {
@@ -1100,8 +1120,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003593",
      "sch": {
-      "k": "once",
-      "s": "2026-06-14"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       0
+      ]
      }
     },
     {
@@ -1109,8 +1133,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003591",
      "sch": {
-      "k": "once",
-      "s": "2026-06-14"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       0
+      ]
      }
     },
     {
@@ -1118,8 +1146,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003589",
      "sch": {
-      "k": "once",
-      "s": "2026-06-13"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       6
+      ]
      }
     },
     {
@@ -1127,8 +1159,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003583",
      "sch": {
-      "k": "once",
-      "s": "2026-06-12"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       5
+      ]
      }
     },
     {
@@ -1136,8 +1172,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003585",
      "sch": {
-      "k": "once",
-      "s": "2026-06-12"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       5
+      ]
      }
     },
     {
@@ -1145,8 +1185,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003579",
      "sch": {
-      "k": "once",
-      "s": "2026-06-10"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       3
+      ]
      }
     },
     {
@@ -1154,8 +1198,12 @@
      "sub": null,
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003581",
      "sch": {
-      "k": "once",
-      "s": "2026-06-12"
+      "k": "weekly",
+      "s": "2026-11-30",
+      "e": "2027-02-28",
+      "d": [
+       5
+      ]
      }
     }
    ],
@@ -1409,7 +1457,7 @@
    ],
    "ages": "30+",
    "dates": "Sundays, November 8 – March 21",
-   "days": "Sunday evenings",
+   "days": "Sundays",
    "img": "/assets/winter/adult-sports-rec-sunday-mellow-league.jpg",
    "desc": "Still got game? The Sunday Mellow League is real, competitive hoops for players 30+, without the chaos. Enjoy a 10-game season, playoffs for every team, certified officials, and online stats, plus a laid-back vibe that keeps players coming back.",
    "reg": "https://www.jccdallas.org/adult-sports/basketball",
@@ -3042,7 +3090,7 @@
    ],
    "ages": "18+",
    "dates": "Through May 31",
-   "days": "Mon 10:15 AM, Wed 9:15 AM, Thu 6 PM, Sat 12:30 PM",
+   "days": "Sun 11:00 AM · Mon 10:15 AM & 6:15 PM · Wed 9:15 AM · Thu 6:15 PM · Sat 12:30 PM",
    "img": "/assets/winter/fitness-group-reformer-classes.jpg",
    "ongoing": true,
    "desc": "Dallas chic meets feel-good movement. Your new Pilates happy place offers private, semi-private, and group reformer classes that build strength, flexibility, balance, and alignment, with an amazing instructor team and that effortlessly elevated vibe. Come for the workout, stay for the people.",
@@ -3466,7 +3514,7 @@
     "seniors"
    ],
    "ages": "18+",
-   "dates": "Tuesdays: January 5 – 26 · from February 2 · March 30 – April 20",
+   "dates": "Tuesdays: January 5 – 26 · February 2 – 23 · March 30 – April 20",
    "days": "Four sessions · $170",
    "img": "/assets/winter/j-mahj-beginner-classes.jpg",
    "desc": "Always wanted to learn Mah Jongg? This is your moment! In just four fun sessions you'll go from \"what's a bam?\" to building hands, reading the card, and playing with confidence. Your new favorite game is waiting.",
@@ -3485,7 +3533,7 @@
      }
     },
     {
-     "label": "Session 2: Tuesdays from February 2",
+     "label": "Session 2: Tuesdays, February 2 – 23",
      "reg": "https://jmahj.eventive.org/schedule/6ac40c91b0a0404af2fd0f2e",
      "sch": {
       "k": "weekly",
@@ -3864,13 +3912,13 @@
   {
    "id": 69,
    "t": "JPAS Voices",
-   "cat": "active",
+   "cat": "arts-y",
    "type": "Program",
    "aud": [
-    "adults",
-    "seniors"
+    "kids",
+    "teens"
    ],
-   "ages": "No experience required",
+   "ages": "Youth performers",
    "dates": "Thursday, December 3, 2026",
    "days": "Evenings",
    "img": "/assets/winter/adults-arts-culture-jpas-voices.jpg",
@@ -4474,16 +4522,16 @@
     "kids"
    ],
    "ages": "Grades K–6",
-   "dates": "Starts Monday, December 21",
-   "days": "",
+   "dates": "December 21 – 31",
+   "days": "9:00 AM–4:00 PM",
    "img": "/assets/winter/club-j-breaktacular.jpg",
-   "desc": "School's out, the fun's in! Winter Breaktacular lets kids pick their own adventure each morning (Sports, Creative Arts, Gymnastics, and more), then come together in the afternoon for lunch, swimming, games, and crafts. Sign up for one day or the whole break!",
+   "desc": "School's out, the fun's in! Winter Breaktacular lets kids in grades K–6 pick their own adventure each morning (Sports, Creative Arts, Gymnastics, and more), then come together in the afternoon for lunch, swimming, games, and crafts. Sign up for one day or the whole break! Before and after care available for an additional cost. No after care December 24 or December 31.",
    "reg": "https://www.jccdallas.org/club-j/breaktaculars",
    "sch": [
     {
      "k": "span",
      "s": "2026-12-21",
-     "e": "2027-01-01"
+     "e": "2026-12-31"
     }
    ],
    "sub": [],
@@ -4494,22 +4542,25 @@
   },
   {
    "id": 205,
-   "t": "School Day Out: Presidents Day",
+   "t": "School Days Out: MLK Day & Presidents Day",
    "cat": "clubj",
    "type": "Program",
    "aud": [
     "kids"
    ],
    "ages": "Grades K–6",
-   "dates": "Monday, February 15, 2027",
+   "dates": "Mondays, January 18 & February 15, 2027",
    "days": "9:00 AM–4:00 PM · $100 members, $125 non-members",
    "img": "/assets/winter/club-j-school-days-out.jpg",
-   "desc": "No school? No problem! Kids in grades K–6 spend the day swimming, crafting, playing sports, and making memories with friends at The J. Before and after care available.",
+   "desc": "No school? No problem! Kids in grades K–6 spend MLK Day and Presidents Day swimming, crafting, playing sports, and making memories with friends at The J. Before and after care available.",
    "reg": "https://www.jccdallas.org/club-j/school-days-off",
    "sch": [
     {
-     "k": "once",
-     "s": "2027-02-15"
+     "k": "dates",
+     "list": [
+      "2027-01-18",
+      "2027-02-15"
+     ]
     }
    ],
    "sub": [],
@@ -5738,7 +5789,7 @@
    "ongoing": true,
    "desc": "The perfect balance of mindful movement and muscle! Flow through yoga sequences, build lean strength with weights, and finish with Renee's Signature Core Reset to recharge between school drop-off and evening activities. Members register in the My J app.",
    "reg": "https://www.jccdallas.org/myjapp",
-   "regLabel": "Register on MY J APP",
+   "regLabel": "Register on the My J app",
    "sch": [
     {
      "k": "weekly",
@@ -5855,7 +5906,7 @@
    "dates": "January 1 – 31",
    "days": "Join online",
    "img": "/assets/winter/membership-january-special.jpg",
-   "desc": "New year, new you, new J! Join in January with NO registration fee and get February FREE. From the Fitness Floor, group fitness, and Reformer Pilates to indoor and outdoor pools, courts, and programs for every age, The J is where you start strong, stay active, and stay connected.",
+   "desc": "Find fitness. Find community. Find your place. New year, new you, new J! Join in January with NO registration fee and get February FREE. From the Fitness Floor, group fitness, and Reformer Pilates to indoor and outdoor pools, courts, and programs for every age, The J is where you start strong, stay active, and stay connected. Use code WAIVEREG at checkout online.",
    "reg": "https://www.jccdallas.org/membership",
    "sch": [
     {
@@ -6523,7 +6574,7 @@
    "ages": "Adults",
    "dates": "December 1, 2026",
    "days": "",
-   "desc": "Veterinarian Dr. Barak Benaryeh shares unforgettable patient stories, practical pet care advice, and behind-the-scenes insights from life inside the exam room. Blending humor, compassion, and experience, this engaging book helps readers better understand the animals they love. ‍",
+   "desc": "Kitchen Confidential meets All Creatures Great and Small. Veterinarian Dr. Barak Benaryeh shares unforgettable patient stories, practical pet care advice, and behind-the-scenes insights from life inside the exam room. Blending humor, compassion, and experience, this engaging book helps readers better understand the animals they love.",
    "img": "/assets/bookfest/dr-barak-benaryeh.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b07e9fac01396b61e167f",
    "src": "cms",
@@ -6582,7 +6633,7 @@
    "ages": "Adults",
    "dates": "December 4, 2026",
    "days": "",
-   "desc": "Discover 10 beloved Jewish holidays through colorful illustrations, engaging stories, and more than 1,000 hidden objects to find. Filled with fun facts, interactive puzzles, and \"Spot the Difference\" challenges, this vibrant book offers children and families an entertaining way to learn, celebrate, and explore Jewish traditions together. ‍",
+   "desc": "How many ways can a family celebrate the Jewish year? Puzzled takes children on a seek-and-find tour of 10 beloved holidays with colorful illustrations, engaging stories, and more than 1,000 hidden objects to spot. Fun facts, interactive puzzles, and \"Spot the Difference\" challenges make it an entertaining way for families to learn, celebrate, and explore Jewish traditions together.",
    "img": "/assets/bookfest/jake-marin-wertheim.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b0a1334534b8c002957dc",
    "src": "cms",
@@ -6599,7 +6650,7 @@
   },
   {
    "id": 139,
-   "t": "How Old Are You Today?",
+   "t": "Coffee with the Author: How Old Are You Today?: Dementia, A Mother, A Daughter, and the Game That Transformed Their Lives",
    "cat": "bookfest",
    "type": "Event",
    "aud": [
@@ -6634,7 +6685,7 @@
    "ages": "Adults",
    "dates": "March 4, 2027",
    "days": "",
-   "desc": "Psychiatrist Dr. Suzanne Garfinkle-Crowell explores how social media and \"therapy speak\" are changing the way young women understand themselves and express emotions. Blending clinical insight with compassion, she offers parents and educators valuable tools for today's evolving conversations. ‍",
+   "desc": "ADHD. OCD. Toxic. Unwell. Psychiatrist Dr. Suzanne Garfinkle-Crowell explores how social media and \"therapy speak\" are changing the way young women understand themselves and express emotions. Blending clinical insight with compassion, she offers parents and educators valuable tools for today's evolving conversations.",
    "img": "/assets/bookfest/dr-suzanne-garfinkle-crowell.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b0ce57947c89ee80f7607",
    "src": "cms",
@@ -6692,7 +6743,7 @@
    "ages": "Adults",
    "dates": "March 9, 2027",
    "days": "",
-   "desc": "Florist and clairvoyant Jenny Barker reveals the healing energy and symbolism behind flowers, helping readers create meaningful arrangements for every season of life. Filled with stunning photography and practical guidance, Flower Energy inspires connection, wellness, and intentional living through the beauty of blooms.",
+   "desc": "Florist and clairvoyant Jenny Barker, known as the \"Flower Doctor,\" reveals the healing energy and symbolism behind flowers, helping readers create meaningful arrangements for every season of life. Filled with stunning photography and practical guidance, Flower Energy inspires connection, wellness, and intentional living through the beauty of blooms.",
    "img": "/assets/bookfest/jenny-barker.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b0c30914b7665d33c1738",
    "src": "cms",
@@ -6724,7 +6775,7 @@
    "dates": "January 27, 2027",
    "days": "7:30 PM",
    "img": "/assets/bookfest/shai-davidai.jpg",
-   "desc": "Shai Davidai. American Intellectual Antisemitism: The Anti-Jewish Movement Tearing Through Our Universities tells the remarkable story of how one Columbia Business School professor helped sound the alarm on the rise of antisemitism and support for terrorism on America's most elite campuses, emerging as one of the world's most outspoken voices against anti-Jewish, anti-Israeli, and anti-American extremism.",
+   "desc": "In American Intellectual Antisemitism: The Anti-Jewish Movement Tearing Through Our Universities, Shai Davidai tells the remarkable story of how one Columbia Business School professor helped sound the alarm on the rise of antisemitism and support for terrorism on America's most elite campuses, emerging as one of the world's most outspoken voices against anti-Jewish, anti-Israeli, and anti-American extremism.",
    "reg": "https://2627bookfest.eventive.org/schedule/6aa1c018230d0457942d08d9",
    "sch": [
     {
@@ -6753,7 +6804,7 @@
    "dates": "March 24, 2027",
    "days": "7:30 PM",
    "img": "/assets/bookfest/david-patterson.jpg",
-   "desc": "David Patterson. In the wake of the October 7, 2023 attacks a storm of antisemitism spread across the globe. In Redemptive Antisemitism after Ten/Seven, Patterson draws on decades of studying antisemitism to explore the historical background and contemporary narratives that gave rise to this phenomenon. He argues that a new form of antisemitism, steeped in self-righteousness and seen as morally redemptive, has taken hold in public discourse. Just as Hamas framed its violence as holy, so too do some intellectuals and activists treat antisemitic anti-Zionism as a foundation of moral integrity. This book exposes and explains this dangerous transformation and its global implications.",
+   "desc": "In the wake of the October 7, 2023, attacks a storm of antisemitism spread across the globe. In Redemptive Antisemitism after Ten/Seven, Patterson draws on decades of studying antisemitism to explore the historical background and contemporary narratives that gave rise to this phenomenon. He argues that a new form of antisemitism, steeped in self-righteousness and seen as morally redemptive, has taken hold in public discourse. Just as Hamas framed its violence as holy, so too do some intellectuals and activists treat antisemitic anti-Zionism as a foundation of moral integrity. This book exposes and explains this dangerous transformation and its global implications.",
    "reg": "https://2627bookfest.eventive.org/schedule/6aa1c4debe172b6eb7567716",
    "sch": [
     {
@@ -7081,7 +7132,7 @@
    "reg": "https://www.jccdallas.org/youth-sports/sensory-sessions",
    "sessions": [
     {
-     "label": "Monday, December 7 · 10:00 to 11:30 am",
+     "label": "Monday, December 7 · 10:00–11:30 AM",
      "sub": "Ages 3 to 7",
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014313",
      "sch": {
@@ -7090,7 +7141,7 @@
      }
     },
     {
-     "label": "Monday, December 7 · 1:00 to 2:30 pm",
+     "label": "Monday, December 7 · 1:00–2:30 PM",
      "sub": "Ages 8 to 13",
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014314",
      "sch": {
@@ -7099,7 +7150,7 @@
      }
     },
     {
-     "label": "Sunday, December 27 · 10:00 to 11:30 am",
+     "label": "Sunday, December 27 · 10:00–11:30 AM",
      "sub": "Ages 3 to 7",
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014426",
      "sch": {
@@ -7108,7 +7159,7 @@
      }
     },
     {
-     "label": "Sunday, December 27 · 11:45 am to 1:15 pm",
+     "label": "Sunday, December 27 · 11:45 AM–1:15 PM",
      "sub": "Ages 8 to 13",
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014427",
      "sch": {
@@ -7141,15 +7192,18 @@
    ],
    "ages": "Toddlers through middle school",
    "dates": "November 29 – January 10",
-   "days": "Dec 27: 1:30–2:30 PM toddlers and preschoolers; 2:45–4:15 PM elementary and middle school",
+   "days": "Toddlers & preschoolers 1:30–2:30 PM · Elementary & middle school 2:45–4:15 PM",
    "img": "/assets/winter/youth-gymnastics-open-gym.jpg",
    "desc": "Come play, move, and explore! Open Gym is a chance for kids to tumble, climb, swing, and jump on our equipment at their own pace. No experience or enrollment needed, just bring the energy! A grown-up stays with toddlers and preschoolers.",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014418",
+   "reg": "",
    "sch": [
     {
-     "k": "span",
-     "s": "2026-11-29",
-     "e": "2027-01-10"
+     "k": "dates",
+     "list": [
+      "2026-11-29",
+      "2026-12-27",
+      "2027-01-10"
+     ]
     }
    ],
    "sub": [],
@@ -7158,7 +7212,62 @@
    ],
    "loc": "Gymnastics Gym",
    "pre": true,
-   "calHide": true
+   "sessions": [
+    {
+     "label": "Nov 29: Toddlers & Preschoolers",
+     "sub": "1:30–2:30 PM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014418",
+     "sch": {
+      "k": "once",
+      "s": "2026-11-29"
+     }
+    },
+    {
+     "label": "Nov 29: Elementary & Middle School",
+     "sub": "2:45–4:15 PM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014420",
+     "sch": {
+      "k": "once",
+      "s": "2026-11-29"
+     }
+    },
+    {
+     "label": "Dec 27: Toddlers & Preschoolers",
+     "sub": "1:30–2:30 PM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014419",
+     "sch": {
+      "k": "once",
+      "s": "2026-12-27"
+     }
+    },
+    {
+     "label": "Dec 27: Elementary & Middle School",
+     "sub": "2:45–4:15 PM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014421",
+     "sch": {
+      "k": "once",
+      "s": "2026-12-27"
+     }
+    },
+    {
+     "label": "Jan 10: Toddlers & Preschoolers",
+     "sub": "1:30–2:30 PM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014422",
+     "sch": {
+      "k": "once",
+      "s": "2027-01-10"
+     }
+    },
+    {
+     "label": "Jan 10: Elementary & Middle School",
+     "sub": "2:45–4:15 PM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014423",
+     "sch": {
+      "k": "once",
+      "s": "2027-01-10"
+     }
+    }
+   ]
   },
   {
    "id": 152,
@@ -7169,22 +7278,22 @@
     "adults"
    ],
    "ages": "18+",
-   "dates": "Winter sessions begin December 8",
-   "days": "Monday evenings, Tuesday evenings & Friday mornings",
+   "dates": "Mondays, December 7 – January 18 · more sessions below",
+   "days": "Mondays 6:00–8:00 PM · Tuesday evenings · Friday mornings",
    "img": "/assets/winter/j-mahj-competitive-league.jpg",
-   "desc": "Bring your best hands and your competitive spirit! Our Competitive League means six sessions of tournament-scored play, a championship night, and a $100 Visa gift card for the winner. Plus two free scheduled-play sessions, 10% off theme nights, and 15% off the Mahj gift shop.",
+   "desc": "Bring your best hands and your competitive spirit! Our Competitive League means six sessions of tournament-scored play, a championship night, and a $100 Visa gift card for the winner. Plus two free scheduled-play sessions, 10% off theme nights, and 15% off the Mahj gift shop. Championship Monday, January 18, 2027 at 6:00 PM.",
    "reg": null,
    "sch": [
     {
      "k": "dates",
      "list": [
-      "2026-12-08",
-      "2026-12-15",
-      "2026-12-22",
-      "2026-12-29",
-      "2027-01-05",
-      "2027-01-12",
-      "2027-01-19"
+      "2026-12-07",
+      "2026-12-14",
+      "2026-12-21",
+      "2026-12-28",
+      "2027-01-04",
+      "2027-01-11",
+      "2027-01-18"
      ]
     }
    ],
@@ -7197,18 +7306,18 @@
    "sessions": [
     {
      "label": "Mondays: Winter Session 1",
-     "sub": "Dec 8 – Jan 19",
+     "sub": "Dec 7, 14, 21, 28, Jan 4, 11 · Championship Jan 18",
      "reg": "https://jmahj.eventive.org/schedule/6acd4a22e3401dd2836d2bd9",
      "sch": {
       "k": "dates",
       "list": [
-       "2026-12-08",
-       "2026-12-15",
-       "2026-12-22",
-       "2026-12-29",
-       "2027-01-05",
-       "2027-01-12",
-       "2027-01-19"
+       "2026-12-07",
+       "2026-12-14",
+       "2026-12-21",
+       "2026-12-28",
+       "2027-01-04",
+       "2027-01-11",
+       "2027-01-18"
       ]
      }
     },
@@ -7311,7 +7420,7 @@
    ],
    "ages": "Ages 8–12",
    "dates": "Starts Wednesday, January 27",
-   "days": "Wednesday afternoons · no class November 25",
+   "days": "Wednesday afternoons",
    "img": "/assets/winter/youth-arts-and-culture-kitchen-explorers.jpg",
    "desc": "Little chefs, big flavors! Kids explore new ingredients, whip up tasty creations, and build kitchen confidence in this hands-on cooking class.",
    "reg": "https://www.jccdallas.org/arts/classes-workshops",
@@ -7338,7 +7447,7 @@
     "adults",
     "seniors"
    ],
-   "ages": "Adult",
+   "ages": "Adults",
    "dates": "Wednesday, December 9, 2026",
    "days": "12:30–1:30 PM",
    "img": "/assets/winter/jewish-learning-jewish-music.jpg",
