@@ -455,7 +455,7 @@
    "ages": "All ages",
    "dates": "October 2026 – March 2027",
    "days": "Author events throughout the season",
-   "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13f4775bc4c63e8d4ffc_Big%20Energy%20-%20Bookfest.png",
+   "img": "/assets/bookfest/generic.jpg",
    "desc": "Every great story begins with a choice. This season, BookFest brings together acclaimed authors and thought leaders to explore the moments that shape our lives — conversations on identity, resilience, history, faith, and belonging.",
    "reg": "https://www.jccdallas.org/bookfest",
    "regLabel": "View All BookFest Events",
@@ -6524,7 +6524,7 @@
    "dates": "December 1, 2026",
    "days": "",
    "desc": "Veterinarian Dr. Barak Benaryeh shares unforgettable patient stories, practical pet care advice, and behind-the-scenes insights from life inside the exam room. Blending humor, compassion, and experience, this engaging book helps readers better understand the animals they love. ‍",
-   "img": "/assets/bookfest/vet-will-see-you-now.png",
+   "img": "/assets/bookfest/dr-barak-benaryeh.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b07e9fac01396b61e167f",
    "src": "cms",
    "sch": [
@@ -6553,7 +6553,7 @@
    "dates": "December 2, 2026",
    "days": "",
    "desc": "Celebrate Jewish holidays through more than 50 creative projects designed for families, classrooms, and communities of all ages. Filled with colorful crafts, thoughtful reflections, and inspiring activities, this book transforms Jewish traditions into meaningful hands-on experiences throughout the year.",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a68afc1ee57f6611d5b75d8_Dec%202.png",
+   "img": "/assets/bookfest/amanda-kingloff.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b08e18814a4d75b6d5645",
    "src": "cms",
    "sch": [
@@ -6583,7 +6583,7 @@
    "dates": "December 4, 2026",
    "days": "",
    "desc": "Discover 10 beloved Jewish holidays through colorful illustrations, engaging stories, and more than 1,000 hidden objects to find. Filled with fun facts, interactive puzzles, and \"Spot the Difference\" challenges, this vibrant book offers children and families an entertaining way to learn, celebrate, and explore Jewish traditions together. ‍",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a68afc97b4e3ac024a46f31_Dec%204.png",
+   "img": "/assets/bookfest/jake-marin-wertheim.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b0a1334534b8c002957dc",
    "src": "cms",
    "sch": [
@@ -6609,7 +6609,7 @@
    "dates": "December 17, 2026",
    "days": "",
    "desc": "After her mother's dementia diagnosis, Glenna Hecht discovered a simple game that transformed caregiving into moments of connection, joy, and meaningful conversation. Part memoir and part practical guide, this inspiring book offers caregivers hope, compassion, and a fresh perspective on dementia.",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a68b016b5b31078315a1b7c_Dec%2017%20-AM.png",
+   "img": "/assets/bookfest/glenna-hecht.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a594dd36a729bea1805418c",
    "src": "cms",
    "sch": [
@@ -6635,7 +6635,7 @@
    "dates": "March 4, 2027",
    "days": "",
    "desc": "Psychiatrist Dr. Suzanne Garfinkle-Crowell explores how social media and \"therapy speak\" are changing the way young women understand themselves and express emotions. Blending clinical insight with compassion, she offers parents and educators valuable tools for today's evolving conversations. ‍",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a68b02d599ef151d8251245_Mar%204.png",
+   "img": "/assets/bookfest/dr-suzanne-garfinkle-crowell.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b0ce57947c89ee80f7607",
    "src": "cms",
    "sch": [
@@ -6664,7 +6664,7 @@
    "dates": "March 8, 2027",
    "days": "",
    "desc": "Combining powerful stories with memorable recipes, this moving book honors Holocaust survivors and World War II heroes through the meals that preserved hope and family traditions. Featuring recipes by James Beard Award-winning chef Alon Shaya, it celebrates resilience, remembrance, and connection.",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a68b035304b2882c49f8572_Mar%208.png",
+   "img": "/assets/bookfest/alon-shaya.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b0a6a3036850898777a28",
    "src": "cms",
    "sch": [
@@ -6693,7 +6693,7 @@
    "dates": "March 9, 2027",
    "days": "",
    "desc": "Florist and clairvoyant Jenny Barker reveals the healing energy and symbolism behind flowers, helping readers create meaningful arrangements for every season of life. Filled with stunning photography and practical guidance, Flower Energy inspires connection, wellness, and intentional living through the beauty of blooms.",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a68b045af053fbe0116916b_Mar%209.png",
+   "img": "/assets/bookfest/jenny-barker.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a2b0c30914b7665d33c1738",
    "src": "cms",
    "sch": [
@@ -6723,7 +6723,7 @@
    "ages": "Adults",
    "dates": "January 27, 2027",
    "days": "7:30 PM",
-   "img": "/assets/bookfest/shai-davidai.png",
+   "img": "/assets/bookfest/shai-davidai.jpg",
    "desc": "Shai Davidai. American Intellectual Antisemitism: The Anti-Jewish Movement Tearing Through Our Universities tells the remarkable story of how one Columbia Business School professor helped sound the alarm on the rise of antisemitism and support for terrorism on America's most elite campuses, emerging as one of the world's most outspoken voices against anti-Jewish, anti-Israeli, and anti-American extremism.",
    "reg": "https://2627bookfest.eventive.org/schedule/6aa1c018230d0457942d08d9",
    "sch": [
@@ -6752,7 +6752,7 @@
    "ages": "Adults",
    "dates": "March 24, 2027",
    "days": "7:30 PM",
-   "img": "/assets/bookfest/david-patterson.png",
+   "img": "/assets/bookfest/david-patterson.jpg",
    "desc": "David Patterson. In the wake of the October 7, 2023 attacks a storm of antisemitism spread across the globe. In Redemptive Antisemitism after Ten/Seven, Patterson draws on decades of studying antisemitism to explore the historical background and contemporary narratives that gave rise to this phenomenon. He argues that a new form of antisemitism, steeped in self-righteousness and seen as morally redemptive, has taken hold in public discourse. Just as Hamas framed its violence as holy, so too do some intellectuals and activists treat antisemitic anti-Zionism as a foundation of moral integrity. This book exposes and explains this dangerous transformation and its global implications.",
    "reg": "https://2627bookfest.eventive.org/schedule/6aa1c4debe172b6eb7567716",
    "sch": [
@@ -7014,7 +7014,7 @@
    "dates": "December 14, 2026",
    "days": "",
    "desc": "In this illustrated memoir, psychiatrist Michelle Friedman reflects on growing up as the daughter of Holocaust survivors on a remote Catskills chicken farm. Blending family history with personal memories, she explores resilience, Jewish identity, and the lasting impact of trauma across generations.",
-   "img": "https://cdn.prod.website-files.com/66561dfded179b71b63b9cb4/6a6a3cc03b1d01ae34774c4f_custom_thumbnail_big.png",
+   "img": "/assets/bookfest/michelle-friedman.jpg",
    "reg": "https://2627bookfest.eventive.org/schedule/6a596879160a9814c5c50b6f",
    "src": "cms",
    "sch": [
