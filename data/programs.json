@@ -246,7 +246,11 @@
    "sub": [],
    "tags": [
     "winter"
-   ]
+   ],
+   "link2": {
+    "label": "Comedy at The J",
+    "href": "/comedy-at-the-j/"
+   }
   },
   {
    "id": 3,
@@ -332,7 +336,7 @@
    "days": "",
    "img": "/assets/winter/j-holidays-purim-adult-event.jpg",
    "desc": "Masks on, spirits high! Celebrate Purim the grown-up way with a festive night of costumes, revelry, and fun. More details coming soon.",
-   "reg": "https://www.jccdallas.org/jewish-life",
+   "reg": "",
    "sch": [
     {
      "k": "once",
@@ -343,7 +347,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "btn": "Registration Coming Soon"
   },
   {
    "id": 187,
@@ -381,7 +386,7 @@
   },
   {
    "id": 188,
-   "t": "Hamantaschen Pre-Order (J Gourmet)",
+   "t": "Hamantaschen (J Gourmet)",
    "cat": "holiday",
    "type": "Program",
    "aud": [
@@ -392,7 +397,7 @@
    "days": "",
    "img": "/assets/winter/j-holidays-hamantaschen.jpg",
    "desc": "Purim's sweetest tradition, ready when you are! Pre-order J Gourmet's freshly baked hamantaschen for your Purim baskets and celebrations.",
-   "reg": "https://www.jccdallas.org/jgourmet",
+   "reg": "",
    "sch": [
     {
      "k": "span",
@@ -405,7 +410,8 @@
     "winter"
    ],
    "pre": true,
-   "calHide": true
+   "calHide": true,
+   "btn": "Pre-Order"
   },
   {
    "id": 6,
@@ -466,9 +472,7 @@
    "sub": [
     "bookfest"
    ],
-   "tags": [
-    "winter"
-   ],
+   "tags": [],
    "ongoing": true
   },
   {
@@ -734,14 +738,15 @@
    "img": "/assets/winter/adult-aquatics-adult-beginner-group-swim-lessons.jpg",
    "ongoing": true,
    "desc": "Learning to swim is a gift for life, from overcoming a fear of water to advanced stroke work. Build confidence in the water with a supportive class designed for beginning adult swimmers. Learn essential water safety, floating, breathing, kicking, and basic stroke techniques while developing the skills and confidence to swim comfortably at your own pace.",
-   "reg": "https://www.jccdallas.org/aquatics",
+   "reg": "https://www.jccdallas.org/aquatics/adult-swim/#lessons",
    "sch": [],
    "sub": [
     "swim"
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "Lessons & Inquiries"
   },
   {
    "id": 12,
@@ -759,14 +764,15 @@
    "img": "/assets/winter/adult-aquatics-adult-intermediate-group-swim-classes.jpg",
    "ongoing": true,
    "desc": "Learning to swim is a gift for life, from overcoming a fear of water to advanced stroke work. Take your swimming to the next level by refining technique, improving stroke efficiency, and building endurance. This class focuses on the four competitive strokes, side breathing, training equipment, and swim skills that help you become a stronger, more confident swimmer.",
-   "reg": "https://www.jccdallas.org/aquatics",
+   "reg": "https://www.jccdallas.org/aquatics/adult-swim/#lessons",
    "sch": [],
    "sub": [
     "swim"
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "Lessons & Inquiries"
   },
   {
    "id": 13,
@@ -784,14 +790,15 @@
    "img": "/assets/winter/adult-aquatics-private-swim-lessons.jpg",
    "ongoing": true,
    "desc": "Learning to swim is a gift for life, from overcoming a fear of water to advanced stroke work. Achieve your personal swimming goals with one-on-one instruction tailored to your experience and ability. Whether you're learning to swim, refining technique, or improving endurance, our experienced instructors provide personalized coaching to help you build confidence and progress faster.",
-   "reg": "https://www.jccdallas.org/aquatics",
+   "reg": "https://www.jccdallas.org/aquatics/adult-swim/#lessons",
    "sch": [],
    "sub": [
     "swim"
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "Lessons & Inquiries"
   },
   {
    "id": 14,
@@ -809,14 +816,15 @@
    "img": "/assets/winter/adult-aquatics-masters-swim.jpg",
    "ongoing": true,
    "desc": "Masters Swim is back and better than ever! Train with purpose. Build confidence. Elevate your swimming at The J. Our revamped program for adult swimmers puts you in the lane next to your people.",
-   "reg": "https://www.jccdallas.org/aquatics",
+   "reg": "https://www.jccdallas.org/aquatics/adult-swim/#clinics",
    "sch": [],
    "sub": [
     "swim"
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "Clinics & Training"
   },
   {
    "id": 15,
@@ -861,14 +869,15 @@
    "img": "/assets/winter/youth-aquatics-rays-swim-team.jpg",
    "ongoing": true,
    "desc": "The J's developmental prep team for intermediate swimmers: stroke technique, training skills, and race readiness, all while having fun at the pool. Practices Sunday, Tuesday, and Thursday. Tryout required; $110 monthly for members, $140 for non-members.",
-   "reg": "https://www.jccdallas.org/aquatics/swim-teams",
+   "reg": "https://www.jccdallas.org/aquatics/swim-teams/#rays",
    "sch": [],
    "sub": [
     "swim"
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "Learn More"
   },
   {
    "id": 17,
@@ -885,14 +894,15 @@
    "img": "/assets/winter/youth-aquatics-jays-swim-team.jpg",
    "ongoing": true,
    "desc": "The J's competitive year-round USA Swimming club team, with Jets and Jolts practice groups. Five practices a week plus drylands, monthly meets, and regional, state, and national competition. Tryout and J Dallas membership required.",
-   "reg": "https://www.jccdallas.org/aquatics/swim-teams",
+   "reg": "https://www.jccdallas.org/aquatics/swim-teams/#jays",
    "sch": [],
    "sub": [
     "swim"
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "Learn More"
   },
   {
    "id": 18,
@@ -904,7 +914,7 @@
     "kids"
    ],
    "ages": "Ages 5–7",
-   "dates": "January 10 – May 6",
+   "dates": "November 16 – December 17",
    "days": "Sundays 1:00–2:00 PM; Mon, Tue, Thu 4:30–5:30 PM",
    "img": "/assets/winter/youth-racquet-sports-red-ball.jpg",
    "desc": "Red Ball introduces beginner players to tennis in a fun, supportive environment. Using red balls, smaller courts, and age-appropriate equipment, players build basic strokes, coordination, movement, and racquet control through engaging games and drills.",
@@ -912,8 +922,8 @@
    "sch": [
     {
      "k": "weekly",
-     "s": "2027-01-10",
-     "e": "2027-05-06",
+     "s": "2026-11-16",
+     "e": "2026-12-17",
      "d": [
       0,
       1,
@@ -938,7 +948,7 @@
     "kids"
    ],
    "ages": "Ages 7–10",
-   "dates": "January 10 – May 6",
+   "dates": "November 17 – December 17",
    "days": "Sundays 2:00–3:00 PM; Tue, Wed, Thu 4:30–5:30 PM",
    "img": "/assets/winter/youth-racquet-sports-orange-ball.jpg",
    "desc": "Orange Ball helps players build consistency and confidence as they move into structured play. Using orange balls and modified courts, players refine strokes, improve movement, learn scoring, and develop match-play skills through drills, games, and competition.",
@@ -946,8 +956,8 @@
    "sch": [
     {
      "k": "weekly",
-     "s": "2027-01-10",
-     "e": "2027-05-06",
+     "s": "2026-11-17",
+     "e": "2026-12-17",
      "d": [
       0,
       2,
@@ -973,7 +983,7 @@
     "teens"
    ],
    "ages": "Ages 10–13",
-   "dates": "January 10 – May 6",
+   "dates": "November 16 – December 16",
    "days": "Sundays 2:00–3:30 PM; Mon and Wed 5:30–7:00 PM",
    "img": "/assets/winter/youth-racquet-sports-green-ball.jpg",
    "desc": "Green Ball helps players transition to full-court tennis while building consistency and confidence. Using green dot balls, players refine strokes, footwork, strategy, scoring, and point construction through drills, live-ball activities, and match play.",
@@ -981,8 +991,8 @@
    "sch": [
     {
      "k": "weekly",
-     "s": "2027-01-10",
-     "e": "2027-05-06",
+     "s": "2026-11-16",
+     "e": "2026-12-16",
      "d": [
       0,
       1,
@@ -1007,7 +1017,7 @@
     "teens"
    ],
    "ages": "Ages 13+",
-   "dates": "January 12 – May 4",
+   "dates": "November 17 – December 15",
    "days": "Tuesdays 5:30–7:00 PM",
    "img": "/assets/winter/youth-racquet-sports-tournament-ball.jpg",
    "desc": "Tournament Ball challenges experienced junior players through advanced training and competitive play. Using standard yellow balls, players refine strokes, movement, strategy, point construction, and match skills while building consistency, confidence, and mental toughness.",
@@ -1015,8 +1025,8 @@
    "sch": [
     {
      "k": "weekly",
-     "s": "2027-01-12",
-     "e": "2027-05-06",
+     "s": "2026-11-17",
+     "e": "2026-12-15",
      "d": [
       2
      ]
@@ -1067,7 +1077,7 @@
    "img": "/assets/winter/adult-racquet-sports-open-tennis-drills.jpg",
    "ongoing": true,
    "desc": "Bring your A-game! Our pro-led Open Drills are fast-paced, high-energy sessions packed with live-ball drills, situational games, and competitive point play. You'll be grouped with players at your level, so every rally counts.",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Tennis%20Drills",
+   "reg": "https://www.jccdallas.org/racquet-sports/tennis/#drills",
    "sch": [
     {
      "k": "span",
@@ -1213,7 +1223,8 @@
    "tags": [
     "winter"
    ],
-   "calHide": true
+   "calHide": true,
+   "btn": "Find a Day"
   },
   {
    "id": 26,
@@ -2981,7 +2992,7 @@
    "days": "1:00–4:00 PM · Free, register in the My J app",
    "img": "/assets/winter/fitness-dance-awareness-celebration.jpg",
    "desc": "Awareness never misses a beat! Our second annual Dance Awareness Celebration is an afternoon of music, movement, and joy for every level, led by our incredible dance fitness instructors. Feel the beat, find your rhythm, and bring your smile!",
-   "reg": "https://www.jccdallas.org/fitness",
+   "reg": "",
    "sch": [
     {
      "k": "once",
@@ -2993,7 +3004,8 @@
     "winter"
    ],
    "loc": "Group Fitness Studio",
-   "pre": true
+   "pre": true,
+   "btn": "Register in My J App"
   },
   {
    "id": 192,
@@ -3009,7 +3021,7 @@
    "days": "7:30 PM · Free, register in the My J app",
    "img": "/assets/winter/fitness-candlelight-yoga-stretch.jpg",
    "desc": "Unwind in the glow. Celebrate National Stretching Day with an evening of deep breathing, mindful movement, and gentle stretching by candlelight with Renee.",
-   "reg": "https://www.jccdallas.org/fitness",
+   "reg": "",
    "sch": [
     {
      "k": "once",
@@ -3021,7 +3033,8 @@
     "winter"
    ],
    "loc": "Mind Body Studio",
-   "pre": true
+   "pre": true,
+   "btn": "Register in My J App"
   },
   {
    "id": 193,
@@ -3037,7 +3050,7 @@
    "days": "10:15 AM · Free, registration opens 7 days before in the My J app",
    "img": "/assets/winter/fitness-sound-bowl-self-care.jpg",
    "desc": "Pause the noise and tune into your own rhythm. Let crystal singing bowls wash over you as Marco guides you through gentle stretches and breathwork, a heart-opening reset for Heart Awareness Month.",
-   "reg": "https://www.jccdallas.org/fitness",
+   "reg": "",
    "sch": [
     {
      "k": "once",
@@ -3049,7 +3062,8 @@
     "winter"
    ],
    "loc": "Mind Body Studio",
-   "pre": true
+   "pre": true,
+   "btn": "Register in My J App"
   },
   {
    "id": 194,
@@ -3077,7 +3091,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "noBtn": true
   },
   {
    "id": 51,
@@ -4128,7 +4143,7 @@
    "days": "",
    "img": "/assets/winter/youth-arts-and-culture-jpas-broadway-review.jpg",
    "desc": "Curtain up! Our Broadway Revue stars show off a season of singing, dancing, and showstopping numbers. Come cheer them on!",
-   "reg": "https://www.jccdallas.org/arts/performing-arts",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//13686",
    "sch": [
     {
      "k": "once",
@@ -4526,7 +4541,7 @@
    "days": "9:00 AM–4:00 PM",
    "img": "/assets/winter/club-j-breaktacular.jpg",
    "desc": "School's out, the fun's in! Winter Breaktacular lets kids in grades K–6 pick their own adventure each morning (Sports, Creative Arts, Gymnastics, and more), then come together in the afternoon for lunch, swimming, games, and crafts. Sign up for one day or the whole break! Before and after care available for an additional cost. No after care December 24 or December 31.",
-   "reg": "https://www.jccdallas.org/club-j/breaktaculars",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//?programCode=PROG-003358",
    "sch": [
     {
      "k": "span",
@@ -4542,25 +4557,22 @@
   },
   {
    "id": 205,
-   "t": "School Days Out: MLK Day & Presidents Day",
+   "t": "School Day Out: Presidents Day",
    "cat": "clubj",
    "type": "Program",
    "aud": [
     "kids"
    ],
    "ages": "Grades K–6",
-   "dates": "Mondays, January 18 & February 15, 2027",
+   "dates": "Monday, February 15, 2027",
    "days": "9:00 AM–4:00 PM · $100 members, $125 non-members",
    "img": "/assets/winter/club-j-school-days-out.jpg",
-   "desc": "No school? No problem! Kids in grades K–6 spend MLK Day and Presidents Day swimming, crafting, playing sports, and making memories with friends at The J. Before and after care available.",
-   "reg": "https://www.jccdallas.org/club-j/school-days-off",
+   "desc": "No school? No problem! Kids in grades K–6 spend Presidents Day swimming, crafting, playing sports, and making memories with friends at The J. Before and after care available.",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//13631",
    "sch": [
     {
-     "k": "dates",
-     "list": [
-      "2027-01-18",
-      "2027-02-15"
-     ]
+     "k": "once",
+     "s": "2027-02-15"
     }
    ],
    "sub": [],
@@ -4583,7 +4595,7 @@
    "days": "",
    "img": "/assets/winter/club-j-breaktacular.jpg",
    "desc": "Spring into break with The J! Breaktacular is back with specialty tracks, swimming, games, and nonstop fun for the whole spring break. Details coming soon.",
-   "reg": "https://www.jccdallas.org/club-j/breaktaculars",
+   "reg": "",
    "sch": [
     {
      "k": "span",
@@ -4595,7 +4607,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "btn": "Register"
   },
   {
    "id": 207,
@@ -4610,7 +4623,7 @@
    "days": "",
    "img": "/assets/winter/club-j-passover-break-program.jpg",
    "desc": "Keep the fun going over Passover break! Kids enjoy active, creative days with friends at The J. Details coming soon.",
-   "reg": "https://www.jccdallas.org/club-j/breaktaculars",
+   "reg": "",
    "sch": [
     {
      "k": "span",
@@ -4622,7 +4635,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "btn": "Register"
   },
   {
    "id": 79,
@@ -4709,18 +4723,19 @@
     "adults"
    ],
    "ages": "Adults",
-   "dates": "December 1 – February 28",
+   "dates": "Winter season dates to come",
    "days": "",
    "img": "/assets/winter/emergency-training-instructor-course.jpg",
    "desc": "Take your skills to the next level and become a certified American Red Cross First Aid/CPR/AED instructor, taught in the classroom at The J.",
-   "reg": "https://www.jccdallas.org/training-services/cpr-first-aid",
+   "reg": "https://www.jccdallas.org/training-services/cpr-first-aid/",
    "sch": [],
    "sub": [],
    "tags": [
     "winter"
    ],
    "loc": "Classroom at The J",
-   "pre": true
+   "pre": true,
+   "btn": "Learn More"
   },
   {
    "id": 90,
@@ -6101,14 +6116,15 @@
    "img": "/assets/winter/youth-aquatics-lksa.jpg",
    "ongoing": true,
    "desc": "Teaching excellence one stroke at a time! The Lenny Krayzelburg Swim Academy's SwimRight Method builds water safety, real skills, and big confidence, with an award system that keeps kids excited for every lesson. Open to members and non-members.",
-   "reg": "https://www.jccdallas.org/aquatics/lksa",
+   "reg": "https://www.jccdallas.org/aquatics/lksa/",
    "sch": [],
    "sub": [
     "swim"
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "Learn More"
   },
   {
    "id": 116,
@@ -7096,7 +7112,7 @@
    "days": "8:30 AM",
    "desc": "Dink, drive, and have a blast! Start your Saturday on the court with a pro-led drill for new and developing players. You'll learn the rules, scoring, positioning, and core strokes, then put it all together in game play.",
    "img": "/assets/winter/adult-racquet-sports-saturday-beginner-intermediate-pickleball.jpg",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?cat1=Racquet%20Sports&cat2=Pickleball%20Drills",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003597",
    "ongoing": true,
    "sch": [
     {
@@ -7423,7 +7439,7 @@
    "days": "Wednesday afternoons",
    "img": "/assets/winter/youth-arts-and-culture-kitchen-explorers.jpg",
    "desc": "Little chefs, big flavors! Kids explore new ingredients, whip up tasty creations, and build kitchen confidence in this hands-on cooking class.",
-   "reg": "https://www.jccdallas.org/arts/classes-workshops",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//14375",
    "sch": [
     {
      "k": "weekly",

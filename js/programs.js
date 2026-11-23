@@ -118,7 +118,8 @@
   function detail(p, D) {
     var sessions = (p.sessions || []).filter(function (s) { return s.reg && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
     var seen = {}; sessions = sessions.filter(function (s) { if (seen[s.reg + s.label]) return false; seen[s.reg + s.label] = 1; return true; });
-    var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (sessions.length === 1 ? '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>' : '');
+    var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (sessions.length === 1 ? '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>' : (p.btn && !p.noBtn ? '<span class="btn ghost" aria-disabled="true">' + E(p.btn) + '</span>' : ''));
+    if (p.link2) reg += '<a class="btn ghost" href="' + E(p.link2.href) + '">' + E(p.link2.label) + '</a>';
     var sess = sessions.length > 1 || (sessions.length === 1 && p.reg && !p.noBtn) ? '<h4>Times &amp; registration</h4><ul class="sessions">' + sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul>' : '';
     dialog((p.img ? '<div class="pic"><img src="' + E(p.img) + '" alt=""></div>' : '') +
       '<div class="body"><span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span><h3>' + E(p.t) + '</h3>' +
@@ -132,7 +133,7 @@
     var sessions = (p.sessions || []).filter(function (s) { return s.reg && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
     // de-dupe sessions that repeat the same registration link
     var seen = {}; sessions = sessions.filter(function (s) { if (seen[s.reg + s.label]) return false; seen[s.reg + s.label] = 1; return true; });
-    var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (p.btn ? '<span class="btn ghost" aria-disabled="true">' + E(p.btn) + '</span>' : '');
+    var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (p.btn && !p.noBtn ? '<span class="btn ghost" aria-disabled="true">' + E(p.btn) + '</span>' : '');
     var sess = '';
     if (sessions.length === 1 && !(p.reg && !p.noBtn)) {
       reg = '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>';
@@ -144,6 +145,7 @@
       sess = '<details class="sess"><summary><span>' + E(lab) + '</span>' + sub + '</summary><ul class="sessions">' +
         sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul></details>';
     }
+    if (p.link2) reg += '<a class="btn ghost" href="' + E(p.link2.href) + '">' + E(p.link2.label) + '</a>';
     return '<article class="pcard" data-id="' + p.id + '">' +
       '<button type="button" class="pic' + (p.img ? '' : ' ph') + '" data-detail aria-label="Details: ' + E(p.t) + '">' + (p.img ? '<img src="' + E(p.img) + '" alt="" loading="lazy">' : '<span class="phl">' + E(p.t) + '</span>') + '<span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span></button>' +
       '<div class="in"><h3><button type="button" class="tlink" data-detail>' + E(p.t) + '</button></h3>' +

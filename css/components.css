@@ -513,3 +513,5 @@
 .pcard.party .party-facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0 6px}
 .pcard.party .party-facts>div{border:1px solid var(--line);border-radius:12px;padding:10px 12px}
 .pcard.party .party-facts b{font-size:13.5px;line-height:1.35}
+
+.btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed;pointer-events:none;background:#e9e4f1;border-color:#e9e4f1;color:#6b5f80}

@@ -89,7 +89,7 @@ sections = "".join(f'<div class="wx-cat" id="cat-{c}" data-cat="{c}"><h3>{LABEL.
 
 
 hol = [("Fri, Dec 4 – Fri, Dec 11", "Hanukkah (Nights 1–8)", "Regular programming"), ("Thu, Dec 24", "Christmas Eve", "5:00 AM–4:00 PM"), ("Fri, Dec 25", "Christmas Day", "7:00 AM–1:00 PM"),
-       ("Thu, Dec 31", "New Year's Eve", "Closes at 6:00 PM"), ("Fri, Jan 1", "New Year's Day", "10:00 AM–4:00 PM"), ("Mon, Jan 18", "Martin Luther King Jr. Day", "Regular hours; no regular programming, School Day Out runs"),
+       ("Thu, Dec 31", "New Year's Eve", "Closes at 6:00 PM"), ("Fri, Jan 1", "New Year's Day", "10:00 AM–4:00 PM"), ("Mon, Jan 18", "Martin Luther King Jr. Day", "Regular hours; no regular programming"),
        ("Sat, Jan 23", "Tu B'Shevat", "Regular hours"), ("Tue, Mar 23", "Purim", "Regular hours"), ("Wed, Apr 21 – Fri, Apr 23; Tue, Apr 27 – Thu, Apr 29", "Passover", "Regular hours; Business Office closed Apr 22 and Apr 28"),
        ("Tue, May 4", "Yom HaShoah", "Regular hours"), ("Tue, May 11", "Yom Hazikaron", "Regular hours"), ("Wed, May 12", "Yom HaAtzmaut", "Regular hours"), ("Tue, May 25", "Lag B'Omer", "Regular hours"), ("Mon, May 31", "Memorial Day", "5:00 AM–6:00 PM")]
 hol_rows = "".join(f"<tr><td>{d}</td><td>{h}</td><td>{t}</td></tr>" for d, h, t in hol)
