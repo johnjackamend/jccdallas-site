@@ -118,7 +118,7 @@
   function detail(p, D) {
     var sessions = (p.sessions || []).filter(function (s) { return s.reg && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
     var seen = {}; sessions = sessions.filter(function (s) { if (seen[s.reg + s.label]) return false; seen[s.reg + s.label] = 1; return true; });
-    var reg = p.reg && !p.noBtn ? '<a class="btn' + (p.type === 'Event' ? ' pink' : '') + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (sessions.length === 1 ? '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>' : '');
+    var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (sessions.length === 1 ? '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>' : '');
     var sess = sessions.length > 1 || (sessions.length === 1 && p.reg && !p.noBtn) ? '<h4>Times &amp; registration</h4><ul class="sessions">' + sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul>' : '';
     dialog((p.img ? '<div class="pic"><img src="' + E(p.img) + '" alt=""></div>' : '') +
       '<div class="body"><span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span><h3>' + E(p.t) + '</h3>' +
@@ -127,12 +127,12 @@
       '<div class="acts">' + reg + (nextDate(p) ? '<button type="button" class="ics" data-ics>' + I.plus + 'Add to calendar</button>' : '') + '</div></div>');
     dlg.querySelector('[data-ics]') && dlg.querySelector('[data-ics]').addEventListener('click', function () { ics(p); });
   }
-  function regLabel(p) { return p.btn || p.regLabel || (p.type === 'Event' ? 'Get Tickets' : 'Register'); }
+  function regLabel(p) { return p.btn || p.regLabel || 'Register'; }
   function card(p, D) {
     var sessions = (p.sessions || []).filter(function (s) { return s.reg && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
     // de-dupe sessions that repeat the same registration link
     var seen = {}; sessions = sessions.filter(function (s) { if (seen[s.reg + s.label]) return false; seen[s.reg + s.label] = 1; return true; });
-    var reg = p.reg && !p.noBtn ? '<a class="btn' + (p.type === 'Event' ? ' pink' : '') + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (p.btn ? '<span class="btn ghost" aria-disabled="true">' + E(p.btn) + '</span>' : '');
+    var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (p.btn ? '<span class="btn ghost" aria-disabled="true">' + E(p.btn) + '</span>' : '');
     var sess = '';
     if (sessions.length === 1 && !(p.reg && !p.noBtn)) {
       reg = '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>';

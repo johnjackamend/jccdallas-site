@@ -1683,7 +1683,8 @@
     "winter"
    ],
    "pre": true,
-   "calHide": true
+   "calHide": true,
+   "btn": "Learn More"
   },
   {
    "id": 38,
@@ -5549,7 +5550,7 @@
   },
   {
    "id": 214,
-   "t": "Camp Chai Reunion",
+   "t": "Camp Chai 2026 Reunion",
    "cat": "camp",
    "type": "Event",
    "aud": [
@@ -5561,7 +5562,7 @@
    "days": "",
    "img": "/assets/winter/camp-camp-chai-reunion.jpg",
    "desc": "Missing summer already? Come back to the woods for the Camp Chai Reunion! Reconnect with your camp friends and counselors, relive the best summer memories, and get a little camp magic in the middle of winter.",
-   "reg": "https://www.jdallascamps.org/",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/14769",
    "sch": [
     {
      "k": "once",
@@ -5589,7 +5590,7 @@
    "days": "",
    "img": "/assets/winter/camp-registration.jpg",
    "desc": "Summer 2027 registration opens in waves: priority registration Monday, January 11; members Tuesday, January 19; non-members Monday, January 25.",
-   "reg": "https://www.jdallascamps.org/",
+   "reg": "https://www.jdallascamps.org",
    "sch": [
     {
      "k": "dates",
@@ -5604,7 +5605,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "btn": "Countdown to 2027"
   },
   {
    "id": 216,
@@ -5633,7 +5635,8 @@
     "winter"
    ],
    "loc": "JCC Lobby",
-   "pre": true
+   "pre": true,
+   "noBtn": true
   },
   {
    "id": 217,
@@ -5661,7 +5664,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "noBtn": true
   },
   {
    "id": 218,
@@ -5689,7 +5693,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "btn": "Save the Date"
   },
   {
    "id": 108,
@@ -5917,7 +5922,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "noBtn": true
   },
   {
    "id": 210,
@@ -5932,7 +5938,7 @@
    "days": "",
    "img": "/assets/winter/gecc-preschool-enrollment.jpg",
    "desc": "Where little ones learn, play, and grow! Enrollment opens for the GECC preschool. Save your child's spot in our warm, joyful early childhood community.",
-   "reg": "https://gecc.jccdallas.org",
+   "reg": "https://gecc.jccdallas.org/admissions",
    "sch": [
     {
      "k": "once",
@@ -5943,7 +5949,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "btn": "Learn More"
   },
   {
    "id": 211,
@@ -5970,7 +5977,8 @@
     "winter"
    ],
    "loc": "GECC Big Room or Outdoor Art Atelier",
-   "pre": true
+   "pre": true,
+   "noBtn": true
   },
   {
    "id": 212,
@@ -5996,7 +6004,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "noBtn": true
   },
   {
    "id": 213,
@@ -6022,7 +6031,8 @@
    "tags": [
     "winter"
    ],
-   "pre": true
+   "pre": true,
+   "noBtn": true
   },
   {
    "id": 115,
