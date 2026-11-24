@@ -3951,16 +3951,16 @@
     "kids"
    ],
    "ages": "Ages 4+",
-   "dates": "September 16 – December 9",
-   "days": "Wednesdays",
+   "dates": "Wednesdays, January 27 – April 14 (no class March 17)",
+   "days": "4:30–5:30 PM · $345 M / $438 NM, includes $50 supply fee",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7f35c8086d23b6ae89e7dd_Youth%20Arts%20%26%20Culture%20-%20Visual%20Arts%204%2B.png",
    "desc": "Young artists explore painting, drawing, mixed media, and more while developing creativity, confidence, and artistic technique. Small class sizes encourage self-expression, hands-on learning, and creative discovery in a supportive environment.",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//13693",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002770",
    "sch": [
     {
      "k": "weekly",
-     "s": "2026-09-16",
-     "e": "2026-12-09",
+     "s": "2027-01-27",
+     "e": "2027-04-14",
      "d": [
       3
      ]
@@ -4008,16 +4008,16 @@
     "teens"
    ],
    "ages": "Ages 8+",
-   "dates": "September 17 – December 10",
-   "days": "Thursdays",
+   "dates": "Thursdays, January 28 – April 15 (no class March 18)",
+   "days": "4:30–5:30 PM · $345 M / $435 NM, includes $50 supply fee",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7b13fae1b74334e319d0c1_Youth%20Arts%20%26%20Culture%20-%20Visual%20Arts%20(Ages%208%2B).png",
    "desc": "Expand your artistic skills through painting, drawing, textiles, and mixed media. Students strengthen creativity, problem-solving, and technical abilities while bringing their unique ideas to life in a welcoming studio setting.",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//13694",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002907",
    "sch": [
     {
      "k": "weekly",
-     "s": "2026-09-17",
-     "e": "2026-12-10",
+     "s": "2027-01-28",
+     "e": "2027-04-15",
      "d": [
       4
      ]
@@ -4120,16 +4120,16 @@
     "family"
    ],
    "ages": "All abilities",
-   "dates": "September 24 – November 19",
-   "days": "Thursdays",
+   "dates": "Thursdays, January 28 – March 4",
+   "days": "4:45–6:00 PM · Volunteer opportunity",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7f35c887b05c0466fcc209_Youth%20Arts%20%26%20Culture%20-%20Art%20with%20Heart%20-%20Energy%20Buddies.png",
    "desc": "Celebrate creativity, friendship, and inclusion through an inspiring theater experience. Performers and volunteer Energy Buddies work together to sing, dance, act, and create a memorable showcase for family and friends.",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//13692",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002778",
    "sch": [
     {
      "k": "weekly",
-     "s": "2026-09-24",
-     "e": "2026-11-19",
+     "s": "2027-01-28",
+     "e": "2027-03-04",
      "d": [
       4
      ]
@@ -4237,16 +4237,67 @@
     "teens"
    ],
    "ages": "Kids and teens",
-   "dates": "January 18 – April 16",
-   "days": "Various locations",
+   "dates": "January 26 – April 15, 2027",
+   "days": "Seven classes, see options",
    "img": "/assets/winter/youth-arts-and-culture-jpas-winter-spring-classes.jpg",
    "desc": "Find your spotlight! This winter and spring, young artists can sing and dance in Broadway Revue, think on their feet in Improv Acting & Theater, create in Art with Heart and Visual Art, and cook up something delicious in Kitchen Explorers. There's a stage, a canvas, and a kitchen waiting for every kid.",
-   "reg": "https://www.jccdallas.org/arts/classes-workshops",
+   "reg": "",
    "sch": [
     {
-     "k": "span",
-     "s": "2027-01-18",
-     "e": "2027-04-16"
+     "k": "weekly",
+     "s": "2027-01-26",
+     "e": "2027-03-09",
+     "d": [
+      2
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2027-01-27",
+     "e": "2027-03-24",
+     "d": [
+      3
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2027-01-27",
+     "e": "2027-03-24",
+     "d": [
+      3
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2027-01-28",
+     "e": "2027-03-04",
+     "d": [
+      4
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2027-01-28",
+     "e": "2027-03-04",
+     "d": [
+      4
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2027-01-27",
+     "e": "2027-04-14",
+     "d": [
+      3
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2027-01-28",
+     "e": "2027-04-15",
+     "d": [
+      4
+     ]
     }
    ],
    "sub": [],
@@ -4254,7 +4305,100 @@
     "winter"
    ],
    "pre": true,
-   "calHide": true
+   "calHide": true,
+   "sessions": [
+    {
+     "label": "Spring Broadway Revue: Aladdin JR",
+     "sub": "Tuesdays 4:30–6:30 PM · Jan 26 – Mar 9 · Ages 7–18 · $270 M / $338 NM · Showcase Mar 9",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002909",
+     "sch": {
+      "k": "weekly",
+      "s": "2027-01-26",
+      "e": "2027-03-09",
+      "d": [
+       2
+      ]
+     }
+    },
+    {
+     "label": "Improv, Acting & Theater Games (K–2)",
+     "sub": "Wednesdays 4:30–5:30 PM · Jan 27 – Mar 24 · Big D Room · $245 M / $306 NM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002905",
+     "sch": {
+      "k": "weekly",
+      "s": "2027-01-27",
+      "e": "2027-03-24",
+      "d": [
+       3
+      ]
+     }
+    },
+    {
+     "label": "Kitchen Explorers (Ages 8+)",
+     "sub": "Wednesdays 4:30–6:00 PM · Jan 27 – Mar 24, no class Mar 17 · Kosher Kitchen · $280 M / $350 NM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003659",
+     "sch": {
+      "k": "weekly",
+      "s": "2027-01-27",
+      "e": "2027-03-24",
+      "d": [
+       3
+      ]
+     }
+    },
+    {
+     "label": "Art with Heart: Inclusive Theater (Ages 8+)",
+     "sub": "Thursdays 4:45–6:00 PM · Jan 28 – Mar 4 · Dance Studio · $190 M / $225 NM · Showcase Mar 4",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002903",
+     "sch": {
+      "k": "weekly",
+      "s": "2027-01-28",
+      "e": "2027-03-04",
+      "d": [
+       4
+      ]
+     }
+    },
+    {
+     "label": "Art with Heart: Energy Buddies Volunteers (Ages 8+)",
+     "sub": "Thursdays 4:45–6:00 PM · Jan 28 – Mar 4 · Dance Studio · Volunteer opportunity",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002778",
+     "sch": {
+      "k": "weekly",
+      "s": "2027-01-28",
+      "e": "2027-03-04",
+      "d": [
+       4
+      ]
+     }
+    },
+    {
+     "label": "JVAS Art Class on Wednesdays (Ages 4+)",
+     "sub": "Wednesdays 4:30–5:30 PM · Jan 27 – Apr 14, no class Mar 17 · Senior Art Room · $345 M / $438 NM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002770",
+     "sch": {
+      "k": "weekly",
+      "s": "2027-01-27",
+      "e": "2027-04-14",
+      "d": [
+       3
+      ]
+     }
+    },
+    {
+     "label": "JVAS Art Class on Thursdays (Ages 8+)",
+     "sub": "Thursdays 4:30–5:30 PM · Jan 28 – Apr 15, no class Mar 18 · Senior Art Room · $345 M / $435 NM",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002907",
+     "sch": {
+      "k": "weekly",
+      "s": "2027-01-28",
+      "e": "2027-04-15",
+      "d": [
+       4
+      ]
+     }
+    }
+   ]
   },
   {
    "id": 202,
@@ -4965,16 +5109,16 @@
     "family"
    ],
    "ages": "All abilities",
-   "dates": "September 24 – November 19",
-   "days": "Thursdays",
+   "dates": "Thursdays, January 28 – March 4",
+   "days": "4:45–6:00 PM · Showcase March 4 · $190 M / $225 NM",
    "img": "https://cdn.prod.website-files.com/66561dfced179b71b63b9c52/6a7f35c899d12fab8ab5597b_Youth%20Arts%20%26%20Culture%20-%20Art%20with%20Heart%20Inclusion%20Theater%20for%20Special%20Needs.png",
    "desc": "Celebrate creativity, confidence, and connection through an inclusive theater experience designed for youth with diverse needs. Through singing, dancing, and acting, participants build friendships, express themselves, and create theater magic together, culminating in a special showcase for family and friends.",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//13699",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-002903",
    "sch": [
     {
      "k": "weekly",
-     "s": "2026-09-24",
-     "e": "2026-11-19",
+     "s": "2027-01-28",
+     "e": "2027-03-04",
      "d": [
       4
      ]
@@ -7596,11 +7740,11 @@
     "teens"
    ],
    "ages": "Ages 8–12",
-   "dates": "Starts Wednesday, January 27",
-   "days": "Wednesday afternoons",
+   "dates": "Wednesdays, January 27 – March 24 (no class March 17)",
+   "days": "4:30–6:00 PM · Ages 8+ · $280 M / $350 NM",
    "img": "/assets/winter/youth-arts-and-culture-kitchen-explorers.jpg",
    "desc": "Little chefs, big flavors! Kids explore new ingredients, whip up tasty creations, and build kitchen confidence in this hands-on cooking class.",
-   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//14375",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003659",
    "sch": [
     {
      "k": "weekly",
