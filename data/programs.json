@@ -1369,17 +1369,17 @@
     "adults"
    ],
    "ages": "18+",
-   "dates": "Mondays, November 30 – April 26",
+   "dates": "Mondays, November 30 – March 29 *Subject to change",
    "days": "Monday nights",
    "img": "/assets/winter/adult-sports-rec-monday-business-league.jpg",
    "desc": "Rally the office and represent! The Monday Night Business League is The J's most competitive weeknight run. Bring your coworkers or your crew for a 10-game season and a playoff push where every team has a shot at the title.",
-   "reg": "https://www.jccdallas.org/adult-sports/basketball",
+   "reg": "https://thejewishcommunitycenterofdallas.teamsidelinesite.com/",
    "opens": "October 26",
    "sch": [
     {
      "k": "weekly",
      "s": "2026-11-30",
-     "e": "2027-04-26",
+     "e": "2027-03-29",
      "d": [
       1
      ]
@@ -1390,6 +1390,38 @@
    ],
    "tags": [
     "winter"
+   ],
+   "btn": "View Schedule/Standings"
+  },
+  {
+   "id": 237,
+   "type": "Program",
+   "sub": [],
+   "tags": [
+    "winter"
+   ],
+   "pre": true,
+   "img": "",
+   "t": "Tuesday Night Business League",
+   "cat": "sport-a",
+   "aud": [
+    "adults"
+   ],
+   "ages": "Adults",
+   "dates": "Tuesdays, October 13 – February 9 *Subject to change",
+   "days": "Tuesday nights",
+   "desc": "Competitive adult basketball under the lights. Weekly games, standings, and playoffs for teams that take their Tuesday nights seriously.",
+   "reg": "https://thejewishcommunitycenterofdallas.teamsidelinesite.com/",
+   "btn": "View Schedule/Standings",
+   "sch": [
+    {
+     "k": "weekly",
+     "s": "2026-10-13",
+     "e": "2027-02-09",
+     "d": [
+      2
+     ]
+    }
    ]
   },
   {
@@ -1402,17 +1434,17 @@
     "seniors"
    ],
    "ages": "50+",
-   "dates": "Wednesdays, February 10 – May 12",
+   "dates": "Wednesdays, October 14 – February 10 *Subject to change",
    "days": "Wednesday nights",
    "img": "/assets/winter/adult-sports-rec-wednesday-legends-league.jpg",
    "desc": "Legends never retire! Our 50+ Masters Plus league keeps the competition real at a pace that's just right. Lace up, hit the court, and show them how it's done.",
-   "reg": "https://www.jccdallas.org/adult-sports/basketball",
+   "reg": "https://thejewishcommunitycenterofdallas.teamsidelinesite.com/",
    "opens": "September 9",
    "sch": [
     {
      "k": "weekly",
-     "s": "2027-02-10",
-     "e": "2027-05-12",
+     "s": "2026-10-14",
+     "e": "2027-02-10",
      "d": [
       3
      ]
@@ -1423,7 +1455,8 @@
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "View Schedule/Standings"
   },
   {
    "id": 30,
@@ -1434,17 +1467,17 @@
     "adults"
    ],
    "ages": "40+",
-   "dates": "Thursdays, March 4 – July 29",
+   "dates": "Thursdays, October 8 – February 25 *Subject to change",
    "days": "Thursday nights",
    "img": "/assets/winter/adult-sports-rec-thursday-masters-leagu.jpg",
    "desc": "High-level hoops, serious fun, and clutch moments every week. The 40+ Thursday Masters League is one of The J's biggest and most competitive traditions, with a 10-game season, playoffs for all, certified officials, and online stats.",
-   "reg": "https://www.jccdallas.org/adult-sports/basketball",
+   "reg": "https://thejewishcommunitycenterofdallas.teamsidelinesite.com/",
    "opens": "September 3",
    "sch": [
     {
      "k": "weekly",
-     "s": "2027-03-04",
-     "e": "2027-07-29",
+     "s": "2026-10-08",
+     "e": "2027-02-25",
      "d": [
       4
      ]
@@ -1456,7 +1489,8 @@
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "View Schedule/Standings"
   },
   {
    "id": 31,
@@ -1467,17 +1501,17 @@
     "adults"
    ],
    "ages": "30+",
-   "dates": "Sundays, November 8 – March 21",
+   "dates": "Sundays, November 22 – April 11 *Subject to change",
    "days": "Sundays",
    "img": "/assets/winter/adult-sports-rec-sunday-mellow-league.jpg",
    "desc": "Still got game? The Sunday Mellow League is real, competitive hoops for players 30+, without the chaos. Enjoy a 10-game season, playoffs for every team, certified officials, and online stats, plus a laid-back vibe that keeps players coming back.",
-   "reg": "https://www.jccdallas.org/adult-sports/basketball",
+   "reg": "https://thejewishcommunitycenterofdallas.teamsidelinesite.com/",
    "opens": "October 14",
    "sch": [
     {
      "k": "weekly",
-     "s": "2026-11-08",
-     "e": "2027-03-21",
+     "s": "2026-11-22",
+     "e": "2027-04-11",
      "d": [
       0
      ]
@@ -1489,7 +1523,8 @@
    ],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "View Schedule/Standings"
   },
   {
    "id": 32,
@@ -1648,11 +1683,70 @@
     }
    ],
    "sub": [],
+   "tags": [],
+   "loc": "Donsky Gym",
+   "pre": true
+  },
+  {
+   "id": 235,
+   "type": "Program",
+   "sub": [],
    "tags": [
     "winter"
    ],
-   "loc": "Donsky Gym",
-   "pre": true
+   "pre": true,
+   "img": "",
+   "t": "High Five Sports 4's Basketball Scrimmage Program",
+   "cat": "sport-y",
+   "aud": [
+    "kids"
+   ],
+   "ages": "Age 4",
+   "dates": "Sundays, January 17 – February 14, 2027",
+   "days": "Sundays",
+   "desc": "Four-year-olds learn the basics of basketball through coach-led skills and friendly scrimmages. Dribbling, passing, shooting, and teamwork, all in a high-energy, encouraging setting.",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//14343",
+   "sch": [
+    {
+     "k": "weekly",
+     "s": "2027-01-17",
+     "e": "2027-02-14",
+     "d": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": 236,
+   "type": "Program",
+   "sub": [],
+   "tags": [
+    "winter"
+   ],
+   "pre": true,
+   "img": "",
+   "t": "High Five Sports MVP & Me Parent Tot Class",
+   "cat": "sport-y",
+   "aud": [
+    "kids",
+    "families"
+   ],
+   "ages": "Toddlers with a grown-up",
+   "dates": "Sundays, January 17 – February 14, 2027",
+   "days": "Sundays",
+   "desc": "Team up with your little MVP for a fun, interactive parent-child sports class! Through coach-led activities like kicking, throwing, catching, and jumping, children build motor skills, coordination, confidence, and social skills while discovering a love of sports alongside their favorite teammate.",
+   "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//14340",
+   "sch": [
+    {
+     "k": "weekly",
+     "s": "2027-01-17",
+     "e": "2027-02-14",
+     "d": [
+      0
+     ]
+    }
+   ]
   },
   {
    "id": 172,
@@ -1663,18 +1757,26 @@
     "kids"
    ],
    "ages": "Kids",
-   "dates": "Sundays, January 10 – February 7",
-   "days": "",
+   "dates": "November 15 – December 30, 2026",
+   "days": "Two class options",
    "img": "/assets/winter/youth-sports-rec-high-five-ninja.jpg",
    "desc": "Run, jump, climb, and conquer the course! Our Kids Ninja Warrior classes are packed with obstacles that build strength, balance, agility, and confidence. Come ready to move and unleash your inner Ninja!",
-   "reg": "https://www.jccdallas.org/youth-sports/preschool-sports",
+   "reg": "",
    "sch": [
     {
      "k": "weekly",
-     "s": "2027-01-10",
-     "e": "2027-02-07",
+     "s": "2026-11-15",
+     "e": "2026-12-20",
      "d": [
       0
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-11-18",
+     "e": "2026-12-30",
+     "d": [
+      3
      ]
     }
    ],
@@ -1683,7 +1785,35 @@
     "winter"
    ],
    "loc": "Nature Scape (GECC)",
-   "pre": true
+   "pre": true,
+   "sessions": [
+    {
+     "label": "High Five Sports Preschool Ninja",
+     "sub": "Nov 15 – Dec 20",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//14457",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-11-15",
+      "e": "2026-12-20",
+      "d": [
+       0
+      ]
+     }
+    },
+    {
+     "label": "High Five Sports J Ninja Class",
+     "sub": "Nov 18 – Dec 30",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list//14455",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-11-18",
+      "e": "2026-12-30",
+      "d": [
+       3
+      ]
+     }
+    }
+   ]
   },
   {
    "id": 173,
@@ -1710,9 +1840,7 @@
     }
    ],
    "sub": [],
-   "tags": [
-    "winter"
-   ],
+   "tags": [],
    "loc": "Donsky Gym",
    "pre": true
   },
@@ -6912,11 +7040,11 @@
     "kids"
    ],
    "ages": "Kids",
-   "dates": "January 11 – May 6",
-   "days": "Times vary by class",
+   "dates": "January 11 – May 6, 2027",
+   "days": "Registration opens December 7",
    "img": "/assets/winter/youth-gymnastics-winter-spring-gymnastics.jpg",
    "desc": "Flip, tumble, and soar into the new year! Our gymnastics classes build strength, flexibility, and confidence through fundamentals and progressive skills, in a fun, encouraging gym where every gymnast can shine and make friends.",
-   "reg": "https://www.jccdallas.org/youth-sports/gymnastics",
+   "reg": "",
    "sch": [
     {
      "k": "span",
@@ -6930,7 +7058,40 @@
    ],
    "loc": "Gymnastics Gym",
    "pre": true,
-   "calHide": true
+   "calHide": true,
+   "btn": "Registration Opens Soon",
+   "sessions": [
+    {
+     "label": "Parent & Tot Gymnastics",
+     "sub": "Sun 9:00–9:30 AM, 9:30–10:00 AM (Jan 17–May 2)",
+     "info": true
+    },
+    {
+     "label": "Preschool Gymnastics",
+     "sub": "Sun 10:15–11:00 AM, 11:15 AM–12:00 PM, 12:15–1:00 PM (Jan 17–May 2) · Mon 3:45–4:30 PM (Jan 11–May 3) · Tue 4:15–5:00 PM (Jan 12–May 4) · Wed 3:45–4:30 PM (Jan 13–May 5) · Thu 3:15–4:00 PM (Jan 14–May 6)",
+     "info": true
+    },
+    {
+     "label": "Ages 5–6",
+     "sub": "Sun 11:15 AM–12:15 PM, 12:30–1:30 PM, 1:45–2:45 PM (Jan 17–May 2) · Mon 4:45–5:45 PM (Jan 11–May 3) · Tue 4:15–5:15 PM (Jan 12–May 4) · Wed 4:15–5:15 PM (Jan 13–May 5) · Thu 4:15–5:15 PM (Jan 14–May 6)",
+     "info": true
+    },
+    {
+     "label": "Ages 7–9",
+     "sub": "Sun 11:15 AM–12:15 PM, 12:30–1:30 PM, 1:45–2:45 PM (Jan 17–May 2) · Mon 3:45–4:45 PM, 4:45–5:45 PM, 5:45–6:45 PM (Jan 11–May 3) · Tue 4:15–5:15 PM (Jan 12–May 4) · Wed 4:15–5:15 PM (Jan 13–May 5) · Thu 4:15–5:15 PM, 5:30–6:30 PM (Jan 14–May 6)",
+     "info": true
+    },
+    {
+     "label": "Ages 10+",
+     "sub": "Tue 5:30–6:30 PM (Jan 12–May 4)",
+     "info": true
+    },
+    {
+     "label": "Boys Gymnastics",
+     "sub": "Sun 3:00–4:00 PM (Jan 17–May 2) · Wed 5:30–6:30 PM (Jan 13–May 5)",
+     "info": true
+    }
+   ]
   },
   {
    "id": 145,

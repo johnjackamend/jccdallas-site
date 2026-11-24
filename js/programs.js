@@ -116,11 +116,11 @@
     if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
   }
   function detail(p, D) {
-    var sessions = (p.sessions || []).filter(function (s) { return s.reg && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
+    var sessions = (p.sessions || []).filter(function (s) { return (s.reg || s.info) && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
     var seen = {}; sessions = sessions.filter(function (s) { if (seen[s.reg + s.label]) return false; seen[s.reg + s.label] = 1; return true; });
-    var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (sessions.length === 1 ? '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>' : (p.btn && !p.noBtn ? '<span class="btn ghost" aria-disabled="true">' + E(p.btn) + '</span>' : ''));
+    var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (sessions.length === 1 && sessions[0].reg ? '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>' : (p.btn && !p.noBtn ? '<span class="btn ghost" aria-disabled="true">' + E(p.btn) + '</span>' : ''));
     if (p.link2) reg += '<a class="btn ghost" href="' + E(p.link2.href) + '">' + E(p.link2.label) + '</a>';
-    var sess = sessions.length > 1 || (sessions.length === 1 && p.reg && !p.noBtn) ? '<h4>Times &amp; registration</h4><ul class="sessions">' + sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul>' : '';
+    var sess = sessions.length > 1 || (sessions.length === 1 && p.reg && !p.noBtn) ? '<h4>Times &amp; registration</h4><ul class="sessions">' + sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span>' + (s.reg ? '<a href="' + E(s.reg) + '">Register</a>' : '') + '</li>'; }).join('') + '</ul>' : '';
     dialog((p.img ? '<div class="pic"><img src="' + E(p.img) + '" alt=""></div>' : '') +
       '<div class="body"><span class="tag' + (p.type === 'Event' ? ' evt' : '') + '">' + E(p.type) + '</span><h3>' + E(p.t) + '</h3>' +
       '<div class="meta">' + [p.dates && I.cal + E(p.dates), p.days && I.clock + E(p.days), p.loc && I.pin + E(p.loc), p.ages && I.ppl + E(p.ages)].filter(Boolean).map(function (m) { return '<span>' + m + '</span>'; }).join('') + '</div>' +
@@ -130,12 +130,12 @@
   }
   function regLabel(p) { return p.btn || p.regLabel || 'Register'; }
   function card(p, D) {
-    var sessions = (p.sessions || []).filter(function (s) { return s.reg && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
+    var sessions = (p.sessions || []).filter(function (s) { return (s.reg || s.info) && !(s.sch && s.sch.k === 'once' && s.sch.s < iso(TODAY)); });
     // de-dupe sessions that repeat the same registration link
     var seen = {}; sessions = sessions.filter(function (s) { if (seen[s.reg + s.label]) return false; seen[s.reg + s.label] = 1; return true; });
     var reg = p.reg && !p.noBtn ? '<a class="btn' + '' + '" href="' + E(p.reg) + '">' + E(regLabel(p)) + '</a>' : (p.btn && !p.noBtn ? '<span class="btn ghost" aria-disabled="true">' + E(p.btn) + '</span>' : '');
     var sess = '';
-    if (sessions.length === 1 && !(p.reg && !p.noBtn)) {
+    if (sessions.length === 1 && sessions[0].reg && !(p.reg && !p.noBtn)) {
       reg = '<a class="btn" href="' + E(sessions[0].reg) + '">' + E(regLabel(p)) + '</a>';
       sess = '<p class="meta" style="margin-top:2px"><span>' + I.clock + E(sessions[0].label) + '</span></p>';
     } else if (sessions.length) {
@@ -143,7 +143,7 @@
       var lab = sessions.length === 1 ? sessions[0].label : sessions.length + ' time options';
       var sub = sessions.length > 1 && days.length ? '<small>' + E(days.slice(0, 3).join(', ') + (days.length > 3 ? ' +' + (days.length - 3) : '')) + '</small>' : '';
       sess = '<details class="sess"><summary><span>' + E(lab) + '</span>' + sub + '</summary><ul class="sessions">' +
-        sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span><a href="' + E(s.reg) + '">Register</a></li>'; }).join('') + '</ul></details>';
+        sessions.map(function (s) { return '<li><span>' + E(s.label) + (s.sub ? ' <small>' + E(s.sub) + '</small>' : '') + '</span>' + (s.reg ? '<a href="' + E(s.reg) + '">Register</a>' : '') + '</li>'; }).join('') + '</ul></details>';
     }
     if (p.link2) reg += '<a class="btn ghost" href="' + E(p.link2.href) + '">' + E(p.link2.label) + '</a>';
     return '<article class="pcard" data-id="' + p.id + '">' +

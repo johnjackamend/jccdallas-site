@@ -75,7 +75,7 @@ for p in W:
     for c in p.get("also") or []: present.setdefault(c, 0)
 cats = [c for c in ORDER if c in present]
 assert set(cats) >= {c for c in present if present[c] > 0}, set(present) - set(cats)
-SUB = {"social": "The big nights and signature events of the season.", "bookfest": "Margot Rosenberg Pulitzer Dallas Jewish BookFest, winter authors.", "mahj": "Classes, leagues, theme nights, and the 2027 tournament.",
+SUB = {"sport-a": "All leagues currently in season.", "social": "The big nights and signature events of the season.", "bookfest": "Margot Rosenberg Pulitzer Dallas Jewish BookFest, winter authors.", "mahj": "Classes, leagues, theme nights, and the 2027 tournament.",
        "fitness": "Fitness events are free unless noted; members register in the My J app.", "learning": "Wednesday courses meet 11:00 AM to 12:30 PM in the Board Room.", "holiday": "Purim, Israel Independence Day, and holiday treats.",
        "emerg": "READY Academy at The J: American Red Cross courses and the December blood drive."}
 LABEL = {"social": "Big Energy Events", "emerg": "READY Academy (Emergency Training)", "gecc": "Early Childhood", "seniors": "Seniors & Active Adults"}
