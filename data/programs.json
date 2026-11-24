@@ -4055,13 +4055,13 @@
   {
    "id": 69,
    "t": "JPAS Voices",
-   "cat": "arts-y",
+   "cat": "active",
    "type": "Program",
    "aud": [
-    "kids",
-    "teens"
+    "adults",
+    "seniors"
    ],
-   "ages": "Youth performers",
+   "ages": "Adults",
    "dates": "Thursday, December 3, 2026",
    "days": "Evenings",
    "img": "/assets/winter/adults-arts-culture-jpas-voices.jpg",
