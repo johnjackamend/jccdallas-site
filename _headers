@@ -4,6 +4,3 @@
 
 /data/staff-portal.enc.json
   Cache-Control: no-store
-
-/winter-preview/*
-  X-Robots-Tag: noindex, nofollow

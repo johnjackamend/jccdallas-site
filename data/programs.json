@@ -347,7 +347,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "btn": "Registration Coming Soon"
   },
   {
@@ -381,8 +380,7 @@
    ],
    "also": [
     "social"
-   ],
-   "pre": true
+   ]
   },
   {
    "id": 188,
@@ -409,7 +407,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "calHide": true,
    "btn": "Pre-Order"
   },
@@ -662,8 +659,7 @@
     "winter",
     "holidays2026"
    ],
-   "loc": "Zale Auditorium",
-   "pre": true
+   "loc": "Zale Auditorium"
   },
   {
    "id": 162,
@@ -1522,8 +1518,7 @@
     "tennis"
    ],
    "tags": [],
-   "loc": "Tennis Courts",
-   "pre": true
+   "loc": "Tennis Courts"
   },
   {
    "id": 168,
@@ -1549,8 +1544,7 @@
     "tennis"
    ],
    "tags": [],
-   "loc": "Tennis Courts",
-   "pre": true
+   "loc": "Tennis Courts"
   },
   {
    "id": 169,
@@ -1576,8 +1570,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "Tennis Courts",
-   "pre": true
+   "loc": "Tennis Courts"
   },
   {
    "id": 27,
@@ -1644,7 +1637,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "img": "",
    "t": "Tuesday Night Business League",
    "cat": "sport-a",
@@ -1928,8 +1920,7 @@
    ],
    "sub": [],
    "tags": [],
-   "loc": "Donsky Gym",
-   "pre": true
+   "loc": "Donsky Gym"
   },
   {
    "id": 235,
@@ -1938,7 +1929,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "img": "/assets/winter/youth-sports-rec-high-five-4s-basketball.jpg",
    "t": "High Five Sports 4's Basketball Scrimmage Program",
    "cat": "sport-y",
@@ -1968,7 +1958,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "img": "/assets/winter/youth-sports-rec-high-five-mvp-and-me.jpg",
    "t": "High Five Sports MVP & Me Parent Tot Class",
    "cat": "sport-y",
@@ -2027,7 +2016,6 @@
    "sub": [],
    "tags": [],
    "loc": "Nature Scape (GECC)",
-   "pre": true,
    "sessions": [
     {
      "label": "High Five Sports Preschool Ninja",
@@ -2083,8 +2071,7 @@
    ],
    "sub": [],
    "tags": [],
-   "loc": "Donsky Gym",
-   "pre": true
+   "loc": "Donsky Gym"
   },
   {
    "id": 176,
@@ -2111,7 +2098,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "calHide": true,
    "btn": "Learn More"
   },
@@ -2874,8 +2860,7 @@
       "s": "2027-02-13"
      }
     }
-   ],
-   "pre": true
+   ]
   },
   {
    "id": 40,
@@ -3093,8 +3078,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "Board Room",
-   "pre": true
+   "loc": "Board Room"
   },
   {
    "id": 181,
@@ -3125,8 +3109,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "Board Room",
-   "pre": true
+   "loc": "Board Room"
   },
   {
    "id": 182,
@@ -3157,8 +3140,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "Board Room",
-   "pre": true
+   "loc": "Board Room"
   },
   {
    "id": 183,
@@ -3189,8 +3171,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "Board Room",
-   "pre": true
+   "loc": "Board Room"
   },
   {
    "id": 185,
@@ -3218,7 +3199,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "also": [
     "social"
    ]
@@ -3344,7 +3324,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "calHide": true
   },
   {
@@ -3374,7 +3353,6 @@
     "winter"
    ],
    "loc": "Group Fitness Studio",
-   "pre": true,
    "btn": "Register in My J App"
   },
   {
@@ -3403,7 +3381,6 @@
     "winter"
    ],
    "loc": "Mind Body Studio",
-   "pre": true,
    "btn": "Register in My J App"
   },
   {
@@ -3432,7 +3409,6 @@
     "winter"
    ],
    "loc": "Mind Body Studio",
-   "pre": true,
    "btn": "Register in My J App"
   },
   {
@@ -3461,7 +3437,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "noBtn": true
   },
   {
@@ -3508,8 +3483,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "Group Fitness studios and pools",
-   "pre": true
+   "loc": "Group Fitness studios and pools"
   },
   {
    "id": 52,
@@ -3749,8 +3723,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [],
-   "pre": true
+   "tags": []
   },
   {
    "id": 198,
@@ -3775,8 +3748,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [],
-   "pre": true
+   "tags": []
   },
   {
    "id": 199,
@@ -3801,8 +3773,7 @@
    "sub": [
     "mahj"
    ],
-   "tags": [],
-   "pre": true
+   "tags": []
   },
   {
    "id": 60,
@@ -4151,8 +4122,7 @@
    "loc": "J Mahj Room",
    "tags": [
     "winter"
-   ],
-   "pre": true
+   ]
   },
   {
    "id": 64,
@@ -4546,7 +4516,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "calHide": true,
    "sessions": [
     {
@@ -4667,8 +4636,7 @@
    "sub": [],
    "tags": [
     "winter"
-   ],
-   "pre": true
+   ]
   },
   {
    "id": 75,
@@ -5066,8 +5034,7 @@
    "sub": [],
    "tags": [
     "winter"
-   ],
-   "pre": true
+   ]
   },
   {
    "id": 205,
@@ -5093,8 +5060,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "The Lodge",
-   "pre": true
+   "loc": "The Lodge"
   },
   {
    "id": 206,
@@ -5121,7 +5087,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "btn": "Register"
   },
   {
@@ -5149,7 +5114,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "btn": "Register"
   },
   {
@@ -5248,7 +5212,6 @@
     "winter"
    ],
    "loc": "Classroom at The J",
-   "pre": true,
    "btn": "Learn More"
   },
   {
@@ -6153,8 +6116,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "The Lodge",
-   "pre": true
+   "loc": "The Lodge"
   },
   {
    "id": 215,
@@ -6185,7 +6147,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "btn": "Countdown to 2027"
   },
   {
@@ -6215,7 +6176,6 @@
     "winter"
    ],
    "loc": "JCC Lobby",
-   "pre": true,
    "noBtn": true
   },
   {
@@ -6244,7 +6204,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "noBtn": true
   },
   {
@@ -6273,7 +6232,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "btn": "Save the Date"
   },
   {
@@ -6448,7 +6406,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "calHide": true
   },
   {
@@ -6502,7 +6459,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "noBtn": true
   },
   {
@@ -6529,7 +6485,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "btn": "Learn More"
   },
   {
@@ -6557,7 +6512,6 @@
     "winter"
    ],
    "loc": "GECC Big Room or Outdoor Art Atelier",
-   "pre": true,
    "noBtn": true
   },
   {
@@ -6584,7 +6538,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "noBtn": true
   },
   {
@@ -6611,7 +6564,6 @@
    "tags": [
     "winter"
    ],
-   "pre": true,
    "noBtn": true
   },
   {
@@ -6692,8 +6644,7 @@
    "loc": "Zale Auditorium",
    "also": [
     "social"
-   ],
-   "pre": true
+   ]
   },
   {
    "id": 118,
@@ -6735,8 +6686,7 @@
    "tags": [
     "winter"
    ],
-   "noBtn": true,
-   "pre": true
+   "noBtn": true
   },
   {
    "id": 119,
@@ -7443,7 +7393,6 @@
     "winter"
    ],
    "loc": "Gymnastics Gym",
-   "pre": true,
    "calHide": true,
    "btn": "Registration Opens Soon",
    "sessions": [
@@ -7707,8 +7656,7 @@
    "sub": [],
    "tags": [
     "winter"
-   ],
-   "pre": true
+   ]
   },
   {
    "id": 151,
@@ -7806,7 +7754,6 @@
     "winter"
    ],
    "loc": "Gymnastics Gym",
-   "pre": true,
    "sessions": [
     {
      "label": "Nov 29: Toddlers & Preschoolers",
@@ -7961,8 +7908,7 @@
    "tags": [
     "winter"
    ],
-   "loc": "J Mahj Room",
-   "pre": true
+   "loc": "J Mahj Room"
   },
   {
    "id": 153,

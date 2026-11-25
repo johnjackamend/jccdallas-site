@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build /winter-preview/index.html from the aquatics page shell (head, nav, findband, footer) + Winter at The J content."""
+"""Build /winter-at-the-j/index.html from the aquatics page shell (head, nav, findband, footer) + Winter at The J content."""
 import json, os, re
 os.chdir("/home/claude/jccdallas-site")
 src = open("aquatics/index.html", encoding="utf-8").read()
@@ -17,9 +17,9 @@ head = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="descrip
 head = re.sub(r'<meta property="og:title" content="[^"]*">', '<meta property="og:title" content="Winter at The J 2026–27 | Aaron Family JCC of Dallas">', head)
 head = re.sub(r'<meta property="og:description" content="[^"]*">', '<meta property="og:description" content="Every program, class, and event at The J this winter, in one place.">', head)
 head = re.sub(r'<meta property="og:image" content="[^"]*">', '<meta property="og:image" content="https://www.jccdallas.org/assets/aquatics/swim-teams-hero.jpg">', head)
-head = re.sub(r'<meta property="og:url" content="[^"]*">', '<meta property="og:url" content="https://www.jccdallas.org/winter-preview">', head)
-head = re.sub(r'<link rel="canonical" href="[^"]*">', '<link rel="canonical" href="https://www.jccdallas.org/winter-preview">', head)
-head = head.replace('<meta name="twitter:card" content="summary_large_image">', '<meta name="twitter:card" content="summary_large_image">\n<meta name="robots" content="noindex, nofollow">')
+head = re.sub(r'<meta property="og:url" content="[^"]*">', '<meta property="og:url" content="https://www.jccdallas.org/winter-at-the-j">', head)
+head = re.sub(r'<link rel="canonical" href="[^"]*">', '<link rel="canonical" href="https://www.jccdallas.org/winter-at-the-j">', head)
+
 head += """<style>
 .wx-hero{background:radial-gradient(60% 90% at 85% 15%,rgba(214,37,152,.5) 0%,rgba(214,37,152,0) 60%),radial-gradient(50% 80% at 10% 100%,rgba(107,65,181,.6) 0%,rgba(107,65,181,0) 60%),var(--purple-dark)}
 .wx-hero .eyebrow{display:inline-block;font:700 12.5px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:var(--r-pill);padding:9px 14px;margin-bottom:18px}
@@ -199,13 +199,6 @@ main = f"""<section class="dhero no-img wx-hero">
 """
 page = head + "</head>\n" + nav + main + tail
 page = page.replace('data-programs="tag:winter', 'data-programs="tag:winter')  # no-op guard
-os.makedirs("winter-preview", exist_ok=True)
-open("winter-preview/index.html", "w", encoding="utf-8").write(page)
-# noindex headers + robots
-h = open("_headers", encoding="utf-8").read()
-if "/winter-preview/*" not in h:
-    open("_headers", "w", encoding="utf-8").write(h.rstrip("\n") + "\n\n/winter-preview/*\n  X-Robots-Tag: noindex, nofollow\n")
-r = open("robots.txt", encoding="utf-8").read()
-if "/winter-preview/" not in r:
-    open("robots.txt", "w", encoding="utf-8").write(r.replace("Disallow: /staff-portal/", "Disallow: /staff-portal/\nDisallow: /winter-preview/", 1))
+os.makedirs("winter-at-the-j", exist_ok=True)
+open("winter-at-the-j/index.html", "w", encoding="utf-8").write(page)
 print("built", n_total, "entries,", len(cats), "categories")

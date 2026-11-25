@@ -1,6 +1,11 @@
 # jccdallas.org redirects (go-live 2026-11-05). Rules match top to bottom; first hit wins.
 # Netlify serves an existing file before a plain rule; "301!" forces the redirect even when a file exists.
 
+# --- Winter at The J (launched 2026-11-25): marketing subdomain + old staging path ---
+https://seasons.jccdallas.org/*  https://www.jccdallas.org/winter-at-the-j/  301!
+http://seasons.jccdallas.org/*   https://www.jccdallas.org/winter-at-the-j/  301!
+/winter-preview/*  /winter-at-the-j/  301!
+
 # --- Temporary: /donate goes to the Annual Campaign page (page file kept; drop the ! to restore /donate) ---
 /donate  /annual-campaign  301!
 
@@ -62,15 +67,15 @@
 /anshai  /j-early-childhood-center  301
 
 # --- Seasonal programming pages → seasons site ---
-/fall  https://seasons.jccdallas.org  301
-/fall-at-the-j  https://seasons.jccdallas.org  301
-/fall-programming  https://seasons.jccdallas.org  301
-/winter-programming  https://seasons.jccdallas.org  301
-/spring-programming  https://seasons.jccdallas.org  301
-/spring-at-the-j  https://seasons.jccdallas.org  301
-/summer  https://seasons.jccdallas.org  301
-/summer-at-the-j  https://seasons.jccdallas.org  301
-/summer-at-the-j-old  https://seasons.jccdallas.org  301
+/fall  /winter-at-the-j/  301
+/fall-at-the-j  /winter-at-the-j/  301
+/fall-programming  /winter-at-the-j/  301
+/winter-programming  /winter-at-the-j/  301
+/spring-programming  /winter-at-the-j/  301
+/spring-at-the-j  /winter-at-the-j/  301
+/summer  /winter-at-the-j/  301
+/summer-at-the-j  /winter-at-the-j/  301
+/summer-at-the-j-old  /winter-at-the-j/  301
 
 # --- Old ?tab= deep links → new sub-pages ---
 /adult-sports  tab=BASKETBALL  /adult-sports/basketball  301
