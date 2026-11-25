@@ -710,7 +710,7 @@
    "days": "",
    "img": "/assets/winter/big-energy-bagel-run-2027.jpg",
    "desc": "Lace up and rise and shine! The Bagel Run is back: a morning of community, movement, and a well-earned bagel at the finish line. Runners, walkers, and cheering sections all welcome.",
-   "reg": "https://www.jccdallas.org/special-events/bagel-run",
+   "reg": "",
    "sch": [
     {
      "k": "once",
@@ -720,7 +720,12 @@
    "sub": [],
    "tags": [
     "winter"
-   ]
+   ],
+   "btn": "Registration Coming Spring",
+   "link2": {
+    "label": "Bagel Run",
+    "href": "/special-events/bagel-run"
+   }
   },
   {
    "id": 11,
@@ -1072,147 +1077,390 @@
     "adults"
    ],
    "ages": "18+",
-   "dates": "November 30 – February 28",
-   "days": "By level; see the Open Drills calendar",
+   "dates": "November 23 – February 14",
+   "days": "18 weekly drills; see options",
    "img": "/assets/winter/adult-racquet-sports-open-tennis-drills.jpg",
    "ongoing": true,
    "desc": "Bring your A-game! Our pro-led Open Drills are fast-paced, high-energy sessions packed with live-ball drills, situational games, and competitive point play. You'll be grouped with players at your level, so every rally counts.",
    "reg": "https://www.jccdallas.org/racquet-sports/tennis/#drills",
    "sch": [
     {
-     "k": "span",
-     "s": "2026-11-30",
-     "e": "2027-02-28"
+     "k": "weekly",
+     "s": "2026-11-23",
+     "e": "2027-02-08",
+     "d": [
+      1
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-07",
+     "e": "2027-02-08",
+     "d": [
+      1
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-07",
+     "e": "2027-02-08",
+     "d": [
+      1
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-01",
+     "e": "2027-02-09",
+     "d": [
+      2
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-02",
+     "e": "2027-02-10",
+     "d": [
+      3
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-02",
+     "e": "2027-02-10",
+     "d": [
+      3
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-02",
+     "e": "2027-02-10",
+     "d": [
+      3
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-02",
+     "e": "2027-02-10",
+     "d": [
+      3
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-03",
+     "e": "2027-02-11",
+     "d": [
+      4
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-04",
+     "e": "2027-02-12",
+     "d": [
+      5
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-04",
+     "e": "2027-02-12",
+     "d": [
+      5
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-05",
+     "e": "2027-02-13",
+     "d": [
+      6
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-05",
+     "e": "2027-02-13",
+     "d": [
+      6
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-05",
+     "e": "2027-02-13",
+     "d": [
+      6
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-05",
+     "e": "2027-02-13",
+     "d": [
+      6
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-06",
+     "e": "2027-02-14",
+     "d": [
+      0
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-06",
+     "e": "2027-02-14",
+     "d": [
+      0
+     ]
+    },
+    {
+     "k": "weekly",
+     "s": "2026-12-06",
+     "e": "2027-02-14",
+     "d": [
+      0
+     ]
     }
    ],
    "sessions": [
     {
-     "label": "Saturday 8:30 AM 3.5 Drill with John Gervasio",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003586",
+     "label": "Monday 10:30 AM–12:00 PM: Ladies Only Competitive Games and Strategy, Level 3.0",
+     "sub": "with Mike Kelly and Neil Kenner",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003690",
      "sch": {
       "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
+      "s": "2026-11-23",
+      "e": "2027-02-08",
       "d": [
-       6
+       1
       ]
      }
     },
     {
-     "label": "Saturday 8:30 AM 4.0 Drill with James McAvoy",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003587",
+     "label": "Monday 5:30–6:30 PM: Adult Beginner Tennis",
+     "sub": "with Polo Cruz",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003680",
      "sch": {
       "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
+      "s": "2026-12-07",
+      "e": "2027-02-08",
       "d": [
-       6
+       1
       ]
      }
     },
     {
-     "label": "Sunday 8:30 AM 4.0 Drill with James McAvoy",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003592",
+     "label": "Monday 6:30–8:00 PM: Fast Paced Adults, Level 4.5+",
+     "sub": "with Neil Kenner",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003577",
      "sch": {
       "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
+      "s": "2026-12-07",
+      "e": "2027-02-08",
       "d": [
-       0
+       1
       ]
      }
     },
     {
-     "label": "Sunday 10:00 AM 3.0 Drill with Curtis Reese",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003593",
+     "label": "Tuesday 10:00–11:30 AM: Fast Paced Adults, Level 4.0+",
+     "sub": "with Neil Kenner",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003578",
      "sch": {
       "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
+      "s": "2026-12-01",
+      "e": "2027-02-09",
       "d": [
-       0
+       2
       ]
      }
     },
     {
-     "label": "Sunday 8:30 AM 3.5 Drill with Curtis Reese",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003591",
+     "label": "Wednesday 9:30–10:30 AM: All Level Cardio Tennis",
+     "sub": "with Cameron Vose",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003681",
      "sch": {
       "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
-      "d": [
-       0
-      ]
-     }
-    },
-    {
-     "label": "Saturday 10:00 AM 2.5 Drill with Curtis Reese",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003589",
-     "sch": {
-      "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
-      "d": [
-       6
-      ]
-     }
-    },
-    {
-     "label": "Friday 9:00 AM 2.5 Drill with Curtis Reese",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003583",
-     "sch": {
-      "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
-      "d": [
-       5
-      ]
-     }
-    },
-    {
-     "label": "Friday 10:30 AM 3.5 Drill with Mike Kelly",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003585",
-     "sch": {
-      "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
-      "d": [
-       5
-      ]
-     }
-    },
-    {
-     "label": "Wednesday 9:00 AM 3.5 Drill with Mike Kelly",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003579",
-     "sch": {
-      "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
+      "s": "2026-12-02",
+      "e": "2027-02-10",
       "d": [
        3
       ]
      }
     },
     {
-     "label": "Friday 7:00 AM All Level Cardio Tennis with Cameron Vose",
-     "sub": null,
-     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003581",
+     "label": "Wednesday 10:30–11:30 AM: Adult Beginner Tennis",
+     "sub": "with Mike Kelly",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003682",
      "sch": {
       "k": "weekly",
-      "s": "2026-11-30",
-      "e": "2027-02-28",
+      "s": "2026-12-02",
+      "e": "2027-02-10",
+      "d": [
+       3
+      ]
+     }
+    },
+    {
+     "label": "Wednesday 6:00–7:00 PM: Fast Paced Competitive Games and Strategy, Levels 2.5 to 3.0",
+     "sub": "with Curtis Reese",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003683",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-02",
+      "e": "2027-02-10",
+      "d": [
+       3
+      ]
+     }
+    },
+    {
+     "label": "Wednesday 7:00–8:30 PM: Fast Paced Competitive Games and Strategy, Levels 3.0 to 3.5",
+     "sub": "with Curtis Reese",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003684",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-02",
+      "e": "2027-02-10",
+      "d": [
+       3
+      ]
+     }
+    },
+    {
+     "label": "Thursday 9:30–11:00 AM: The Tennis Lab, Levels 3.0 to 3.5",
+     "sub": "with Neil Kenner",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003685",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-03",
+      "e": "2027-02-11",
+      "d": [
+       4
+      ]
+     }
+    },
+    {
+     "label": "Friday 9:00–10:30 AM: Ladies Only Competitive Games and Strategy, Levels 2.5 to 3.0",
+     "sub": "with Curtis Reese",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003686",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-04",
+      "e": "2027-02-12",
       "d": [
        5
+      ]
+     }
+    },
+    {
+     "label": "Friday 10:30 AM–12:00 PM: Ladies Only Competitive Games and Strategy, Level 3.5",
+     "sub": "with Mike Kelly and Neil Kenner",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003687",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-04",
+      "e": "2027-02-12",
+      "d": [
+       5
+      ]
+     }
+    },
+    {
+     "label": "Saturday 8:30–10:00 AM: Coed Level 3.5 Drill",
+     "sub": "with John Gervasio",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003586",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-05",
+      "e": "2027-02-13",
+      "d": [
+       6
+      ]
+     }
+    },
+    {
+     "label": "Saturday 8:30–10:00 AM: Coed Level 4.0 Drill",
+     "sub": "with James McAvoy",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003587",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-05",
+      "e": "2027-02-13",
+      "d": [
+       6
+      ]
+     }
+    },
+    {
+     "label": "Saturday 10:00–11:30 AM: Coed Level 2.5 Drill",
+     "sub": "with Curtis Reese",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003589",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-05",
+      "e": "2027-02-13",
+      "d": [
+       6
+      ]
+     }
+    },
+    {
+     "label": "Saturday 10:00–11:30 AM: Fast Paced Advanced Adults",
+     "sub": "with Neil Kenner",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003590",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-05",
+      "e": "2027-02-13",
+      "d": [
+       6
+      ]
+     }
+    },
+    {
+     "label": "Sunday 8:30–10:00 AM: Coed Level 3.5 Drill",
+     "sub": "with Curtis Reese",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003591",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-06",
+      "e": "2027-02-14",
+      "d": [
+       0
+      ]
+     }
+    },
+    {
+     "label": "Sunday 8:30–10:00 AM: Coed Level 4.0 Drill",
+     "sub": "with James McAvoy",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003592",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-06",
+      "e": "2027-02-14",
+      "d": [
+       0
+      ]
+     }
+    },
+    {
+     "label": "Sunday 10:00–11:30 AM: Coed Level 3.0 Drill",
+     "sub": "with Curtis Reese",
+     "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?programCode=PROG-003593",
+     "sch": {
+      "k": "weekly",
+      "s": "2026-12-06",
+      "e": "2027-02-14",
+      "d": [
+       0
       ]
      }
     }
@@ -1273,9 +1521,7 @@
    "sub": [
     "tennis"
    ],
-   "tags": [
-    "winter"
-   ],
+   "tags": [],
    "loc": "Tennis Courts",
    "pre": true
   },
@@ -1302,9 +1548,7 @@
    "sub": [
     "tennis"
    ],
-   "tags": [
-    "winter"
-   ],
+   "tags": [],
    "loc": "Tennis Courts",
    "pre": true
   },
@@ -1781,9 +2025,7 @@
     }
    ],
    "sub": [],
-   "tags": [
-    "winter"
-   ],
+   "tags": [],
    "loc": "Nature Scape (GECC)",
    "pre": true,
    "sessions": [
@@ -2587,7 +2829,7 @@
     "kids"
    ],
    "ages": "Ages 5–13",
-   "dates": "Saturdays: December 5, January 9 & February 13",
+   "dates": "Saturdays: December 12, January 9 & February 13",
    "days": "6:00–10:00 PM · $38 members, $48 non-members",
    "img": "/assets/winter/youth-gymnastics-gymnastics-late-nightst.jpg",
    "desc": "Parents' night out, kids' night IN the gym! Drop off the kids for four hours of gymnastics, open gym, themed games, snacks, and friends while you enjoy a well-deserved night to yourself. You go out. We've got the kids.",
@@ -2596,7 +2838,7 @@
     {
      "k": "dates",
      "list": [
-      "2026-12-05",
+      "2026-12-12",
       "2027-01-09",
       "2027-02-13"
      ]
@@ -2609,11 +2851,11 @@
    "loc": "Gymnastics Gym",
    "sessions": [
     {
-     "label": "Dec 5: Hanukkah-themed Late Night",
+     "label": "Dec 12: Hanukkah-themed Late Night",
      "reg": "https://jewishcommunitycenterofdallas2.my.site.com/#/app/program/list/DIV-001/?instanceCode=INST-014251",
      "sch": {
       "k": "once",
-      "s": "2026-12-05"
+      "s": "2026-12-12"
      }
     },
     {
@@ -7435,6 +7677,38 @@
    "tags": [
     "winter"
    ]
+  },
+  {
+   "id": 238,
+   "t": "Pickleball Drills",
+   "cat": "racq-a",
+   "type": "Program",
+   "aud": [
+    "adults",
+    "seniors"
+   ],
+   "ages": "18+",
+   "dates": "Mondays, December 7 – February 8",
+   "days": "6:30–8:00 PM · Match Play Clinic with Mike Kelly",
+   "img": "/assets/winter/adult-racquet-sports-saturday-beginner-intermediate-pickleball.jpg",
+   "desc": "Sharpen your game in a pro-led pickleball drill. The Monday Match Play Clinic puts your skills to work in live points, with coaching on strategy, positioning, and shot selection. See the full drills calendar for every option.",
+   "reg": "https://www.jccdallas.org/racquet-sports/pickleball/#programs",
+   "btn": "See the Calendar",
+   "sch": [
+    {
+     "k": "weekly",
+     "s": "2026-12-07",
+     "e": "2027-02-08",
+     "d": [
+      1
+     ]
+    }
+   ],
+   "sub": [],
+   "tags": [
+    "winter"
+   ],
+   "pre": true
   },
   {
    "id": 151,
