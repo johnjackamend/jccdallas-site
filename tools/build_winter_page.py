@@ -16,12 +16,13 @@ head = re.sub(r"<title>[^<]*</title>", "<title>Winter at The J 2026–27 | Aaron
 head = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="description" content="Winter at The J 2026–27: every program, class, and event at the Aaron Family JCC of Dallas from December through spring, with dates and one-click registration.">', head)
 head = re.sub(r'<meta property="og:title" content="[^"]*">', '<meta property="og:title" content="Winter at The J 2026–27 | Aaron Family JCC of Dallas">', head)
 head = re.sub(r'<meta property="og:description" content="[^"]*">', '<meta property="og:description" content="Every program, class, and event at The J this winter, in one place.">', head)
-head = re.sub(r'<meta property="og:image" content="[^"]*">', '<meta property="og:image" content="https://www.jccdallas.org/assets/aquatics/swim-teams-hero.jpg">', head)
+head = re.sub(r'<meta property="og:image" content="[^"]*">', '<meta property="og:image" content="https://www.jccdallas.org/assets/winter/hero-home.jpg">', head)
 head = re.sub(r'<meta property="og:url" content="[^"]*">', '<meta property="og:url" content="https://www.jccdallas.org/winter-at-the-j">', head)
 head = re.sub(r'<link rel="canonical" href="[^"]*">', '<link rel="canonical" href="https://www.jccdallas.org/winter-at-the-j">', head)
 
 head += """<style>
-.wx-hero{background:radial-gradient(60% 90% at 85% 15%,rgba(214,37,152,.5) 0%,rgba(214,37,152,0) 60%),radial-gradient(50% 80% at 10% 100%,rgba(107,65,181,.6) 0%,rgba(107,65,181,0) 60%),var(--purple-dark)}
+.dhero.no-img.wx-hero::after{display:none}
+.dhero.no-img.wx-hero{background:linear-gradient(90deg,rgba(64,1,134,.5) 0%,rgba(64,1,134,.3) 50%,rgba(64,1,134,.06) 100%),linear-gradient(180deg,rgba(64,1,134,.08),rgba(64,1,134,0) 40%,rgba(64,1,134,.25) 100%),url(/assets/winter/hero-home.jpg) center/cover no-repeat,var(--purple-dark)}
 .wx-hero .eyebrow{display:inline-block;font:700 12.5px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:var(--r-pill);padding:9px 14px;margin-bottom:18px}
 .wx-promo{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);background:var(--purple-dark);border-radius:var(--r-card);overflow:hidden;text-decoration:none;color:#fff;box-shadow:0 20px 50px rgba(0,0,0,.18)}
 .wx-promo img{width:100%;height:100%;min-height:240px;object-fit:cover;display:block}
